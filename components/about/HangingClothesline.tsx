@@ -15,6 +15,7 @@ export interface PolaroidPhoto {
   topOffset?: number;
   cardWidth?: number;
   isBlank?: boolean;
+  objectPosition?: string;
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -102,91 +103,141 @@ export const TRAVEL_HANGING_PHOTOS: PolaroidPhoto[] = [
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
-// 2ND ROPE: PAINTING & ART (6 Blank Polaroid Cards matching reference image)
+// 2ND ROPE: CONTEMPORARY ARTIST (All 9 Original Paintings Uploaded by User)
+// Spaced seamlessly across the clothesline with natural peg tilts and rope sag
 // ─────────────────────────────────────────────────────────────────────────────
-export const ART_BLANK_PHOTOS: PolaroidPhoto[] = [
+export const ART_PAINTING_PHOTOS: PolaroidPhoto[] = [
   {
-    id: "art-blank-1",
-    isBlank: true,
-    alt: "Artwork frame 1",
-    caption: "",
-    leftPercent: 3.5,
-    initialRotate: -4.5,
-    swayDuration: 4.7,
-    swayDelay: 0.3,
-    swayAmplitude: 1.6,
-    cardWidth: 176,
-    topOffset: 6,
-  },
-  {
-    id: "art-blank-2",
-    isBlank: true,
-    alt: "Artwork frame 2",
-    caption: "",
-    leftPercent: 20.5,
-    initialRotate: 15.0,
-    swayDuration: 5.4,
-    swayDelay: 0.8,
-    swayAmplitude: 1.8,
-    cardWidth: 178,
-    topOffset: 16,
-  },
-  {
-    id: "art-blank-3",
-    isBlank: true,
-    alt: "Artwork frame 3",
-    caption: "",
-    leftPercent: 37.5,
-    initialRotate: 8.0,
-    swayDuration: 4.5,
-    swayDelay: 0.5,
-    swayAmplitude: 1.5,
-    cardWidth: 176,
-    topOffset: 24,
-  },
-  {
-    id: "art-blank-4",
-    isBlank: true,
-    alt: "Artwork frame 4",
-    caption: "",
-    leftPercent: 54.5,
-    initialRotate: -3.5,
-    swayDuration: 5.2,
-    swayDelay: 1.0,
-    swayAmplitude: 1.7,
-    cardWidth: 178,
-    topOffset: 25,
-  },
-  {
-    id: "art-blank-5",
-    isBlank: true,
-    alt: "Artwork frame 5",
-    caption: "",
-    leftPercent: 71.5,
-    initialRotate: 12.0,
+    id: "art-user-1",
+    src: "/assets/about/art-user-1.jpg",
+    alt: "Amber eye acrylic study",
+    caption: "Amber gaze",
+    leftPercent: 1.5,
+    initialRotate: -6.5,
     swayDuration: 4.9,
+    swayDelay: 0.2,
+    swayAmplitude: 1.6,
+    cardWidth: 152,
+    topOffset: 6,
+    objectPosition: "center 38%",
+  },
+  {
+    id: "art-user-2",
+    src: "/assets/about/art-user-2.jpg",
+    alt: "Graphite study of woman with wolves",
+    caption: "Shadows & wolves",
+    leftPercent: 12.5,
+    initialRotate: 9.0,
+    swayDuration: 5.3,
+    swayDelay: 0.7,
+    swayAmplitude: 1.8,
+    cardWidth: 154,
+    topOffset: 13,
+    objectPosition: "center 42%",
+  },
+  {
+    id: "art-user-3",
+    src: "/assets/about/art-user-3.jpg",
+    alt: "Glowing candle acrylic painting",
+    caption: "Candlelight",
+    leftPercent: 23.5,
+    initialRotate: -4.0,
+    swayDuration: 4.6,
     swayDelay: 0.4,
     swayAmplitude: 1.5,
-    cardWidth: 176,
-    topOffset: 18,
+    cardWidth: 152,
+    topOffset: 19,
+    objectPosition: "center 40%",
   },
   {
-    id: "art-blank-6",
-    isBlank: true,
-    alt: "Artwork frame 6",
-    caption: "",
-    leftPercent: 88.5,
-    initialRotate: 6.5,
-    swayDuration: 5.5,
-    swayDelay: 1.2,
-    swayAmplitude: 1.8,
-    cardWidth: 178,
-    topOffset: 8,
+    id: "art-user-4",
+    src: "/assets/about/art-user-4.jpg",
+    alt: "Little ghost in overgrown foliage",
+    caption: "Little ghost",
+    leftPercent: 34.5,
+    initialRotate: 7.5,
+    swayDuration: 5.1,
+    swayDelay: 1.0,
+    swayAmplitude: 1.7,
+    cardWidth: 154,
+    topOffset: 23,
+    objectPosition: "center 60%",
+  },
+  {
+    id: "art-user-5",
+    src: "/assets/about/art-user-5.jpg",
+    alt: "Swimmer painted on blue fingers",
+    caption: "Azure swimmer",
+    leftPercent: 45.5,
+    initialRotate: -3.0,
+    swayDuration: 4.8,
+    swayDelay: 0.5,
+    swayAmplitude: 1.4,
+    cardWidth: 152,
+    topOffset: 25,
+    objectPosition: "center 50%",
+  },
+  {
+    id: "art-user-6",
+    src: "/assets/about/art-user-6.jpg",
+    alt: "Deep blue eye painting",
+    caption: "Indigo vision",
+    leftPercent: 56.5,
+    initialRotate: 8.0,
+    swayDuration: 5.4,
+    swayDelay: 0.9,
+    swayAmplitude: 1.6,
+    cardWidth: 154,
+    topOffset: 24,
+    objectPosition: "center 50%",
+  },
+  {
+    id: "art-user-7",
+    src: "/assets/about/art-user-7.jpg",
+    alt: "Gentleman goose in suit with monocle",
+    caption: "Gentleman goose",
+    leftPercent: 67.5,
+    initialRotate: -7.0,
+    swayDuration: 4.7,
+    swayDelay: 0.3,
+    swayAmplitude: 1.5,
+    cardWidth: 152,
+    topOffset: 20,
+    objectPosition: "center 30%",
+  },
+  {
+    id: "art-user-8",
+    src: "/assets/about/art-user-8.jpg",
+    alt: "Burger study on canvas",
+    caption: "Burger on canvas",
+    leftPercent: 78.5,
+    initialRotate: 6.0,
+    swayDuration: 5.2,
+    swayDelay: 1.1,
+    swayAmplitude: 1.7,
+    cardWidth: 154,
+    topOffset: 14,
+    objectPosition: "center 28%",
+  },
+  {
+    id: "art-user-9",
+    src: "/assets/about/art-user-9.jpg",
+    alt: "Portrait with crimson watercolor splatter",
+    caption: "Crimson & ink",
+    leftPercent: 89.5,
+    initialRotate: -5.0,
+    swayDuration: 5.0,
+    swayDelay: 0.6,
+    swayAmplitude: 1.6,
+    cardWidth: 152,
+    topOffset: 7,
+    objectPosition: "center 38%",
   },
 ];
 
 // Backwards compatibility export
-export const ART_HANGING_PHOTOS = ART_BLANK_PHOTOS;
+export const ART_HANGING_PHOTOS = ART_PAINTING_PHOTOS;
+export const ART_BLANK_PHOTOS = ART_PAINTING_PHOTOS;
 
 // ─────────────────────────────────────────────────────────────────────────────
 // FULL-WIDTH CLOTHESLINE ROPE TIER
@@ -363,6 +414,7 @@ export function ClotheslineTier({
                       src={photo.src}
                       alt={photo.alt || ""}
                       className="w-full h-full object-cover block transition-transform duration-500 ease-out group-hover:scale-105"
+                      style={{ objectPosition: photo.objectPosition || "center" }}
                       draggable={false}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-black/5 pointer-events-none" />
@@ -466,31 +518,34 @@ export function MobileHangingClothesline({
   sectionTitle: string;
   cursorKey?: string;
 }) {
+  const containerMinW = Math.max(960, photos.length * 165);
+
   return (
     <div
       className="w-full select-none overflow-x-auto pb-6 px-0 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
       data-cursor-key={cursorKey}
     >
-      <div className="relative min-w-[960px] h-[340px]">
+      <div className="relative h-[340px]" style={{ minWidth: `${containerMinW}px` }}>
         {/* Full-width curved rope spanning edge to edge */}
         <div className="absolute left-0 top-[24px] w-full pointer-events-none">
-          <svg viewBox="0 0 960 40" preserveAspectRatio="none" className="w-full h-[26px]">
-            <path d="M -10 14 Q 480 30, 970 18" fill="none" stroke="rgba(0,0,0,0.12)" strokeWidth="3" />
-            <path d="M -10 12 Q 480 28, 970 16" fill="none" stroke="#8F6438" strokeWidth="2.5" />
-            <path d="M -10 11.5 Q 480 27.5, 970 15.5" fill="none" stroke="#E0BC89" strokeWidth="1.2" strokeDasharray="4 6" opacity="0.85" />
+          <svg viewBox={`0 0 ${containerMinW} 40`} preserveAspectRatio="none" className="w-full h-[26px]">
+            <path d={`M -10 14 Q ${containerMinW / 2} 30, ${containerMinW + 10} 18`} fill="none" stroke="rgba(0,0,0,0.12)" strokeWidth="3" />
+            <path d={`M -10 12 Q ${containerMinW / 2} 28, ${containerMinW + 10} 16`} fill="none" stroke="#8F6438" strokeWidth="2.5" />
+            <path d={`M -10 11.5 Q ${containerMinW / 2} 27.5, ${containerMinW + 10} 15.5`} fill="none" stroke="#E0BC89" strokeWidth="1.2" strokeDasharray="4 6" opacity="0.85" />
           </svg>
         </div>
 
         {/* Polaroid Cards */}
         {photos.map((photo, i) => {
           const topOffset = photo.topOffset || 12;
+          const leftPx = 24 + i * ((containerMinW - 180) / Math.max(1, photos.length - 1));
 
           return (
             <div
               key={photo.id}
               className="absolute transition-transform duration-300"
               style={{
-                left: `${photo.leftPercent}%`,
+                left: `${leftPx}px`,
                 top: `${24 + topOffset}px`,
                 width: "140px",
                 transformOrigin: "50% 0px",
@@ -511,7 +566,12 @@ export function MobileHangingClothesline({
                   </div>
                 ) : (
                   <div className="w-full aspect-square bg-[#EAE6DF] rounded-[1px] overflow-hidden">
-                    <img src={photo.src} alt={photo.alt || ""} className="w-full h-full object-cover block" />
+                    <img
+                      src={photo.src}
+                      alt={photo.alt || ""}
+                      className="w-full h-full object-cover block"
+                      style={{ objectPosition: photo.objectPosition || "center" }}
+                    />
                   </div>
                 )}
                 <p className="mt-[6px] font-['Architects_Daughter'] text-[11px] text-[#2C2A29] text-center truncate">

@@ -10,7 +10,7 @@ import {
   ClotheslineTier,
   MobileHangingClothesline,
   TRAVEL_HANGING_PHOTOS,
-  ART_BLANK_PHOTOS,
+  ART_PAINTING_PHOTOS,
 } from "@/components/about/HangingClothesline";
 
 export const metadata: Metadata = {
@@ -537,14 +537,14 @@ export default function AboutPage() {
               <h2 className="font-['Architects_Daughter'] text-[38px] leading-[44px] text-black text-center not-italic select-none">
                 Contemporary Artist
               </h2>
-              <div className="w-[110px] h-[72px] rotate-[-170deg] pointer-events-none">
+              <div className="w-[110px] h-[72px] -scale-y-100 rotate-[-10deg] pointer-events-none">
                 <img src="/assets/about/arrow-art.svg" alt="" className="w-full h-full object-contain" />
               </div>
             </div>
 
-            {/* Full-Width 2nd Rope with Blank Polaroid Cards */}
+            {/* Full-Width 2nd Rope with All 9 Original Paintings */}
             <ClotheslineTier
-              photos={ART_BLANK_PHOTOS}
+              photos={ART_PAINTING_PHOTOS}
               sectionTitle="Contemporary Artist"
               cursorKey="about-art"
               ropeY={24}
@@ -752,7 +752,7 @@ export default function AboutPage() {
         {/* Travel Collages (Mobile Hanging Clothesline) */}
         <div className="w-full px-2 py-8 flex flex-col items-center" data-cursor-key="about-travel">
           <h2 className="font-['Architects_Daughter'] text-[28px] text-black text-center mb-2">Travelling all around</h2>
-          <div className="w-[70px] h-[55px] mb-4">
+          <div className="w-[70px] h-[55px] -scale-y-100 rotate-[-10deg] mb-4 pointer-events-none">
             <img src="/assets/about/arrow-travel.svg" alt="" className="w-full h-full object-contain" />
           </div>
           <MobileHangingClothesline
@@ -765,11 +765,11 @@ export default function AboutPage() {
         {/* Contemporary Artist (Mobile Hanging Clothesline) */}
         <div className="w-full px-2 py-8 flex flex-col items-center" data-cursor-key="about-art">
           <h2 className="font-['Architects_Daughter'] text-[28px] text-black text-center mb-2">Contemporary Artist</h2>
-          <div className="w-[70px] h-[55px] mb-4">
+          <div className="w-[70px] h-[55px] -scale-y-100 rotate-[-10deg] mb-4 pointer-events-none">
             <img src="/assets/about/arrow-art.svg" alt="" className="w-full h-full object-contain" />
           </div>
           <MobileHangingClothesline
-            photos={ART_BLANK_PHOTOS}
+            photos={ART_PAINTING_PHOTOS}
             sectionTitle="Contemporary Artist"
             cursorKey="about-art"
           />
