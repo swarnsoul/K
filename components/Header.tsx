@@ -467,7 +467,7 @@ export function DesktopNavbarContent({ className = "" }: { className?: string })
       >
         <Link
           href="/#work"
-          className="w-[42.78px] h-[20px] flex items-center justify-center font-['Inter'] text-[15px] leading-[20px] text-black text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded link-squiggle"
+          className="w-[42.78px] h-[20px] flex items-center justify-center font-['Almarena_Neue',sans-serif] text-[15px] leading-[20px] text-black text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded link-squiggle"
           data-node-id="314:144"
           data-cursor-key="nav-work"
         >
@@ -476,7 +476,7 @@ export function DesktopNavbarContent({ className = "" }: { className?: string })
         {/* TODO: Connect Resume file when provided */}
         <a
           href="#resume"
-          className="w-[57.38px] h-[20px] flex items-center justify-center font-['Inter'] text-[15px] leading-[20px] text-black text-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded link-squiggle"
+          className="w-[57.38px] h-[20px] flex items-center justify-center font-['Almarena_Neue',sans-serif] text-[15px] leading-[20px] text-black text-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded link-squiggle"
           data-node-id="314:145"
           data-cursor-key="nav-resume"
         >
@@ -484,7 +484,7 @@ export function DesktopNavbarContent({ className = "" }: { className?: string })
         </a>
         <Link
           href="/about"
-          className="w-[43.38px] h-[20px] flex items-center justify-center font-['Inter'] text-[15px] leading-[20px] text-black text-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded link-squiggle"
+          className="w-[43.38px] h-[20px] flex items-center justify-center font-['Almarena_Neue',sans-serif] text-[15px] leading-[20px] text-black text-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded link-squiggle"
           data-node-id="314:146"
           data-cursor-key="nav-about"
         >
@@ -492,7 +492,7 @@ export function DesktopNavbarContent({ className = "" }: { className?: string })
         </Link>
         <Link
           href="/#contact"
-          className="w-[57.38px] h-[20px] flex items-center justify-center font-['Inter'] text-[15px] leading-[20px] text-black text-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded link-squiggle"
+          className="w-[57.38px] h-[20px] flex items-center justify-center font-['Almarena_Neue',sans-serif] text-[15px] leading-[20px] text-black text-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded link-squiggle"
           data-node-id="314:147"
           data-cursor-key="nav-contact"
         >
@@ -588,7 +588,7 @@ export function MobileHeader() {
         <nav className="hidden md:flex items-center gap-6">
           <Link
             href="/#work"
-            className="font-['Inter'] text-[15px] text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-1 link-squiggle"
+            className="font-['Almarena_Neue',sans-serif] text-[15px] text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-1 link-squiggle"
             data-cursor-key="nav-work"
           >
             Work
@@ -596,21 +596,21 @@ export function MobileHeader() {
           {/* TODO: Connect Resume file when provided */}
           <a
             href="#resume"
-            className="font-['Inter'] text-[15px] text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-1 link-squiggle"
+            className="font-['Almarena_Neue',sans-serif] text-[15px] text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-1 link-squiggle"
             data-cursor-key="nav-resume"
           >
             Resume
           </a>
           <Link
             href="/about"
-            className="font-['Inter'] text-[15px] text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-1 link-squiggle"
+            className="font-['Almarena_Neue',sans-serif] text-[15px] text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-1 link-squiggle"
             data-cursor-key="nav-about"
           >
             About
           </Link>
           <Link
             href="/#contact"
-            className="font-['Inter'] text-[15px] text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-1 link-squiggle"
+            className="font-['Almarena_Neue',sans-serif] text-[15px] text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-1 link-squiggle"
             data-cursor-key="nav-contact"
           >
             Contact
@@ -654,28 +654,28 @@ export function MobileHeader() {
             <Link
               href="/#work"
               onClick={() => setMobileMenuOpen(false)}
-              className="min-h-[44px] flex items-center px-4 font-['Inter'] text-[16px] text-black border-b border-gray-50 link-squiggle"
+              className="min-h-[44px] flex items-center px-4 font-['Almarena_Neue',sans-serif] text-[16px] text-black border-b border-gray-50 link-squiggle"
             >
               Work
             </Link>
             <a
               href="#resume"
               onClick={() => setMobileMenuOpen(false)}
-              className="min-h-[44px] flex items-center px-4 font-['Inter'] text-[16px] text-black border-b border-gray-50 link-squiggle"
+              className="min-h-[44px] flex items-center px-4 font-['Almarena_Neue',sans-serif] text-[16px] text-black border-b border-gray-50 link-squiggle"
             >
               Resume
             </a>
             <Link
               href="/about"
               onClick={() => setMobileMenuOpen(false)}
-              className="min-h-[44px] flex items-center px-4 font-['Inter'] text-[16px] text-black border-b border-gray-50 link-squiggle"
+              className="min-h-[44px] flex items-center px-4 font-['Almarena_Neue',sans-serif] text-[16px] text-black border-b border-gray-50 link-squiggle"
             >
               About
             </Link>
             <Link
               href="/#contact"
               onClick={() => setMobileMenuOpen(false)}
-              className="min-h-[44px] flex items-center px-4 font-['Inter'] text-[16px] text-black border-b border-gray-50 link-squiggle"
+              className="min-h-[44px] flex items-center px-4 font-['Almarena_Neue',sans-serif] text-[16px] text-black border-b border-gray-50 link-squiggle"
             >
               Contact
             </Link>
@@ -684,7 +684,7 @@ export function MobileHeader() {
                 href="https://www.linkedin.com/in/kanak-prajapati-96696b28a/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-gray-700 hover:text-black font-['Inter'] no-squiggle"
+                className="flex items-center gap-2 text-sm text-gray-700 hover:text-black font-['Almarena_Neue',sans-serif] no-squiggle"
               >
                 <img src="/assets/nav-linkedin.png" alt="LinkedIn" className="w-5 h-5 rounded" />
                 LinkedIn
@@ -693,7 +693,7 @@ export function MobileHeader() {
                 href="https://www.behance.net/kanakprajapati"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-gray-700 hover:text-black font-['Inter'] no-squiggle"
+                className="flex items-center gap-2 text-sm text-gray-700 hover:text-black font-['Almarena_Neue',sans-serif] no-squiggle"
               >
                 <img src="/assets/nav-behance.png" alt="Behance" className="w-5 h-5 rounded" />
                 Behance

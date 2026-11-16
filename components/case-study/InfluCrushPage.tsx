@@ -48,7 +48,7 @@ export function InfluCrushPage() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-transparent [overflow-x:clip] select-none text-[#111111] font-['Inter']">
+    <div className="w-full min-h-screen bg-transparent [overflow-x:clip] select-none text-[#111111] font-['Almarena_Neue',sans-serif]">
       {/* ─── Reading Progress Bar ─── */}
       <ScrollProgressBar />
 
@@ -79,15 +79,15 @@ export function InfluCrushPage() {
             aria-label="Hero Overview"
           >
             <div data-reveal className="w-full max-w-[953px] flex flex-col gap-[24px] xl:gap-[36px]">
-              <span className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black uppercase tracking-normal">
+              <span className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black uppercase tracking-normal">
                 InfluCrush Mobile Application
               </span>
 
-              <h1 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[36px] sm:leading-[40px] text-black">
+              <h1 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[36px] sm:leading-[40px] text-black">
                 A creator-first relationship platform designed for intentional, trusted connections.
               </h1>
 
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 InfluCrush explores a new category at the intersection of the creator economy and online dating. Designed from scratch, it gives creators full control over who they connect with while helping users build meaningful relationships through a trust-first, subscription-based experience.
               </p>
 
@@ -97,7 +97,7 @@ export function InfluCrushPage() {
                   {["Product Strategy", "UX Research", "Information Architecture", "Interaction Design"].map((tag) => (
                     <span
                       key={tag}
-                      className="border border-black border-solid rounded-[200px] px-[14px] py-[3px] sm:py-[4px] font-['Inter'] font-normal text-[14px] sm:text-[16px] leading-[27px] sm:leading-[35px] text-black whitespace-nowrap bg-transparent transition-all duration-200 hover:scale-105 hover:bg-[#8364fc]/5 hover:border-[#8364fc] cursor-default"
+                      className="border border-black border-solid rounded-[200px] px-[14px] py-[3px] sm:py-[4px] font-['Almarena_Neue',sans-serif] font-normal text-[14px] sm:text-[16px] leading-[27px] sm:leading-[35px] text-black whitespace-nowrap bg-transparent transition-all duration-200 hover:scale-105 hover:bg-[#8364fc]/5 hover:border-[#8364fc] cursor-default"
                     >
                       {tag}
                     </span>
@@ -107,7 +107,7 @@ export function InfluCrushPage() {
                   {["UI Design", "Prototyping", "Design System"].map((tag) => (
                     <span
                       key={tag}
-                      className="border border-black border-solid rounded-[200px] px-[14px] py-[3px] sm:py-[4px] font-['Inter'] font-normal text-[14px] sm:text-[16px] leading-[27px] sm:leading-[35px] text-black whitespace-nowrap bg-transparent transition-all duration-200 hover:scale-105 hover:bg-[#8364fc]/5 hover:border-[#8364fc] cursor-default"
+                      className="border border-black border-solid rounded-[200px] px-[14px] py-[3px] sm:py-[4px] font-['Almarena_Neue',sans-serif] font-normal text-[14px] sm:text-[16px] leading-[27px] sm:leading-[35px] text-black whitespace-nowrap bg-transparent transition-all duration-200 hover:scale-105 hover:bg-[#8364fc]/5 hover:border-[#8364fc] cursor-default"
                     >
                       {tag}
                     </span>
@@ -116,7 +116,7 @@ export function InfluCrushPage() {
               </div>
 
               {/* Meta details */}
-              <p className="font-['Inter'] font-normal text-[14px] sm:text-[16px] leading-[25px] text-black">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[14px] sm:text-[16px] leading-[25px] text-black">
                 Product Designer | 5 Months | Mobile App (iOS &amp; Android) | Solo Project
               </p>
             </div>
@@ -131,7 +131,7 @@ export function InfluCrushPage() {
             <div className="group relative w-full max-w-[1318px] h-[380px] sm:h-[480px] xl:h-[542px] rounded-[24px] sm:rounded-[30px] bg-[#f1e5f3] overflow-hidden flex items-center justify-center transition-shadow duration-500 hover:shadow-xl">
               {/* Giant Ghost Brand Title - Exactly Centered and Fully Contained Within Box */}
               <div className="absolute left-1/2 -translate-x-1/2 top-[120px] sm:top-[140px] xl:top-[140.5px] -translate-y-1/2 pointer-events-none select-none z-0 flex items-center justify-center w-full">
-                <span className="font-['Inter'] font-extrabold text-[clamp(44px,13.2vw,192.8px)] leading-none tracking-[-0.01em] text-[#720287] opacity-20 uppercase whitespace-nowrap text-center">
+                <span className="font-['Almarena_Neue',sans-serif] font-extrabold text-[clamp(44px,13.2vw,192.8px)] leading-none tracking-[-0.01em] text-[#720287] opacity-20 uppercase whitespace-nowrap text-center">
                   INFLUCRUSH
                 </span>
               </div>
@@ -157,10 +157,10 @@ export function InfluCrushPage() {
             aria-label="Design Process"
           >
             <div data-reveal className="w-full max-w-[1320px] mx-auto min-h-[720px] xl:min-h-[759px] h-auto rounded-[24px] bg-[#f7f1de] p-6 sm:p-10 xl:p-[56px] flex flex-col gap-[15px] shadow-sm overflow-hidden [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Design Process
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[851px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[851px]">
                 From discovery to validation, every phase informed the next ensuring design decisions were driven by user needs, product strategy, and long-term scalability rather than visual execution alone.
               </p>
 
@@ -168,7 +168,7 @@ export function InfluCrushPage() {
               <div className="w-full pt-[20px] xl:pt-[40px] pb-6 flex justify-center overflow-x-auto xl:overflow-x-visible [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
                 <div className="min-w-[929px] w-[929px] h-[480px] relative shrink-0">
                   {/* Month Headers */}
-                  <div className="h-[28px] relative w-full font-['Inter'] font-medium text-[12px] leading-[16px] tracking-[1.2px] text-[#9e9b94]">
+                  <div className="h-[28px] relative w-full font-['Almarena_Neue',sans-serif] font-medium text-[12px] leading-[16px] tracking-[1.2px] text-[#9e9b94]">
                     <div className="absolute left-0 top-0 w-[98.8px] text-center">May</div>
                     <div className="absolute left-[197.6px] top-0 w-[98.8px] text-center">June</div>
                     <div className="absolute left-[395.2px] top-0 w-[98.8px] text-center">July</div>
@@ -187,42 +187,42 @@ export function InfluCrushPage() {
                     {/* Stepped Pills along the timeline */}
                     {/* 1. Research */}
                     <div data-reveal data-reveal-delay="1" className="absolute left-[23.5px] top-[0.5px] w-[148px] h-[66px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[22px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[22px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
                         Research
                       </div>
                     </div>
 
                     {/* 2. Problem Framing */}
                     <div data-reveal data-reveal-delay="2" className="absolute left-[98.5px] top-[75.5px] w-[155px] h-[65px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[18px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[18px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
                         Problem Framing
                       </div>
                     </div>
 
                     {/* 3. Information Architecture */}
                     <div data-reveal data-reveal-delay="3" className="absolute left-[238.5px] top-[161.5px] w-[199px] h-[65px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[20px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[20px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
                         Information Architecture
                       </div>
                     </div>
 
                     {/* 4. Wireframing */}
                     <div data-reveal data-reveal-delay="4" className="absolute left-[403.5px] top-[226.5px] w-[122px] h-[66px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[20px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[20px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
                         Wireframing
                       </div>
                     </div>
 
                     {/* 5. High-Fidelity Design */}
                     <div data-reveal data-reveal-delay="5" className="absolute left-[479.5px] top-[303.5px] w-[168px] h-[66px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[18px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[18px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
                         High-Fidelity Design
                       </div>
                     </div>
 
                     {/* 6. Prototype & Evaluation */}
                     <div data-reveal data-reveal-delay="6" className="absolute left-[505.5px] top-[369.5px] w-[193px] h-[65px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[16px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[16px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#720287]/20 cursor-pointer">
                         Prototype &amp; Evaluation
                       </div>
                     </div>
@@ -284,10 +284,10 @@ export function InfluCrushPage() {
             aria-label="Problem Space"
           >
             <div className="w-full max-w-[588px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Problem Space
               </h2>
-              <div className="flex flex-col gap-4 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <div className="flex flex-col gap-4 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <p>
                   Today&apos;s platforms are built for engagement, not meaningful relationships. Social media allows creators to build large communities but offers little control over personal interactions, while traditional dating apps prioritize discovery at scale over trust and compatibility.
                 </p>
@@ -305,10 +305,10 @@ export function InfluCrushPage() {
             aria-label="Key Challenges"
           >
             <div className="w-full max-w-[653px] flex flex-col gap-[24px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Key Challenges
               </h2>
-              <div className="flex flex-col gap-5 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <div className="flex flex-col gap-5 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <div className="flex flex-col">
                   <h3 className="font-semibold text-black">For Users</h3>
                   <p>
@@ -354,10 +354,10 @@ export function InfluCrushPage() {
             aria-label="Opportunity"
           >
             <div className="w-full max-w-[629px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Opportunity
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 The rise of the creator economy has changed how people build trust online, but meaningful interactions still happen through public comments or overcrowded inboxes. Existing dating platforms solve discovery, while social platforms solve reach. Neither is designed for intentional relationships between creators and their communities. InfluCrush explores the opportunity to bridge that gap by combining creator control, trust-first interactions, and a premium relationship experience.
               </p>
             </div>
@@ -394,10 +394,10 @@ export function InfluCrushPage() {
                   data-reveal-delay={(idx % 4 + 1).toString()}
                   className="w-full max-w-[311px] h-[220px] rounded-[20px] bg-[#f1e5f3] p-[10px] flex flex-col justify-center items-center text-center gap-[10px] transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:bg-[#ebd9ee] cursor-pointer"
                 >
-                  <h3 className="font-['Inter'] font-semibold text-[20px] leading-[48px] tracking-[-0.96px] text-[#111] whitespace-nowrap">
+                  <h3 className="font-['Almarena_Neue',sans-serif] font-semibold text-[20px] leading-[48px] tracking-[-0.96px] text-[#111] whitespace-nowrap">
                     {pillar.title}
                   </h3>
-                  <p className="font-['Inter'] font-normal text-[16px] leading-[25px] text-black w-[241px]">
+                  <p className="font-['Almarena_Neue',sans-serif] font-normal text-[16px] leading-[25px] text-black w-[241px]">
                     {pillar.desc}
                   </p>
                 </div>
@@ -412,10 +412,10 @@ export function InfluCrushPage() {
             aria-label="Opportunity Validation"
           >
             <div className="w-full max-w-[588px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 How I validated the opportunity
               </h2>
-              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <li>Competitive analysis of Tinder, Bumble, Instagram, and Hinge.</li>
                 <li>Product teardown of onboarding, discovery, and messaging flows.</li>
                 <li>Creator economy and subscription model research.</li>
@@ -431,10 +431,10 @@ export function InfluCrushPage() {
             aria-label="Key Insights"
           >
             <div className="w-full max-w-[602px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Key Insights
               </h2>
-              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <li>Users value meaningful conversations over endless swiping.</li>
                 <li>Creators need control over who can contact them.</li>
                 <li>Trust should be established before conversations begin.</li>
@@ -450,10 +450,10 @@ export function InfluCrushPage() {
             aria-label="Information Architecture"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Information Architecture
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[588px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[588px]">
                 The product is organized around four core experiences:
               </p>
             </div>
@@ -464,7 +464,7 @@ export function InfluCrushPage() {
                   <div
                     data-reveal
                     data-reveal-delay={(idx + 1).toString()}
-                    className="size-[121px] rounded-full bg-[#f1e5f3] flex items-center justify-center text-center font-['Inter'] font-semibold text-[16px] leading-[26.4px] tracking-[-0.528px] text-[#111] shadow-sm transition-all duration-300 hover:scale-110 hover:shadow-md hover:bg-[#e8d2eb] cursor-pointer"
+                    className="size-[121px] rounded-full bg-[#f1e5f3] flex items-center justify-center text-center font-['Almarena_Neue',sans-serif] font-semibold text-[16px] leading-[26.4px] tracking-[-0.528px] text-[#111] shadow-sm transition-all duration-300 hover:scale-110 hover:shadow-md hover:bg-[#e8d2eb] cursor-pointer"
                   >
                     {node}
                   </div>
@@ -481,7 +481,7 @@ export function InfluCrushPage() {
               ))}
             </div>
 
-            <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[953px]">
+            <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[953px]">
               This structure keeps navigation focused while supporting both user goals and creator workflows.
             </p>
           </section>
@@ -493,10 +493,10 @@ export function InfluCrushPage() {
             aria-label="User Flow"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 User Flow
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[710px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[710px]">
                 A streamlined journey designed to minimize friction while building trust at every step.
               </p>
             </div>
@@ -508,7 +508,7 @@ export function InfluCrushPage() {
                     <div
                       data-reveal
                       data-reveal-delay={(sIdx % 6 + 1).toString()}
-                      className="size-[121px] rounded-full bg-[#f7f1de] p-[5.5px] flex items-center justify-center text-center font-['Inter'] font-semibold text-[14px] leading-[22px] tracking-[-0.528px] text-[#111] shadow-sm transition-all duration-300 hover:scale-105 hover:bg-[#efe6cb] cursor-pointer"
+                      className="size-[121px] rounded-full bg-[#f7f1de] p-[5.5px] flex items-center justify-center text-center font-['Almarena_Neue',sans-serif] font-semibold text-[14px] leading-[22px] tracking-[-0.528px] text-[#111] shadow-sm transition-all duration-300 hover:scale-105 hover:bg-[#efe6cb] cursor-pointer"
                     >
                       <span className="w-[104px]">{step}</span>
                     </div>
@@ -534,10 +534,10 @@ export function InfluCrushPage() {
             aria-label="Ideation"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Ideation
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
                 I started with quick hand sketches to rapidly explore navigation patterns, screen hierarchy, and interaction flows before committing to digital wireframes. This helped evaluate multiple concepts early while keeping the focus on solving the problem rather than refining visuals.
               </p>
             </div>
@@ -561,10 +561,10 @@ export function InfluCrushPage() {
             aria-label="Low-Fidelity Wireframes"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Low-Fidelity Wireframes
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
                 The sketches were translated into low-fidelity wireframes to validate navigation, information hierarchy, and core user flows. Working in low fidelity made it easier to iterate quickly before moving into high-fidelity designs.
               </p>
             </div>
@@ -588,19 +588,19 @@ export function InfluCrushPage() {
             aria-label="Solution &amp; Core Experience"
           >
             <div className="flex flex-col gap-[12px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Solution
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[791px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[791px]">
                 InfluCrush reimagines creator–community relationships through a trust-first experience. Instead of open messaging, the platform enables creators to control access while allowing users to discover, connect, subscribe, and communicate through a structured interaction model.
               </p>
             </div>
 
             <div className="flex flex-col gap-[12px]">
-              <h3 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h3 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Core Experience
               </h3>
-              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[791px]">
+              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[791px]">
                 <li>Discover verified creators based on preferences.</li>
                 <li>Request Access instead of sending unrestricted messages.</li>
                 <li>Subscribe to unlock meaningful conversations.</li>
@@ -616,10 +616,10 @@ export function InfluCrushPage() {
             aria-label="High-Fidelity Design"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 High-Fidelity Design
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
                 The interface uses a premium dark theme, bold visual hierarchy, and minimal interactions to create an immersive experience while keeping the focus on profiles and conversations.
               </p>
             </div>
@@ -685,10 +685,10 @@ export function InfluCrushPage() {
             aria-label="Design System"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Design System
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
                 A scalable design system was created using reusable components, consistent spacing, typography, and color tokens to ensure visual consistency and efficient handoff.
               </p>
             </div>
@@ -712,10 +712,10 @@ export function InfluCrushPage() {
             aria-label="Accessibility"
           >
             <div className="w-full max-w-[588px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Accessibility
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 Accessibility considerations included sufficient color contrast, readable typography, clear interaction states, and touch-friendly components to improve usability across devices.
               </p>
             </div>
@@ -728,10 +728,10 @@ export function InfluCrushPage() {
             aria-label="Business Impact"
           >
             <div className="w-full max-w-[602px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Business Impact
               </h2>
-              <div className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <div className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <p className="font-semibold text-black mb-1">Expected Outcomes</p>
                 <p className="mb-0">• Higher quality interactions</p>
                 <p className="mb-0">• Better creator control</p>
@@ -748,10 +748,10 @@ export function InfluCrushPage() {
             aria-label="Reflection"
           >
             <div className="w-full max-w-[588px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Reflection
               </h2>
-              <div className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black flex flex-col gap-4">
+              <div className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black flex flex-col gap-4">
                 <p>
                   Designing InfluCrush highlighted the challenge of balancing monetization with authentic connection.
                 </p>
@@ -773,7 +773,7 @@ export function InfluCrushPage() {
           >
             <div className="w-full flex flex-col gap-[20px]">
               <div className="flex items-center gap-3">
-                <span className="font-['Inter'] font-bold text-[12px] sm:text-[14px] uppercase tracking-[2px] text-[#002f82]">
+                <span className="font-['Almarena_Neue',sans-serif] font-bold text-[12px] sm:text-[14px] uppercase tracking-[2px] text-[#002f82]">
                   Next Project
                 </span>
                 <span className="h-px flex-1 max-w-[80px] bg-[#002f82]/40" />
@@ -788,14 +788,14 @@ export function InfluCrushPage() {
 
                 {/* Ghost Brand Watermark */}
                 <div className="absolute -bottom-8 -right-8 pointer-events-none select-none opacity-10">
-                  <span className="font-['Inter'] font-extrabold text-[120px] sm:text-[180px] xl:text-[220px] leading-none text-white tracking-[20px]">
+                  <span className="font-['Almarena_Neue',sans-serif] font-extrabold text-[120px] sm:text-[180px] xl:text-[220px] leading-none text-white tracking-[20px]">
                     CIRQELL
                   </span>
                 </div>
 
                 {/* Top Badge & Indicator */}
                 <div className="relative z-10 flex items-center justify-between">
-                  <span className="inline-flex items-center rounded-full bg-white/15 backdrop-blur-md px-3.5 py-1 font-['Inter'] font-medium text-[13px] text-white border border-white/20">
+                  <span className="inline-flex items-center rounded-full bg-white/15 backdrop-blur-md px-3.5 py-1 font-['Almarena_Neue',sans-serif] font-medium text-[13px] text-white border border-white/20">
                     Voice-First Platform
                   </span>
                   <div className="size-11 sm:size-14 rounded-full bg-white text-black flex items-center justify-center transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 shadow-md">
@@ -808,13 +808,13 @@ export function InfluCrushPage() {
 
                 {/* Main Content */}
                 <div className="relative z-10 flex flex-col gap-3 max-w-[720px] pt-10 sm:pt-14">
-                  <h3 className="font-['Inter'] font-semibold text-[28px] sm:text-[40px] xl:text-[48px] leading-[1.15] text-white tracking-[-1px]">
+                  <h3 className="font-['Almarena_Neue',sans-serif] font-semibold text-[28px] sm:text-[40px] xl:text-[48px] leading-[1.15] text-white tracking-[-1px]">
                     Cirqell
                   </h3>
-                  <p className="font-['Inter'] font-normal text-[15px] sm:text-[18px] leading-[26px] text-white/80">
+                  <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[18px] leading-[26px] text-white/80">
                     A voice-first platform for intentional, paid conversations between creators and their audience with transparent per-minute pricing.
                   </p>
-                  <div className="pt-2 flex items-center gap-2 font-['Inter'] font-semibold text-[15px] text-white group-hover:underline">
+                  <div className="pt-2 flex items-center gap-2 font-['Almarena_Neue',sans-serif] font-semibold text-[15px] text-white group-hover:underline">
                     <span>View Case Study</span>
                     <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
                   </div>

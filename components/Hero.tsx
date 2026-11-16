@@ -372,7 +372,7 @@ function useHeroInteractions() {
       await new Promise<void>((resolve) => requestAnimationFrame(() => resolve()));
       if (isCancelled) return;
 
-      // Start safety timer only AFTER splash is done
+      // Start safety timer only AFTER splash is done (short safety threshold)
       safetyTimer = setTimeout(() => {
         if (!isCancelled) {
           setTypingState({
@@ -384,7 +384,7 @@ function useHeroInteractions() {
             bioCaret: false,
           });
         }
-      }, 5500);
+      }, 3000);
 
       // Check prefers-reduced-motion
       if (
@@ -403,65 +403,65 @@ function useHeroInteractions() {
         return;
       }
 
-      await sleep(30);
+      await sleep(20);
       if (isCancelled) return;
 
-      // Text A: "Product Designer"
+      // Text A: "Product Designer" (Snappy typing)
       startTransition(() => {
         setTypingState((s) => ({ ...s, badge1Caret: true }));
       });
       for (let i = 1; i <= TEXT_A.length; i++) {
         if (isCancelled) return;
-        await sleep(50 + Math.random() * 20);
+        await sleep(22 + Math.random() * 8);
         startTransition(() => {
           setTypingState((s) => ({ ...s, badge1Count: i }));
         });
       }
-      await sleep(350);
+      await sleep(150);
       if (isCancelled) return;
       startTransition(() => {
         setTypingState((s) => ({ ...s, badge1Caret: false }));
         setRoamingState((s) => ({ ...s, pink: true }));
       });
 
-      // Short pause between A and B
-      await sleep(300);
+      // Quick transition between A and B
+      await sleep(120);
       if (isCancelled) return;
 
-      // Text B: "UI/UX Designer"
+      // Text B: "UI/UX Designer" (Snappy typing)
       startTransition(() => {
         setTypingState((s) => ({ ...s, badge2Caret: true }));
       });
       for (let i = 1; i <= TEXT_B.length; i++) {
         if (isCancelled) return;
-        await sleep(50 + Math.random() * 20);
+        await sleep(22 + Math.random() * 8);
         startTransition(() => {
           setTypingState((s) => ({ ...s, badge2Count: i }));
         });
       }
-      await sleep(350);
+      await sleep(150);
       if (isCancelled) return;
       startTransition(() => {
         setTypingState((s) => ({ ...s, badge2Caret: false }));
         setRoamingState((s) => ({ ...s, purple: true }));
       });
 
-      // Short pause between B and C
-      await sleep(300);
+      // Quick transition between B and C
+      await sleep(120);
       if (isCancelled) return;
 
-      // Text C: Bio Box
+      // Text C: Bio Box (Rapid, fluid typing so text appears promptly)
       startTransition(() => {
         setTypingState((s) => ({ ...s, bioCaret: true }));
       });
       for (let i = 1; i <= TEXT_C.length; i++) {
         if (isCancelled) return;
-        await sleep(45 + Math.random() * 20);
+        await sleep(11 + Math.random() * 6);
         startTransition(() => {
           setTypingState((s) => ({ ...s, bioCount: i }));
         });
       }
-      await sleep(450);
+      await sleep(200);
       if (isCancelled) return;
       startTransition(() => {
         setTypingState((s) => ({ ...s, bioCaret: false }));
@@ -930,7 +930,7 @@ export function DesktopHero() {
           </div>
           {/* Text with Typewriter Effect */}
           <div
-            className="absolute left-[28px] top-[25px] w-[226.4px] font-['Inter'] font-normal text-[14px] leading-[20px] text-black"
+            className="absolute left-[28px] top-[25px] w-[226.4px] font-['Almarena_Neue',sans-serif] font-normal text-[14px] leading-[20px] text-black"
             data-node-id="140:741"
           >
             <TypewriterText
@@ -948,7 +948,7 @@ export function DesktopHero() {
           data-node-id="140:748"
         >
           <span
-            className="font-['Inter'] font-normal text-[13.62px] leading-[18.16px] text-black text-center"
+            className="font-['Almarena_Neue',sans-serif] font-normal text-[13.62px] leading-[18.16px] text-black text-center"
             data-node-id="140:749"
           >
             Scroll Down
@@ -1274,7 +1274,7 @@ export function MobileHero() {
           <div className="absolute right-0 bottom-0 w-[16px] h-[16px] bg-[#d9d9d9] border-[1.8px] border-black" />
           <div className="absolute left-[16px] right-[16px] bottom-[7px] h-[1.8px] bg-black" />
 
-          <p className="font-['Inter'] font-normal text-[14px] sm:text-[15px] leading-[22px] text-black text-center">
+          <p className="font-['Almarena_Neue',sans-serif] font-normal text-[14px] sm:text-[15px] leading-[22px] text-black text-center">
             <TypewriterText
               text={TEXT_C}
               visibleCount={typingState.bioCount}
@@ -1286,7 +1286,7 @@ export function MobileHero() {
 
         {/* Scroll Down */}
         <div className="flex items-center justify-center gap-2 mt-2">
-          <span className="font-['Inter'] font-normal text-[14px] text-black">
+          <span className="font-['Almarena_Neue',sans-serif] font-normal text-[14px] text-black">
             Scroll Down
           </span>
           <div className="w-4 h-4 flex items-center justify-center rotate-90">

@@ -1,18 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Almarena Neue Primary Font (User custom font) */
 @font-face {
   font-family: 'Almarena Neue';
-  src: url('/fonts/almarena-neue.woff2') format('woff2');
+  src: url('/fonts/almarenaneue-regular.otf') format('opentype'),
+       url('/fonts/almarena-neue.woff2') format('woff2');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
+  font-family: 'Almarena Neue';
+  src: url('/fonts/almarenaneue-ds-regular-it.otf') format('opentype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Almarena Neue Display';
-  src: url('/fonts/almarena-neue.woff2') format('woff2');
+  src: url('/fonts/almarenaneue-regular.otf') format('opentype'),
+       url('/fonts/almarena-neue-display.woff2') format('woff2');
   font-weight: 100 900;
   font-style: normal;
+  font-display: swap;
+}
+
+/* Inter alias pointing to Almarena Neue across all weights and styles */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/almarenaneue-regular.otf') format('opentype'),
+       url('/fonts/almarena-neue.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/almarenaneue-ds-regular-it.otf') format('opentype');
+  font-weight: 100 900;
+  font-style: italic;
   font-display: swap;
 }
 
@@ -50,6 +79,7 @@ body {
   padding: 0;
   background-color: transparent;
   color: #000000;
+  font-family: 'Almarena Neue', 'Almarena Neue Display', sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: clip;
 }

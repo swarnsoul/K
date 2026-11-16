@@ -19,7 +19,7 @@ export function CaseStudyHeader({
           {/* Back link */}
           <Link
             href="/#work"
-            className="group flex items-center gap-2 font-['Inter'] font-medium text-[15px] text-black/70 hover:text-black transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-3 py-1.5 bg-white/70 hover:bg-white backdrop-blur-sm border border-black/10 rounded-full shadow-sm"
+            className="group flex items-center gap-2 font-['Almarena_Neue',sans-serif] font-medium text-[15px] text-black/70 hover:text-black transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-3 py-1.5 bg-white/70 hover:bg-white backdrop-blur-sm border border-black/10 rounded-full shadow-sm"
           >
             <span className="transition-transform group-hover:-translate-x-1 duration-200">←</span>
             <span>Back to Work</span>
@@ -31,7 +31,7 @@ export function CaseStudyHeader({
           </div>
 
           {/* Breadcrumb Right */}
-          <div className="font-['Inter'] font-semibold text-[14px] text-black/50 tracking-wider uppercase">
+          <div className="font-['Almarena_Neue',sans-serif] font-semibold text-[14px] text-black/50 tracking-wider uppercase">
             {projectTitle}
           </div>
         </div>

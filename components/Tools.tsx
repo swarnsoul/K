@@ -700,7 +700,7 @@ export function DesktopTools() {
 
         {/* Subtitle */}
         <p
-          className="font-['Inter'] font-normal text-[15px] leading-[30px] text-black mt-[5px] relative z-10 select-text max-w-[548px]"
+          className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] leading-[30px] text-black mt-[5px] relative z-10 select-text max-w-[548px]"
           data-node-id="649:1248"
         >
           The softwares I rely on to research, design, prototype, and collaborate.
@@ -737,7 +737,7 @@ export function MobileTools() {
         </h2>
 
         {/* Subtitle */}
-        <p className="font-['Inter'] font-normal text-[14px] sm:text-[15px] text-black mt-2 relative z-10 select-text max-w-[500px]">
+        <p className="font-['Almarena_Neue',sans-serif] font-normal text-[14px] sm:text-[15px] text-black mt-2 relative z-10 select-text max-w-[500px]">
           The softwares I rely on to research, design, prototype, and collaborate.
         </p>
 

@@ -147,7 +147,7 @@ export function DesktopSocial() {
               className="absolute left-[43.4px] top-[205.16px] w-[297.07px] h-[137.96px] flex items-center justify-center text-center"
               data-node-id="159:946"
             >
-              <p className="font-['Inter'] font-normal text-[22.25px] leading-[33.38px] text-[#225432]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[22.25px] leading-[33.38px] text-[#225432]">
                 Let&apos;s turn that curiosity into a conversation.
               </p>
             </div>
@@ -197,7 +197,7 @@ export function DesktopSocial() {
                 {/* Text and Arrow row */}
                 <div className="w-[385px] h-[31px] flex items-center justify-between shrink-0">
                   <span
-                    className={`font-['Inter'] font-normal text-[18px] leading-[30px] text-black truncate w-[329px] transition-all duration-200 ease-out group-hover:translate-x-1 ${link.hoverTextClass}`}
+                    className={`font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-black truncate w-[329px] transition-all duration-200 ease-out group-hover:translate-x-1 ${link.hoverTextClass}`}
                   >
                     {link.name}
                   </span>
@@ -258,7 +258,7 @@ export function MobileSocial() {
 
           {/* Bottom Text */}
           <div className="absolute left-[30px] right-[30px] bottom-[35px] sm:bottom-[45px] flex items-center justify-center text-center">
-            <p className="font-['Inter'] font-normal text-[16px] sm:text-[20px] leading-snug text-[#225432]">
+            <p className="font-['Almarena_Neue',sans-serif] font-normal text-[16px] sm:text-[20px] leading-snug text-[#225432]">
               Let&apos;s turn that curiosity into a conversation.
             </p>
           </div>
@@ -294,7 +294,7 @@ export function MobileSocial() {
                   />
                 </div>
                 <span
-                  className={`font-['Inter'] font-normal text-[16px] sm:text-[18px] text-black truncate flex-1 transition-all duration-200 ease-out group-hover:translate-x-1 ${link.hoverTextClass}`}
+                  className={`font-['Almarena_Neue',sans-serif] font-normal text-[16px] sm:text-[18px] text-black truncate flex-1 transition-all duration-200 ease-out group-hover:translate-x-1 ${link.hoverTextClass}`}
                 >
                   {link.name}
                 </span>

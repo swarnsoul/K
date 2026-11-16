@@ -126,21 +126,21 @@ export function ProjectFolderCard({
                 alt=""
                 className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] lg:w-[24px] lg:h-[24px] shrink-0"
               />
-              <span className="font-['Inter'] font-normal text-[11px] sm:text-[13px] lg:text-[14px] text-white whitespace-nowrap">
+              <span className="font-['Almarena_Neue',sans-serif] font-normal text-[11px] sm:text-[13px] lg:text-[14px] text-white whitespace-nowrap">
                 {project.tag}
               </span>
             </div>
 
             {/* Big Ghost Project Name */}
             <div
-              className={`flex flex-col font-['Inter'] font-extrabold select-none ${project.nameSize} ${project.nameTracking} ${project.nameOpacity} mt-1 sm:mt-2`}
+              className={`flex flex-col font-['Almarena_Neue',sans-serif] font-extrabold select-none ${project.nameSize} ${project.nameTracking} ${project.nameOpacity} mt-1 sm:mt-2`}
             >
               <p className="leading-none whitespace-nowrap">{project.name}</p>
             </div>
           </div>
 
           {/* Description Text */}
-          <p className="font-['Inter'] font-normal text-[11px] sm:text-[12.5px] lg:text-[13px] leading-[17px] sm:leading-[19px] lg:leading-[20px] text-white max-w-[391px] select-none line-clamp-3 sm:line-clamp-none">
+          <p className="font-['Almarena_Neue',sans-serif] font-normal text-[11px] sm:text-[12.5px] lg:text-[13px] leading-[17px] sm:leading-[19px] lg:leading-[20px] text-white max-w-[391px] select-none line-clamp-3 sm:line-clamp-none">
             {project.description}
           </p>
         </div>
@@ -531,7 +531,7 @@ function ModeAProjects() {
 
               <div className="absolute inset-[30px_20px_20px_30px] flex items-center">
                 <p
-                  className="font-['Inter'] font-normal text-[20px] leading-[35px] text-[#656565] w-[283px]"
+                  className="font-['Almarena_Neue',sans-serif] font-normal text-[20px] leading-[35px] text-[#656565] w-[283px]"
                   data-node-id="149:883"
                 >
                   I design brands, products, and digital experiences. From the first sketch to the final pixel, everything in between.
@@ -552,31 +552,31 @@ function ModeAProjects() {
               data-node-id="133:656"
             >
               <div>
-                <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc]">
+                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
                   Product Design{" "}
                 </p>
                 <img src="/assets/line-8.svg" alt="" className="w-full my-[1px] block" />
               </div>
               <div>
-                <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc]">
+                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
                   UX Research{" "}
                 </p>
                 <img src="/assets/line-9.svg" alt="" className="w-full my-[1px] block" />
               </div>
               <div>
-                <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc]">
+                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
                   Design Systems{" "}
                 </p>
                 <img src="/assets/line-9.svg" alt="" className="w-full my-[1px] block" />
               </div>
               <div>
-                <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc]">
+                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
                   User Flows{" "}
                 </p>
                 <img src="/assets/line-9.svg" alt="" className="w-full my-[1px] block" />
               </div>
               <div>
-                <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc]">
+                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
                   Prototyping
                 </p>
                 <img src="/assets/line-9.svg" alt="" className="w-full my-[1px] block" />
@@ -618,7 +618,7 @@ function ModeAProjects() {
                 Projects that shaped my thinking
               </h2>
               <p
-                className="font-['Inter'] font-normal text-[15px] leading-[30px] text-white mt-[1px] select-none"
+                className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] leading-[30px] text-white mt-[1px] select-none"
                 data-node-id="149:900"
               >
                 Each project challenged me to learn, iterate, and design with greater intention.
@@ -765,7 +765,7 @@ function ModeBProjects() {
           <h2 className="font-['Architects_Daughter'] text-[clamp(22px,4.5vw,30px)] leading-tight text-white select-none">
             Projects that shaped my thinking
           </h2>
-          <p className="font-['Inter'] font-normal text-[clamp(13px,3vw,15px)] leading-relaxed text-white/90 mt-2 select-none">
+          <p className="font-['Almarena_Neue',sans-serif] font-normal text-[clamp(13px,3vw,15px)] leading-relaxed text-white/90 mt-2 select-none">
             Each project challenged me to learn, iterate, and design with greater intention.
           </p>
 
@@ -798,7 +798,7 @@ function ModeBProjects() {
           <div className="absolute right-0 bottom-0 w-[18px] h-[18px] bg-[#e3e3e3] border-[1.8px] border-black z-10" />
           <div className="absolute left-[18px] right-[18px] bottom-[8px] h-[1.8px] bg-black" />
 
-          <p className="font-['Inter'] font-normal text-[clamp(15px,3.8vw,19px)] leading-[32px] text-[#656565]">
+          <p className="font-['Almarena_Neue',sans-serif] font-normal text-[clamp(15px,3.8vw,19px)] leading-[32px] text-[#656565]">
             I design brands, products, and digital experiences. From the first sketch to the final pixel, everything in between.
           </p>
         </div>
@@ -807,7 +807,7 @@ function ModeBProjects() {
         <div className="w-full max-w-[400px] mx-auto flex flex-col mb-4">
           {disciplines.map((item, idx) => (
             <div key={idx} className="flex flex-col min-h-[44px] justify-center">
-              <span className="font-['Inter'] font-normal text-[16px] sm:text-[18px] text-[#8364fc] py-1.5">
+              <span className="font-['Almarena_Neue',sans-serif] font-normal text-[16px] sm:text-[18px] text-[#8364fc] py-1.5">
                 {item}{" "}
               </span>
               <div className="w-full h-px bg-[#8364fc] opacity-40 mb-1" />

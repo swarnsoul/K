@@ -551,7 +551,7 @@ export function DesktopProcess() {
 
                   {/* Step Label */}
                   <span
-                    className="font-['Inter'] font-semibold text-[14px] leading-tight"
+                    className="font-['Almarena_Neue',sans-serif] font-semibold text-[14px] leading-tight"
                     style={{
                       color: isActive ? "#151322" : "#7c759c",
                       transition: "color 300ms ease",
@@ -722,7 +722,7 @@ export function DesktopProcess() {
                   >
                     {/* Increased title font size to 18px */}
                     <p
-                      className="font-['Inter'] font-extrabold text-white"
+                      className="font-['Almarena_Neue',sans-serif] font-extrabold text-white"
                       style={{
                         fontSize: 18,
                         lineHeight: "28px",
@@ -933,7 +933,7 @@ export function MobileProcess() {
                 style={{ transform: "rotate(11.58deg)" }}
               >
                 <div className="flex flex-col gap-2.5 max-w-[250px]">
-                  <h4 className="font-['Inter'] font-extrabold text-[16px] sm:text-[17px] leading-snug">
+                  <h4 className="font-['Almarena_Neue',sans-serif] font-extrabold text-[16px] sm:text-[17px] leading-snug">
                     {PROCESS_STEPS[activeStep].title}
                   </h4>
                   <p className="font-['Almarena_Neue'] text-[13px] sm:text-[14px] leading-relaxed opacity-95">
@@ -965,7 +965,7 @@ export function MobileProcess() {
                 }}
               />
               <div className="flex flex-col gap-1">
-                <h4 className="font-['Inter'] font-bold text-sm text-black">
+                <h4 className="font-['Almarena_Neue',sans-serif] font-bold text-sm text-black">
                   {step.title}
                 </h4>
                 <p className="font-['Almarena_Neue'] text-xs text-[#4a3f7a] leading-relaxed">

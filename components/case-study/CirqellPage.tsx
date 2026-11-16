@@ -35,7 +35,7 @@ export function CirqellPage() {
     return () => observer.disconnect();
   }, []);
   return (
-    <div className="w-full min-h-screen bg-transparent [overflow-x:clip] select-none text-[#111111] font-['Inter']">
+    <div className="w-full min-h-screen bg-transparent [overflow-x:clip] select-none text-[#111111] font-['Almarena_Neue',sans-serif]">
       {/* ─── Reading Progress Bar ─── */}
       <ScrollProgressBar />
 
@@ -66,15 +66,15 @@ export function CirqellPage() {
             aria-label="Hero Overview"
           >
             <div data-reveal className="w-full max-w-[953px] flex flex-col gap-[24px] xl:gap-[36px]">
-              <span className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black uppercase tracking-normal">
+              <span className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black uppercase tracking-normal">
                 Cirqell Mobile Application
               </span>
 
-              <h1 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[36px] sm:leading-[40px] text-black">
+              <h1 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[36px] sm:leading-[40px] text-black">
                 A voice-first platform for intentional, paid conversations between creators and their audience.
               </h1>
 
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 Cirqell moves creator-audience interaction beyond passive comments and unread DMs. It lets creators set their own call rates and availability, and lets users discover nearby, verified creators and talk to them in real time through private, consent-based voice calls.
               </p>
 
@@ -84,7 +84,7 @@ export function CirqellPage() {
                   {["Product Strategy", "UX Research", "Information Architecture", "Interaction Design"].map((tag) => (
                     <span
                       key={tag}
-                      className="border border-black border-solid rounded-[200px] px-[14px] py-[3px] sm:py-[4px] font-['Inter'] font-normal text-[14px] sm:text-[16px] leading-[27px] sm:leading-[35px] text-black whitespace-nowrap bg-transparent transition-all duration-200 hover:scale-105 hover:bg-[#002f82]/5 hover:border-[#002f82] cursor-default"
+                      className="border border-black border-solid rounded-[200px] px-[14px] py-[3px] sm:py-[4px] font-['Almarena_Neue',sans-serif] font-normal text-[14px] sm:text-[16px] leading-[27px] sm:leading-[35px] text-black whitespace-nowrap bg-transparent transition-all duration-200 hover:scale-105 hover:bg-[#002f82]/5 hover:border-[#002f82] cursor-default"
                     >
                       {tag}
                     </span>
@@ -94,7 +94,7 @@ export function CirqellPage() {
                   {["UI Design", "Prototyping", "Design System"].map((tag) => (
                     <span
                       key={tag}
-                      className="border border-black border-solid rounded-[200px] px-[14px] py-[3px] sm:py-[4px] font-['Inter'] font-normal text-[14px] sm:text-[16px] leading-[27px] sm:leading-[35px] text-black whitespace-nowrap bg-transparent transition-all duration-200 hover:scale-105 hover:bg-[#002f82]/5 hover:border-[#002f82] cursor-default"
+                      className="border border-black border-solid rounded-[200px] px-[14px] py-[3px] sm:py-[4px] font-['Almarena_Neue',sans-serif] font-normal text-[14px] sm:text-[16px] leading-[27px] sm:leading-[35px] text-black whitespace-nowrap bg-transparent transition-all duration-200 hover:scale-105 hover:bg-[#002f82]/5 hover:border-[#002f82] cursor-default"
                     >
                       {tag}
                     </span>
@@ -103,7 +103,7 @@ export function CirqellPage() {
               </div>
 
               {/* Meta details */}
-              <p className="font-['Inter'] font-normal text-[14px] sm:text-[16px] leading-[25px] text-black">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[14px] sm:text-[16px] leading-[25px] text-black">
                 Product Designer | 4 Months | Mobile App (iOS &amp; Android) | Solo Project
               </p>
             </div>
@@ -118,7 +118,7 @@ export function CirqellPage() {
             <div className="group relative w-full max-w-[1318px] h-[380px] sm:h-[480px] xl:h-[542px] rounded-[24px] sm:rounded-[30px] bg-[rgba(0,39,109,0.09)] overflow-hidden flex items-center justify-center transition-shadow duration-500 hover:shadow-xl">
               {/* Giant Ghost Brand Title - Exactly Centered and Contained within Box */}
               <div className="absolute left-1/2 -translate-x-1/2 top-[120px] sm:top-[140px] xl:top-[140.5px] -translate-y-1/2 pointer-events-none select-none z-0 flex items-center justify-center w-full">
-                <span className="font-['Inter'] font-extrabold text-[clamp(50px,13vw,190px)] leading-none tracking-[clamp(8px,3.5vw,50px)] text-[#00276d] opacity-20 uppercase whitespace-nowrap text-center">
+                <span className="font-['Almarena_Neue',sans-serif] font-extrabold text-[clamp(50px,13vw,190px)] leading-none tracking-[clamp(8px,3.5vw,50px)] text-[#00276d] opacity-20 uppercase whitespace-nowrap text-center">
                   CIQELL
                 </span>
               </div>
@@ -144,10 +144,10 @@ export function CirqellPage() {
             aria-label="Design Process"
           >
             <div data-reveal className="w-full max-w-[1320px] mx-auto min-h-[720px] xl:min-h-[759px] h-auto rounded-[24px] bg-[rgba(0,47,130,0.13)] p-6 sm:p-10 xl:p-[56px] flex flex-col gap-[15px] shadow-sm overflow-hidden [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Design Process
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[851px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[851px]">
                 From discovery to validation, every phase informed the next ensuring design decisions were driven by user needs, product strategy, and long-term scalability rather than visual execution alone.
               </p>
 
@@ -155,7 +155,7 @@ export function CirqellPage() {
               <div className="w-full pt-[20px] xl:pt-[40px] pb-6 flex justify-center overflow-x-auto xl:overflow-x-visible [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
                 <div className="min-w-[929px] w-[929px] h-[480px] relative shrink-0">
                   {/* Month Headers */}
-                  <div className="h-[28px] relative w-full font-['Inter'] font-medium text-[12px] leading-[16px] tracking-[1.2px] text-[#9e9b94]">
+                  <div className="h-[28px] relative w-full font-['Almarena_Neue',sans-serif] font-medium text-[12px] leading-[16px] tracking-[1.2px] text-[#9e9b94]">
                     <div className="absolute left-0 top-0 w-[98.8px] text-center">Jan</div>
                     <div className="absolute left-[197.6px] top-0 w-[98.8px] text-center">Feb</div>
                     <div className="absolute left-[395.2px] top-0 w-[98.8px] text-center">March</div>
@@ -174,42 +174,42 @@ export function CirqellPage() {
                     {/* Stepped Pills along the timeline */}
                     {/* 1. Research */}
                     <div data-reveal data-reveal-delay="1" className="absolute left-[23.5px] top-[0.5px] w-[148px] h-[66px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[22px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[22px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
                         Research
                       </div>
                     </div>
 
                     {/* 2. Problem Framing */}
                     <div data-reveal data-reveal-delay="2" className="absolute left-[98.5px] top-[75.5px] w-[155px] h-[65px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[18px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[18px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
                         Problem Framing
                       </div>
                     </div>
 
                     {/* 3. Information Architecture */}
                     <div data-reveal data-reveal-delay="3" className="absolute left-[238.5px] top-[161.5px] w-[199px] h-[65px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[20px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[20px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
                         Information Architecture
                       </div>
                     </div>
 
                     {/* 4. Wireframing */}
                     <div data-reveal data-reveal-delay="4" className="absolute left-[403.5px] top-[226.5px] w-[122px] h-[66px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[20px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[20px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
                         Wireframing
                       </div>
                     </div>
 
                     {/* 5. High-Fidelity Design */}
                     <div data-reveal data-reveal-delay="5" className="absolute left-[479.5px] top-[303.5px] w-[168px] h-[66px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[18px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[18px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
                         High-Fidelity Design
                       </div>
                     </div>
 
                     {/* 6. Prototype & Evaluation */}
                     <div data-reveal data-reveal-delay="6" className="absolute left-[505.5px] top-[369.5px] w-[193px] h-[65px] flex items-center justify-center">
-                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[16px] py-[12px] font-['Inter'] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
+                      <div className="bg-white rounded-full drop-shadow-[0px_1px_1.5px_rgba(0,0,0,0.06)] px-[16px] py-[12px] font-['Almarena_Neue',sans-serif] font-medium text-[15px] leading-[22.5px] text-[#111] whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-md hover:border hover:border-[#002f82]/20 cursor-pointer">
                         Prototype &amp; Evaluation
                       </div>
                     </div>
@@ -344,10 +344,10 @@ export function CirqellPage() {
             aria-label="Problem Space"
           >
             <div className="w-full max-w-[588px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Problem Space
               </h2>
-              <div className="flex flex-col gap-4 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <div className="flex flex-col gap-4 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <p>
                   Social platforms let creators build huge audiences but give them little control over who reaches them or how their time is valued.
                 </p>
@@ -368,10 +368,10 @@ export function CirqellPage() {
             aria-label="Key Challenges"
           >
             <div className="w-full max-w-[653px] flex flex-col gap-[24px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Key Challenges
               </h2>
-              <div className="flex flex-col gap-5 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <div className="flex flex-col gap-5 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <div className="flex flex-col">
                   <h3 className="font-semibold text-black">For Users</h3>
                   <p>
@@ -417,10 +417,10 @@ export function CirqellPage() {
             aria-label="Opportunity"
           >
             <div className="w-full max-w-[629px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Opportunity
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 Creators increasingly monetize expertise and attention, yet no product treats a live conversation as a premium, protected experience. Cirqell explores that gap.
               </p>
             </div>
@@ -457,10 +457,10 @@ export function CirqellPage() {
                   data-reveal-delay={(idx % 4 + 1).toString()}
                   className="w-full max-w-[311px] h-[220px] rounded-[20px] bg-[#dee4ef] p-[10px] flex flex-col justify-center items-center text-center gap-[10px] transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:bg-[#d8e0ed] cursor-pointer"
                 >
-                  <h3 className="font-['Inter'] font-semibold text-[20px] leading-[48px] tracking-[-0.96px] text-[#111] whitespace-nowrap">
+                  <h3 className="font-['Almarena_Neue',sans-serif] font-semibold text-[20px] leading-[48px] tracking-[-0.96px] text-[#111] whitespace-nowrap">
                     {pillar.title}
                   </h3>
-                  <p className="font-['Inter'] font-normal text-[16px] leading-[25px] text-black w-[241px]">
+                  <p className="font-['Almarena_Neue',sans-serif] font-normal text-[16px] leading-[25px] text-black w-[241px]">
                     {pillar.desc}
                   </p>
                 </div>
@@ -475,10 +475,10 @@ export function CirqellPage() {
             aria-label="Opportunity Validation"
           >
             <div className="w-full max-w-[568px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 How I validated the opportunity
               </h2>
-              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <li>I interviewed users who actively follow influencers and have paid for creator content (Patreon, Cameo, etc.) [add number of interviews].</li>
                 <li>I surveyed age group, occupation and preferred communication style [add number of responses].</li>
                 <li>I compared Clubhouse and Cameo against the gap Cirqell targets.</li>
@@ -494,10 +494,10 @@ export function CirqellPage() {
             aria-label="Key Insights"
           >
             <div className="w-full max-w-[602px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Key Insights
               </h2>
-              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <li>Users prefer voice over text when they want authenticity.</li>
                 <li>Verified profiles are essential before anyone pays or talks.</li>
                 <li>Transparent per-minute pricing builds trust; hidden subscriptions erode it.</li>
@@ -513,10 +513,10 @@ export function CirqellPage() {
             aria-label="Information Architecture"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Information Architecture
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[588px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[588px]">
                 The product is organized around four core experiences:
               </p>
             </div>
@@ -527,7 +527,7 @@ export function CirqellPage() {
                   <div
                     data-reveal
                     data-reveal-delay={(idx + 1).toString()}
-                    className="size-[121px] rounded-full bg-[#dee4ef] flex items-center justify-center text-center font-['Inter'] font-semibold text-[16px] leading-[26.4px] tracking-[-0.528px] text-[#111] shadow-sm transition-all duration-300 hover:scale-110 hover:shadow-md hover:bg-[#cfdbee] cursor-pointer"
+                    className="size-[121px] rounded-full bg-[#dee4ef] flex items-center justify-center text-center font-['Almarena_Neue',sans-serif] font-semibold text-[16px] leading-[26.4px] tracking-[-0.528px] text-[#111] shadow-sm transition-all duration-300 hover:scale-110 hover:shadow-md hover:bg-[#cfdbee] cursor-pointer"
                   >
                     {node}
                   </div>
@@ -544,7 +544,7 @@ export function CirqellPage() {
               ))}
             </div>
 
-            <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[953px]">
+            <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[953px]">
               Separate journeys for creators and users keep navigation focused while supporting both goals.
             </p>
           </section>
@@ -556,10 +556,10 @@ export function CirqellPage() {
             aria-label="User Flow"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 User Flow
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[814px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[814px]">
                 A streamlined path from launch to a paid voice call, with verification and transparent pricing at every step.
               </p>
             </div>
@@ -574,7 +574,7 @@ export function CirqellPage() {
                 <div key={rIdx} className="min-w-[920px] flex items-center justify-center gap-[20px]">
                   {row.map((step, sIdx) => (
                     <React.Fragment key={step}>
-                      <div className="size-[121px] rounded-full bg-[#f2f2f3] p-[5.5px] flex items-center justify-center text-center font-['Inter'] font-semibold text-[14px] leading-[22px] tracking-[-0.528px] text-[#111] shadow-sm">
+                      <div className="size-[121px] rounded-full bg-[#f2f2f3] p-[5.5px] flex items-center justify-center text-center font-['Almarena_Neue',sans-serif] font-semibold text-[14px] leading-[22px] tracking-[-0.528px] text-[#111] shadow-sm">
                         <span className="w-[104px]">{step}</span>
                       </div>
                       {sIdx < 4 && (
@@ -600,10 +600,10 @@ export function CirqellPage() {
             aria-label="Ideation"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Ideation
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
                 I started with quick hand sketches to explore navigation, screen hierarchy and call flows, and to explore the Cirqell logo mark, before committing to digital wireframes.
               </p>
             </div>
@@ -627,10 +627,10 @@ export function CirqellPage() {
             aria-label="Low-Fidelity Wireframes"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Low-Fidelity Wireframes
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
                 Sketches became wireframes to validate navigation, information hierarchy and the call-initiation flow. Working in low fidelity let me iterate fast on the map discovery and profile screens before investing in visuals.
               </p>
             </div>
@@ -652,19 +652,19 @@ export function CirqellPage() {
             aria-label="Solution &amp; Core Experience"
           >
             <div className="flex flex-col gap-[12px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Solution
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[791px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[791px]">
                 Cirqell is a curated voice ecosystem. Creators control pricing and availability; users discover nearby creators by genre, intent, mood and interest, preview a voice note, choose a call duration, see the price upfront, and call.
               </p>
             </div>
 
             <div className="flex flex-col gap-[12px]">
-              <h3 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h3 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Core Experience
               </h3>
-              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[791px]">
+              <ul className="list-disc list-outside pl-6 flex flex-col gap-1 font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[791px]">
                 <li>Discover nearby verified creators on a map, filtered by genre, intent, mood and interest.</li>
                 <li>Preview a creator&apos;s voice note before deciding to connect.</li>
                 <li>Choose call duration with clear per-minute pricing shown upfront.</li>
@@ -680,10 +680,10 @@ export function CirqellPage() {
             aria-label="High-Fidelity Design"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 High-Fidelity Design
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
                 A dark navy and cyan interface with glass-style cards creates a premium, exclusive feel while keeping focus on profiles, voice and pricing.
               </p>
             </div>
@@ -700,10 +700,10 @@ export function CirqellPage() {
             aria-label="Design System"
           >
             <div className="w-full flex flex-col gap-[15px] items-start">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Design System
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black max-w-[1116px]">
                 A reusable system of colour tokens, type scale and components for consistency and clean developer handoff.
               </p>
             </div>
@@ -725,10 +725,10 @@ export function CirqellPage() {
             aria-label="Accessibility"
           >
             <div className="w-full max-w-[588px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Accessibility
               </h2>
-              <p className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 Accessibility considerations included sufficient colour contrast on dark surfaces, readable type scale, clear interaction states, and touch-friendly controls.
               </p>
             </div>
@@ -741,10 +741,10 @@ export function CirqellPage() {
             aria-label="Business Impact"
           >
             <div className="w-full max-w-[602px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Business Impact
               </h2>
-              <div className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
+              <div className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black">
                 <p className="font-semibold text-black mb-1">Expected Outcomes</p>
                 <p className="mb-0">• Sustainable per-minute revenue model for creators and the platform</p>
                 <p className="mb-0">• Higher-quality, intentional interactions</p>
@@ -761,10 +761,10 @@ export function CirqellPage() {
             aria-label="Reflection"
           >
             <div className="w-full max-w-[588px] flex flex-col gap-[15px]">
-              <h2 className="font-['Inter'] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
+              <h2 className="font-['Almarena_Neue',sans-serif] font-medium text-[26px] sm:text-[30px] leading-[48px] tracking-[-0.96px] text-[#111]">
                 Reflection
               </h2>
-              <div className="font-['Inter'] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black flex flex-col gap-4">
+              <div className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[16px] leading-[25px] text-black flex flex-col gap-4">
                 <p>
                   Cirqell taught me to design trust into a product, not just an interface.
                 </p>
@@ -786,7 +786,7 @@ export function CirqellPage() {
           >
             <div className="w-full flex flex-col gap-[20px]">
               <div className="flex items-center gap-3">
-                <span className="font-['Inter'] font-bold text-[12px] sm:text-[14px] uppercase tracking-[2px] text-[#8364fc]">
+                <span className="font-['Almarena_Neue',sans-serif] font-bold text-[12px] sm:text-[14px] uppercase tracking-[2px] text-[#8364fc]">
                   Next Project
                 </span>
                 <span className="h-px flex-1 max-w-[80px] bg-[#8364fc]/40" />
@@ -799,14 +799,14 @@ export function CirqellPage() {
               >
                 {/* Giant Ghost Text Background */}
                 <div className="absolute right-6 -bottom-6 sm:right-10 sm:-bottom-8 pointer-events-none select-none opacity-15">
-                  <span className="font-['Inter'] font-black text-[70px] sm:text-[120px] xl:text-[160px] leading-none tracking-[10px] sm:tracking-[25px] text-white uppercase whitespace-nowrap">
+                  <span className="font-['Almarena_Neue',sans-serif] font-black text-[70px] sm:text-[120px] xl:text-[160px] leading-none tracking-[10px] sm:tracking-[25px] text-white uppercase whitespace-nowrap">
                     INFLUCRUSH
                   </span>
                 </div>
 
                 {/* Top Badge & Indicator */}
                 <div className="relative z-10 flex items-center justify-between">
-                  <span className="inline-flex items-center rounded-full bg-white/15 backdrop-blur-md px-3.5 py-1 font-['Inter'] font-medium text-[13px] text-white border border-white/20">
+                  <span className="inline-flex items-center rounded-full bg-white/15 backdrop-blur-md px-3.5 py-1 font-['Almarena_Neue',sans-serif] font-medium text-[13px] text-white border border-white/20">
                     0→1 Design
                   </span>
                   <div className="size-11 sm:size-14 rounded-full bg-white text-black flex items-center justify-center transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 shadow-md">
@@ -819,13 +819,13 @@ export function CirqellPage() {
 
                 {/* Main Content */}
                 <div className="relative z-10 flex flex-col gap-3 max-w-[720px] pt-10 sm:pt-14">
-                  <h3 className="font-['Inter'] font-semibold text-[28px] sm:text-[40px] xl:text-[48px] leading-[1.15] text-white tracking-[-1px]">
+                  <h3 className="font-['Almarena_Neue',sans-serif] font-semibold text-[28px] sm:text-[40px] xl:text-[48px] leading-[1.15] text-white tracking-[-1px]">
                     InfluCrush
                   </h3>
-                  <p className="font-['Inter'] font-normal text-[15px] sm:text-[18px] leading-[26px] text-white/80">
+                  <p className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] sm:text-[18px] leading-[26px] text-white/80">
                     Designing an engaging social monetization platform connecting creators and verified influencers with their audience.
                   </p>
-                  <div className="pt-2 flex items-center gap-2 font-['Inter'] font-semibold text-[15px] text-white group-hover:underline">
+                  <div className="pt-2 flex items-center gap-2 font-['Almarena_Neue',sans-serif] font-semibold text-[15px] text-white group-hover:underline">
                     <span>View Case Study</span>
                     <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
                   </div>
