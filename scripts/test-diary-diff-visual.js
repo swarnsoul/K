@@ -1,0 +1,59 @@
+const puppeteer = require('puppeteer');
+const fs = require('fs');
+const { PNG } = require('pngjs');
+
+async function test() {
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
+  const page = await browser.newPage();
+
+  const ref = PNG.sync.read(fs.readFileSync('scripts/fresh_refs/diary_v2_hover.png'));
+  const w = ref.width; // 312
+  const h = ref.height; // 222
+
+  // Background color at pixel [2, 2] in ref
+  const bgR = ref.data[8], bgG = ref.data[9], bgB = ref.data[10];
+
+  const html = `
+    <!DOCTYPE html>
+    <html>
+    <body style="margin:0; padding:0; background:rgb(${bgR},${bgG},${bgB}); overflow:hidden;">
+      <div style="width:${w}px; height:${h}px; display:flex; align-items:center; justify-content:center; position:relative;">
+        <div style="transform:rotate(-4.97deg); width:268.241px; height:178.827px;">
+          <img src="http://localhost:3000/assets/desk/diary_v1.png" style="width:100%; height:100%; object-fit:cover; display:block; filter: drop-shadow(0px 4.243px 21.217px #ffd54f);" />
+        </div>
+      </div>
+    </body>
+    </html>
+  `;
+  await page.setContent(html);
+  await new Promise(r => setTimeout(r, 600));
+  const shot = await page.screenshot({ clip: { x: 0, y: 0, width: w, height: h } });
+  const pShot = PNG.sync.read(shot);
+
+  const diff = new PNG({ width: w, height: h });
+  let match = 0, total = w * h;
+  for (let y = 0; y < h; y++) {
+    for (let x = 0; x < w; x++) {
+      const idx = (y * w + x) * 4;
+      const dr = Math.abs(pShot.data[idx] - ref.data[idx]);
+      const dg = Math.abs(pShot.data[idx+1] - ref.data[idx+1]);
+      const db = Math.abs(pShot.data[idx+2] - ref.data[idx+2]);
+      if (dr <= 30 && dg <= 30 && db <= 30) {
+        match++;
+        diff.data[idx] = Math.floor(ref.data[idx] * 0.4);
+        diff.data[idx+1] = Math.floor(ref.data[idx+1] * 0.4);
+        diff.data[idx+2] = Math.floor(ref.data[idx+2] * 0.4);
+        diff.data[idx+3] = 255;
+      } else {
+        diff.data[idx] = 255;
+        diff.data[idx+1] = 0;
+        diff.data[idx+2] = 0;
+        diff.data[idx+3] = 255;
+      }
+    }
+  }
+  fs.writeFileSync('scripts/diary_hover_diff.png', PNG.sync.write(diff));
+  console.log(`Similarity: ${(match / total * 100).toFixed(2)}%`);
+  await browser.close();
+}
+test().catch(console.error);

@@ -1,0 +1,427 @@
+
+================ Node 563:927 ================
+const imgGoodThingsTakeTime11 = "http://localhost:3845/assets/b3735dd7e9c5d878454892b07fa574c8c98089c7.png";
+
+export default function GoodThingsTakeTime() {
+  return (
+    <div className="relative size-full" data-node-id="563:927" data-name="Good things take time (1) 1">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <img alt="" className="absolute h-[104.17%] left-[-2.94%] max-w-none top-[-2.08%] w-[105.89%]" src={imgGoodThingsTakeTime11} />
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:929 ================
+const imgImage66 = "http://localhost:3845/assets/b08634a914a93c6fd8fad689dadb928274a8fb35.png";
+
+export default function Image() {
+  return (
+    <div className="overflow-clip relative rounded-[7px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-full" data-node-id="563:929" data-name="image 66">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[7px]">
+        <img alt="" className="absolute h-[110%] left-[-174.89%] max-w-none top-[-10%] w-[274.96%]" src={imgImage66} />
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:930 ================
+const imgImage63 = "http://localhost:3845/assets/ebe4b3869d7ae24da94a43ec2094a4d54849de2b.png";
+
+export default function Image() {
+  return (
+    <div className="relative shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-full" data-node-id="563:930" data-name="image 63">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage63} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:931 ================
+const imgImage64 = "http://localhost:3845/assets/28d3c9ee253835a2dcde83f1986d30bb9378cc9c.png";
+
+export default function Image() {
+  return (
+    <div className="relative shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-full" data-node-id="563:931" data-name="image 64">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage64} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:932 ================
+const imgImage69 = "http://localhost:3845/assets/c1dc1593339c9a3092a7878790ed83fcb84811f8.png";
+
+export default function Image() {
+  return (
+    <div className="relative shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-full" data-node-id="563:932" data-name="image 69">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage69} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:933 ================
+const imgImage70 = "http://localhost:3845/assets/36d9c942132b2348d48982fd1922eacd97d479f1.png";
+
+export default function Image() {
+  return (
+    <div className="relative shadow-[10px_4px_4px_0px_rgba(0,0,0,0.25)] size-full" data-node-id="563:933" data-name="image 70">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage70} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:926 ================
+const imgImage65 = "http://localhost:3845/assets/b08634a914a93c6fd8fad689dadb928274a8fb35.png";
+
+export default function Image() {
+  return (
+    <div className="relative shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-full" data-node-id="563:926" data-name="image 65">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage65} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:925 ================
+const imgImage62 = "http://localhost:3845/assets/881c55c677c0592d8751df65cb4a30640e56a4e4.png";
+
+export default function Image() {
+  return (
+    <div className="relative shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-full" data-node-id="563:925" data-name="image 62">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage62} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 546:942 ================
+const imgProperty1Image67 = "http://localhost:3845/assets/f2e4eb5e9539a18fb3ec4c344f4b22641fa7c47e.png";
+type ComponentProps = {
+  className?: string;
+  property1?: "image 67";
+};
+
+function Component({ className, property1 = "image 67" }: ComponentProps) {
+  return (
+    <button className={className || "block h-[384px] relative w-[418px]"} data-node-id="546:942">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProperty1Image67} />
+      <div className="-translate-y-1/2 absolute aspect-[161/161] bg-white blur-[15px] left-[29.9%] right-[59.33%] rounded-[100px] top-[calc(50%-22.5px)]" data-node-id="546:948" />
+    </button>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 546:941 ================
+const imgProperty1Image67 = "http://localhost:3845/assets/f2e4eb5e9539a18fb3ec4c344f4b22641fa7c47e.png";
+const imgProperty1Image72 = "http://localhost:3845/assets/55f0b85fa94c84740762e3956c7a47989728d8fc.png";
+type ComponentProps = {
+  className?: string;
+  property1?: "image 67" | "image 72";
+};
+
+function Component({ className, property1 = "image 67" }: ComponentProps) {
+  const isImage72 = property1 === "image 72";
+  return (
+    <button className={className || "block h-[384px] relative w-[418px]"} id={isImage72 ? "node-546_941" : "node-546_942"}>
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={isImage72 ? imgProperty1Image72 : imgProperty1Image67} />
+      {property1 === "image 67" && <div className="-translate-y-1/2 absolute aspect-[161/161] bg-white blur-[15px] left-[29.9%] right-[59.33%] rounded-[100px] top-[calc(50%-22.5px)]" data-node-id="546:948" />}
+    </button>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 546:927 ================
+const imgImage68 = "http://localhost:3845/assets/d08e51bd2e47013b62c3389f7c7bec5cdaad0b18.png";
+type ComponentProps = {
+  className?: string;
+  property1?: "image 68";
+};
+
+function Component({ className, property1 = "image 68" }: ComponentProps) {
+  return (
+    <div className={className || "h-[189.84px] relative w-[266.504px]"} data-node-id="546:927">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex h-[189.84px] items-center justify-center left-1/2 top-[calc(50%+0.09px)] w-[266.504px]" data-node-id="546:924">
+        <div className="flex-none rotate-[-4.97deg]">
+          <div className="h-[168.567px] relative w-[252.851px]" data-name="image 68">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage68} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 546:926 ================
+const imgImage68 = "http://localhost:3845/assets/d08e51bd2e47013b62c3389f7c7bec5cdaad0b18.png";
+type ComponentProps = {
+  className?: string;
+  property1?: "image 68" | "image 69";
+};
+
+function Component({ className, property1 = "image 68" }: ComponentProps) {
+  const isImage69 = property1 === "image 69";
+  return (
+    <div className={className || "h-[189.84px] relative w-[266.504px]"} id={isImage69 ? "node-546_926" : "node-546_927"}>
+      <div className={`-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center ${isImage69 ? "h-[201.394px] left-[calc(50%+0.11px)] top-[calc(50%-0.46px)] w-[282.725px]" : "h-[189.84px] left-1/2 top-[calc(50%+0.09px)] w-[266.504px]"}`} id={isImage69 ? "node-546_925" : "node-546_924"}>
+        <div className="flex-none rotate-[-4.97deg]">
+          {property1 === "image 68" && (
+            <div className="h-[168.567px] relative w-[252.851px]" data-name="image 68">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage68} />
+            </div>
+          )}
+          {isImage69 && (
+            <div className="h-[178.827px] relative shadow-[0px_4.243px_21.217px_0px_#ffd54f] w-[268.241px]" data-name="image 69">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage68} />
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:928 ================
+const imgComponent29 = "http://localhost:3845/assets/f2e4eb5e9539a18fb3ec4c344f4b22641fa7c47e.png";
+
+export default function Component() {
+  return (
+    <button className="block cursor-pointer drop-shadow-[0px_4px_2px_rgba(0,0,0,0.25)] relative size-full" data-node-id="563:928" data-name="Component 29">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgComponent29} />
+      <div className="-translate-y-1/2 absolute aspect-[161/161] bg-white blur-[15px] left-[29.9%] right-[59.33%] rounded-[100px] top-[calc(50%-22.5px)]" data-node-id="I563:928;546:948" />
+    </button>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:934 ================
+const imgImage68 = "http://localhost:3845/assets/d08e51bd2e47013b62c3389f7c7bec5cdaad0b18.png";
+
+export default function Component() {
+  return (
+    <div className="drop-shadow-[0px_4px_2px_rgba(0,0,0,0.25)] relative size-full" data-node-id="563:934" data-name="Component 28">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex h-[189.84px] items-center justify-center left-1/2 top-[calc(50%+0.09px)] w-[266.504px]" data-node-id="I563:934;546:924">
+        <div className="flex-none rotate-[-4.97deg]">
+          <div className="h-[168.567px] relative w-[252.851px]" data-name="image 68">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage68} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:902 ================
+const imgHeart = "http://localhost:3845/assets/be1e5df2538c39da36c8aab04b8e50077fff56d8.svg";
+
+export default function Heart() {
+  return (
+    <div className="relative size-full" data-node-id="563:902" data-name="Heart">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeart} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:909 ================
+const imgHeart = "http://localhost:3845/assets/be1e5df2538c39da36c8aab04b8e50077fff56d8.svg";
+
+export default function Heart() {
+  return (
+    <div className="relative size-full" data-node-id="563:909" data-name="Heart">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeart} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:916 ================
+const imgHeart = "http://localhost:3845/assets/3f719085d901e9d6914311cdfebbbc1009d88c4a.svg";
+
+export default function Heart() {
+  return (
+    <div className="relative size-full" data-node-id="563:916" data-name="Heart">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHeart} />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
+
+================ Node 563:900 ================
+export default function ALittleBitOfCodeALotOfCreativityAndCountlessDreamsThanksForReadingMyStory() {
+  return (
+    <p className="[word-break:break-word] font-['Architects_Daughter:Regular'] leading-[50px] not-italic relative size-full text-[#ee3f64] text-[38px]" data-node-id="563:900">
+      A little bit of code, a lot of creativity, and countless dreams. Thanks for reading my story.
+    </p>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/

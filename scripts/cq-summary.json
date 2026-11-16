@@ -1,0 +1,1962 @@
+[
+  {
+    "type": "frame",
+    "id": "443:104",
+    "name": "Frame 80"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "443:105",
+    "name": "image 3"
+  },
+  {
+    "type": "frame",
+    "id": "443:106",
+    "name": "Frame 88"
+  },
+  {
+    "type": "text",
+    "id": "443:108",
+    "name": "CIQELL"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "466:5310",
+    "name": "Influcrush (Phone Wallpaper) 1"
+  },
+  {
+    "type": "frame",
+    "id": "443:110",
+    "name": "Frame 89"
+  },
+  {
+    "type": "text",
+    "id": "443:113",
+    "name": "Design Process"
+  },
+  {
+    "type": "text",
+    "id": "443:114",
+    "name": "From discovery to validation, every phase informed the next ensuring design decisions were driven by user needs, product strategy, and long-term scalability rather than visual execution alone."
+  },
+  {
+    "type": "text",
+    "id": "443:120",
+    "name": "Jan"
+  },
+  {
+    "type": "text",
+    "id": "443:124",
+    "name": "Feb"
+  },
+  {
+    "type": "text",
+    "id": "443:127",
+    "name": "March"
+  },
+  {
+    "type": "text",
+    "id": "443:131",
+    "name": "April"
+  },
+  {
+    "type": "text",
+    "id": "443:134",
+    "name": "May"
+  },
+  {
+    "type": "text",
+    "id": "443:145",
+    "name": "Research"
+  },
+  {
+    "type": "text",
+    "id": "443:149",
+    "name": "Problem Framing"
+  },
+  {
+    "type": "text",
+    "id": "443:153",
+    "name": "Information Architecture"
+  },
+  {
+    "type": "text",
+    "id": "443:157",
+    "name": "Wireframing"
+  },
+  {
+    "type": "text",
+    "id": "443:161",
+    "name": "High-Fidelity Design"
+  },
+  {
+    "type": "text",
+    "id": "443:165",
+    "name": "Prototype &amp; Evaluation"
+  },
+  {
+    "type": "frame",
+    "id": "443:166",
+    "name": "Frame 90"
+  },
+  {
+    "type": "frame",
+    "id": "443:167",
+    "name": "Frame 99"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "466:5312",
+    "name": "Influcrush (10) 1"
+  },
+  {
+    "type": "frame",
+    "id": "443:171",
+    "name": "Frame 91"
+  },
+  {
+    "type": "text",
+    "id": "443:173",
+    "name": "Problem Space"
+  },
+  {
+    "type": "text",
+    "id": "443:174",
+    "name": "Social platforms let creators build huge audiences but give them little control over who reaches them or how their time is valued. Social DMs are asynchronous and noisy. Clubhouse-style rooms are group-based and unmonetized for individuals. Cameo is pre-recorded, with no real-time interaction. There is no dedicated space for controlled, intentional, fee-based one-on-one voice conversations with verification and proximity-based discovery."
+  },
+  {
+    "type": "frame",
+    "id": "443:175",
+    "name": "Frame 92"
+  },
+  {
+    "type": "frame",
+    "id": "443:176",
+    "name": "Frame 100"
+  },
+  {
+    "type": "text",
+    "id": "443:178",
+    "name": "Key Challenges"
+  },
+  {
+    "type": "text",
+    "id": "443:179",
+    "name": "For Users Comment sections feel impersonal; users want real, direct access to creators they follow, with transparent pricing and no hidden subscriptions. For Creators Hundreds of daily messages and unpaid advice requests make it hard to find genuine requests, protect privacy, and monetize their time beyond brand deals. For Existing Platforms Products solve either broadcast reach or recorded personalization, but none offer verified, real-time, creator-controlled conversations."
+  },
+  {
+    "type": "frame",
+    "id": "443:180",
+    "name": "Frame 94"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "443:181",
+    "name": "Influcrush (8) 1"
+  },
+  {
+    "type": "frame",
+    "id": "443:182",
+    "name": "Frame 95"
+  },
+  {
+    "type": "text",
+    "id": "443:184",
+    "name": "Opportunity"
+  },
+  {
+    "type": "text",
+    "id": "443:185",
+    "name": "Creators increasingly monetize expertise and attention, yet no product treats a live conversation as a premium, protected experience. Cirqell explores that gap."
+  },
+  {
+    "type": "frame",
+    "id": "443:186",
+    "name": "Frame 96"
+  },
+  {
+    "type": "frame",
+    "id": "443:187",
+    "name": "Frame 101"
+  },
+  {
+    "type": "text",
+    "id": "443:188",
+    "name": "Creator Monetization"
+  },
+  {
+    "type": "text",
+    "id": "443:189",
+    "name": "Creators earn fairly for every minute of their time."
+  },
+  {
+    "type": "frame",
+    "id": "443:190",
+    "name": "Frame 102"
+  },
+  {
+    "type": "text",
+    "id": "443:191",
+    "name": "Real-Time Intimacy"
+  },
+  {
+    "type": "text",
+    "id": "443:192",
+    "name": "Voice feels more authentic than text and more personal than pre-recorded video."
+  },
+  {
+    "type": "frame",
+    "id": "443:193",
+    "name": "Frame 103"
+  },
+  {
+    "type": "text",
+    "id": "443:194",
+    "name": "Creator Control"
+  },
+  {
+    "type": "text",
+    "id": "443:195",
+    "name": "Creators set pricing, availability, and who can reach them."
+  },
+  {
+    "type": "frame",
+    "id": "443:196",
+    "name": "Frame 104"
+  },
+  {
+    "type": "text",
+    "id": "443:197",
+    "name": "Trust &amp; Safety"
+  },
+  {
+    "type": "text",
+    "id": "443:198",
+    "name": "Creators set pricing, availability, and who can reach them."
+  },
+  {
+    "type": "frame",
+    "id": "443:199",
+    "name": "Frame 97"
+  },
+  {
+    "type": "text",
+    "id": "443:201",
+    "name": "How I validated the opportunity"
+  },
+  {
+    "type": "text",
+    "id": "443:202",
+    "name": "I interviewed users who actively follow influencers and have paid for creator content (Patreon, Cameo, etc.) [add number of interviews]. I surveyed age group, occupation and preferred communication style [add number of responses]. I compared Clubhouse and Cameo against the gap Cirqell targets. I developed one creator persona and one audience persona."
+  },
+  {
+    "type": "frame",
+    "id": "443:203",
+    "name": "Frame 98"
+  },
+  {
+    "type": "text",
+    "id": "443:205",
+    "name": "Key Insights"
+  },
+  {
+    "type": "text",
+    "id": "443:206",
+    "name": "Users prefer voice over text when they want authenticity. Verified profiles are essential before anyone pays or talks. Transparent per-minute pricing builds trust; hidden subscriptions erode it. Proximity-based discovery adds spontaneity and feels unique."
+  },
+  {
+    "type": "frame",
+    "id": "443:207",
+    "name": "Frame 99"
+  },
+  {
+    "type": "frame",
+    "id": "443:208",
+    "name": "Frame 109"
+  },
+  {
+    "type": "text",
+    "id": "443:210",
+    "name": "Information Architecture"
+  },
+  {
+    "type": "text",
+    "id": "443:211",
+    "name": "The product is organized around four core experiences:"
+  },
+  {
+    "type": "frame",
+    "id": "443:212",
+    "name": "Frame 108"
+  },
+  {
+    "type": "frame",
+    "id": "443:213",
+    "name": "Frame 101"
+  },
+  {
+    "type": "text",
+    "id": "443:214",
+    "name": "Discover"
+  },
+  {
+    "type": "frame",
+    "id": "443:215",
+    "name": "Frame 105"
+  },
+  {
+    "type": "frame",
+    "id": "443:217",
+    "name": "Frame 102"
+  },
+  {
+    "type": "text",
+    "id": "443:218",
+    "name": "Connect"
+  },
+  {
+    "type": "frame",
+    "id": "443:219",
+    "name": "Frame 106"
+  },
+  {
+    "type": "frame",
+    "id": "443:221",
+    "name": "Frame 103"
+  },
+  {
+    "type": "text",
+    "id": "443:222",
+    "name": "Call"
+  },
+  {
+    "type": "frame",
+    "id": "443:223",
+    "name": "Frame 107"
+  },
+  {
+    "type": "frame",
+    "id": "443:225",
+    "name": "Frame 104"
+  },
+  {
+    "type": "text",
+    "id": "443:226",
+    "name": "Manage"
+  },
+  {
+    "type": "text",
+    "id": "443:227",
+    "name": "Separate journeys for creators and users keep navigation focused while supporting both goals."
+  },
+  {
+    "type": "frame",
+    "id": "443:228",
+    "name": "Frame 100"
+  },
+  {
+    "type": "frame",
+    "id": "443:229",
+    "name": "Frame 110"
+  },
+  {
+    "type": "text",
+    "id": "443:231",
+    "name": "User Flow"
+  },
+  {
+    "type": "text",
+    "id": "443:232",
+    "name": "A streamlined path from launch to a paid voice call, with verification and transparent pricing at every step."
+  },
+  {
+    "type": "frame",
+    "id": "445:381",
+    "name": "Frame 111"
+  },
+  {
+    "type": "frame",
+    "id": "445:383",
+    "name": "Frame 101"
+  },
+  {
+    "type": "text",
+    "id": "445:384",
+    "name": "Splash"
+  },
+  {
+    "type": "frame",
+    "id": "445:385",
+    "name": "Frame 105"
+  },
+  {
+    "type": "frame",
+    "id": "445:387",
+    "name": "Frame 102"
+  },
+  {
+    "type": "text",
+    "id": "445:388",
+    "name": "Onboarding"
+  },
+  {
+    "type": "frame",
+    "id": "445:389",
+    "name": "Frame 106"
+  },
+  {
+    "type": "frame",
+    "id": "445:391",
+    "name": "Frame 103"
+  },
+  {
+    "type": "text",
+    "id": "445:392",
+    "name": "Sign Up/Login"
+  },
+  {
+    "type": "frame",
+    "id": "445:393",
+    "name": "Frame 107"
+  },
+  {
+    "type": "frame",
+    "id": "445:395",
+    "name": "Frame 104"
+  },
+  {
+    "type": "text",
+    "id": "445:396",
+    "name": "OTP Verification"
+  },
+  {
+    "type": "frame",
+    "id": "445:397",
+    "name": "Frame 108"
+  },
+  {
+    "type": "frame",
+    "id": "445:399",
+    "name": "Frame 109"
+  },
+  {
+    "type": "text",
+    "id": "445:400",
+    "name": "Profile Setup"
+  },
+  {
+    "type": "frame",
+    "id": "445:402",
+    "name": "Frame 111"
+  },
+  {
+    "type": "text",
+    "id": "445:403",
+    "name": "Home Feed (map)"
+  },
+  {
+    "type": "frame",
+    "id": "445:404",
+    "name": "Frame 110"
+  },
+  {
+    "type": "text",
+    "id": "445:407",
+    "name": "Filter"
+  },
+  {
+    "type": "frame",
+    "id": "445:439",
+    "name": "Frame 112"
+  },
+  {
+    "type": "text",
+    "id": "445:411",
+    "name": "Creator Profile"
+  },
+  {
+    "type": "frame",
+    "id": "445:442",
+    "name": "Frame 113"
+  },
+  {
+    "type": "text",
+    "id": "445:415",
+    "name": "Select Call Duration"
+  },
+  {
+    "type": "frame",
+    "id": "445:444",
+    "name": "Frame 114"
+  },
+  {
+    "type": "text",
+    "id": "445:419",
+    "name": "Initiate Call"
+  },
+  {
+    "type": "text",
+    "id": "445:422",
+    "name": "Payment"
+  },
+  {
+    "type": "frame",
+    "id": "445:446",
+    "name": "Frame 110"
+  },
+  {
+    "type": "text",
+    "id": "445:426",
+    "name": "Wallet Management"
+  },
+  {
+    "type": "frame",
+    "id": "445:449",
+    "name": "Frame 111"
+  },
+  {
+    "type": "text",
+    "id": "445:430",
+    "name": "Recharge"
+  },
+  {
+    "type": "frame",
+    "id": "445:451",
+    "name": "Frame 112"
+  },
+  {
+    "type": "text",
+    "id": "445:434",
+    "name": "Creator Earnings"
+  },
+  {
+    "type": "frame",
+    "id": "445:453",
+    "name": "Frame 113"
+  },
+  {
+    "type": "text",
+    "id": "445:438",
+    "name": "Withdraw"
+  },
+  {
+    "type": "frame",
+    "id": "443:256",
+    "name": "Frame 101"
+  },
+  {
+    "type": "text",
+    "id": "443:258",
+    "name": "Ideation"
+  },
+  {
+    "type": "text",
+    "id": "443:259",
+    "name": "I started with quick hand sketches to explore navigation, screen hierarchy and call flows, and to explore the Cirqell logo mark, before committing to digital wireframes."
+  },
+  {
+    "type": "frame",
+    "id": "443:260",
+    "name": "Frame 112"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "443:261",
+    "name": "Influcrush (9) 1"
+  },
+  {
+    "type": "frame",
+    "id": "443:262",
+    "name": "Frame 102"
+  },
+  {
+    "type": "text",
+    "id": "443:264",
+    "name": "Low-Fidelity Wireframes"
+  },
+  {
+    "type": "text",
+    "id": "443:265",
+    "name": "Sketches became wireframes to validate navigation, information hierarchy and the call-initiation flow. Working in low fidelity let me iterate fast on the map discovery and profile screens before investing in visuals."
+  },
+  {
+    "type": "frame",
+    "id": "443:266",
+    "name": "Frame 112"
+  },
+  {
+    "type": "frame",
+    "id": "455:5305",
+    "name": "Frame 178"
+  },
+  {
+    "type": "frame",
+    "id": "455:5303",
+    "name": "Frame 176"
+  },
+  {
+    "type": "text",
+    "id": "456:3179",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3180",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3182",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3183",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3185",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3187",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3189",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3213",
+    "name": "Back"
+  },
+  {
+    "type": "text",
+    "id": "456:3214",
+    "name": "Title"
+  },
+  {
+    "type": "text",
+    "id": "456:3217",
+    "name": "Country"
+  },
+  {
+    "type": "text",
+    "id": "456:3218",
+    "name": "Expand"
+  },
+  {
+    "type": "text",
+    "id": "456:3220",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3221",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3223",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3247",
+    "name": "Back"
+  },
+  {
+    "type": "text",
+    "id": "456:3248",
+    "name": "Title"
+  },
+  {
+    "type": "text",
+    "id": "456:3251",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3254",
+    "name": "Digit"
+  },
+  {
+    "type": "text",
+    "id": "456:3256",
+    "name": "Digit"
+  },
+  {
+    "type": "text",
+    "id": "456:3259",
+    "name": "Resend prompt"
+  },
+  {
+    "type": "text",
+    "id": "456:3262",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3289",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3290",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3292",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3293",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3295",
+    "name": "Facebook"
+  },
+  {
+    "type": "text",
+    "id": "456:3297",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3321",
+    "name": "Back"
+  },
+  {
+    "type": "text",
+    "id": "456:3322",
+    "name": "Title"
+  },
+  {
+    "type": "text",
+    "id": "456:3324",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3330",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3354",
+    "name": "Title"
+  },
+  {
+    "type": "text",
+    "id": "456:3356",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3362",
+    "name": "Label"
+  },
+  {
+    "type": "frame",
+    "id": "455:5304",
+    "name": "Frame 177"
+  },
+  {
+    "type": "text",
+    "id": "456:3389",
+    "name": "Title"
+  },
+  {
+    "type": "text",
+    "id": "456:3397",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3400",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3402",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3404",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3406",
+    "name": "Unit"
+  },
+  {
+    "type": "text",
+    "id": "456:3408",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3409",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3410",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3411",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3414",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3438",
+    "name": "Back"
+  },
+  {
+    "type": "text",
+    "id": "456:3439",
+    "name": "Title"
+  },
+  {
+    "type": "text",
+    "id": "456:3441",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3445",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3448",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3451",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3454",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3457",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3460",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3463",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3466",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3469",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3493",
+    "name": "Back"
+  },
+  {
+    "type": "text",
+    "id": "456:3494",
+    "name": "Title"
+  },
+  {
+    "type": "text",
+    "id": "456:3496",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3500",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3503",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3506",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3509",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3512",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3515",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3518",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3521",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3524",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3548",
+    "name": "Back"
+  },
+  {
+    "type": "text",
+    "id": "456:3549",
+    "name": "Title"
+  },
+  {
+    "type": "text",
+    "id": "456:3553",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3560",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3567",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3574",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3581",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3582",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3584",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3585",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3589",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3592",
+    "name": "Label"
+  },
+  {
+    "type": "text",
+    "id": "456:3616",
+    "name": "Back"
+  },
+  {
+    "type": "text",
+    "id": "456:3617",
+    "name": "Title"
+  },
+  {
+    "type": "text",
+    "id": "456:3621",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3628",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3635",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3642",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3649",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3650",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3652",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3653",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3657",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3659",
+    "name": "Copy"
+  },
+  {
+    "type": "text",
+    "id": "456:3665",
+    "name": "Duration"
+  },
+  {
+    "type": "frame",
+    "id": "443:268",
+    "name": "Frame 108"
+  },
+  {
+    "type": "text",
+    "id": "443:270",
+    "name": "Solution"
+  },
+  {
+    "type": "text",
+    "id": "443:271",
+    "name": "Cirqell is a curated voice ecosystem. Creators control pricing and availability; users discover nearby creators by genre, intent, mood and interest, preview a voice note, choose a call duration, see the price upfront, and call."
+  },
+  {
+    "type": "text",
+    "id": "443:273",
+    "name": "Core Experience"
+  },
+  {
+    "type": "text",
+    "id": "443:274",
+    "name": "Discover nearby verified creators on a map, filtered by genre, intent, mood and interest. Preview a creator&#39;s voice note before deciding to connect. Choose call duration with clear per-minute pricing shown upfront. Call privately, with wallet-based payment and creator earnings and withdrawals."
+  },
+  {
+    "type": "frame",
+    "id": "443:275",
+    "name": "Frame 103"
+  },
+  {
+    "type": "text",
+    "id": "443:277",
+    "name": "High-Fidelity Design"
+  },
+  {
+    "type": "text",
+    "id": "443:278",
+    "name": "A dark navy and cyan interface with glass-style cards creates a premium, exclusive feel while keeping focus on profiles, voice and pricing."
+  },
+  {
+    "type": "frame",
+    "id": "443:279",
+    "name": "Frame 112"
+  },
+  {
+    "type": "frame",
+    "id": "445:3516",
+    "name": "Frame 175"
+  },
+  {
+    "type": "frame",
+    "id": "445:3292",
+    "name": "Frame 173"
+  },
+  {
+    "type": "frame",
+    "id": "445:3120",
+    "name": "Frame 142"
+  },
+  {
+    "type": "frame",
+    "id": "445:3122",
+    "name": "Frame 141"
+  },
+  {
+    "type": "text",
+    "id": "445:3123",
+    "name": "Join The Network"
+  },
+  {
+    "type": "text",
+    "id": "445:3124",
+    "name": "Private voice first connections based on proximity and intent."
+  },
+  {
+    "type": "frame",
+    "id": "445:3125",
+    "name": "Frame 172"
+  },
+  {
+    "type": "text",
+    "id": "445:3126",
+    "name": "Which gender best describes you ?"
+  },
+  {
+    "type": "frame",
+    "id": "445:3127",
+    "name": "Frame 53"
+  },
+  {
+    "type": "frame",
+    "id": "445:3128",
+    "name": "Frame 25"
+  },
+  {
+    "type": "text",
+    "id": "445:3129",
+    "name": "Female"
+  },
+  {
+    "type": "frame",
+    "id": "445:3130",
+    "name": "Frame 26"
+  },
+  {
+    "type": "text",
+    "id": "445:3131",
+    "name": "Male"
+  },
+  {
+    "type": "frame",
+    "id": "445:3145",
+    "name": "Frame 2"
+  },
+  {
+    "type": "frame",
+    "id": "445:3146",
+    "name": "Frame 1"
+  },
+  {
+    "type": "text",
+    "id": "445:3148",
+    "name": "OTP Verification"
+  },
+  {
+    "type": "frame",
+    "id": "445:3150",
+    "name": "Frame 25"
+  },
+  {
+    "type": "text",
+    "id": "445:3153",
+    "name": "(+91) India"
+  },
+  {
+    "type": "text",
+    "id": "445:3154",
+    "name": "Enter Your Mobile Number"
+  },
+  {
+    "type": "text",
+    "id": "445:3155",
+    "name": "We will send you one time password (OTP)"
+  },
+  {
+    "type": "frame",
+    "id": "445:3156",
+    "name": "Frame 1"
+  },
+  {
+    "type": "frame",
+    "id": "445:3158",
+    "name": "Frame 25"
+  },
+  {
+    "type": "text",
+    "id": "445:3159",
+    "name": "Send"
+  },
+  {
+    "type": "frame",
+    "id": "445:3201",
+    "name": "Frame 142"
+  },
+  {
+    "type": "frame",
+    "id": "445:3203",
+    "name": "Frame 141"
+  },
+  {
+    "type": "frame",
+    "id": "445:3204",
+    "name": "Frame 143"
+  },
+  {
+    "type": "text",
+    "id": "445:3205",
+    "name": "Link your Facebook"
+  },
+  {
+    "type": "text",
+    "id": "445:3206",
+    "name": "Connect your Facebook to verify your account"
+  },
+  {
+    "type": "frame",
+    "id": "445:3207",
+    "name": "Frame 144"
+  },
+  {
+    "type": "frame",
+    "id": "445:3209",
+    "name": "Frame 25"
+  },
+  {
+    "type": "text",
+    "id": "445:3210",
+    "name": "Link your Facebook"
+  },
+  {
+    "type": "frame",
+    "id": "445:3229",
+    "name": "Frame 2"
+  },
+  {
+    "type": "frame",
+    "id": "445:3230",
+    "name": "Frame 1"
+  },
+  {
+    "type": "text",
+    "id": "445:3232",
+    "name": "Face Recognition"
+  },
+  {
+    "type": "text",
+    "id": "445:3233",
+    "name": "Scan your face to verify your identity"
+  },
+  {
+    "type": "frame",
+    "id": "445:3240",
+    "name": "Frame 25"
+  },
+  {
+    "type": "text",
+    "id": "445:3241",
+    "name": "Start Scan"
+  },
+  {
+    "type": "frame",
+    "id": "445:3266",
+    "name": "Frame 2"
+  },
+  {
+    "type": "text",
+    "id": "445:3267",
+    "name": "Face Recognition"
+  },
+  {
+    "type": "text",
+    "id": "445:3268",
+    "name": "Scan your face to verify your identity"
+  },
+  {
+    "type": "frame",
+    "id": "445:3277",
+    "name": "Frame 153"
+  },
+  {
+    "type": "frame",
+    "id": "445:3515",
+    "name": "Frame 174"
+  },
+  {
+    "type": "frame",
+    "id": "443:294",
+    "name": "Frame 104"
+  },
+  {
+    "type": "text",
+    "id": "443:296",
+    "name": "Design System"
+  },
+  {
+    "type": "text",
+    "id": "443:297",
+    "name": "A reusable system of colour tokens, type scale and components for consistency and clean developer handoff."
+  },
+  {
+    "type": "frame",
+    "id": "455:3709",
+    "name": "Cirqell — White design system overview"
+  },
+  {
+    "type": "text",
+    "id": "455:3712",
+    "name": "Cirqell / Design system"
+  },
+  {
+    "type": "text",
+    "id": "455:3713",
+    "name": "Consolidated white overview"
+  },
+  {
+    "type": "text",
+    "id": "455:3715",
+    "name": "Foundations, controls, dropdowns and app patterns on one white surface"
+  },
+  {
+    "type": "text",
+    "id": "455:3716",
+    "name": "Source product components remain dark; documentation containers and guidance are adapted for a compact white presentation. Reusable definitions, variants and variable bindings are preserved."
+  },
+  {
+    "type": "text",
+    "id": "455:3719",
+    "name": "Cirqell / Reusable component library"
+  },
+  {
+    "type": "text",
+    "id": "455:3720",
+    "name": "18 families, 44 variants, 16 component sets plus wallet and bottom-navigation standalone components."
+  },
+  {
+    "type": "text",
+    "id": "455:3722",
+    "name": "Button"
+  },
+  {
+    "type": "frame",
+    "id": "455:3723",
+    "name": "Cirqell / Button"
+  },
+  {
+    "type": "text",
+    "id": "455:3731",
+    "name": "Text field"
+  },
+  {
+    "type": "frame",
+    "id": "455:3732",
+    "name": "Cirqell / Text field"
+  },
+  {
+    "type": "text",
+    "id": "455:3739",
+    "name": "Filter chip"
+  },
+  {
+    "type": "frame",
+    "id": "455:3740",
+    "name": "Cirqell / Filter chip"
+  },
+  {
+    "type": "text",
+    "id": "455:3750",
+    "name": "Toggle"
+  },
+  {
+    "type": "frame",
+    "id": "455:3751",
+    "name": "Cirqell / Toggle"
+  },
+  {
+    "type": "text",
+    "id": "455:3757",
+    "name": "Checkbox"
+  },
+  {
+    "type": "frame",
+    "id": "455:3758",
+    "name": "Cirqell / Checkbox"
+  },
+  {
+    "type": "text",
+    "id": "455:3767",
+    "name": "Dropdown / Primary Genre"
+  },
+  {
+    "type": "frame",
+    "id": "455:3768",
+    "name": "Cirqell / Dropdown / Primary Genre"
+  },
+  {
+    "type": "text",
+    "id": "455:3774",
+    "name": "Dropdown / Conversation Intent"
+  },
+  {
+    "type": "frame",
+    "id": "455:3775",
+    "name": "Cirqell / Dropdown / Conversation Intent"
+  },
+  {
+    "type": "text",
+    "id": "455:3781",
+    "name": "Dropdown / Interest"
+  },
+  {
+    "type": "frame",
+    "id": "455:3782",
+    "name": "Cirqell / Dropdown / Interest"
+  },
+  {
+    "type": "text",
+    "id": "455:3788",
+    "name": "Dropdown / Gender"
+  },
+  {
+    "type": "frame",
+    "id": "455:3789",
+    "name": "Cirqell / Dropdown / Gender"
+  },
+  {
+    "type": "text",
+    "id": "455:3797",
+    "name": "Dropdown / Current Mood"
+  },
+  {
+    "type": "frame",
+    "id": "455:3798",
+    "name": "Cirqell / Dropdown / Current Mood"
+  },
+  {
+    "type": "text",
+    "id": "455:3804",
+    "name": "Dropdown / About you"
+  },
+  {
+    "type": "frame",
+    "id": "455:3805",
+    "name": "Cirqell / Dropdown / About you"
+  },
+  {
+    "type": "text",
+    "id": "455:3811",
+    "name": "Dropdown / Purpose"
+  },
+  {
+    "type": "frame",
+    "id": "455:3812",
+    "name": "Cirqell / Dropdown / Purpose"
+  },
+  {
+    "type": "text",
+    "id": "455:3818",
+    "name": "Settings range"
+  },
+  {
+    "type": "frame",
+    "id": "455:3819",
+    "name": "Cirqell / Settings range"
+  },
+  {
+    "type": "text",
+    "id": "455:3835",
+    "name": "Wallet badge"
+  },
+  {
+    "type": "text",
+    "id": "455:3841",
+    "name": "Bottom navigation"
+  },
+  {
+    "type": "text",
+    "id": "455:3849",
+    "name": "Notification row"
+  },
+  {
+    "type": "frame",
+    "id": "455:3850",
+    "name": "Cirqell / Notification row"
+  },
+  {
+    "type": "text",
+    "id": "455:3856",
+    "name": "Voice player"
+  },
+  {
+    "type": "frame",
+    "id": "455:3857",
+    "name": "Cirqell / Voice player"
+  },
+  {
+    "type": "text",
+    "id": "455:3867",
+    "name": "Icon"
+  },
+  {
+    "type": "frame",
+    "id": "455:3868",
+    "name": "Cirqell / Icon"
+  },
+  {
+    "type": "text",
+    "id": "455:3879",
+    "name": "Foundations"
+  },
+  {
+    "type": "text",
+    "id": "455:3880",
+    "name": "Color, surface, type and spacing rules adapted for a white documentation surface."
+  },
+  {
+    "type": "text",
+    "id": "455:3884",
+    "name": "Deep navy"
+  },
+  {
+    "type": "text",
+    "id": "455:3885",
+    "name": "Screen base"
+  },
+  {
+    "type": "text",
+    "id": "455:3888",
+    "name": "Menu navy"
+  },
+  {
+    "type": "text",
+    "id": "455:3889",
+    "name": "Expanded lists"
+  },
+  {
+    "type": "text",
+    "id": "455:3892",
+    "name": "Action blue"
+  },
+  {
+    "type": "text",
+    "id": "455:3893",
+    "name": "Primary outline"
+  },
+  {
+    "type": "text",
+    "id": "455:3896",
+    "name": "Teal"
+  },
+  {
+    "type": "text",
+    "id": "455:3897",
+    "name": "Links / playback"
+  },
+  {
+    "type": "text",
+    "id": "455:3900",
+    "name": "White"
+  },
+  {
+    "type": "text",
+    "id": "455:3901",
+    "name": "Foreground"
+  },
+  {
+    "type": "text",
+    "id": "455:3904",
+    "name": "Muted gray"
+  },
+  {
+    "type": "text",
+    "id": "455:3905",
+    "name": "Secondary detail"
+  },
+  {
+    "type": "text",
+    "id": "455:3908",
+    "name": "Subdued"
+  },
+  {
+    "type": "text",
+    "id": "455:3909",
+    "name": "Source disclaimers"
+  },
+  {
+    "type": "text",
+    "id": "455:3912",
+    "name": "Destructive"
+  },
+  {
+    "type": "text",
+    "id": "455:3913",
+    "name": "Delete action"
+  },
+  {
+    "type": "text",
+    "id": "455:3916",
+    "name": "Atmosphere"
+  },
+  {
+    "type": "text",
+    "id": "455:3919",
+    "name": "Navy wave artwork: image fill 70% over solid black. Source image crop retained; preview shows an artwork detail. 70% applies to the artwork—not the black base."
+  },
+  {
+    "type": "text",
+    "id": "455:3921",
+    "name": "Frosted glass"
+  },
+  {
+    "type": "text",
+    "id": "455:3925",
+    "name": "Radial: #D9D9D9 / 40% → #737373 / 0%. White edge: 1 px / 10.2% opacity. Background blur: 42 px · Corner radius: 10 px."
+  },
+  {
+    "type": "text",
+    "id": "455:3927",
+    "name": "Action glass"
+  },
+  {
+    "type": "text",
+    "id": "455:3931",
+    "name": "Radial: #003694 / 69.8% → #00194F / 0%. Outline: #002F82 / 100% · 1 px. Background blur: 42 px · Corner radius: 10 px."
+  },
+  {
+    "type": "text",
+    "id": "455:3933",
+    "name": "Type hierarchy"
+  },
+  {
+    "type": "text",
+    "id": "455:3936",
+    "name": "Welcome"
+  },
+  {
+    "type": "text",
+    "id": "455:3937",
+    "name": "24 / Medium"
+  },
+  {
+    "type": "text",
+    "id": "455:3939",
+    "name": "Screen title"
+  },
+  {
+    "type": "text",
+    "id": "455:3940",
+    "name": "20 / Regular"
+  },
+  {
+    "type": "text",
+    "id": "455:3942",
+    "name": "Label / action"
+  },
+  {
+    "type": "text",
+    "id": "455:3943",
+    "name": "15 / Regular"
+  },
+  {
+    "type": "text",
+    "id": "455:3945",
+    "name": "Card emphasis"
+  },
+  {
+    "type": "text",
+    "id": "455:3946",
+    "name": "13 / SemiBold"
+  },
+  {
+    "type": "text",
+    "id": "455:3948",
+    "name": "Menu / small"
+  },
+  {
+    "type": "text",
+    "id": "455:3949",
+    "name": "11 / Medium"
+  },
+  {
+    "type": "text",
+    "id": "455:3952",
+    "name": "Spacing"
+  },
+  {
+    "type": "text",
+    "id": "455:3953",
+    "name": "4, 8, 13, 20, 28, 40. 390 px canvas, ~28 px side inset, 336 × 46 controls."
+  },
+  {
+    "type": "text",
+    "id": "455:3955",
+    "name": "Corners"
+  },
+  {
+    "type": "text",
+    "id": "455:3956",
+    "name": "10, 20, 100. Wallet badge 8.24 px, chips 10.32 px, preserve source exceptions."
+  },
+  {
+    "type": "frame",
+    "id": "443:300",
+    "name": "Frame 105"
+  },
+  {
+    "type": "text",
+    "id": "443:302",
+    "name": "Accessibility"
+  },
+  {
+    "type": "text",
+    "id": "443:303",
+    "name": "Accessibility considerations included sufficient colour contrast on dark surfaces, readable type scale, clear interaction states, and touch-friendly controls."
+  },
+  {
+    "type": "frame",
+    "id": "443:304",
+    "name": "Frame 106"
+  },
+  {
+    "type": "text",
+    "id": "443:306",
+    "name": "Business Impact"
+  },
+  {
+    "type": "text",
+    "id": "443:307",
+    "name": "Expected Outcomes • Sustainable per-minute revenue model for creators and the platform • Higher-quality, intentional interactions • Stronger creator control and privacy • Increased user trust through verification"
+  },
+  {
+    "type": "frame",
+    "id": "443:308",
+    "name": "Frame 107"
+  },
+  {
+    "type": "text",
+    "id": "443:310",
+    "name": "Reflection"
+  },
+  {
+    "type": "text",
+    "id": "443:311",
+    "name": "Cirqell taught me to design trust into a product, not just an interface. Balancing creator control, user safety and a monetization model pushed me to make decisions I could justify with research. Next, I would test [add next step, e.g. call-quality edge cases, creator onboarding] to validate the model at scale."
+  },
+  {
+    "type": "frame",
+    "id": "443:312",
+    "name": "Frame 86"
+  },
+  {
+    "type": "frame",
+    "id": "599:1062",
+    "name": "Frame 31"
+  },
+  {
+    "type": "frame",
+    "id": "599:1102",
+    "name": "Frame 26"
+  },
+  {
+    "type": "text",
+    "id": "599:1103",
+    "name": "Work"
+  },
+  {
+    "type": "text",
+    "id": "599:1104",
+    "name": "Resume"
+  },
+  {
+    "type": "text",
+    "id": "599:1105",
+    "name": "About"
+  },
+  {
+    "type": "text",
+    "id": "599:1106",
+    "name": "Contact"
+  },
+  {
+    "type": "frame",
+    "id": "599:1107",
+    "name": "Frame 185"
+  },
+  {
+    "type": "frame",
+    "id": "599:1111",
+    "name": "Frame 185"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "599:1114",
+    "name": "image 18"
+  },
+  {
+    "type": "frame",
+    "id": "599:1115",
+    "name": "Frame 184"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "599:1116",
+    "name": "image 19"
+  },
+  {
+    "type": "frame",
+    "id": "443:358",
+    "name": "Frame 87"
+  },
+  {
+    "type": "frame",
+    "id": "443:359",
+    "name": "Frame 98"
+  },
+  {
+    "type": "text",
+    "id": "443:360",
+    "name": "Cirqell Mobile Application"
+  },
+  {
+    "type": "text",
+    "id": "443:361",
+    "name": "A voice-first platform for intentional, paid conversations between creators and their audience."
+  },
+  {
+    "type": "text",
+    "id": "443:362",
+    "name": "Cirqell moves creator-audience interaction beyond passive comments and unread DMs. It lets creators set their own call rates and availability, and lets users discover nearby, verified creators and talk to them in real time through private, consent-based voice calls."
+  },
+  {
+    "type": "frame",
+    "id": "443:363",
+    "name": "Frame 97"
+  },
+  {
+    "type": "frame",
+    "id": "443:364",
+    "name": "Frame 95"
+  },
+  {
+    "type": "frame",
+    "id": "443:365",
+    "name": "Frame 88"
+  },
+  {
+    "type": "text",
+    "id": "443:366",
+    "name": "Product Strategy"
+  },
+  {
+    "type": "frame",
+    "id": "443:367",
+    "name": "Frame 89"
+  },
+  {
+    "type": "text",
+    "id": "443:368",
+    "name": "UX Research"
+  },
+  {
+    "type": "frame",
+    "id": "443:369",
+    "name": "Frame 90"
+  },
+  {
+    "type": "text",
+    "id": "443:370",
+    "name": "Information Architecture"
+  },
+  {
+    "type": "frame",
+    "id": "443:371",
+    "name": "Frame 91"
+  },
+  {
+    "type": "text",
+    "id": "443:372",
+    "name": "Interaction Design"
+  },
+  {
+    "type": "frame",
+    "id": "443:373",
+    "name": "Frame 96"
+  },
+  {
+    "type": "frame",
+    "id": "443:374",
+    "name": "Frame 92"
+  },
+  {
+    "type": "text",
+    "id": "443:375",
+    "name": "UI Design"
+  },
+  {
+    "type": "frame",
+    "id": "443:376",
+    "name": "Frame 93"
+  },
+  {
+    "type": "text",
+    "id": "443:377",
+    "name": "Prototyping"
+  },
+  {
+    "type": "frame",
+    "id": "443:378",
+    "name": "Frame 94"
+  },
+  {
+    "type": "text",
+    "id": "443:379",
+    "name": "Design System"
+  },
+  {
+    "type": "text",
+    "id": "443:380",
+    "name": "Product Designer | 4 Months | Mobile App (iOS &amp; Android) | Solo Project"
+  }
+]

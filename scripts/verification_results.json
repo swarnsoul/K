@@ -1,0 +1,364 @@
+{
+  "hotspot": {
+    "dx": 0,
+    "dy": 0,
+    "status": "pass"
+  },
+  "touchEmulation": true,
+  "edgeRight": null,
+  "edgeBottom": null,
+  "textInput": true,
+  "labelsChecked": [
+    {
+      "key": "nav-logo",
+      "selector": "[data-cursor-key=\"nav-logo\"]",
+      "description": "Nav Logo",
+      "label": "Take me home",
+      "opacity": "0.968"
+    },
+    {
+      "key": "nav-work",
+      "selector": "[data-cursor-key=\"nav-work\"]",
+      "description": "Nav Work",
+      "label": "See my best work",
+      "opacity": "1"
+    },
+    {
+      "key": "nav-resume",
+      "selector": "[data-cursor-key=\"nav-resume\"]",
+      "description": "Nav Resume",
+      "label": "My story in one page",
+      "opacity": "1"
+    },
+    {
+      "key": "nav-about",
+      "selector": "[data-cursor-key=\"nav-about\"]",
+      "description": "Nav About",
+      "label": "Meet the human",
+      "opacity": "1"
+    },
+    {
+      "key": "nav-contact",
+      "selector": "[data-cursor-key=\"nav-contact\"]",
+      "description": "Nav Contact",
+      "label": "Say hello",
+      "opacity": "1"
+    },
+    {
+      "key": "hero-badge-uiux",
+      "selector": "[data-cursor-key=\"hero-badge-uiux\"]",
+      "description": "Hero UI/UX Badge",
+      "label": "Yes, that's me",
+      "opacity": "1"
+    },
+    {
+      "key": "hero-badge-product",
+      "selector": "[data-cursor-key=\"hero-badge-product\"]",
+      "description": "Hero Product Badge",
+      "label": "Form meets function",
+      "opacity": "1"
+    },
+    {
+      "key": "hero-badge-status",
+      "selector": "[data-cursor-key=\"hero-badge-status\"]",
+      "description": "Hero Status Pill",
+      "label": "Ready for new ideas",
+      "opacity": "1"
+    },
+    {
+      "key": "hero-stamp",
+      "selector": "[data-cursor-key=\"hero-stamp\"]",
+      "description": "Hero Stamp",
+      "label": "Creating from Jaipur",
+      "opacity": "1"
+    },
+    {
+      "key": "hero-pen",
+      "selector": "[data-cursor-key=\"hero-pen\"]",
+      "description": "Hero Pen Tool",
+      "label": "Pixels and prototypes",
+      "opacity": "1"
+    },
+    {
+      "key": "hero-portrait",
+      "selector": "[data-cursor-key=\"hero-portrait\"]",
+      "description": "Hero Portrait Initial",
+      "label": "Plot twist: it's me",
+      "opacity": "1"
+    },
+    {
+      "key": "hero-portrait",
+      "selector": "[data-cursor-key=\"hero-portrait\"]",
+      "description": "Hero Portrait Flipped",
+      "label": "Plot twist: it's me",
+      "opacity": "1"
+    },
+    {
+      "key": "projects-heading",
+      "selector": "[data-cursor-key=\"projects-heading\"]",
+      "description": "Projects Heading",
+      "label": "Curated work",
+      "opacity": "1"
+    },
+    {
+      "key": "project-cirqell",
+      "selector": "[data-cursor-key=\"project-cirqell\"]",
+      "description": "Project Cirqell",
+      "label": "Peek inside Cirqell",
+      "opacity": "1"
+    },
+    {
+      "key": "project-influcrush",
+      "selector": "[data-cursor-key=\"project-influcrush\"]",
+      "description": "Project InfluCrush",
+      "label": "Peek inside InfluCrush",
+      "opacity": "1"
+    },
+    {
+      "key": "project-ecommerce",
+      "selector": "[data-cursor-key=\"project-ecommerce\"]",
+      "description": "Project Ecommerce",
+      "label": "Open the case study",
+      "opacity": "1"
+    },
+    {
+      "key": "process-card-1",
+      "selector": "[data-cursor-key=\"process-card-1\"]",
+      "description": "Process Step 1",
+      "label": "Deep dive research",
+      "opacity": "1"
+    },
+    {
+      "key": "process-card-2",
+      "selector": "[data-cursor-key=\"process-card-2\"]",
+      "description": "Process Step 2",
+      "label": "Connecting the dots",
+      "opacity": "1"
+    },
+    {
+      "key": "tool-heading",
+      "selector": "[data-cursor-key=\"tool-heading\"]",
+      "description": "Tools Heading",
+      "label": "Connecting the dots",
+      "opacity": "0.049"
+    },
+    {
+      "key": "social-linkedin",
+      "selector": "[data-cursor-key=\"social-linkedin\"]",
+      "description": "Social LinkedIn",
+      "label": "Say hi on LinkedIn",
+      "opacity": "0.998"
+    },
+    {
+      "key": "social-behance",
+      "selector": "[data-cursor-key=\"social-behance\"]",
+      "description": "Social Behance",
+      "label": "Explore my Behance",
+      "opacity": "1"
+    },
+    {
+      "key": "social-instagram",
+      "selector": "[data-cursor-key=\"social-instagram\"]",
+      "description": "Social Instagram",
+      "label": "Catch creative reels",
+      "opacity": "1"
+    },
+    {
+      "key": "contact-resume-btn",
+      "selector": "[data-cursor-key=\"contact-resume-btn\"]",
+      "description": "Contact Resume Button",
+      "label": "Download my resume",
+      "opacity": "1"
+    },
+    {
+      "key": "contact-send-btn",
+      "selector": "[data-cursor-key=\"contact-send-btn\"]",
+      "description": "Contact Send Button",
+      "label": "Send message",
+      "opacity": "1"
+    },
+    {
+      "key": "nav-logo",
+      "selector": "[data-cursor-key=\"nav-logo\"]",
+      "description": "About Page Nav Logo",
+      "label": "Take me home",
+      "opacity": "0.998"
+    },
+    {
+      "key": "nav-work",
+      "selector": "[data-cursor-key=\"nav-work\"]",
+      "description": "About Page Nav Work",
+      "label": "See my best work",
+      "opacity": "1"
+    },
+    {
+      "key": "about-portrait",
+      "selector": "[data-cursor-key=\"about-portrait\"]",
+      "description": "About Portrait",
+      "label": "Still me, just candid",
+      "opacity": "1"
+    },
+    {
+      "key": "about-intro-note",
+      "selector": "[data-cursor-key=\"about-intro-note\"]",
+      "description": "About Intro Note",
+      "label": "Where it all began",
+      "opacity": "1"
+    },
+    {
+      "key": "about-card-1",
+      "selector": "[data-cursor-key=\"about-card-1\"]",
+      "description": "About Card 1",
+      "label": "A dream with a plan",
+      "opacity": "1"
+    },
+    {
+      "key": "about-card-2",
+      "selector": "[data-cursor-key=\"about-card-2\"]",
+      "description": "About Card 2",
+      "label": "Late nights and math",
+      "opacity": "1"
+    },
+    {
+      "key": "about-card-3",
+      "selector": "[data-cursor-key=\"about-card-3\"]",
+      "description": "About Card 3",
+      "label": "Taking the tech path",
+      "opacity": "1"
+    },
+    {
+      "key": "about-card-4",
+      "selector": "[data-cursor-key=\"about-card-4\"]",
+      "description": "About Card 4",
+      "label": "Curiosity took over",
+      "opacity": "1"
+    },
+    {
+      "key": "about-card-5",
+      "selector": "[data-cursor-key=\"about-card-5\"]",
+      "description": "About Card 5",
+      "label": "Canvas before screens",
+      "opacity": "1"
+    },
+    {
+      "key": "about-card-6",
+      "selector": "[data-cursor-key=\"about-card-6\"]",
+      "description": "About Card 6",
+      "label": "First client gig",
+      "opacity": "1"
+    },
+    {
+      "key": "about-card-7",
+      "selector": "[data-cursor-key=\"about-card-7\"]",
+      "description": "About Card 7",
+      "label": "Found my true calling",
+      "opacity": "1"
+    },
+    {
+      "key": "about-card-8",
+      "selector": "[data-cursor-key=\"about-card-8\"]",
+      "description": "About Card 8",
+      "label": "Learning by doing",
+      "opacity": "1"
+    },
+    {
+      "key": "about-card-9",
+      "selector": "[data-cursor-key=\"about-card-9\"]",
+      "description": "About Card 9",
+      "label": "Designing for people",
+      "opacity": "1"
+    },
+    {
+      "key": "about-travel",
+      "selector": "[data-cursor-key=\"about-travel\"]",
+      "description": "About Travel Section",
+      "label": "Wanderlust, on camera",
+      "opacity": "1"
+    },
+    {
+      "key": "about-art",
+      "selector": "[data-cursor-key=\"about-art\"]",
+      "description": "About Art Section",
+      "label": "Oil and acrylic canvas",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-closing-quote",
+      "selector": "[data-cursor-key=\"desk-closing-quote\"]",
+      "description": "Desk Closing Quote",
+      "label": "Thanks for visiting",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-pinboard",
+      "selector": "[data-cursor-key=\"desk-pinboard\"]",
+      "description": "Desk Pinboard",
+      "label": "Memories I pinned",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-books",
+      "selector": "[data-cursor-key=\"desk-books\"]",
+      "description": "Desk Books & Plant",
+      "label": "Mindful reads",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-clock",
+      "selector": "[data-cursor-key=\"desk-clock\"]",
+      "description": "Desk Clock",
+      "label": "Never enough hours",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-laptop",
+      "selector": "[data-cursor-key=\"desk-laptop\"]",
+      "description": "Desk Laptop",
+      "label": "Always building things",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-candle",
+      "selector": "[data-cursor-key=\"desk-candle\"]",
+      "description": "Desk Candle",
+      "label": "Smells like deadlines",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-mug",
+      "selector": "[data-cursor-key=\"desk-mug\"]",
+      "description": "Desk Mug",
+      "label": "Powered by chai",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-plant",
+      "selector": "[data-cursor-key=\"desk-plant\"]",
+      "description": "Desk Plant Right",
+      "label": "Greenery for focus",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-diary",
+      "selector": "[data-cursor-key=\"desk-diary\"]",
+      "description": "Desk Diary",
+      "label": "Peek at my to-do list",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-lamp",
+      "selector": "[data-cursor-key=\"desk-lamp\"]",
+      "description": "Desk Lamp (Initial ON)",
+      "label": "Lights off?",
+      "opacity": "1"
+    },
+    {
+      "key": "desk-lamp",
+      "selector": "[data-cursor-key=\"desk-lamp\"]",
+      "description": "Desk Lamp (Toggled OFF)",
+      "label": "Let there be light",
+      "opacity": "1"
+    }
+  ],
+  "unlabelledInteractive": []
+}

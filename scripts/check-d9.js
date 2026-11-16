@@ -1,0 +1,11 @@
+const fs = require('fs');
+const txt = fs.readFileSync('C:/Users/acer/.gemini/antigravity/brain/4e5d3daf-196b-4036-a731-fc1f17b54f98/.system_generated/steps/4911/output.txt', 'utf8');
+const p1 = txt.indexOf('id="140:671"');
+const p2 = txt.indexOf('id="546:943"');
+const d9 = txt.slice(p1, p2);
+console.log('Desktop 9 length:', d9.length);
+console.log('Contains 563:923?', d9.includes('563:923'));
+console.log('Contains Frame 182?', d9.includes('Frame 182'));
+console.log('Frames in D9:');
+const matches = d9.match(/<frame[^>]+>/g) || [];
+matches.forEach(m => console.log('  ', m));

@@ -1,0 +1,216 @@
+{
+  "desktopSides": [
+    {
+      "name": "Card 1",
+      "id": "233:696",
+      "found": true,
+      "side": "right",
+      "unfoldSide": "right",
+      "centerX": "970.2",
+      "expectedSide": "right"
+    },
+    {
+      "name": "Card 2",
+      "id": "233:716",
+      "found": true,
+      "side": "left",
+      "unfoldSide": "left",
+      "centerX": "464.4",
+      "expectedSide": "left"
+    },
+    {
+      "name": "Card 3",
+      "id": "233:731",
+      "found": true,
+      "side": "right",
+      "unfoldSide": "right",
+      "centerX": "1051.7",
+      "expectedSide": "right"
+    },
+    {
+      "name": "Card 4",
+      "id": "233:745",
+      "found": true,
+      "side": "left",
+      "unfoldSide": "left",
+      "centerX": "438.4",
+      "expectedSide": "left"
+    },
+    {
+      "name": "Card 5",
+      "id": "233:705",
+      "found": true,
+      "side": "right",
+      "unfoldSide": "right",
+      "centerX": "1040.3",
+      "expectedSide": "right"
+    },
+    {
+      "name": "Card 6",
+      "id": "239:764",
+      "found": true,
+      "side": "left",
+      "unfoldSide": "left",
+      "centerX": "438.2",
+      "expectedSide": "left"
+    },
+    {
+      "name": "Card 7",
+      "id": "239:776",
+      "found": true,
+      "side": "right",
+      "unfoldSide": "right",
+      "centerX": "1032.5",
+      "expectedSide": "right"
+    },
+    {
+      "name": "Card 8",
+      "id": "239:788",
+      "found": true,
+      "side": "left",
+      "unfoldSide": "left",
+      "centerX": "439.7",
+      "expectedSide": "left"
+    },
+    {
+      "name": "Card 9",
+      "id": "243:807",
+      "found": true,
+      "side": "right",
+      "unfoldSide": "right",
+      "centerX": "986.5",
+      "expectedSide": "right"
+    }
+  ],
+  "lenisCheck": {
+    "hasLenis": true,
+    "photo1Drift": 0,
+    "introArrowDrift": 0
+  },
+  "reducedMotion": {
+    "hasLenis": false,
+    "allDone": true,
+    "totalCards": 18,
+    "states": [
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done",
+      "done"
+    ]
+  },
+  "overflow": [
+    {
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "hasHorizontalScroll": false
+    },
+    {
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "innerWidth": 1280,
+      "hasHorizontalScroll": false
+    },
+    {
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "innerWidth": 1024,
+      "hasHorizontalScroll": false
+    },
+    {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "hasHorizontalScroll": false
+    },
+    {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "hasHorizontalScroll": false
+    }
+  ],
+  "textCheck": {
+    "hasMirroredText": false,
+    "report": []
+  },
+  "cardMetrics": [
+    {
+      "name": "Card 1",
+      "id": "233:696",
+      "side": "right",
+      "meanDiffPct": "NaN%",
+      "ssim": "NaN"
+    },
+    {
+      "name": "Card 2",
+      "id": "233:716",
+      "side": "left",
+      "meanDiffPct": "NaN%",
+      "ssim": "NaN"
+    },
+    {
+      "name": "Card 3",
+      "id": "233:731",
+      "side": "right",
+      "meanDiffPct": "NaN%",
+      "ssim": "NaN"
+    },
+    {
+      "name": "Card 4",
+      "id": "233:745",
+      "side": "left",
+      "meanDiffPct": "NaN%",
+      "ssim": "NaN"
+    },
+    {
+      "name": "Card 5",
+      "id": "233:705",
+      "side": "right",
+      "meanDiffPct": "NaN%",
+      "ssim": "NaN"
+    },
+    {
+      "name": "Card 6",
+      "id": "239:764",
+      "side": "left",
+      "meanDiffPct": "NaN%",
+      "ssim": "NaN"
+    },
+    {
+      "name": "Card 7",
+      "id": "239:776",
+      "side": "right",
+      "meanDiffPct": "NaN%",
+      "ssim": "NaN"
+    },
+    {
+      "name": "Card 8",
+      "id": "239:788",
+      "side": "left",
+      "meanDiffPct": "NaN%",
+      "ssim": "NaN"
+    },
+    {
+      "name": "Card 9",
+      "id": "243:807",
+      "side": "right",
+      "meanDiffPct": "NaN%",
+      "ssim": "NaN"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "pinboard_imgGoodThingsTakeTime11": {
+    "url": "http://localhost:3845/assets/b3735dd7e9c5d878454892b07fa574c8c98089c7.png",
+    "nodeId": "563:927",
+    "name": "pinboard"
+  },
+  "plant_right_imgImage66": {
+    "url": "http://localhost:3845/assets/b08634a914a93c6fd8fad689dadb928274a8fb35.png",
+    "nodeId": "563:929",
+    "name": "plant_right"
+  },
+  "candle_imgImage63": {
+    "url": "http://localhost:3845/assets/ebe4b3869d7ae24da94a43ec2094a4d54849de2b.png",
+    "nodeId": "563:930",
+    "name": "candle"
+  },
+  "mug_imgImage64": {
+    "url": "http://localhost:3845/assets/28d3c9ee253835a2dcde83f1986d30bb9378cc9c.png",
+    "nodeId": "563:931",
+    "name": "mug"
+  },
+  "clock_imgImage69": {
+    "url": "http://localhost:3845/assets/c1dc1593339c9a3092a7878790ed83fcb84811f8.png",
+    "nodeId": "563:932",
+    "name": "clock"
+  },
+  "plant_left_imgImage70": {
+    "url": "http://localhost:3845/assets/36d9c942132b2348d48982fd1922eacd97d479f1.png",
+    "nodeId": "563:933",
+    "name": "plant_left"
+  },
+  "lamp_glow_imgImage65": {
+    "url": "http://localhost:3845/assets/b08634a914a93c6fd8fad689dadb928274a8fb35.png",
+    "nodeId": "563:926",
+    "name": "lamp_glow"
+  },
+  "desk_base_imgImage62": {
+    "url": "http://localhost:3845/assets/881c55c677c0592d8751df65cb4a30640e56a4e4.png",
+    "nodeId": "563:925",
+    "name": "desk_base"
+  },
+  "lamp_on_imgProperty1Image67": {
+    "url": "http://localhost:3845/assets/f2e4eb5e9539a18fb3ec4c344f4b22641fa7c47e.png",
+    "nodeId": "546:942",
+    "name": "lamp_on"
+  },
+  "lamp_off_imgProperty1Image67": {
+    "url": "http://localhost:3845/assets/f2e4eb5e9539a18fb3ec4c344f4b22641fa7c47e.png",
+    "nodeId": "546:941",
+    "name": "lamp_off"
+  },
+  "lamp_off_imgProperty1Image72": {
+    "url": "http://localhost:3845/assets/55f0b85fa94c84740762e3956c7a47989728d8fc.png",
+    "nodeId": "546:941",
+    "name": "lamp_off"
+  },
+  "diary_v1_imgImage68": {
+    "url": "http://localhost:3845/assets/d08e51bd2e47013b62c3389f7c7bec5cdaad0b18.png",
+    "nodeId": "546:927",
+    "name": "diary_v1"
+  },
+  "diary_v2_imgImage68": {
+    "url": "http://localhost:3845/assets/d08e51bd2e47013b62c3389f7c7bec5cdaad0b18.png",
+    "nodeId": "546:926",
+    "name": "diary_v2"
+  },
+  "lamp_instance_imgComponent29": {
+    "url": "http://localhost:3845/assets/f2e4eb5e9539a18fb3ec4c344f4b22641fa7c47e.png",
+    "nodeId": "563:928",
+    "name": "lamp_instance"
+  },
+  "diary_instance_imgImage68": {
+    "url": "http://localhost:3845/assets/d08e51bd2e47013b62c3389f7c7bec5cdaad0b18.png",
+    "nodeId": "563:934",
+    "name": "diary_instance"
+  },
+  "heart_1_imgHeart": {
+    "url": "http://localhost:3845/assets/be1e5df2538c39da36c8aab04b8e50077fff56d8.svg",
+    "nodeId": "563:902",
+    "name": "heart_1"
+  },
+  "heart_2_imgHeart": {
+    "url": "http://localhost:3845/assets/be1e5df2538c39da36c8aab04b8e50077fff56d8.svg",
+    "nodeId": "563:909",
+    "name": "heart_2"
+  },
+  "heart_3_imgHeart": {
+    "url": "http://localhost:3845/assets/3f719085d901e9d6914311cdfebbbc1009d88c4a.svg",
+    "nodeId": "563:916",
+    "name": "heart_3"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "figma": {
+    "arrowWidth": 49.86,
+    "arrowHeight": 50.85,
+    "labelHeight": 53,
+    "labelPadding": "0 13px (horizontal) / 9px (vertical)",
+    "offsetVector": {
+      "dx": 39.04,
+      "dy": 36.99
+    },
+    "gap": "Clear diagonal gap of ~14px (no touching, no overlap)"
+  },
+  "live": {
+    "dxDesign": -43.3599853515625,
+    "dyDesign": -19.160003662109375,
+    "diffDxDesign": 82.39998535156249,
+    "diffDyDesign": 56.15000366210938,
+    "dxPlot": 42.9000244140625,
+    "dyPlot": 40.70001220703125,
+    "diffDxPlot": 3.860024414062501,
+    "diffDyPlot": 3.710012207031248,
+    "minClearanceGapPx": 9999,
+    "overlap": false,
+    "similarityScore": 0.995
+  }
+}

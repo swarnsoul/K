@@ -1,0 +1,35 @@
+   <frame id="443:167" name="Frame 99" x="0" y="2160" width="1440" height="617">
+      <frame id="752:982" name="Frame 201" x="207" y="-34" width="1026.4100341796875" height="535.08349609375">
+        <rounded-rectangle id="466:5312" name="Influcrush (10) 1" x="0" y="0" width="288.8033447265625" height="535.08349609375" />
+        <rounded-rectangle id="752:980" name="Influcrush (10) 2" x="368.8033447265625" y="0" width="288.8033447265625" height="535.08349609375" />
+        <rounded-rectangle id="752:981" name="Influcrush (10) 3" x="737.606689453125" y="0" width="288.8033447265625" height="535.08349609375" />
+      </frame>
+      <frame id="752:983" name="Group 36" x="339.9993591308594" y="477.526123046875" width="330.49660758060054" height="343.73652742818376">
+        <frame id="752:984" name="Container" x="384.661507928801" y="453.77200296002246" width="241.17303976901167" height="270.9100703981903">
+          <frame id="752:985" name="Paragraph" x="12.15368938446045" y="30.023656845092773" width="201.89705470506124" height="206.5791284219331">
+            <text id="752:986" name="Users need a reliable way to establish identity and build trust before interacting with other people." x="0" y="-19.14493179321289" width="174.84559703769264" height="107.58214622639753" />
+            <text id="752:987" name="Integrated Facebook account verification to simplify onboarding and add an additional layer of profile authenticity. Key benefits: Simplified onboarding Greater profile credibility" x="0" y="55.7713508605957" width="192.24263984860954" height="171.2480217804823" />
+          </frame>
+        </frame>
+        <frame id="752:988" name="Container" x="450.018199483583" y="419.39672931009534" width="59.879807948738744" height="38.0152055219387" />
+      </frame>
+      <frame id="752:1001" name="Group 37" x="699.9986572265625" y="477.5263671875" width="330.49660758060054" height="343.73652742818376">
+        <frame id="752:1002" name="Container" x="744.6602825490662" y="453.7721727258565" width="241.17303976901167" height="270.9100703981903">
+          <frame id="752:1003" name="Paragraph" x="12.15368938446045" y="30.023656845092773" width="201.89705470506124" height="206.5791284219331">
+            <text id="752:1004" name="Users struggle to discover relevant people around them, especially those they could connect with in real life." x="0" y="-19.14493179321289" width="174.84559703769264" height="107.58214622639753" />
+            <text id="752:1005" name="Introduced an interactive, location-based discovery map to help users explore and find people nearby. Key benefits: Nearby people discovery Location-based connections" x="0" y="55.7713508605957" width="192.24263984860954" height="171.2480217804823" />
+          </frame>
+        </frame>
+        <frame id="752:1006" name="Container" x="810.0172100355776" y="419.3967740129627" width="59.879807948738744" height="38.0152055219387" />
+      </frame>
+      <frame id="752:1007" name="Group 38" x="1068.0008544921875" y="477.5256042480469" width="355.79109260126825" height="360.84644870231114">
+        <frame id="752:1008" name="Container" x="1112.6626368617547" y="453.7714451049792" width="266.46753797975725" height="277.82192803657654">
+          <frame id="752:1009" name="Paragraph" x="8.693205833435059" y="9.916206359863281" width="244.46834743313775" height="254.10798710581366">
+            <text id="752:1010" name="Basic profiles often lack the context needed to understand someone&#39;s personality, interests, and reasons for connecting." x="0" y="0.9624824523925781" width="192.70305132900103" height="112.46179162663975" />
+            <text id="752:1011" name="Designed customizable profiles with genre, conversation intent, current mood, and interests to make discovering compatible people easier. Key benefits: Context-rich profiles More relevant connections" x="0" y="75.87876892089844" width="221.48266617200352" height="179.2380161897836" />
+          </frame>
+        </frame>
+        <frame id="752:1012" name="Container" x="1178.0214644806083" y="419.3955896382724" width="59.879807948738744" height="38.0152055219387" />
+      </frame>
+    </frame>
+    <frame 

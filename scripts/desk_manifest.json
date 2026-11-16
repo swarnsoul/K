@@ -1,0 +1,238 @@
+[
+  {
+    "id": "563:925",
+    "name": "desk_base",
+    "description": "Wooden desk, drawers, and laptop with sunset wallpaper",
+    "x": 0,
+    "y": 0,
+    "width": 1439,
+    "height": 959,
+    "zIndex": 1,
+    "asset": "/assets/desk/desk_base.png",
+    "shadow": "0px 4px 4px 0px rgba(0,0,0,0.25)",
+    "radius": 0,
+    "percent": {
+      "left": "0.0000%",
+      "top": "0.0000%",
+      "width": "99.9306%",
+      "height": "110.4839%"
+    }
+  },
+  {
+    "id": "563:926",
+    "name": "lamp_glow",
+    "description": "Warm glow behind the lamp and on wall",
+    "x": 1010,
+    "y": 215,
+    "width": 371,
+    "height": 363,
+    "zIndex": 2,
+    "asset": "/assets/desk/lamp_glow.png",
+    "shadow": "0px 4px 4px 0px rgba(0,0,0,0.25)",
+    "radius": 0,
+    "percent": {
+      "left": "70.1389%",
+      "top": "24.7696%",
+      "width": "25.7639%",
+      "height": "41.8203%"
+    }
+  },
+  {
+    "id": "563:927",
+    "name": "pinboard",
+    "description": "Framed pinboard of polaroids and \"Good things take time\" note",
+    "x": 206,
+    "y": 191.64,
+    "width": 258.13,
+    "height": 317.14,
+    "zIndex": 3,
+    "asset": "/assets/desk/pinboard.png",
+    "crop": {
+      "width": "105.89%",
+      "height": "104.17%",
+      "left": "-2.94%",
+      "top": "-2.08%"
+    },
+    "shadow": null,
+    "radius": 0,
+    "percent": {
+      "left": "14.3056%",
+      "top": "22.0783%",
+      "width": "17.9257%",
+      "height": "36.5369%"
+    }
+  },
+  {
+    "id": "563:928",
+    "name": "lamp_instance",
+    "description": "Desk lamp with ON/OFF variants and clickable toggle",
+    "x": 975,
+    "y": 146,
+    "width": 418,
+    "height": 384,
+    "zIndex": 4,
+    "variants": {
+      "on": {
+        "asset": "/assets/desk/lamp_on.png",
+        "bulbGlow": {
+          "left": "29.9%",
+          "top": "calc(50% - 22.5px)",
+          "width": "10.77%",
+          "height": "11.72%",
+          "blur": "15px"
+        }
+      },
+      "off": {
+        "asset": "/assets/desk/lamp_off.png",
+        "bulbGlow": null
+      }
+    },
+    "filter": "drop-shadow(0px 4px 2px rgba(0,0,0,0.25))",
+    "radius": 0,
+    "percent": {
+      "left": "67.7083%",
+      "top": "16.8203%",
+      "width": "29.0278%",
+      "height": "44.2396%"
+    }
+  },
+  {
+    "id": "563:929",
+    "name": "plant_right",
+    "description": "Plant trailing over desk edge on the right",
+    "x": 1246,
+    "y": 248,
+    "width": 135,
+    "height": 330,
+    "zIndex": 5,
+    "asset": "/assets/desk/plant_right.png",
+    "crop": {
+      "width": "274.96%",
+      "height": "110%",
+      "left": "-174.89%",
+      "top": "-10%"
+    },
+    "shadow": "0px 4px 4px 0px rgba(0,0,0,0.25)",
+    "radius": 7,
+    "percent": {
+      "left": "86.5278%",
+      "top": "28.5714%",
+      "width": "9.3750%",
+      "height": "38.0184%"
+    }
+  },
+  {
+    "id": "563:930",
+    "name": "candle",
+    "description": "Lit glass jar candle on wooden coaster",
+    "x": 901,
+    "y": 364,
+    "width": 147,
+    "height": 127,
+    "zIndex": 6,
+    "asset": "/assets/desk/candle.png",
+    "shadow": "0px 4px 4px 0px rgba(0,0,0,0.25)",
+    "radius": 0,
+    "percent": {
+      "left": "62.5694%",
+      "top": "41.9355%",
+      "width": "10.2083%",
+      "height": "14.6313%"
+    }
+  },
+  {
+    "id": "563:931",
+    "name": "mug",
+    "description": "Floral coffee mug on coaster",
+    "x": 1008,
+    "y": 480,
+    "width": 170,
+    "height": 147,
+    "zIndex": 7,
+    "asset": "/assets/desk/mug.png",
+    "shadow": "0px 4px 4px 0px rgba(0,0,0,0.25)",
+    "radius": 0,
+    "percent": {
+      "left": "70.0000%",
+      "top": "55.2995%",
+      "width": "11.8056%",
+      "height": "16.9355%"
+    }
+  },
+  {
+    "id": "563:932",
+    "name": "clock",
+    "description": "Golden vintage twin-bell alarm clock",
+    "x": 364,
+    "y": 378,
+    "width": 142,
+    "height": 130,
+    "zIndex": 8,
+    "asset": "/assets/desk/clock.png",
+    "shadow": "0px 4px 4px 0px rgba(0,0,0,0.25)",
+    "radius": 0,
+    "percent": {
+      "left": "25.2778%",
+      "top": "43.5484%",
+      "width": "9.8611%",
+      "height": "14.9770%"
+    }
+  },
+  {
+    "id": "563:933",
+    "name": "plant_left",
+    "description": "Left plant pot, pen holder, books stack, and cute bunny",
+    "x": 12,
+    "y": 282,
+    "width": 332,
+    "height": 275,
+    "zIndex": 9,
+    "asset": "/assets/desk/plant_left.png",
+    "shadow": "10px 4px 4px 0px rgba(0,0,0,0.25)",
+    "radius": 0,
+    "percent": {
+      "left": "0.8333%",
+      "top": "32.4885%",
+      "width": "23.0556%",
+      "height": "31.6820%"
+    }
+  },
+  {
+    "id": "563:934",
+    "name": "diary_instance",
+    "description": "Spiral notebook (\"Today\" checklist) with pink pen",
+    "x": 197,
+    "y": 480,
+    "width": 284.76,
+    "height": 189.84,
+    "zIndex": 10,
+    "variants": {
+      "default": {
+        "asset": "/assets/desk/diary_v1.png",
+        "innerBox": {
+          "width": 252.851,
+          "height": 168.567
+        },
+        "rotate": -4.97,
+        "shadow": null
+      },
+      "hover": {
+        "asset": "/assets/desk/diary_v1.png",
+        "innerBox": {
+          "width": 268.241,
+          "height": 178.827
+        },
+        "rotate": -4.97,
+        "shadow": "0px 4.243px 21.217px 0px #ffd54f"
+      }
+    },
+    "filter": "drop-shadow(0px 4px 2px rgba(0,0,0,0.25))",
+    "radius": 0,
+    "percent": {
+      "left": "13.6806%",
+      "top": "55.2995%",
+      "width": "19.7750%",
+      "height": "21.8710%"
+    }
+  }
+]

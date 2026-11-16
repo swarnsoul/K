@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'Almarena Neue';
+  src: url('/fonts/almarena-neue.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Almarena Neue Display';
+  src: url('/fonts/almarena-neue.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-brand-purple: #8364fc;
+  --color-brand-purple-light: #dad1ff;
+  --color-brand-pink: #ee3f64;
+  --color-brand-green: #1fad4e;
+  --color-brand-green-light: #c2f2d2;
+  --color-brand-green-dark: #225432;
+  --color-text-primary: #000000;
+  --color-text-secondary: #656565;
+  --color-text-muted: #909090;
+  --color-text-body: #4a3f7a;
+  --color-border-light: #e3e3e3;
+  --page-width: 1440px;
+  --greeting-font-size: clamp(40px, 8.5vw, 64px);
+  --splash-line-pitch: calc(var(--greeting-font-size) * 1.4375);
+  --splash-window-height: calc(var(--splash-line-pitch) * 1.5);
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --greeting-font-size: clamp(91px, 8.8889vw, 205px);
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+/* Caret Blinking Animation */
+@keyframes caretBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-caret {
+  animation: caretBlink 0.8s infinite;
+}
+
+.tw-char-caret::after {
+  content: "";
+  display: inline-block;
+  width: 2.5px;
+  height: 0.85em;
+  vertical-align: -0.05em;
+  margin-left: 2px;
+  background-color: currentColor;
+  animation: caretBlink 0.8s infinite;
+}
+
+.collaborator-unit {
+  will-change: transform;
+}
+
+/* ─── Navigation Swaying & Grabbable Hanging Icons (LinkedIn & Behance) ─── */
+.nav-hanging-arm {
+  transform-origin: 50% 0px;
+  will-change: transform;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.nav-hanging-icon {
+  transform-origin: 50% 0px;
+  will-change: transform;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ─── Wavy Hand-Drawn Underline on Hover (Written Links) ─── */
+.link-squiggle,
+a:not(.no-squiggle):not(:has(img, svg, picture, canvas, div)):not([role="button"]):not([class*="btn"]):not([class*="button"]):not([class*="rounded-[2"]):not([class*="nav-hanging-icon"]) {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.link-squiggle::after,
+a:not(.no-squiggle):not(:has(img, svg, picture, canvas, div)):not([role="button"]):not([class*="btn"]):not([class*="button"]):not([class*="rounded-[2"]):not([class*="nav-hanging-icon"])::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.15em;
+  width: 100%;
+  height: 0.3em;
+  pointer-events: none;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 6' width='24' height='6' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 3 C 3.5 1.1, 8.5 1.2, 12 3 C 15.5 4.8, 20.5 4.9, 24 3'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 6' width='24' height='6' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 3 C 3.5 1.1, 8.5 1.2, 12 3 C 15.5 4.8, 20.5 4.9, 24 3'/%3E%3C/svg%3E");
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-size: 1.2em 0.3em;
+  mask-size: 1.2em 0.3em;
+  -webkit-mask-position: 0 50%;
+  mask-position: 0 50%;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.35s ease-in-out;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .link-squiggle:hover::after,
+  a:not(.no-squiggle):not(:has(img, svg, picture, canvas, div)):not([role="button"]):not([class*="btn"]):not([class*="button"]):not([class*="rounded-[2"]):not([class*="nav-hanging-icon"]):hover::after {
+    clip-path: inset(0 0 0 0);
+    transition: clip-path 0.4s ease-out;
+  }
+}
+
+.link-squiggle:focus-visible::after,
+a:not(.no-squiggle):not(:has(img, svg, picture, canvas, div)):not([role="button"]):not([class*="btn"]):not([class*="button"]):not([class*="rounded-[2"]):not([class*="nav-hanging-icon"]):focus-visible::after {
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 0.4s ease-out;
+}
+
+.no-squiggle::after {
+  display: none !important;
+  content: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .collaborator-unit {
+    animation: none !important;
+    transform: none !important;
+  }
+  .animate-caret {
+    animation: none !important;
+    display: none !important;
+  }
+  .link-squiggle::after,
+  .link-squiggle:hover::after,
+  .link-squiggle:focus-visible::after,
+  a:not(.no-squiggle):not(:has(img, svg, picture, canvas, div)):not([role="button"]):not([class*="btn"]):not([class*="button"]):not([class*="rounded-[2"]):not([class*="nav-hanging-icon"])::after,
+  a:not(.no-squiggle):not(:has(img, svg, picture, canvas, div)):not([role="button"]):not([class*="btn"]):not([class*="button"]):not([class*="rounded-[2"]):not([class*="nav-hanging-icon"]):hover::after,
+  a:not(.no-squiggle):not(:has(img, svg, picture, canvas, div)):not([role="button"]):not([class*="btn"]):not([class*="button"]):not([class*="rounded-[2"]):not([class*="nav-hanging-icon"]):focus-visible::after {
+    transition: none !important;
+  }
+}
+
+/* Splash Screen Initial State & Overrides */
+html.splash-pending,
+html.splash-pending body {
+  overflow: hidden !important;
+}
+
+html.splash-skip #splash-screen {
+  display: none !important;
+}
+
+noscript #splash-screen {
+  display: none !important;
+}
+
+.font-architects {
+  font-family: var(--font-architects), 'Architects Daughter', cursive, sans-serif;
+}
+
+.font-devanagari {
+  font-family: var(--font-devanagari), 'Noto Sans Devanagari', 'Nirmala UI', sans-serif;
+}
+
+.font-japanese {
+  font-family: var(--font-japanese), 'Noto Sans JP', 'Yu Gothic', sans-serif;
+}
+
+.greeting-text {
+  font-size: var(--greeting-font-size);
+  line-height: 1;
+}
+
+/* ─── Case Study Scroll Reveal & Ambient Animations ─── */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes laserScan {
+  0%, 100% {
+    transform: translateY(-34px);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(34px);
+    opacity: 1;
+  }
+}
+
+/* Hi-Fi Design Screen Typography (Kantumruy Pro & Montserrat & SF Pro) */
+.font-kantumruy,
+[class*="Kantumruy_Pro"],
+[class*="kantumruy"] {
+  font-family: var(--font-kantumruy), 'Kantumruy Pro', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+[class*="SF_Pro"] {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Inter', sans-serif !important;
+}
+
+[class*="Montserrat"] {
+  font-family: var(--font-montserrat), 'Montserrat', sans-serif !important;
+}
+
+@keyframes waveformPulse {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scaleY(0.9);
+  }
+  50% {
+    transform: scaleY(1.15);
+  }
+}
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+[data-reveal].is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-reveal-delay="1"] { transition-delay: 0.08s; }
+[data-reveal-delay="2"] { transition-delay: 0.16s; }
+[data-reveal-delay="3"] { transition-delay: 0.24s; }
+[data-reveal-delay="4"] { transition-delay: 0.32s; }
+[data-reveal-delay="5"] { transition-delay: 0.40s; }
+[data-reveal-delay="6"] { transition-delay: 0.48s; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .animate-float-slow,
+  .animate-laser-scan,
+  .animate-waveform-pulse {
+    animation: none !important;
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.animate-laser-scan {
+  animation: laserScan 2.5s ease-in-out infinite;
+}
+
+.animate-waveform-pulse {
+  animation: waveformPulse 1.6s ease-in-out infinite;
+}
+
+
+

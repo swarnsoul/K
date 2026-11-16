@@ -1,0 +1,238 @@
+{
+  "home1440": {
+    "overall": {
+      "fps": 60,
+      "totalFrames": 259,
+      "droppedFrames": 0,
+      "droppedPercent": 0,
+      "avgFrameTimeMs": 16.67,
+      "longTasksTotal": 0,
+      "longTasksTotalDurationMs": 0
+    },
+    "sections": {
+      "Hero (0-850px)": {
+        "fps": 60.3,
+        "droppedFrames": 0,
+        "totalFrames": 261,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.59,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Projects Pinned Stage (850-2600px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Process (2600-3450px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Design Companions / Tools (3450-4100px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Social (4100-4600px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Contact Footer (4600px+)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      }
+    },
+    "longTasks": []
+  },
+  "about1440": {
+    "overall": {
+      "fps": 59,
+      "totalFrames": 394,
+      "droppedFrames": 2,
+      "droppedPercent": 0.5,
+      "avgFrameTimeMs": 16.96,
+      "longTasksTotal": 0,
+      "longTasksTotalDurationMs": 0
+    },
+    "sections": {
+      "Hero & Bio (0-900px)": {
+        "fps": 54.8,
+        "droppedFrames": 2,
+        "totalFrames": 72,
+        "droppedPercent": 2.8,
+        "avgFrameTimeMs": 18.26,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Sticky Notes Story (900-3200px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 203,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.66,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Travel & Art Gallery (3200-4500px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 121,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Desk Footer Scene (4500px+)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      }
+    },
+    "longTasks": []
+  },
+  "homeMobile": {
+    "overall": {
+      "fps": 59.8,
+      "totalFrames": 263,
+      "droppedFrames": 1,
+      "droppedPercent": 0.4,
+      "avgFrameTimeMs": 16.73,
+      "longTasksTotal": 0,
+      "longTasksTotalDurationMs": 0
+    },
+    "sections": {
+      "Hero (0-850px)": {
+        "fps": 60,
+        "droppedFrames": 1,
+        "totalFrames": 265,
+        "droppedPercent": 0.4,
+        "avgFrameTimeMs": 16.66,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Projects Pinned Stage (850-2600px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Process (2600-3450px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Design Companions / Tools (3450-4100px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Social (4100-4600px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Contact Footer (4600px+)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 0,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      }
+    },
+    "longTasks": []
+  },
+  "aboutMobile": {
+    "overall": {
+      "fps": 58,
+      "totalFrames": 377,
+      "droppedFrames": 5,
+      "droppedPercent": 1.3,
+      "avgFrameTimeMs": 17.24,
+      "longTasksTotal": 0,
+      "longTasksTotalDurationMs": 0
+    },
+    "sections": {
+      "Hero & Bio (0-900px)": {
+        "fps": 52.5,
+        "droppedFrames": 4,
+        "totalFrames": 76,
+        "droppedPercent": 5.3,
+        "avgFrameTimeMs": 19.05,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Sticky Notes Story (900-3200px)": {
+        "fps": 59.6,
+        "droppedFrames": 1,
+        "totalFrames": 165,
+        "droppedPercent": 0.6,
+        "avgFrameTimeMs": 16.77,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Travel & Art Gallery (3200-4500px)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 94,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.66,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      },
+      "Desk Footer Scene (4500px+)": {
+        "fps": 60,
+        "droppedFrames": 0,
+        "totalFrames": 44,
+        "droppedPercent": 0,
+        "avgFrameTimeMs": 16.67,
+        "longTasksCount": 0,
+        "longTasksTotalMs": 0
+      }
+    },
+    "longTasks": []
+  }
+}

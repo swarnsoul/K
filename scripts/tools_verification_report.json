@@ -1,0 +1,40 @@
+{
+  "errors": {
+    "consoleErrors": [],
+    "pageErrors": []
+  },
+  "desktop1440": {
+    "iconsCount": 8,
+    "allVisible": true
+  },
+  "mobile390": {
+    "iconsCount": 8,
+    "allVisible": true
+  },
+  "hoverTests": {
+    "hoverFigma": {
+      "text": "Where pixels are born",
+      "opacity": "1"
+    },
+    "hoverClaude": {
+      "text": "Vibe coding partner",
+      "opacity": "1"
+    },
+    "hoverSpotify": {
+      "text": "Soundtrack for focus",
+      "opacity": "1"
+    }
+  },
+  "dragTest": {
+    "dragLabelInfo": {
+      "text": "Got you!",
+      "isDraggingAttr": true
+    },
+    "postReleaseLabel": {
+      "text": "Where pixels are born",
+      "isDraggingAttr": false
+    }
+  },
+  "postNavIconsCount": 8,
+  "otherSectionsWork": true
+}

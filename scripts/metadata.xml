@@ -1,0 +1,164 @@
+<frame id="217:666" name="Desktop - 10" x="6710" y="5199" width="1440" height="4401">
+  <frame id="232:92" name="Frame 80" x="0" y="1" width="1440" height="3979">
+    <rounded-rectangle id="217:667" name="image 3" x="0" y="0" width="1440" height="848" />
+    <text id="223:125" name="About Me" x="597" y="152" width="246" height="55" />
+    <frame id="243:820" name="Frame 81" x="689" y="336" width="361" height="131">
+      <text id="230:91" name="Hi again! I’m Kanak &amp; here is my story" x="18" y="10.5" width="325" height="110" />
+    </frame>
+    <frame id="223:143" name="Frame 79" x="180.57467651367188" y="281.295654296875" width="539.9039184004068" height="539.9039184004068">
+      <instance id="230:87" name="Component 27" x="63" y="63" width="392.9754222482443" height="392.9754222482443" />
+    </frame>
+    <frame id="233:696" name="Card" x="783.4197998046875" y="584" width="373.555354940122" height="224.8910137494986">
+      <frame id="233:697" name="Container" x="0" y="0" width="373.59591263193306" height="225.14039225707165">
+        <frame id="233:698" name="Container" x="0.8553466200828552" y="0.8551400899887085" width="371.7260643853351" height="223.75041066343329">
+          <frame id="233:699" name="Paragraph" x="21.38313102722168" y="40.5020866394043" width="199.4346207156159" height="118.91826794564167">
+            <text id="233:700" name="I always dreamed of becoming an engineer from IIT." x="0" y="0" width="198.09159440472013" height="118.69984476337868" />
+          </frame>
+          <frame id="233:701" name="Container" x="221.63079833984375" y="44.71569061279297" width="117.67920256656635" height="97.52405906513741">
+            <rounded-rectangle id="233:702" name="image 34" x="0.0000017097445379476994" y="80.99363708496094" width="118.24550354666826" height="97.34359429235519" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="233:703" name="Container" x="141.12901306152344" y="-17.106325149536133" width="72.34421102302713" height="40.53230884533423" />
+    </frame>
+    <frame id="243:807" name="Card" x="759.0068359375" y="2026" width="454.9135433170077" height="298.16601589473794">
+      <frame id="243:808" name="Container" x="0" y="0" width="454.9858835575851" height="298.4585342944665">
+        <frame id="243:809" name="Container" x="1.0201215744018555" y="1.02008056640625" width="452.68183596459767" height="296.66043488276955">
+          <frame id="243:810" name="Paragraph" x="25.502349853515625" y="30.473039627075195" width="388.84355719290033" height="226.48983760559258">
+            <text id="243:811" name="Since then, I&#39;ve been designing apps, websites, and growing as a Product &amp; UI/UX designer." x="0" y="0" width="272.3202420789821" height="197.67344637672613" />
+            <rounded-rectangle id="243:818" name="image 41" x="256.261474609375" y="-0.0002324150555068627" width="141.14885395590318" height="159.13208502778798" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="243:814" name="Container" x="168.31674194335938" y="-20.402219772338867" width="87.792192902034" height="54.25061248524162" />
+    </frame>
+    <frame id="233:716" name="Card" x="254" y="787.6987915039062" width="420.7505982533694" height="257.3409729518389">
+      <frame id="233:717" name="Container" x="0" y="0" width="420.80009377372335" height="257.62000331314994">
+        <frame id="233:718" name="Container" x="0.9593522548675537" y="0.9593522548675537" width="419.76575830911315" height="256.2278075577842">
+          <frame id="233:719" name="Paragraph" x="23.983781814575195" y="62.40106964111328" width="217.63329277087814" height="102.49906394942627">
+            <text id="233:720" name="I prepared for JEE with all my heart." x="0" y="0" width="215.26975296419914" height="102.07980981500441" />
+          </frame>
+          <rounded-rectangle id="233:729" name="image 35" x="248.91419982910156" y="45.72237777709961" width="133.9275385361134" height="116.62064862130046" />
+        </frame>
+      </frame>
+      <frame id="233:723" name="Container" x="158.2938232421875" y="-19.186738967895508" width="81.43301949354918" height="46.46585460360075" />
+    </frame>
+    <frame id="239:764" name="Card" x="183" y="1538.43896484375" width="510.4307755991922" height="292.3599040153149">
+      <frame id="239:765" name="Container" x="0" y="0" width="510.81232091102265" height="292.71825794736833">
+        <frame id="239:766" name="Container" x="1.0154900550842285" y="1.0154900550842285" width="507.68710161044874" height="290.83402341589044">
+          <frame id="239:767" name="Paragraph" x="25.387250900268555" y="30.51285743713379" width="466.951554671934" height="226.44540467890147">
+            <text id="239:768" name="In my first year, alongside my degree, I started working as a graphic designer." x="6.789937496185303" y="0" width="251.39652440405553" height="183.6794591024791" />
+            <rounded-rectangle id="239:774" name="image 38" x="250.91378784179688" y="21.581222534179688" width="205.77507391929066" height="137.3074842284459" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="239:770" name="Container" x="167.5561981201172" y="-20.309640884399414" width="86.60274010446483" height="50.67227722681946" />
+    </frame>
+    <frame id="233:705" name="Card" x="781.0673828125" y="1254" width="518.469015063738" height="337.20485472225846">
+      <frame id="233:706" name="Container" x="8.190377229766455e-7" y="-0.17200469970703125" width="518.5489880021614" height="337.53943926307875">
+        <frame id="233:707" name="Container" x="1.1645927429199219" y="1.1645936965942383" width="515.9259463579974" height="335.50149045089165">
+          <frame id="233:708" name="Paragraph" x="29.114839553833008" y="59.41790771484375" width="276.67966420496487" height="170.67461658397406">
+            <text id="233:709" name="Along with studies, I was always passionate about painting and sketching." x="0" y="0" width="278.5616484493821" height="171.12445150379426" />
+          </frame>
+          <rounded-rectangle id="233:714" name="image 33" x="309.7025451660156" y="20.13987922668457" width="185.8146675118087" height="218.74613701790986" />
+        </frame>
+      </frame>
+      <frame id="233:712" name="Container" x="192.15748596191406" y="-23.291513442993164" width="100.09074516898636" height="61.302977061461206" />
+    </frame>
+    <frame id="239:776" name="Card" x="772.78369140625" y="1623" width="519.3288575998595" height="340.31107753656033">
+      <frame id="239:777" name="Container" x="0" y="-0.17200469970703125" width="519.4113689615606" height="340.64504513623797">
+        <frame id="239:778" name="Container" x="1.1645927429199219" y="1.1645936965942383" width="516.7811509108387" height="338.59266894743814">
+          <frame id="239:779" name="Paragraph" x="29.114839553833008" y="26.417905807495117" width="292.8897953347532" height="236.44164537764118">
+            <text id="239:780" name="While working in graphic design, I discovered the world of UI/UX design. I took a UI/UX course alongside my degree and learned everything step by step." x="0" y="0" width="294.7683093844407" height="236.9057585202463" />
+          </frame>
+          <rounded-rectangle id="239:786" name="image 39" x="305.82843017578125" y="30.46624755859375" width="179.469593116969" height="200.26874485739881" />
+        </frame>
+      </frame>
+      <frame id="239:782" name="Container" x="192.15750122070312" y="-23.29145622253418" width="100.22443114613179" height="61.91735418652752" />
+    </frame>
+    <frame id="239:788" name="Card" x="183" y="1897.189453125" width="513.4032007434089" height="320.38814365326107">
+      <frame id="239:789" name="Container" x="0" y="-0.17200469970703125" width="513.4696199382834" height="320.72568027631223">
+        <frame id="239:790" name="Container" x="1.1645927429199219" y="1.1645936965942383" width="510.8872120330525" height="318.76629529052934">
+          <frame id="239:791" name="Paragraph" x="29.114839553833008" y="56.41790771484375" width="263.3015249156979" height="164.99452584317714">
+            <text id="239:792" name="After building my skills, I started applying for internships—but landed a full-time UI/UX job instead." x="0" y="0" width="261.3745793132839" height="164.6153486910116" />
+          </frame>
+          <rounded-rectangle id="265:122" name="image 40" x="284.9505920410156" y="45.992027282714844" width="195.0981331492303" height="169.0044078635874" />
+        </frame>
+      </frame>
+      <frame id="239:794" name="Container" x="192.1573028564453" y="-23.290895462036133" width="99.28430515550917" height="57.982024210564305" />
+    </frame>
+    <frame id="233:731" name="Card" x="793.224609375" y="872" width="516.9827317643949" height="332.0297057102671">
+      <frame id="233:732" name="Container" x="8.190377229766455e-7" y="-0.17200469970703125" width="517.0585002636944" height="332.3652673547913">
+        <frame id="233:733" name="Container" x="1.1645965576171875" y="1.1645935773849487" width="514.4476480098865" height="330.3514150241499">
+          <frame id="233:734" name="Paragraph" x="29.114839553833008" y="46.41790771484375" width="281.74350947031417" height="193.2161691418405">
+            <text id="233:735" name="I couldn&#39;t pursue engineering at IIT, so I chose to study Data Science at IIT Madras instead." x="0" y="0" width="266.85219310378307" height="189.85376848582018" />
+          </frame>
+          <rounded-rectangle id="239:755" name="image 37" x="286.33978271484375" y="30.733774185180664" width="205.65907251727822" height="205.0800434734174" />
+        </frame>
+      </frame>
+      <frame id="233:737" name="Container" x="192.1577606201172" y="-23.291379928588867" width="99.85719957039419" height="60.28007041337878" />
+    </frame>
+    <frame id="233:745" name="Card" x="189" y="1154.7119140625" width="498.8716415536528" height="307.6063954761057">
+      <frame id="233:746" name="Container" x="0" y="-0.16764068603515625" width="498.93267121050485" height="307.93607562099714">
+        <frame id="233:747" name="Container" x="1.1350845098495483" y="1.1350845098495483" width="496.4275080279258" height="306.0482473695647">
+          <frame id="233:748" name="Paragraph" x="28.37711524963379" y="45.468048095703125" width="271.27435865539246" height="179.36301498069588">
+            <text id="233:749" name="It was an online technical program. I knew it would give me time to explore my interests and build new skills." x="0" y="0" width="282.8585654522758" height="181.50745763722807" />
+          </frame>
+          <rounded-rectangle id="233:750" name="image 36" x="296.1106262207031" y="51.348388671875" width="169.96056161628076" height="152.93163660510163" />
+        </frame>
+      </frame>
+      <frame id="233:751" name="Container" x="187.28817749023438" y="-22.701148986816406" width="96.52122162420528" height="55.59337490894268" />
+    </frame>
+    <frame id="243:821" name="Arrow" x="1018" y="485.0025329589844" width="128.40367645025253" height="141.48192644119263" />
+    <frame id="255:887" name="Frame 83" x="0" y="2324" width="1440" height="800">
+      <frame id="255:886" name="Frame 82" x="0" y="45.5" width="1440" height="709">
+        <frame id="255:885" name="Group 22" x="151.45535278320312" y="0" width="669" height="709">
+          <rounded-rectangle id="223:146" name="image 32" x="228.45535278320312" y="58" width="187.69639587402344" height="245.6544189453125" />
+          <rounded-rectangle id="255:880" name="image 46" x="389.4553527832031" y="0" width="245.29830932617188" height="326.0455322265625" />
+          <rounded-rectangle id="255:871" name="image 43" x="151.45535278320312" y="256" width="271.82061767578125" height="231.09341430664062" />
+          <rounded-rectangle id="251:868" name="image 42" x="358.4553527832031" y="304" width="307" height="336.99261474609375" />
+          <rounded-rectangle id="255:883" name="image 47" x="616.4553527832031" y="86" width="204" height="271" />
+          <rounded-rectangle id="255:874" name="image 44" x="575.4553527832031" y="326" width="218.29437255859375" height="291.0591735839844" />
+          <rounded-rectangle id="255:877" name="image 45" x="208.45535278320312" y="472" width="178" height="237" />
+        </frame>
+        <frame id="230:90" name="Group 21" x="832.455322265625" y="280.0179443359375" width="456.08929443359375" height="148.96408081054688">
+          <text id="223:153" name="Travelling all around" x="925.605712890625" y="390.5008544921875" width="362.9391406820796" height="38.48110923983586" />
+          <frame id="230:74" name="Arrow" x="844.5221633911133" y="382.59722900390625" width="133.98658767627967" height="102.57915555526233" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="257:888" name="Frame 84" x="1" y="3124" width="1440" height="756">
+      <frame id="257:889" name="Frame 82" x="0" y="-0.27850341796875" width="1440" height="756.5570068359375">
+        <frame id="257:898" name="Group 21" x="215.60052490234375" y="305.28936767578125" width="484.798583984375" height="145.97824096679688">
+          <text id="257:899" name="Contemporary Artist" x="215.60052490234375" y="412.78643798828125" width="388.6496540009175" height="38.48110923983586" />
+          <frame id="257:900" name="Arrow" x="688.3324584960938" y="407.8683853149414" width="133.98658767627967" height="102.57915555526233" />
+        </frame>
+        <frame id="259:68" name="Group 23" x="789.3991088867188" y="0" width="435.0003662109375" height="756.5570068359375">
+          <rounded-rectangle id="259:69" name="image 48" x="853.0573120117188" y="0" width="195.05628967285156" height="330.8067626953125" />
+          <rounded-rectangle id="259:70" name="image 49" x="1028.5270385742188" y="156.69775390625" width="195.87242126464844" height="348.2176208496094" />
+          <rounded-rectangle id="259:71" name="image 50" x="789.3991088867188" y="291.63232421875" width="195.87242126464844" height="348.2176208496094" />
+          <rounded-rectangle id="259:72" name="image 51" x="969.7653198242188" y="408.33935546875" width="195.87242126464844" height="348.2176208496094" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="265:96" name="Frame 85" x="1" y="3980" width="1439" height="421">
+    <text id="265:95" name="A little bit of code, a lot of creativity, and countless dreams. Thanks for reading my story." x="53" y="87" width="1000.5254730048509" height="109.99999333179221" />
+    <frame id="265:119" name="Group 24" x="1192" y="211" width="173.97779846191406" height="148.9248046875">
+      <frame id="265:97" name="Heart" x="1304.4971466064453" y="211" width="80.95582067966461" height="77.84947142004967" />
+      <frame id="265:105" name="Heart" x="1211.4751739501953" y="249.9248046875" width="80.95582067966461" height="77.84947142004967" />
+      <frame id="265:112" name="Heart" x="1286.4751739501953" y="306.9248046875" width="51.1111706866277" height="52.99999987216688" />
+    </frame>
+  </frame>
+  <frame id="443:55" name="Frame 86" x="0" y="0" width="1440" height="120">
+    <frame id="443:56" name="Frame 31" x="176" y="31" width="1088" height="58">
+      <frame id="443:57" name="09b094a5-eb6d-4305-b41b-05ce50517281 1 [Vectorized]" x="15.5" y="12.524751663208008" width="65" height="32.950496673583984" />
+      <frame id="443:96" name="Frame 26" x="837.5" y="19.00179100036621" width="235" height="19.996417999267578">
+        <text id="443:97" name="Work" x="0" y="0.4982084631919861" width="42.780522300412485" height="19.000002012999175" />
+        <text id="443:98" name="Resume" x="54.14176940917969" y="0" width="57.378577426075935" height="19.996418952941895" />
+        <text id="443:99" name="About" x="122.88159942626953" y="0" width="43.37857575714588" height="19.996418952941895" />
+        <text id="443:100" name="Contact" x="177.62142944335938" y="0" width="57.378577426075935" height="19.996418952941895" />
+      </frame>
+    </frame>
+  </frame>
+</frame>

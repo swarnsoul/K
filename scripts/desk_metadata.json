@@ -1,0 +1,402 @@
+{
+  "563:899": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<frame id=\"563:899\" name=\"Frame 85\" x=\"1\" y=\"3980\" width=\"1439\" height=\"260\">\n  <text id=\"563:900\" name=\"A little bit of code, a lot of creativity, and countless dreams. Thanks for reading my story.\" x=\"53\" y=\"53.72921371459961\" width=\"1000.5254730204733\" height=\"67.93348647820858\" />\n  <frame id=\"563:901\" name=\"Group 24\" x=\"1046\" y=\"72\" width=\"173.97779846191406\" height=\"148.9248046875\">\n    <frame id=\"563:902\" name=\"Heart\" x=\"1158.4971466064453\" y=\"72\" width=\"80.95582067966461\" height=\"77.84947142004967\" />\n    <frame id=\"563:909\" name=\"Heart\" x=\"1065.4751739501953\" y=\"110.9248046875\" width=\"80.95582067966461\" height=\"77.84947142004967\" />\n    <frame id=\"563:916\" name=\"Heart\" x=\"1140.4751739501953\" y=\"167.9248046875\" width=\"51.1111706866277\" height=\"52.99999987216688\" />\n  </frame>\n</frame>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:901": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<frame id=\"563:901\" name=\"Group 24\" x=\"1046\" y=\"72\" width=\"173.97779846191406\" height=\"148.9248046875\">\n  <frame id=\"563:902\" name=\"Heart\" x=\"1158.4971466064453\" y=\"72\" width=\"80.95582067966461\" height=\"77.84947142004967\" />\n  <frame id=\"563:909\" name=\"Heart\" x=\"1065.4751739501953\" y=\"110.9248046875\" width=\"80.95582067966461\" height=\"77.84947142004967\" />\n  <frame id=\"563:916\" name=\"Heart\" x=\"1140.4751739501953\" y=\"167.9248046875\" width=\"51.1111706866277\" height=\"52.99999987216688\" />\n</frame>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:923": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<frame id=\"563:923\" name=\"Frame 182\" x=\"0\" y=\"4102\" width=\"1439\" height=\"868\">\n  <frame id=\"563:924\" name=\"Group 25\" x=\"0\" y=\"0\" width=\"1439\" height=\"959\">\n    <rounded-rectangle id=\"563:925\" name=\"image 62\" x=\"0\" y=\"0\" width=\"1439\" height=\"959\" />\n    <rounded-rectangle id=\"563:926\" name=\"image 65\" x=\"1010\" y=\"215\" width=\"371\" height=\"363\" />\n    <rounded-rectangle id=\"563:927\" name=\"Good things take time (1) 1\" x=\"206\" y=\"191.6383056640625\" width=\"258.1262439566508\" height=\"317.13530649371023\" />\n    <instance id=\"563:928\" name=\"Component 29\" x=\"975\" y=\"146\" width=\"418\" height=\"384\" />\n    <rounded-rectangle id=\"563:929\" name=\"image 66\" x=\"1246\" y=\"248\" width=\"135\" height=\"330\" />\n    <rounded-rectangle id=\"563:930\" name=\"image 63\" x=\"901\" y=\"364\" width=\"147\" height=\"127\" />\n    <rounded-rectangle id=\"563:931\" name=\"image 64\" x=\"1008\" y=\"480\" width=\"170\" height=\"147\" />\n    <rounded-rectangle id=\"563:932\" name=\"image 69\" x=\"364\" y=\"378\" width=\"142\" height=\"130\" />\n    <rounded-rectangle id=\"563:933\" name=\"image 70\" x=\"12\" y=\"282\" width=\"332\" height=\"275\" />\n    <instance id=\"563:934\" name=\"Component 28\" x=\"197\" y=\"480\" width=\"284.75994873046875\" height=\"189.83995056152344\" />\n  </frame>\n</frame>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:924": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<frame id=\"563:924\" name=\"Group 25\" x=\"0\" y=\"0\" width=\"1439\" height=\"959\">\n  <rounded-rectangle id=\"563:925\" name=\"image 62\" x=\"0\" y=\"0\" width=\"1439\" height=\"959\" />\n  <rounded-rectangle id=\"563:926\" name=\"image 65\" x=\"1010\" y=\"215\" width=\"371\" height=\"363\" />\n  <rounded-rectangle id=\"563:927\" name=\"Good things take time (1) 1\" x=\"206\" y=\"191.6383056640625\" width=\"258.1262439566508\" height=\"317.13530649371023\" />\n  <instance id=\"563:928\" name=\"Component 29\" x=\"975\" y=\"146\" width=\"418\" height=\"384\" />\n  <rounded-rectangle id=\"563:929\" name=\"image 66\" x=\"1246\" y=\"248\" width=\"135\" height=\"330\" />\n  <rounded-rectangle id=\"563:930\" name=\"image 63\" x=\"901\" y=\"364\" width=\"147\" height=\"127\" />\n  <rounded-rectangle id=\"563:931\" name=\"image 64\" x=\"1008\" y=\"480\" width=\"170\" height=\"147\" />\n  <rounded-rectangle id=\"563:932\" name=\"image 69\" x=\"364\" y=\"378\" width=\"142\" height=\"130\" />\n  <rounded-rectangle id=\"563:933\" name=\"image 70\" x=\"12\" y=\"282\" width=\"332\" height=\"275\" />\n  <instance id=\"563:934\" name=\"Component 28\" x=\"197\" y=\"480\" width=\"284.75994873046875\" height=\"189.83995056152344\" />\n</frame>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:925": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<rounded-rectangle id=\"563:925\" name=\"image 62\" x=\"0\" y=\"0\" width=\"1439\" height=\"959\" />"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:926": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<rounded-rectangle id=\"563:926\" name=\"image 65\" x=\"1010\" y=\"215\" width=\"371\" height=\"363\" />"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:927": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<rounded-rectangle id=\"563:927\" name=\"Good things take time (1) 1\" x=\"206\" y=\"191.6383056640625\" width=\"258.1262439566508\" height=\"317.13530649371023\" />"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:928": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<instance id=\"563:928\" name=\"Component 29\" x=\"975\" y=\"146\" width=\"418\" height=\"384\">\n  <rounded-rectangle id=\"I563:928;546:932\" name=\"image 67\" x=\"0\" y=\"0\" width=\"418\" height=\"384\" />\n  <rounded-rectangle id=\"I563:928;546:948\" name=\"Rectangle 50\" x=\"125\" y=\"147\" width=\"45\" height=\"45\" />\n</instance>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:929": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<rounded-rectangle id=\"563:929\" name=\"image 66\" x=\"1246\" y=\"248\" width=\"135\" height=\"330\" />"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:930": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<rounded-rectangle id=\"563:930\" name=\"image 63\" x=\"901\" y=\"364\" width=\"147\" height=\"127\" />"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:931": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<rounded-rectangle id=\"563:931\" name=\"image 64\" x=\"1008\" y=\"480\" width=\"170\" height=\"147\" />"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:932": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<rounded-rectangle id=\"563:932\" name=\"image 69\" x=\"364\" y=\"378\" width=\"142\" height=\"130\" />"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:933": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<rounded-rectangle id=\"563:933\" name=\"image 70\" x=\"12\" y=\"282\" width=\"332\" height=\"275\" />"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "563:934": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<instance id=\"563:934\" name=\"Component 28\" x=\"197\" y=\"480\" width=\"284.75994873046875\" height=\"189.83995056152344\">\n  <rounded-rectangle id=\"I563:934;546:924\" name=\"image 68\" x=\"9\" y=\"22.000322341918945\" width=\"266.5044517294873\" height=\"189.83994756326683\" />\n</instance>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "546:943": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<frame id=\"546:943\" name=\"Component 29\" x=\"7178\" y=\"10502\" width=\"972\" height=\"416\">\n  <symbol id=\"546:942\" name=\"Property 1=image 67\" x=\"16\" y=\"16\" width=\"418\" height=\"384\" />\n  <symbol id=\"546:941\" name=\"Property 1=image 72\" x=\"539\" y=\"16\" width=\"418\" height=\"384\" />\n</frame>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "546:942": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<symbol id=\"546:942\" name=\"Property 1=image 67\" x=\"16\" y=\"16\" width=\"418\" height=\"384\">\n  <rounded-rectangle id=\"546:932\" name=\"image 67\" x=\"0\" y=\"0\" width=\"418\" height=\"384\" />\n  <rounded-rectangle id=\"546:948\" name=\"Rectangle 50\" x=\"125\" y=\"147\" width=\"45\" height=\"45\" />\n</symbol>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "546:941": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<symbol id=\"546:941\" name=\"Property 1=image 72\" x=\"539\" y=\"16\" width=\"418\" height=\"384\">\n  <rounded-rectangle id=\"546:939\" name=\"image 72\" x=\"0\" y=\"0\" width=\"418\" height=\"384\" />\n</symbol>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "546:928": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<frame id=\"546:928\" name=\"Component 28\" x=\"6507\" y=\"10502\" width=\"570.5044555664062\" height=\"221.83995056152344\">\n  <symbol id=\"546:927\" name=\"Property 1=image 68\" x=\"16\" y=\"16\" width=\"266.50445556640625\" height=\"189.83995056152344\" />\n  <symbol id=\"546:926\" name=\"Property 1=image 69\" x=\"288\" y=\"16\" width=\"266.50445556640625\" height=\"189.83995056152344\" />\n</frame>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "546:927": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<symbol id=\"546:927\" name=\"Property 1=image 68\" x=\"16\" y=\"16\" width=\"266.50445556640625\" height=\"189.83995056152344\">\n  <rounded-rectangle id=\"546:924\" name=\"image 68\" x=\"0\" y=\"22.000322341918945\" width=\"266.5044517294873\" height=\"189.83994756326683\" />\n</symbol>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  },
+  "546:926": {
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "<symbol id=\"546:926\" name=\"Property 1=image 69\" x=\"288\" y=\"16\" width=\"266.50445556640625\" height=\"189.83995056152344\">\n  <rounded-rectangle id=\"546:925\" name=\"image 69\" x=\"-8.000218391418457\" y=\"16.999496459960938\" width=\"282.7251532644905\" height=\"201.3944860304582\" />\n</symbol>"
+        },
+        {
+          "type": "text",
+          "text": "IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design."
+        },
+        {
+          "type": "text",
+          "text": "Figma recommends using the remote MCP server for workflows between design and code: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+        }
+      ]
+    },
+    "jsonrpc": "2.0",
+    "id": 1
+  }
+}

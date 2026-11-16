@@ -1,0 +1,86 @@
+{
+  "travel_1": {
+    "id": "223:146",
+    "text": "const imgImage32 = \"http://localhost:3845/assets/88068fba5654540e456d41d06da4f8b012a6dc21.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"223:146\" data-name=\"image 32\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-bottom pointer-events-none rounded-[10px] size-full\" src={imgImage32} />\n    </div>\n  );\n}"
+  },
+  "travel_2": {
+    "id": "255:880",
+    "text": "const imgImage46 = \"http://localhost:3845/assets/5f30afd14f284764e03bc763cb7c926546a81012.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"255:880\" data-name=\"image 46\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full\" src={imgImage46} />\n    </div>\n  );\n}"
+  },
+  "travel_3": {
+    "id": "255:871",
+    "text": "const imgImage43 = \"http://localhost:3845/assets/1b99473390aa755c5d95b1a8ddd0948db4642f50.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"255:871\" data-name=\"image 43\">\n      <div className=\"absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]\">\n        <img alt=\"\" className=\"absolute h-[120.73%] left-[-19.56%] max-w-none top-[-11.17%] w-[136.85%]\" src={imgImage43} />\n      </div>\n    </div>\n  );\n}"
+  },
+  "travel_4": {
+    "id": "251:868",
+    "text": "const imgImage42 = \"http://localhost:3845/assets/f7843398433992486378bc1b5307a2c951ebfd24.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"251:868\" data-name=\"image 42\">\n      <div className=\"absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]\">\n        <img alt=\"\" className=\"absolute h-[121.47%] left-0 max-w-none top-[-21.42%] w-full\" src={imgImage42} />\n      </div>\n    </div>\n  );\n}"
+  },
+  "travel_5": {
+    "id": "255:883",
+    "text": "const imgImage47 = \"http://localhost:3845/assets/6f8cad6b2c5ddbe930f07b10987df8d3fdc49ee6.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"255:883\" data-name=\"image 47\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full\" src={imgImage47} />\n    </div>\n  );\n}"
+  },
+  "travel_6": {
+    "id": "255:874",
+    "text": "const imgImage44 = \"http://localhost:3845/assets/31967c72caed4d688e6230c473e8e4118c7266f4.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"255:874\" data-name=\"image 44\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full\" src={imgImage44} />\n    </div>\n  );\n}"
+  },
+  "travel_7": {
+    "id": "255:877",
+    "text": "const imgImage45 = \"http://localhost:3845/assets/b9639d2d177f272cbf06e18f5933091b4a9977b6.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"255:877\" data-name=\"image 45\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full\" src={imgImage45} />\n    </div>\n  );\n}"
+  },
+  "art_1": {
+    "id": "259:69",
+    "text": "const imgImage48 = \"http://localhost:3845/assets/480d719144185c3329095b33bac29043ef70ea2b.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_1.088px_20px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"259:69\" data-name=\"image 48\">\n      <div className=\"absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]\">\n        <img alt=\"\" className=\"absolute h-[131.58%] left-0 max-w-none top-[-15.21%] w-full\" src={imgImage48} />\n      </div>\n    </div>\n  );\n}"
+  },
+  "art_2": {
+    "id": "259:70",
+    "text": "const imgImage49 = \"http://localhost:3845/assets/4df887b614c3a70d9a8be09659b928d3642d1b7a.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_1.088px_20px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"259:70\" data-name=\"image 49\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full\" src={imgImage49} />\n    </div>\n  );\n}"
+  },
+  "art_3": {
+    "id": "259:71",
+    "text": "const imgImage50 = \"http://localhost:3845/assets/aca85d660bf17a3bbed47df7ee15a1dab2642cf9.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_1.088px_20px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"259:71\" data-name=\"image 50\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full\" src={imgImage50} />\n    </div>\n  );\n}"
+  },
+  "art_4": {
+    "id": "259:72",
+    "text": "const imgImage51 = \"http://localhost:3845/assets/66512c563ff409b1f3151e103702f7462e73c2cc.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_1.088px_20px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"259:72\" data-name=\"image 51\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full\" src={imgImage51} />\n    </div>\n  );\n}"
+  },
+  "card_1_img": {
+    "id": "233:702",
+    "text": "const imgImage34 = \"http://localhost:3845/assets/b46f392072ac848579f042d03f807a88267cae6b.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4.277px_4.277px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"233:702\" style={{ containerType: \"size\" }} data-name=\"image 34\">\n      <div className=\"absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]\">\n        <img alt=\"\" className=\"absolute h-[135.54%] left-[-0.08%] max-w-none top-[-22.87%] w-[100.16%]\" src={imgImage34} />\n      </div>\n    </div>\n  );\n}"
+  },
+  "card_2_img": {
+    "id": "233:729",
+    "text": "const imgImage35 = \"http://localhost:3845/assets/70c100223b298c5b8462511ec6178b58b44298d7.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[11.216px] shadow-[0px_4.486px_11.216px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"233:729\" data-name=\"image 35\">\n      <div className=\"absolute inset-0 overflow-hidden pointer-events-none rounded-[11.216px]\">\n        <img alt=\"\" className=\"absolute h-full left-[-46.72%] max-w-none top-0 w-[146.72%]\" src={imgImage35} />\n      </div>\n    </div>\n  );\n}"
+  },
+  "card_3_img": {
+    "id": "239:755",
+    "text": "const imgImage37 = \"http://localhost:3845/assets/bd0faa1c3ffd2cf79a824dad3bac0b378758ea90.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"239:755\" data-name=\"image 37\">\n      <div className=\"absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]\">\n        <img alt=\"\" className=\"absolute h-[178.57%] left-[-0.14%] max-w-none top-[-9.56%] w-full\" src={imgImage37} />\n      </div>\n    </div>\n  );\n}"
+  },
+  "card_4_img": {
+    "id": "233:750",
+    "text": "const imgImage36 = \"http://localhost:3845/assets/9fa0a729e9cc1c9b83f9e0d68a41272ed03700c4.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[9.747px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"233:750\" data-name=\"image 36\">\n      <div className=\"absolute inset-0 overflow-hidden pointer-events-none rounded-[9.747px]\">\n        <img alt=\"\" className=\"absolute h-[124.08%] left-[-5.95%] max-w-none top-[-24.08%] w-[106.02%]\" src={imgImage36} />\n      </div>\n    </div>\n  );\n}"
+  },
+  "card_5_img": {
+    "id": "233:714",
+    "text": "const imgImage33 = \"http://localhost:3845/assets/3a0602e63706cfd6bdea6066c61a76bc98ab3346.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border-[0.898px] border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_3.591px_8.978px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"233:714\" data-name=\"image 33\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full\" src={imgImage33} />\n    </div>\n  );\n}"
+  },
+  "card_6_img": {
+    "id": "239:774",
+    "text": "const imgImage38 = \"http://localhost:3845/assets/b2daf16483e4dea48c3e3ce77017700d15e2240c.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[11.873px] shadow-[0px_4.749px_11.873px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"239:774\" data-name=\"image 38\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[11.873px] size-full\" src={imgImage38} />\n    </div>\n  );\n}"
+  },
+  "card_7_img": {
+    "id": "239:786",
+    "text": "const imgImage39 = \"http://localhost:3845/assets/1f4f1851637769c267543332e784ffff930737d3.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"239:786\" data-name=\"image 39\">\n      <div className=\"absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]\">\n        <img alt=\"\" className=\"absolute h-[147.47%] left-0 max-w-none top-[-47.47%] w-full\" src={imgImage39} />\n      </div>\n    </div>\n  );\n}"
+  },
+  "card_8_img": {
+    "id": "265:122",
+    "text": "const imgImage40 = \"http://localhost:3845/assets/978c947f3b8c88c92822323691b079d603c6668b.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border border-solid border-white overflow-clip relative rounded-[10px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"265:122\" data-name=\"image 40\">\n      <div className=\"absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]\">\n        <img alt=\"\" className=\"absolute h-full left-0 max-w-none top-0 w-[107.91%]\" src={imgImage40} />\n      </div>\n    </div>\n  );\n}"
+  },
+  "card_9_img": {
+    "id": "243:818",
+    "text": "const imgImage41 = \"http://localhost:3845/assets/d0fa76376d5be65b98a56c20f75f3f4fefa110b1.png\";\n\nexport default function Image() {\n  return (\n    <div className=\"border-[1.193px] border-solid border-white overflow-clip relative rounded-[11.926px] shadow-[0px_4.771px_11.926px_0px_rgba(0,0,0,0.25)] size-full\" data-node-id=\"243:818\" data-name=\"image 41\">\n      <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[11.926px] size-full\" src={imgImage41} />\n    </div>\n  );\n}"
+  },
+  "portrait": {
+    "id": "230:87",
+    "text": "const imgImage27 = \"http://localhost:3845/assets/81e34e94e3864289484866e552e607518c2d3225.png\";\ntype ComponentProps = {\n  className?: string;\n  property1?: \"image 27\";\n};\n\nfunction Component({ className, property1 = \"image 27\" }: ComponentProps) {\n  return (\n    <div className={className || \"relative size-[337px]\"} data-node-id=\"230:83\">\n      <div className=\"absolute border border-solid border-white inset-0 rounded-[20px] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.6)]\" data-node-id=\"230:80\" data-name=\"image 27\">\n        <img alt=\"\" className=\"absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full\" src={imgImage27} />\n      </div>\n    </div>\n  );\n}\n\nexport default function Component1() {\n  return <Component className=\"relative size-full\" />;\n}"
+  }
+}

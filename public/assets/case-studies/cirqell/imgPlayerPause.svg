@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="16.2886" height="16.2886" viewBox="0 0 16.2886 16.2886" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Player Pause">
+<circle id="Pause" cx="8.14432" cy="8.14432" r="8.14432" fill="white"/>
+<g id="Fontawesome">
+<path id="Vector" d="M6.56954 5.28108C6.17435 5.28108 5.85373 5.60171 5.85373 5.99689V10.2917C5.85373 10.6869 6.17435 11.0076 6.56954 11.0076H7.04675C7.44193 11.0076 7.76256 10.6869 7.76256 10.2917V5.99689C7.76256 5.60171 7.44193 5.28108 7.04675 5.28108H6.56954ZM9.43278 5.28108C9.03759 5.28108 8.71697 5.60171 8.71697 5.99689V10.2917C8.71697 10.6869 9.03759 11.0076 9.43278 11.0076H9.90998C10.3052 11.0076 10.6258 10.6869 10.6258 10.2917V5.99689C10.6258 5.60171 10.3052 5.28108 9.90998 5.28108H9.43278Z" fill="url(#paint0_linear_731_1348)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_731_1348" x1="5.85373" y1="5.28108" x2="10.6258" y2="5.28108" gradientUnits="userSpaceOnUse">
+<stop stop-color="#444CE7"/>
+<stop offset="1" stop-color="#6172F3"/>
+</linearGradient>
+</defs>
+</svg>

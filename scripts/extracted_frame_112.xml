@@ -1,0 +1,127 @@
+   <frame id="443:279" name="Frame 112" x="81" y="127.95925903320312" width="1278" height="716.0814819335938">
+        <frame id="445:3516" name="Frame 175" x="171.75537109375" y="0" width="934.4892578125" height="716.0814819335938">
+          <frame id="445:3292" name="Frame 173" x="0" y="0" width="934.4892578125" height="308.20037841796875">
+            <frame id="445:3116" name="iPhone 13 &amp; 14 - 26" x="0" y="0" width="142.4148712158203" height="308.20037841796875">
+              <rounded-rectangle id="445:3117" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+              <instance id="445:3118" name="iOS status bar" x="0" y="0" width="142.4148712158203" height="20.084148406982422" />
+              <line id="445:3119" name="Line 2" x="44.9150390625" y="302.3583984375" width="52.583953857421875" height="0" />
+              <frame id="445:3120" name="Frame 142" x="20.084148406982422" y="58.792171478271484" width="102.24657440185547" height="190.98199462890625">
+                <rounded-rectangle id="445:3121" name="WhatsApp_Image_2026-02-24_at_5_21_57_PM-Picsart-AiImageEnhancer-removebg-preview 1" x="26.012203216552734" y="0.00017887720605358481" width="50.22259521484375" height="48.932289123535156" />
+                <frame id="445:3122" name="Frame 141" x="0.00016435298311989754" y="65.36495208740234" width="102.24657440185547" height="33.23013687133789">
+                  <text id="445:3123" name="Join The Network" x="0" y="0" width="102.24657440185547" height="10.22465705871582" />
+                  <text id="445:3124" name="Private voice first connections based on proximity and intent." x="0" y="12.780820846557617" width="102.24657440185547" height="20.44931411743164" />
+                </frame>
+                <frame id="445:3125" name="Frame 172" x="0.00016435298311989754" y="115.02757263183594" width="102.24657440185547" height="75.95459747314453">
+                  <text id="445:3126" name="Which gender best describes you ?" x="0" y="0" width="102.24657440185547" height="20.44931411743164" />
+                  <frame id="445:3127" name="Frame 53" x="3.651827812194824" y="25.19671058654785" width="94.94324493408203" height="50.758121490478516">
+                    <frame id="445:3128" name="Frame 25" x="0" y="0" width="94.94324493408203" height="20.44931411743164">
+                      <text id="445:3129" name="Female" x="17.162817001342773" y="6.72465705871582" width="60.617610931396484" height="7" />
+                    </frame>
+                    <frame id="445:3130" name="Frame 26" x="0" y="30.308805465698242" width="94.94324493408203" height="20.44931411743164">
+                      <text id="445:3131" name="Male" x="40.471622467041016" y="6.72465705871582" width="14" height="7" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="445:3141" name="iPhone 13 &amp; 14 - 27" x="158.4148712158203" y="0" width="142.4148712158203" height="308.20037841796875">
+              <rounded-rectangle id="445:3143" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+              <instance id="445:3144" name="iOS status bar" x="0" y="0" width="142.4148712158203" height="20.084148406982422" />
+              <frame id="445:3145" name="Frame 2" x="10.224609375" y="30.6748046875" width="101.88140869140625" height="10.22465705871582">
+                <frame id="445:3146" name="Frame 1" x="0" y="0" width="10.22465705871582" height="10.22465705871582">
+                  <vector id="445:3147" name="Rectangle 2" x="3.8342463970184326" y="2.556164264678955" width="2.556164264678955" height="5.11232852935791" />
+                </frame>
+                <text id="445:3148" name="OTP Verification" x="20.084148406982422" y="0" width="81.79725646972656" height="10.22465705871582" />
+              </frame>
+              <line id="445:3149" name="Line 2" x="44.9150390625" y="302.3583984375" width="52.583953857421875" height="0" />
+              <frame id="445:3150" name="Frame 25" x="20.083986282348633" y="102.24696350097656" width="102.24657440185547" height="132.92054748535156">
+                <line id="445:3151" name="Line 1" x="10.22465991973877" y="31.039033889770508" width="81.79725646972656" height="8.587448974139988e-9" />
+                <line id="445:3152" name="Line 2" x="10.22465991973877" y="61.34783935546875" width="81.79725646972656" height="8.587448974139988e-9" />
+                <text id="445:3153" name="(+91) India" x="10.22465991973877" y="20.814376831054688" width="61.34794616699219" height="9.859491348266602" />
+                <text id="445:3154" name="Enter Your Mobile Number" x="10.22465991973877" y="50.758018493652344" width="81.79725646972656" height="10.22465705871582" />
+                <text id="445:3155" name="We will send you one time password (OTP)" x="10.224609375" y="81.796875" width="81.79725646972656" height="10.22465705871582" />
+                <frame id="445:3156" name="Frame 1" x="82.162109375" y="30.673828125" width="10.22465705871582" height="10.22465705871582">
+                  <vector id="445:3157" name="Rectangle 2" x="4.016829490661621" y="2.921330451965332" width="4.381996154785156" height="2.190998077392578" />
+                </frame>
+                <frame id="445:3158" name="Frame 25" x="17.8935546875" y="105.8984375" width="66.09510803222656" height="14.033658981323242">
+                  <text id="445:3159" name="Send" x="26.54755401611328" y="4.016829490661621" width="13" height="6" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="445:3169" name="iPhone 13 &amp; 14 - 28" x="316.8297424316406" y="0" width="142.4148712158203" height="308.20037841796875" />
+            <frame id="445:3197" name="iPhone 13 &amp; 14 - 29" x="475.24462890625" y="0" width="142.4148712158203" height="308.20037841796875">
+              <rounded-rectangle id="445:3198" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+              <instance id="445:3199" name="iOS status bar" x="0" y="0" width="142.4148712158203" height="20.084148406982422" />
+              <line id="445:3200" name="Line 2" x="44.9150390625" y="302.3583984375" width="52.583953857421875" height="0" />
+              <frame id="445:3201" name="Frame 142" x="20.083984375" y="51.1240234375" width="102.24657440185547" height="48.932289123535156">
+                <rounded-rectangle id="445:3202" name="WhatsApp_Image_2026-02-24_at_5_21_57_PM-Picsart-AiImageEnhancer-removebg-preview 1" x="26.01198959350586" y="0" width="50.22259521484375" height="48.932289123535156" />
+              </frame>
+              <frame id="445:3203" name="Frame 141" x="20.083984375" y="120.5048828125" width="102.24657440185547" height="121.23522186279297">
+                <frame id="445:3204" name="Frame 143" x="0" y="0" width="102.24657440185547" height="36.151466369628906">
+                  <text id="445:3205" name="Link your Facebook" x="0" y="0" width="102.24657440185547" height="10.22465705871582" />
+                  <text id="445:3206" name="Connect your Facebook to verify your account" x="0" y="15.702152252197266" width="102.24657440185547" height="20.44931411743164" />
+                </frame>
+                <frame id="445:3207" name="Frame 144" x="0" y="64.26927185058594" width="102.24657440185547" height="56.96595001220703">
+                  <instance id="445:3208" name="vuesax/bold/facebook" x="38.342464447021484" y="0" width="25.561643600463867" height="25.561643600463867" />
+                  <frame id="445:3209" name="Frame 25" x="0" y="36.516632080078125" width="102.24657440185547" height="20.44931411743164">
+                    <text id="445:3210" name="Link your Facebook" x="20.814481735229492" y="7.22465705871582" width="60.617610931396484" height="6" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="445:3225" name="iPhone 13 &amp; 14 - 30" x="633.6594848632812" y="0" width="142.4148712158203" height="308.20037841796875">
+              <rounded-rectangle id="445:3226" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+              <instance id="445:3227" name="iOS status bar" x="0" y="0" width="142.4148712158203" height="20.084148406982422" />
+              <line id="445:3228" name="Line 2" x="44.916015625" y="302.3583984375" width="52.583953857421875" height="0" />
+              <frame id="445:3229" name="Frame 2" x="10.224609375" y="30.6748046875" width="101.88140869140625" height="10.22465705871582">
+                <frame id="445:3230" name="Frame 1" x="0" y="0" width="10.22465705871582" height="10.22465705871582">
+                  <vector id="445:3231" name="Rectangle 2" x="3.8342463970184326" y="2.556164264678955" width="2.556164264678955" height="5.11232852935791" />
+                </frame>
+                <text id="445:3232" name="Face Recognition" x="20.084148406982422" y="0" width="81.79725646972656" height="10.22465705871582" />
+              </frame>
+              <text id="445:3233" name="Scan your face to verify your identity" x="20.0849609375" y="51.1240234375" width="102.24657440185547" height="10.22465705871582" />
+              <frame id="445:3234" name="Group 7" x="14.97188949584961" y="71.5732421875" width="112.47146606445312" height="130.7294921875">
+                <vector id="445:3235" name="Vector" x="103.98730087280273" y="71.5732421875" width="23.456438064575195" height="21.6981258392334" />
+                <vector id="445:3236" name="Vector" x="38.4287109375" y="71.5732421875" width="23.456438064575195" height="21.6981258392334" />
+                <vector id="445:3237" name="Vector" x="103.98730087280273" y="202.302734375" width="23.456438064575195" height="21.6981258392334" />
+                <vector id="445:3238" name="Vector" x="38.4287109375" y="202.302734375" width="23.456438064575195" height="21.6981258392334" />
+                <instance id="445:3239" name="iOS Face ID - Animation" x="55.141597747802734" y="121.9658203125" width="32.13463592529297" height="31.40430450439453" />
+              </frame>
+              <frame id="445:3240" name="Frame 25" x="20.0849609375" y="224.9423828125" width="102.24657440185547" height="20.44931411743164">
+                <text id="445:3241" name="Start Scan" x="20.814481735229492" y="7.22465705871582" width="60.617610931396484" height="6" />
+              </frame>
+            </frame>
+            <frame id="445:3262" name="iPhone 13 &amp; 14 - 31" x="792.0743408203125" y="0" width="142.4148712158203" height="308.20037841796875">
+              <rounded-rectangle id="445:3263" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+              <instance id="445:3264" name="iOS status bar" x="0" y="0" width="142.4148712158203" height="20.084148406982422" />
+              <line id="445:3265" name="Line 2" x="44.916015625" y="302.3583984375" width="52.583953857421875" height="0" />
+              <frame id="445:3266" name="Frame 2" x="30.30859375" y="30.6748046875" width="81.79725646972656" height="10.22465705871582">
+                <text id="445:3267" name="Face Recognition" x="0" y="0" width="81.79725646972656" height="10.22465705871582" />
+              </frame>
+              <text id="445:3268" name="Scan your face to verify your identity" x="20.083984375" y="51.1240234375" width="102.24657440185547" height="10.22465705871582" />
+              <frame id="445:3269" name="Group 7" x="14.972270965576172" y="71.9384765625" width="112.47147369384766" height="130.7294921875">
+                <vector id="445:3270" name="Vector" x="103.98730087280273" y="71.9384765625" width="23.456439971923828" height="21.6981258392334" />
+                <vector id="445:3271" name="Vector" x="38.4287109375" y="71.9384765625" width="23.456439971923828" height="21.6981258392334" />
+                <vector id="445:3272" name="Vector" x="103.98730087280273" y="202.66796875" width="23.456439971923828" height="21.6981258392334" />
+                <vector id="445:3273" name="Vector" x="38.4287109375" y="202.66796875" width="23.456439971923828" height="21.6981258392334" />
+                <rounded-rectangle id="445:3274" name="Rectangle 20" x="29.9443359375" y="85.814453125" width="82.16242980957031" height="103.34207153320312" />
+                <rounded-rectangle id="445:3275" name="Avatar Image" x="29.9443359375" y="85.814453125" width="82.52759552001953" height="103.34207153320312" />
+                <line id="445:3276" name="Line 3" x="20.4501953125" y="142.4150390625" width="98.59488935023182" height="0.37205616786195606" />
+              </frame>
+              <frame id="445:3277" name="Frame 153" x="9.859375" y="220.560546875" width="122.69589233398438" height="6.938160419464111">
+                <rounded-rectangle id="445:3278" name="Rectangle 21" x="0.7303326725959778" y="0.7303326725959778" width="59.52211380004883" height="5.477495193481445" />
+                <instance id="445:3279" name="button" x="0.73046875" y="0" width="121.9655532836914" height="6.938160419464111" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="445:3515" name="Frame 174" x="16.039581298828125" y="353.20037841796875" width="902.4100952148438" height="362.881103515625">
+            <frame id="445:3293" name="iPhone 13 &amp; 14 - 26" x="0" y="0" width="167.68202209472656" height="362.881103515625" />
+            <frame id="445:3330" name="iPhone 13 &amp; 14 - 27" x="183.68202209472656" y="0" width="167.68202209472656" height="362.881103515625" />
+            <frame id="445:3353" name="iPhone 13 &amp; 14 - 28" x="367.3640441894531" y="0" width="167.68202209472656" height="362.881103515625" />
+            <frame id="445:3376" name="iPhone 13 &amp; 14 - 29" x="551.0460815429688" y="0" width="167.68202209472656" height="362.881103515625" />
+            <frame id="445:3426" name="iPhone 13 &amp; 14 - 30" x="734.7280883789062" y="0" width="167.68202209472656" height="362.881103515625" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame 

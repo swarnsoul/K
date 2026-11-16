@@ -1,0 +1,376 @@
+<frame id="285:57" name="Desktop - 11" x="8410" y="5199" width="1440" height="10404">
+  <frame id="285:58" name="Frame 80" x="0" y="1" width="1440" height="10403">
+    <rounded-rectangle id="285:59" name="image 3" x="0" y="0" width="1440" height="756" />
+    <frame id="320:181" name="Frame 88" x="0" y="756" width="1440" height="566">
+      <rounded-rectangle id="320:207" name="Rectangle 45" x="61" y="24" width="1318" height="542" />
+      <text id="320:184" name="INFLUCRUSH" x="64" y="46" width="1311.4285888671875" height="189" />
+      <rounded-rectangle id="342:420" name="Influcrush (3) 1" x="571" y="107" width="301" height="568" />
+    </frame>
+    <frame id="327:208" name="Frame 89" x="0" y="1322" width="1426" height="838">
+      <frame id="330:307" name="Container" x="60" y="39.5" width="1306" height="759">
+        <frame id="330:308" name="Heading 1" x="56" y="56" width="1194" height="48">
+          <text id="330:309" name="Design Process" x="0" y="0" width="210" height="48" />
+        </frame>
+        <text id="330:386" name="From discovery to validation, every phase informed the next ensuring design decisions were driven by user needs, product strategy, and long-term scalability rather than visual execution alone." x="56" y="119" width="851" height="50" />
+        <frame id="330:310" name="Container:margin" x="56" y="184" width="1194" height="519">
+          <frame id="330:311" name="Container" x="132.5" y="40" width="929" height="479">
+            <frame id="330:312" name="Container" x="0" y="0" width="929" height="28">
+              <frame id="330:313" name="Container" x="0" y="0" width="98.80000305175781" height="28">
+                <frame id="330:314" name="Text" x="35.900001525878906" y="0" width="27" height="28">
+                  <text id="330:315" name="May" x="0" y="0" width="27" height="16" />
+                </frame>
+              </frame>
+              <frame id="330:316" name="Container" x="197.60000610351562" y="0" width="98.80000305175781" height="28">
+                <frame id="330:317" name="Text" x="33.400001525878906" y="0" width="0" height="28" />
+                <frame id="330:380" name="Text" x="33.400001525878906" y="0" width="32" height="28">
+                  <text id="330:381" name="June" x="0" y="0" width="32" height="16" />
+                </frame>
+              </frame>
+              <frame id="330:319" name="Container" x="395.20001220703125" y="0" width="98.80000305175781" height="28">
+                <frame id="330:320" name="Text" x="35.400001525878906" y="0" width="28" height="28">
+                  <text id="330:321" name="July" x="0" y="0" width="28" height="16" />
+                </frame>
+              </frame>
+              <frame id="330:322" name="Container" x="592.7999877929688" y="0" width="98.80000305175781" height="28">
+                <frame id="330:323" name="Text" x="25.900001525878906" y="0" width="19" height="28" />
+                <frame id="330:383" name="Text" x="44.900001525878906" y="0" width="28" height="28">
+                  <text id="330:384" name="July" x="0" y="0" width="28" height="16" />
+                </frame>
+              </frame>
+              <frame id="330:325" name="Container" x="790.3999633789062" y="0" width="98.80000305175781" height="28">
+                <frame id="330:326" name="Text" x="36.400001525878906" y="0" width="26" height="28">
+                  <text id="330:327" name="Aug" x="0" y="0" width="26" height="16" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="330:328" name="Container:margin" x="0" y="28" width="929" height="451">
+              <frame id="330:329" name="Container" x="0" y="8" width="929" height="443">
+                <frame id="330:330" name="Container" x="47" y="0" width="1" height="443" />
+                <frame id="330:331" name="Container" x="444.599609375" y="0" width="1" height="443" />
+                <frame id="330:379" name="Container" x="647" y="0" width="1" height="443" />
+                <frame id="330:378" name="Container" x="237" y="0" width="1" height="443" />
+                <frame id="330:334" name="Container" x="840.400390625" y="0" width="1" height="443" />
+                <frame id="330:335" name="Container" x="23.5" y="0.5" width="236" height="66">
+                  <frame id="330:336" name="Container" x="9" y="9.5" width="218" height="47">
+                    <frame id="330:337" name="Text" x="22" y="12" width="67" height="23">
+                      <text id="330:338" name="Research" x="0" y="0" width="67" height="23" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="330:342" name="Container" x="98.79998779296875" y="75.5" width="247" height="65.5">
+                  <frame id="330:343" name="Container" x="0" y="9.25" width="247" height="47">
+                    <frame id="330:344" name="Text" x="22" y="12" width="122" height="23">
+                      <text id="330:345" name="Problem Framing" x="0" y="0" width="122" height="23" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="330:349" name="Container" x="296.5" y="151.5" width="216" height="65">
+                  <frame id="330:350" name="Container" x="2.5" y="9" width="211" height="47">
+                    <frame id="330:351" name="Text" x="22" y="12" width="175" height="23">
+                      <text id="330:352" name="Information Architecture" x="0" y="0" width="175" height="23" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="330:356" name="Container" x="444.5999755859375" y="226.5" width="197.60000610351562" height="65.5">
+                  <frame id="330:357" name="Container" x="0" y="9.25" width="197.60000610351562" height="47">
+                    <frame id="330:358" name="Text" x="22" y="12" width="88" height="23">
+                      <text id="330:359" name="Wireframing" x="0" y="0" width="88" height="23" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="330:363" name="Container" x="593.5" y="302.5" width="229" height="66">
+                  <frame id="330:364" name="Container" x="0" y="9.5" width="229" height="47">
+                    <frame id="330:365" name="Text" x="22" y="12" width="146" height="23">
+                      <text id="330:366" name="High-Fidelity Design" x="0" y="0" width="146" height="23" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="330:370" name="Container" x="692" y="378" width="193" height="65">
+                  <frame id="330:371" name="Container" x="0" y="9" width="193" height="47">
+                    <frame id="330:372" name="Text" x="15" y="12" width="163" height="23">
+                      <text id="330:373" name="Prototype &amp; Evaluation" x="0" y="0" width="163" height="23" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="334:387" name="Frame 90" x="0" y="2160" width="1440" height="566">
+      <frame id="336:414" name="Frame 99" x="81" y="20.000171661376953" width="1278" height="525.2509765625">
+        <rounded-rectangle id="336:411" name="Influcrush (1) 2" x="189.2373504638672" y="0" width="303.5369873046875" height="525.2509765625" />
+        <rounded-rectangle id="336:413" name="Influcrush (1) 4" x="492.7745361328125" y="0.00017221402958966792" width="292.1873779296875" height="525.2509765625" />
+        <rounded-rectangle id="336:412" name="Influcrush (1) 3" x="784.9617309570312" y="0" width="303.8009338378906" height="525.2509765625" />
+      </frame>
+    </frame>
+    <frame id="342:422" name="Frame 91" x="0" y="2726" width="1440" height="444">
+      <frame id="342:427" name="Heading 1" x="81" y="65.5" width="1278" height="48">
+        <text id="342:428" name="Problem Space" x="0" y="0" width="205" height="48" />
+      </frame>
+      <text id="342:429" name="Today&#39;s platforms are built for engagement, not meaningful relationships. Social media allows creators to build large communities but offers little control over personal interactions, while traditional dating apps prioritize discovery at scale over trust and compatibility. This creates a gap for creators who want to build genuine connections without compromising their privacy, and for users who seek authentic interactions beyond public comments and endless swiping. InfluCrush was conceived to bridge this gap by creating a relationship platform centered around trust, intentional access, and creator control." x="81" y="128.5" width="588" height="250" />
+    </frame>
+    <frame id="342:430" name="Frame 92" x="0" y="3170" width="1440" height="389">
+      <frame id="342:434" name="Frame 100" x="701" y="22" width="653" height="347">
+        <frame id="342:431" name="Heading 1" x="0" y="0" width="567" height="48">
+          <text id="342:432" name="Key Challenges" x="0" y="0" width="209" height="48" />
+        </frame>
+        <text id="342:433" name="For Users Meaningful conversations are difficult to initiate in crowded social platforms, while traditional dating apps often encourage superficial interactions. For Creators Managing thousands of unsolicited messages makes it challenging to identify genuine connection requests while maintaining personal boundaries. For Existing Platforms Current products solve either audience engagement or matchmaking, but neither supports structured, trust-first relationships between creators and their communities." x="0" y="72" width="653" height="275" />
+      </frame>
+    </frame>
+    <frame id="352:54" name="Frame 94" x="0" y="3559" width="1440" height="805">
+      <rounded-rectangle id="352:60" name="Influcrush (8) 1" x="61" y="32" width="1318" height="741" />
+    </frame>
+    <frame id="354:62" name="Frame 95" x="0" y="4364" width="1440" height="309">
+      <frame id="354:63" name="Heading 1" x="81" y="35.5" width="1278" height="48">
+        <text id="354:64" name="Opportunity" x="0" y="0" width="164" height="48" />
+      </frame>
+      <text id="354:65" name="The rise of the creator economy has changed how people build trust online, but meaningful interactions still happen through public comments or overcrowded inboxes. Existing dating platforms solve discovery, while social platforms solve reach. Neither is designed for intentional relationships between creators and their communities. InfluCrush explores the opportunity to bridge that gap by combining creator control, trust-first interactions, and a premium relationship experience." x="81" y="98.5" width="588" height="175" />
+    </frame>
+    <frame id="354:66" name="Frame 96" x="0" y="4673" width="1440" height="257">
+      <frame id="354:70" name="Frame 101" x="68" y="18.5" width="311" height="220">
+        <text id="354:76" name="Creator Economy" x="78" y="43.5" width="155" height="48" />
+        <text id="354:78" name="Creators need meaningful interactions not thousands of unsolicited messages." x="35" y="101.5" width="241" height="75" />
+      </frame>
+      <frame id="354:80" name="Frame 102" x="399" y="18.5" width="311" height="220">
+        <text id="354:82" name="Intentional Relationships" x="44" y="43.5" width="223" height="48" />
+        <text id="354:83" name="Users value quality conversations over endless swiping." x="32" y="101.5" width="247" height="75" />
+      </frame>
+      <frame id="354:84" name="Frame 103" x="730" y="18.5" width="311" height="220">
+        <text id="354:86" name="Creator Control" x="50.5" y="43.5" width="210" height="48" />
+        <text id="354:87" name="Creators decide who can connect, when, and under what conditions." x="35" y="101.5" width="241" height="75" />
+      </frame>
+      <frame id="354:88" name="Frame 104" x="1061" y="18.5" width="311" height="220">
+        <text id="354:90" name="Premium Access" x="21.5" y="43.5" width="268" height="48" />
+        <text id="354:91" name="Monetization becomes part of the experience instead of interrupting it." x="35" y="101.5" width="241" height="75" />
+      </frame>
+    </frame>
+    <frame id="358:92" name="Frame 97" x="0" y="4930" width="1440" height="221">
+      <frame id="358:93" name="Heading 1" x="81" y="29" width="1278" height="48">
+        <text id="358:94" name="How I validated the opportunity" x="0" y="0" width="423" height="48" />
+      </frame>
+      <text id="358:95" name="Competitive analysis of Tinder, Bumble, Instagram, and Hinge. Product teardown of onboarding, discovery, and messaging flows. Creator economy and subscription model research. Behavioral pattern analysis across social and dating platforms." x="81" y="92" width="588" height="100" />
+    </frame>
+    <frame id="358:99" name="Frame 98" x="0" y="5151" width="1440" height="221">
+      <frame id="358:100" name="Heading 1" x="733" y="29" width="626" height="48">
+        <text id="358:101" name="Key Insights" x="0" y="0" width="164" height="48" />
+      </frame>
+      <text id="358:102" name="Users value meaningful conversations over endless swiping. Creators need control over who can contact them. Trust should be established before conversations begin. Monetization works best when it enhances the experience, not interrupts it." x="733" y="92" width="602" height="100" />
+    </frame>
+    <frame id="358:103" name="Frame 99" x="0" y="5372" width="1440" height="382">
+      <frame id="358:151" name="Frame 109" x="81" y="44" width="1278" height="88">
+        <frame id="358:104" name="Heading 1" x="0" y="0" width="1278" height="48">
+          <text id="358:105" name="Information Architecture" x="0" y="0" width="328" height="48" />
+        </frame>
+        <text id="358:106" name="The product is organized around four core experiences:" x="0" y="63" width="588" height="25" />
+      </frame>
+      <frame id="358:129" name="Frame 108" x="81" y="162" width="1278" height="121">
+        <frame id="358:112" name="Frame 101" x="242.5" y="0" width="121" height="121">
+          <text id="358:113" name="Discover" x="28" y="47" width="65" height="27" />
+        </frame>
+        <frame id="358:122" name="Frame 105" x="383.5" y="46.5" width="63" height="28">
+          <vector id="358:121" name="Arrow 3" x="6" y="14" width="50" height="0" />
+        </frame>
+        <frame id="358:115" name="Frame 102" x="466.5" y="0" width="121" height="121">
+          <text id="358:116" name="Connect" x="29" y="47" width="63" height="27" />
+        </frame>
+        <frame id="358:123" name="Frame 106" x="607.5" y="46.5" width="63" height="28">
+          <vector id="358:124" name="Arrow 3" x="6" y="14" width="50" height="0" />
+        </frame>
+        <frame id="358:117" name="Frame 103" x="690.5" y="0" width="121" height="121">
+          <text id="358:118" name="Converse" x="25" y="47" width="71" height="27" />
+        </frame>
+        <frame id="358:125" name="Frame 107" x="831.5" y="46.5" width="63" height="28">
+          <vector id="358:126" name="Arrow 3" x="6" y="14" width="50" height="0" />
+        </frame>
+        <frame id="358:119" name="Frame 104" x="914.5" y="0" width="121" height="121">
+          <text id="358:120" name="Manage" x="30.5" y="47" width="60" height="27" />
+        </frame>
+      </frame>
+      <text id="358:130" name="This structure keeps navigation focused while supporting both user goals and creator workflows." x="81" y="313" width="953" height="25" />
+    </frame>
+    <frame id="358:131" name="Frame 100" x="0" y="5754" width="1440" height="264">
+      <frame id="358:152" name="Frame 110" x="81" y="12.5" width="1278" height="88">
+        <frame id="358:132" name="Heading 1" x="0" y="0" width="1278" height="48">
+          <text id="358:133" name="User Flow" x="0" y="0" width="135" height="48" />
+        </frame>
+        <text id="358:134" name="A streamlined journey designed to minimize friction while building trust at every step." x="0" y="63" width="710" height="25" />
+      </frame>
+      <frame id="358:135" name="Frame 108" x="81" y="130.5" width="1278" height="121">
+        <frame id="358:136" name="Frame 101" x="18.5" y="0" width="121" height="121">
+          <text id="358:137" name="Onboarding" x="17" y="47" width="87" height="27" />
+        </frame>
+        <frame id="358:138" name="Frame 105" x="159.5" y="46.5" width="63" height="28">
+          <vector id="358:139" name="Arrow 3" x="6" y="14" width="50" height="0" />
+        </frame>
+        <frame id="358:140" name="Frame 102" x="242.5" y="0" width="121" height="121">
+          <text id="358:141" name="Profile Setup" x="13.5" y="47" width="94" height="27" />
+        </frame>
+        <frame id="358:142" name="Frame 106" x="383.5" y="46.5" width="63" height="28">
+          <vector id="358:143" name="Arrow 3" x="6" y="14" width="50" height="0" />
+        </frame>
+        <frame id="358:144" name="Frame 103" x="466.5" y="0" width="121" height="121">
+          <text id="358:145" name="Discover" x="28" y="47" width="65" height="27" />
+        </frame>
+        <frame id="358:146" name="Frame 107" x="607.5" y="46.5" width="63" height="28">
+          <vector id="358:147" name="Arrow 3" x="6" y="14" width="50" height="0" />
+        </frame>
+        <frame id="358:148" name="Frame 104" x="690.5" y="0" width="121" height="121">
+          <text id="358:149" name="Request Access" x="9" y="47" width="103" height="27" />
+        </frame>
+        <frame id="358:153" name="Frame 108" x="831.5" y="46.5" width="63" height="28">
+          <vector id="358:154" name="Arrow 3" x="6" y="14" width="50" height="0" />
+        </frame>
+        <frame id="358:155" name="Frame 109" x="914.5" y="0" width="121" height="121">
+          <text id="358:156" name="Subscription" x="14" y="47" width="93" height="27" />
+        </frame>
+        <frame id="358:157" name="Frame 110" x="1055.5" y="46.5" width="63" height="28">
+          <vector id="358:158" name="Arrow 3" x="6" y="14" width="50" height="0" />
+        </frame>
+        <frame id="358:159" name="Frame 111" x="1138.5" y="0" width="121" height="121">
+          <text id="358:160" name="Conversation" x="11.5" y="47" width="98" height="27" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="358:161" name="Frame 101" x="0" y="6018" width="1440" height="648">
+      <frame id="358:162" name="Heading 1" x="81" y="18.011825561523438" width="1278" height="48">
+        <text id="358:163" name="Ideation" x="0" y="0" width="110" height="48" />
+      </frame>
+      <text id="358:164" name="I started with quick hand sketches to rapidly explore navigation patterns, screen hierarchy, and interaction flows before committing to digital wireframes. This helped evaluate multiple concepts early while keeping the focus on solving the problem rather than refining visuals." x="81" y="81.01182556152344" width="1116" height="50" />
+      <frame id="379:54" name="Frame 112" x="81" y="146.01182556152344" width="1278" height="483.9763488769531">
+        <rounded-rectangle id="360:167" name="Influcrush (9) 1" x="284" y="0" width="710" height="483.9763488769531" />
+      </frame>
+    </frame>
+    <frame id="379:55" name="Frame 102" x="0" y="6666" width="1440" height="773">
+      <frame id="379:56" name="Heading 1" x="81" y="46" width="1278" height="48">
+        <text id="379:57" name="Low-Fidelity Wireframes" x="0" y="0" width="330" height="48" />
+      </frame>
+      <text id="379:58" name="The sketches were translated into low-fidelity wireframes to validate navigation, information hierarchy, and core user flows. Working in low fidelity made it easier to iterate quickly before moving into high-fidelity designs." x="81" y="114" width="1116" height="50" />
+      <frame id="379:59" name="Frame 112" x="81" y="184" width="1278" height="543">
+        <rounded-rectangle id="382:91" name="image 60" x="172.5" y="0" width="933" height="543" />
+      </frame>
+    </frame>
+    <frame id="408:80" name="Frame 108" x="0" y="7439" width="1440" height="396">
+      <frame id="408:84" name="Heading 2" x="81" y="40" width="1278" height="48">
+        <text id="408:85" name="Solution" x="0" y="0" width="111" height="48" />
+      </frame>
+      <text id="408:83" name="InfluCrush reimagines creator–community relationships through a trust-first experience. Instead of open messaging, the platform enables creators to control access while allowing users to discover, connect, subscribe, and communicate through a structured interaction model." x="81" y="103" width="791" height="75" />
+      <frame id="408:81" name="Heading 1" x="81" y="193" width="1278" height="48">
+        <text id="408:82" name="Core Experience" x="0" y="0" width="224" height="48" />
+      </frame>
+      <text id="408:86" name="Discover verified creators based on preferences. Request Access instead of sending unrestricted messages. Subscribe to unlock meaningful conversations. Connect through a private and intentional chat experience." x="81" y="256" width="791" height="100" />
+    </frame>
+    <frame id="382:96" name="Frame 103" x="0" y="7835" width="1440" height="859">
+      <frame id="382:97" name="Heading 1" x="81" y="36.62078857421875" width="1278" height="48">
+        <text id="382:98" name="High-Fidelity Design" x="0" y="0" width="274" height="48" />
+      </frame>
+      <text id="382:99" name="The interface uses a premium dark theme, bold visual hierarchy, and minimal interactions to create an immersive experience while keeping the focus on profiles and conversations." x="81" y="104.62078857421875" width="1116" height="50" />
+      <frame id="382:100" name="Frame 112" x="81" y="174.62078857421875" width="1278" height="647.7584228515625">
+        <frame id="382:116" name="Frame 115" x="172.5" y="0" width="933" height="647.7584228515625">
+          <frame id="382:117" name="Frame 113" x="0" y="0" width="933" height="300.55419921875">
+            <rounded-rectangle id="382:118" name="Login  Screen 1" x="0" y="0" width="138.88168334960938" height="300.55419921875" />
+            <rounded-rectangle id="382:119" name="Celeb login 3" x="158.82366943359375" y="9.094947017729282e-13" width="138.88168334960938" height="300.55419921875" />
+            <rounded-rectangle id="382:120" name="Celeb login 2 1" x="317.6473388671875" y="9.094947017729282e-13" width="138.88168334960938" height="300.55419921875" />
+            <rounded-rectangle id="382:121" name="C location 1" x="476.4709777832031" y="9.094947017729282e-13" width="138.88168334960938" height="300.55419921875" />
+            <rounded-rectangle id="382:122" name="C identity 1" x="635.294677734375" y="9.094947017729282e-13" width="138.88168334960938" height="300.55419921875" />
+            <rounded-rectangle id="382:123" name="Height Setting 1" x="794.1183471679688" y="9.094947017729282e-13" width="138.88168334960938" height="300.55419921875" />
+          </frame>
+          <frame id="382:124" name="Frame 114" x="77.9874038696289" y="347.2041931152344" width="777.0252075195312" height="300.55419921875">
+            <rounded-rectangle id="382:125" name="C face Verify 1" x="0" y="0" width="138.88168334960938" height="300.55419921875" />
+            <rounded-rectangle id="382:126" name="C face verify 2 1" x="159.53598022460938" y="0.00009691078594187275" width="138.88168334960938" height="300.55419921875" />
+            <rounded-rectangle id="382:127" name="C Verif.. Done 1" x="319.0718688964844" y="0.00009691078594187275" width="138.88168334960938" height="300.55419921875" />
+            <rounded-rectangle id="382:128" name="KYC Digiloacker 1" x="478.60772705078125" y="0.00009691078594187275" width="138.88168334960938" height="300.55419921875" />
+            <rounded-rectangle id="382:129" name="C Onboarding 1 1" x="638.1436157226562" y="0.00009691078594187275" width="138.88168334960938" height="300.55419921875" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="397:57" name="Frame 104" x="0" y="8694" width="1440" height="960">
+      <frame id="397:58" name="Heading 1" x="81" y="27.5" width="1278" height="48">
+        <text id="397:59" name="Design System" x="0" y="0" width="204" height="48" />
+      </frame>
+      <text id="397:60" name="A scalable design system was created using reusable components, consistent spacing, typography, and color tokens to ensure visual consistency and efficient handoff." x="81" y="95.5" width="1116" height="50" />
+      <frame id="397:61" name="Frame 112" x="81" y="165.5" width="1278" height="767">
+        <rounded-rectangle id="397:78" name="image 61" x="-1" y="0" width="1280" height="767" />
+      </frame>
+    </frame>
+    <frame id="405:54" name="Frame 105" x="0" y="9654" width="1440" height="221">
+      <frame id="405:55" name="Heading 1" x="81" y="41.5" width="1278" height="48">
+        <text id="405:56" name="Accessibility" x="0" y="0" width="170" height="48" />
+      </frame>
+      <text id="405:57" name="Accessibility considerations included sufficient color contrast, readable typography, clear interaction states, and touch-friendly components to improve usability across devices." x="81" y="104.5" width="588" height="75" />
+    </frame>
+    <frame id="405:68" name="Frame 106" x="0" y="9875" width="1440" height="221">
+      <frame id="405:69" name="Heading 1" x="733" y="16.5" width="626" height="48">
+        <text id="405:70" name="Business Impact" x="0" y="0" width="222" height="48" />
+      </frame>
+      <text id="405:71" name="Expected Outcomes Higher quality interactions Better creator control Sustainable subscription model Increased user trust and retention" x="733" y="79.5" width="602" height="125" />
+    </frame>
+    <frame id="405:76" name="Frame 107" x="0" y="10096" width="1440" height="221">
+      <frame id="405:77" name="Heading 1" x="81" y="54" width="1278" height="48">
+        <text id="405:78" name="Reflection" x="0" y="0" width="136" height="48" />
+      </frame>
+      <text id="405:79" name="This project strengthened my ability to think beyond interfaces and design products that balance user needs, business goals, and long-term scalability." x="81" y="117" width="588" height="50" />
+    </frame>
+    <frame id="314:54" name="Frame 86" x="0" y="0" width="1440" height="120">
+      <frame id="599:1005" name="Frame 31" x="176" y="31" width="1088" height="58">
+        <frame id="599:1006" name="09b094a5-eb6d-4305-b41b-05ce50517281 1 [Vectorized]" x="20" y="12.524751663208008" width="65" height="32.950496673583984" />
+        <frame id="599:1045" name="Frame 26" x="394.5" y="19.00179100036621" width="235" height="19.996417999267578">
+          <text id="599:1046" name="Work" x="0" y="0.4982084631919861" width="42.780522300412485" height="19.000002012999175" />
+          <text id="599:1047" name="Resume" x="54.14176940917969" y="0" width="57.378577426075935" height="19.996418952941895" />
+          <text id="599:1048" name="About" x="122.88159942626953" y="0" width="43.37857575714588" height="19.996418952941895" />
+          <text id="599:1049" name="Contact" x="177.62142944335938" y="0" width="57.378577426075935" height="19.996418952941895" />
+        </frame>
+        <frame id="599:1050" name="Frame 185" x="939" y="19" width="129" height="20">
+          <rounded-rectangle id="599:1051" name="Rectangle 51" x="0" y="0" width="129" height="20" />
+          <rounded-rectangle id="599:1052" name="Rectangle 53" x="94.5" y="15" width="1" height="34" />
+          <rounded-rectangle id="599:1053" name="Rectangle 52" x="34.5" y="13" width="1" height="34" />
+          <frame id="599:1054" name="Frame 185" x="2" y="2" width="126" height="16">
+            <regular-polygon id="599:1055" name="Polygon 1" x="38" y="16" width="10" height="16" />
+            <regular-polygon id="599:1056" name="Polygon 2" x="98" y="16" width="10" height="16" />
+          </frame>
+          <rounded-rectangle id="599:1057" name="image 18" x="14.5" y="47" width="40" height="40" />
+          <frame id="599:1058" name="Frame 184" x="74.5" y="47" width="40" height="40">
+            <rounded-rectangle id="599:1059" name="image 19" x="0" y="0" width="40" height="40" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="314:149" name="Frame 87" x="0" y="120" width="1440" height="636">
+      <frame id="320:180" name="Frame 98" x="487" y="104" width="872" height="428">
+        <text id="320:172" name="InfluCrush Mobile Application" x="0" y="0" width="872" height="25" />
+        <text id="315:169" name="A creator-first relationship platform designed for intentional, trusted connections." x="0" y="61" width="872" height="80" />
+        <text id="320:170" name="InfluCrush explores a new category at the intersection of the creator economy and online dating. Designed from scratch, it gives creators full control over who they connect with while helping users build meaningful relationships through a trust-first, subscription-based experience." x="0" y="177" width="872" height="75" />
+        <frame id="315:168" name="Frame 97" x="0" y="288" width="693" height="79">
+          <frame id="315:166" name="Frame 95" x="0" y="0" width="693" height="35">
+            <frame id="314:150" name="Frame 88" x="0" y="0" width="157" height="35">
+              <text id="315:153" name="Product Strategy" x="14" y="0" width="129" height="35" />
+            </frame>
+            <frame id="315:154" name="Frame 89" x="165" y="0" width="125" height="35">
+              <text id="315:155" name="UX Research" x="14" y="0" width="97" height="35" />
+            </frame>
+            <frame id="315:156" name="Frame 90" x="298" y="0" width="212" height="35">
+              <text id="315:157" name="Information Architecture" x="14" y="0" width="184" height="35" />
+            </frame>
+            <frame id="315:158" name="Frame 91" x="518" y="0" width="166" height="35">
+              <text id="315:159" name="Interaction Design" x="14" y="0" width="138" height="35" />
+            </frame>
+          </frame>
+          <frame id="315:167" name="Frame 96" x="0" y="44" width="375" height="35">
+            <frame id="315:160" name="Frame 92" x="0" y="0" width="101" height="35">
+              <text id="315:161" name="UI Design" x="14" y="0" width="73" height="35" />
+            </frame>
+            <frame id="315:162" name="Frame 93" x="109" y="0" width="117" height="35">
+              <text id="315:163" name="Prototyping" x="14" y="0" width="89" height="35" />
+            </frame>
+            <frame id="315:164" name="Frame 94" x="234" y="0" width="141" height="35">
+              <text id="315:165" name="Design System" x="14" y="0" width="113" height="35" />
+            </frame>
+          </frame>
+        </frame>
+        <text id="320:171" name="Product Designer | 5 Months | Mobile App (iOS &amp; Android) | Solo Project" x="0" y="403" width="872" height="25" />
+      </frame>
+    </frame>
+  </frame>
+</frame>

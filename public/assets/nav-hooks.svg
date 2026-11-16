@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="126" height="16" viewBox="0 0 126 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Frame 185">
+<g id="Polygon 1">
+<use xlink:href="#stroke0_599_1167" fill="#B48D2B"/>
+<mask id="stroke1_599_1167" fill="white">
+<use xlink:href="#stroke0_599_1167"/>
+</mask>
+<path d="M35.9062 4H30.0938C29.4009 4 28.918 4.68764 29.1532 5.33942L32.0594 13.3932C32.3772 14.274 33.6228 14.274 33.9406 13.3932L36.8468 5.33942C37.082 4.68764 36.5991 4 35.9062 4Z" stroke-width="2" stroke="#3D2B0E" mask="url(#stroke1_599_1167)"/>
+</g>
+<g id="Polygon 2">
+<use xlink:href="#stroke2_599_1167" fill="#B48D2B"/>
+<mask id="stroke3_599_1167" fill="white">
+<use xlink:href="#stroke2_599_1167"/>
+</mask>
+<path d="M95.9062 4H90.0938C89.4009 4 88.918 4.68764 89.1532 5.33942L92.0594 13.3932C92.3772 14.274 93.6228 14.274 93.9406 13.3932L96.8468 5.33942C97.082 4.68764 96.5991 4 95.9062 4Z" stroke-width="2" stroke="#3D2B0E" mask="url(#stroke3_599_1167)"/>
+</g>
+</g>
+<defs>
+<path id="stroke0_599_1167" d="M33.9406 13.3932C33.6228 14.274 32.3772 14.274 32.0594 13.3932L29.1532 5.33942C28.918 4.68764 29.4009 4 30.0938 4H35.9062C36.5991 4 37.082 4.68764 36.8468 5.33942L33.9406 13.3932Z"/>
+<path id="stroke2_599_1167" d="M93.9406 13.3932C93.6228 14.274 92.3772 14.274 92.0594 13.3932L89.1532 5.33942C88.918 4.68764 89.4009 4 90.0938 4H95.9062C96.5991 4 97.082 4.68764 96.8468 5.33942L93.9406 13.3932Z"/>
+</defs>
+</svg>

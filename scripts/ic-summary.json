@@ -1,0 +1,827 @@
+[
+  {
+    "type": "frame",
+    "id": "285:58",
+    "name": "Frame 80"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "285:59",
+    "name": "image 3"
+  },
+  {
+    "type": "frame",
+    "id": "320:181",
+    "name": "Frame 88"
+  },
+  {
+    "type": "text",
+    "id": "320:184",
+    "name": "INFLUCRUSH"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "342:420",
+    "name": "Influcrush (3) 1"
+  },
+  {
+    "type": "frame",
+    "id": "327:208",
+    "name": "Frame 89"
+  },
+  {
+    "type": "text",
+    "id": "330:309",
+    "name": "Design Process"
+  },
+  {
+    "type": "text",
+    "id": "330:386",
+    "name": "From discovery to validation, every phase informed the next ensuring design decisions were driven by user needs, product strategy, and long-term scalability rather than visual execution alone."
+  },
+  {
+    "type": "text",
+    "id": "330:315",
+    "name": "May"
+  },
+  {
+    "type": "text",
+    "id": "330:381",
+    "name": "June"
+  },
+  {
+    "type": "text",
+    "id": "330:321",
+    "name": "July"
+  },
+  {
+    "type": "text",
+    "id": "330:384",
+    "name": "July"
+  },
+  {
+    "type": "text",
+    "id": "330:327",
+    "name": "Aug"
+  },
+  {
+    "type": "text",
+    "id": "330:338",
+    "name": "Research"
+  },
+  {
+    "type": "text",
+    "id": "330:345",
+    "name": "Problem Framing"
+  },
+  {
+    "type": "text",
+    "id": "330:352",
+    "name": "Information Architecture"
+  },
+  {
+    "type": "text",
+    "id": "330:359",
+    "name": "Wireframing"
+  },
+  {
+    "type": "text",
+    "id": "330:366",
+    "name": "High-Fidelity Design"
+  },
+  {
+    "type": "text",
+    "id": "330:373",
+    "name": "Prototype &amp; Evaluation"
+  },
+  {
+    "type": "frame",
+    "id": "334:387",
+    "name": "Frame 90"
+  },
+  {
+    "type": "frame",
+    "id": "336:414",
+    "name": "Frame 99"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "336:411",
+    "name": "Influcrush (1) 2"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "336:413",
+    "name": "Influcrush (1) 4"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "336:412",
+    "name": "Influcrush (1) 3"
+  },
+  {
+    "type": "frame",
+    "id": "342:422",
+    "name": "Frame 91"
+  },
+  {
+    "type": "text",
+    "id": "342:428",
+    "name": "Problem Space"
+  },
+  {
+    "type": "text",
+    "id": "342:429",
+    "name": "Today&#39;s platforms are built for engagement, not meaningful relationships. Social media allows creators to build large communities but offers little control over personal interactions, while traditional dating apps prioritize discovery at scale over trust and compatibility. This creates a gap for creators who want to build genuine connections without compromising their privacy, and for users who seek authentic interactions beyond public comments and endless swiping. InfluCrush was conceived to bridge this gap by creating a relationship platform centered around trust, intentional access, and creator control."
+  },
+  {
+    "type": "frame",
+    "id": "342:430",
+    "name": "Frame 92"
+  },
+  {
+    "type": "frame",
+    "id": "342:434",
+    "name": "Frame 100"
+  },
+  {
+    "type": "text",
+    "id": "342:432",
+    "name": "Key Challenges"
+  },
+  {
+    "type": "text",
+    "id": "342:433",
+    "name": "For Users Meaningful conversations are difficult to initiate in crowded social platforms, while traditional dating apps often encourage superficial interactions. For Creators Managing thousands of unsolicited messages makes it challenging to identify genuine connection requests while maintaining personal boundaries. For Existing Platforms Current products solve either audience engagement or matchmaking, but neither supports structured, trust-first relationships between creators and their communities."
+  },
+  {
+    "type": "frame",
+    "id": "352:54",
+    "name": "Frame 94"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "352:60",
+    "name": "Influcrush (8) 1"
+  },
+  {
+    "type": "frame",
+    "id": "354:62",
+    "name": "Frame 95"
+  },
+  {
+    "type": "text",
+    "id": "354:64",
+    "name": "Opportunity"
+  },
+  {
+    "type": "text",
+    "id": "354:65",
+    "name": "The rise of the creator economy has changed how people build trust online, but meaningful interactions still happen through public comments or overcrowded inboxes. Existing dating platforms solve discovery, while social platforms solve reach. Neither is designed for intentional relationships between creators and their communities. InfluCrush explores the opportunity to bridge that gap by combining creator control, trust-first interactions, and a premium relationship experience."
+  },
+  {
+    "type": "frame",
+    "id": "354:66",
+    "name": "Frame 96"
+  },
+  {
+    "type": "frame",
+    "id": "354:70",
+    "name": "Frame 101"
+  },
+  {
+    "type": "text",
+    "id": "354:76",
+    "name": "Creator Economy"
+  },
+  {
+    "type": "text",
+    "id": "354:78",
+    "name": "Creators need meaningful interactions not thousands of unsolicited messages."
+  },
+  {
+    "type": "frame",
+    "id": "354:80",
+    "name": "Frame 102"
+  },
+  {
+    "type": "text",
+    "id": "354:82",
+    "name": "Intentional Relationships"
+  },
+  {
+    "type": "text",
+    "id": "354:83",
+    "name": "Users value quality conversations over endless swiping."
+  },
+  {
+    "type": "frame",
+    "id": "354:84",
+    "name": "Frame 103"
+  },
+  {
+    "type": "text",
+    "id": "354:86",
+    "name": "Creator Control"
+  },
+  {
+    "type": "text",
+    "id": "354:87",
+    "name": "Creators decide who can connect, when, and under what conditions."
+  },
+  {
+    "type": "frame",
+    "id": "354:88",
+    "name": "Frame 104"
+  },
+  {
+    "type": "text",
+    "id": "354:90",
+    "name": "Premium Access"
+  },
+  {
+    "type": "text",
+    "id": "354:91",
+    "name": "Monetization becomes part of the experience instead of interrupting it."
+  },
+  {
+    "type": "frame",
+    "id": "358:92",
+    "name": "Frame 97"
+  },
+  {
+    "type": "text",
+    "id": "358:94",
+    "name": "How I validated the opportunity"
+  },
+  {
+    "type": "text",
+    "id": "358:95",
+    "name": "Competitive analysis of Tinder, Bumble, Instagram, and Hinge. Product teardown of onboarding, discovery, and messaging flows. Creator economy and subscription model research. Behavioral pattern analysis across social and dating platforms."
+  },
+  {
+    "type": "frame",
+    "id": "358:99",
+    "name": "Frame 98"
+  },
+  {
+    "type": "text",
+    "id": "358:101",
+    "name": "Key Insights"
+  },
+  {
+    "type": "text",
+    "id": "358:102",
+    "name": "Users value meaningful conversations over endless swiping. Creators need control over who can contact them. Trust should be established before conversations begin. Monetization works best when it enhances the experience, not interrupts it."
+  },
+  {
+    "type": "frame",
+    "id": "358:103",
+    "name": "Frame 99"
+  },
+  {
+    "type": "frame",
+    "id": "358:151",
+    "name": "Frame 109"
+  },
+  {
+    "type": "text",
+    "id": "358:105",
+    "name": "Information Architecture"
+  },
+  {
+    "type": "text",
+    "id": "358:106",
+    "name": "The product is organized around four core experiences:"
+  },
+  {
+    "type": "frame",
+    "id": "358:129",
+    "name": "Frame 108"
+  },
+  {
+    "type": "frame",
+    "id": "358:112",
+    "name": "Frame 101"
+  },
+  {
+    "type": "text",
+    "id": "358:113",
+    "name": "Discover"
+  },
+  {
+    "type": "frame",
+    "id": "358:122",
+    "name": "Frame 105"
+  },
+  {
+    "type": "frame",
+    "id": "358:115",
+    "name": "Frame 102"
+  },
+  {
+    "type": "text",
+    "id": "358:116",
+    "name": "Connect"
+  },
+  {
+    "type": "frame",
+    "id": "358:123",
+    "name": "Frame 106"
+  },
+  {
+    "type": "frame",
+    "id": "358:117",
+    "name": "Frame 103"
+  },
+  {
+    "type": "text",
+    "id": "358:118",
+    "name": "Converse"
+  },
+  {
+    "type": "frame",
+    "id": "358:125",
+    "name": "Frame 107"
+  },
+  {
+    "type": "frame",
+    "id": "358:119",
+    "name": "Frame 104"
+  },
+  {
+    "type": "text",
+    "id": "358:120",
+    "name": "Manage"
+  },
+  {
+    "type": "text",
+    "id": "358:130",
+    "name": "This structure keeps navigation focused while supporting both user goals and creator workflows."
+  },
+  {
+    "type": "frame",
+    "id": "358:131",
+    "name": "Frame 100"
+  },
+  {
+    "type": "frame",
+    "id": "358:152",
+    "name": "Frame 110"
+  },
+  {
+    "type": "text",
+    "id": "358:133",
+    "name": "User Flow"
+  },
+  {
+    "type": "text",
+    "id": "358:134",
+    "name": "A streamlined journey designed to minimize friction while building trust at every step."
+  },
+  {
+    "type": "frame",
+    "id": "358:135",
+    "name": "Frame 108"
+  },
+  {
+    "type": "frame",
+    "id": "358:136",
+    "name": "Frame 101"
+  },
+  {
+    "type": "text",
+    "id": "358:137",
+    "name": "Onboarding"
+  },
+  {
+    "type": "frame",
+    "id": "358:138",
+    "name": "Frame 105"
+  },
+  {
+    "type": "frame",
+    "id": "358:140",
+    "name": "Frame 102"
+  },
+  {
+    "type": "text",
+    "id": "358:141",
+    "name": "Profile Setup"
+  },
+  {
+    "type": "frame",
+    "id": "358:142",
+    "name": "Frame 106"
+  },
+  {
+    "type": "frame",
+    "id": "358:144",
+    "name": "Frame 103"
+  },
+  {
+    "type": "text",
+    "id": "358:145",
+    "name": "Discover"
+  },
+  {
+    "type": "frame",
+    "id": "358:146",
+    "name": "Frame 107"
+  },
+  {
+    "type": "frame",
+    "id": "358:148",
+    "name": "Frame 104"
+  },
+  {
+    "type": "text",
+    "id": "358:149",
+    "name": "Request Access"
+  },
+  {
+    "type": "frame",
+    "id": "358:153",
+    "name": "Frame 108"
+  },
+  {
+    "type": "frame",
+    "id": "358:155",
+    "name": "Frame 109"
+  },
+  {
+    "type": "text",
+    "id": "358:156",
+    "name": "Subscription"
+  },
+  {
+    "type": "frame",
+    "id": "358:157",
+    "name": "Frame 110"
+  },
+  {
+    "type": "frame",
+    "id": "358:159",
+    "name": "Frame 111"
+  },
+  {
+    "type": "text",
+    "id": "358:160",
+    "name": "Conversation"
+  },
+  {
+    "type": "frame",
+    "id": "358:161",
+    "name": "Frame 101"
+  },
+  {
+    "type": "text",
+    "id": "358:163",
+    "name": "Ideation"
+  },
+  {
+    "type": "text",
+    "id": "358:164",
+    "name": "I started with quick hand sketches to rapidly explore navigation patterns, screen hierarchy, and interaction flows before committing to digital wireframes. This helped evaluate multiple concepts early while keeping the focus on solving the problem rather than refining visuals."
+  },
+  {
+    "type": "frame",
+    "id": "379:54",
+    "name": "Frame 112"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "360:167",
+    "name": "Influcrush (9) 1"
+  },
+  {
+    "type": "frame",
+    "id": "379:55",
+    "name": "Frame 102"
+  },
+  {
+    "type": "text",
+    "id": "379:57",
+    "name": "Low-Fidelity Wireframes"
+  },
+  {
+    "type": "text",
+    "id": "379:58",
+    "name": "The sketches were translated into low-fidelity wireframes to validate navigation, information hierarchy, and core user flows. Working in low fidelity made it easier to iterate quickly before moving into high-fidelity designs."
+  },
+  {
+    "type": "frame",
+    "id": "379:59",
+    "name": "Frame 112"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "382:91",
+    "name": "image 60"
+  },
+  {
+    "type": "frame",
+    "id": "408:80",
+    "name": "Frame 108"
+  },
+  {
+    "type": "text",
+    "id": "408:85",
+    "name": "Solution"
+  },
+  {
+    "type": "text",
+    "id": "408:83",
+    "name": "InfluCrush reimagines creator–community relationships through a trust-first experience. Instead of open messaging, the platform enables creators to control access while allowing users to discover, connect, subscribe, and communicate through a structured interaction model."
+  },
+  {
+    "type": "text",
+    "id": "408:82",
+    "name": "Core Experience"
+  },
+  {
+    "type": "text",
+    "id": "408:86",
+    "name": "Discover verified creators based on preferences. Request Access instead of sending unrestricted messages. Subscribe to unlock meaningful conversations. Connect through a private and intentional chat experience."
+  },
+  {
+    "type": "frame",
+    "id": "382:96",
+    "name": "Frame 103"
+  },
+  {
+    "type": "text",
+    "id": "382:98",
+    "name": "High-Fidelity Design"
+  },
+  {
+    "type": "text",
+    "id": "382:99",
+    "name": "The interface uses a premium dark theme, bold visual hierarchy, and minimal interactions to create an immersive experience while keeping the focus on profiles and conversations."
+  },
+  {
+    "type": "frame",
+    "id": "382:100",
+    "name": "Frame 112"
+  },
+  {
+    "type": "frame",
+    "id": "382:116",
+    "name": "Frame 115"
+  },
+  {
+    "type": "frame",
+    "id": "382:117",
+    "name": "Frame 113"
+  },
+  {
+    "type": "frame",
+    "id": "382:124",
+    "name": "Frame 114"
+  },
+  {
+    "type": "frame",
+    "id": "397:57",
+    "name": "Frame 104"
+  },
+  {
+    "type": "text",
+    "id": "397:59",
+    "name": "Design System"
+  },
+  {
+    "type": "text",
+    "id": "397:60",
+    "name": "A scalable design system was created using reusable components, consistent spacing, typography, and color tokens to ensure visual consistency and efficient handoff."
+  },
+  {
+    "type": "frame",
+    "id": "397:61",
+    "name": "Frame 112"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "397:78",
+    "name": "image 61"
+  },
+  {
+    "type": "frame",
+    "id": "405:54",
+    "name": "Frame 105"
+  },
+  {
+    "type": "text",
+    "id": "405:56",
+    "name": "Accessibility"
+  },
+  {
+    "type": "text",
+    "id": "405:57",
+    "name": "Accessibility considerations included sufficient color contrast, readable typography, clear interaction states, and touch-friendly components to improve usability across devices."
+  },
+  {
+    "type": "frame",
+    "id": "405:68",
+    "name": "Frame 106"
+  },
+  {
+    "type": "text",
+    "id": "405:70",
+    "name": "Business Impact"
+  },
+  {
+    "type": "text",
+    "id": "405:71",
+    "name": "Expected Outcomes Higher quality interactions Better creator control Sustainable subscription model Increased user trust and retention"
+  },
+  {
+    "type": "frame",
+    "id": "405:76",
+    "name": "Frame 107"
+  },
+  {
+    "type": "text",
+    "id": "405:78",
+    "name": "Reflection"
+  },
+  {
+    "type": "text",
+    "id": "405:79",
+    "name": "This project strengthened my ability to think beyond interfaces and design products that balance user needs, business goals, and long-term scalability."
+  },
+  {
+    "type": "frame",
+    "id": "314:54",
+    "name": "Frame 86"
+  },
+  {
+    "type": "frame",
+    "id": "599:1005",
+    "name": "Frame 31"
+  },
+  {
+    "type": "frame",
+    "id": "599:1045",
+    "name": "Frame 26"
+  },
+  {
+    "type": "text",
+    "id": "599:1046",
+    "name": "Work"
+  },
+  {
+    "type": "text",
+    "id": "599:1047",
+    "name": "Resume"
+  },
+  {
+    "type": "text",
+    "id": "599:1048",
+    "name": "About"
+  },
+  {
+    "type": "text",
+    "id": "599:1049",
+    "name": "Contact"
+  },
+  {
+    "type": "frame",
+    "id": "599:1050",
+    "name": "Frame 185"
+  },
+  {
+    "type": "frame",
+    "id": "599:1054",
+    "name": "Frame 185"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "599:1057",
+    "name": "image 18"
+  },
+  {
+    "type": "frame",
+    "id": "599:1058",
+    "name": "Frame 184"
+  },
+  {
+    "type": "rounded-rectangle",
+    "id": "599:1059",
+    "name": "image 19"
+  },
+  {
+    "type": "frame",
+    "id": "314:149",
+    "name": "Frame 87"
+  },
+  {
+    "type": "frame",
+    "id": "320:180",
+    "name": "Frame 98"
+  },
+  {
+    "type": "text",
+    "id": "320:172",
+    "name": "InfluCrush Mobile Application"
+  },
+  {
+    "type": "text",
+    "id": "315:169",
+    "name": "A creator-first relationship platform designed for intentional, trusted connections."
+  },
+  {
+    "type": "text",
+    "id": "320:170",
+    "name": "InfluCrush explores a new category at the intersection of the creator economy and online dating. Designed from scratch, it gives creators full control over who they connect with while helping users build meaningful relationships through a trust-first, subscription-based experience."
+  },
+  {
+    "type": "frame",
+    "id": "315:168",
+    "name": "Frame 97"
+  },
+  {
+    "type": "frame",
+    "id": "315:166",
+    "name": "Frame 95"
+  },
+  {
+    "type": "frame",
+    "id": "314:150",
+    "name": "Frame 88"
+  },
+  {
+    "type": "text",
+    "id": "315:153",
+    "name": "Product Strategy"
+  },
+  {
+    "type": "frame",
+    "id": "315:154",
+    "name": "Frame 89"
+  },
+  {
+    "type": "text",
+    "id": "315:155",
+    "name": "UX Research"
+  },
+  {
+    "type": "frame",
+    "id": "315:156",
+    "name": "Frame 90"
+  },
+  {
+    "type": "text",
+    "id": "315:157",
+    "name": "Information Architecture"
+  },
+  {
+    "type": "frame",
+    "id": "315:158",
+    "name": "Frame 91"
+  },
+  {
+    "type": "text",
+    "id": "315:159",
+    "name": "Interaction Design"
+  },
+  {
+    "type": "frame",
+    "id": "315:167",
+    "name": "Frame 96"
+  },
+  {
+    "type": "frame",
+    "id": "315:160",
+    "name": "Frame 92"
+  },
+  {
+    "type": "text",
+    "id": "315:161",
+    "name": "UI Design"
+  },
+  {
+    "type": "frame",
+    "id": "315:162",
+    "name": "Frame 93"
+  },
+  {
+    "type": "text",
+    "id": "315:163",
+    "name": "Prototyping"
+  },
+  {
+    "type": "frame",
+    "id": "315:164",
+    "name": "Frame 94"
+  },
+  {
+    "type": "text",
+    "id": "315:165",
+    "name": "Design System"
+  },
+  {
+    "type": "text",
+    "id": "320:171",
+    "name": "Product Designer | 5 Months | Mobile App (iOS &amp; Android) | Solo Project"
+  }
+]

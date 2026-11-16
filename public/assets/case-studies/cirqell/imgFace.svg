@@ -1,0 +1,8 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="11.1534" height="10.8874" viewBox="0 0 11.1534 10.8874" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="face">
+<path id="mouth" d="M1.63649 9.17423L2.15134 9.40305C4.27753 10.348 6.70451 10.348 8.8307 9.40305L9.34555 9.17423" stroke-width="1.21722" stroke-linecap="round" stroke="#8E8E93"/>
+<path id="nose" d="M6.00045 0.60861V4.83443C6.00045 5.48174 5.54755 6.04078 4.91433 6.1751L4.37749 6.28898" stroke-width="1.21722" stroke-linecap="round" stroke="#8E8E93"/>
+<path id="eye-left" d="M0.608611 0.608611L0.608611 2.63731" stroke-width="1.21722" stroke-linecap="round" stroke="#8E8E93"/>
+<path id="eye-right" d="M10.5447 0.60861L10.5447 2.63731" stroke-width="1.21722" stroke-linecap="round" stroke="#8E8E93"/>
+</g>
+</svg>

@@ -1,0 +1,422 @@
+====================================
+       CIRQELL DETAILS
+====================================
+
+### Frame 88 (443:106) at y=756, h=566
+    SHAPE [depth 3]: <rounded-rectangle id="443:107" name="Rectangle 45" x="61" y="24" width="1318" height="542" />
+    TEXT [depth 3]: <text id="443:108" name="CIQELL" x="64" y="46" width="1311.4285888671875" height="189" />
+    SHAPE [depth 3]: <rounded-rectangle id="466:5310" name="Influcrush (Phone Wallpaper) 1" x="523" y="176" width="335" height="596" />
+
+### Frame 89 (443:110) at y=1322, h=838
+    TEXT [depth 5]: <text id="443:113" name="Design Process" x="0" y="0" width="210" height="48" />
+    TEXT [depth 4]: <text id="443:114" name="From discovery to validation, every phase informed the next ensuring design decisions were driven by user needs, product strategy, and long-term scalability rather than visual execution alone." x="56" y="119" width="851" height="50" />
+    TEXT [depth 9]: <text id="443:120" name="Jan" x="0" y="0" width="24" height="16" />
+    TEXT [depth 9]: <text id="443:124" name="Feb" x="0" y="0" width="24" height="16" />
+    TEXT [depth 9]: <text id="443:127" name="March" x="0" y="0" width="41" height="16" />
+    TEXT [depth 9]: <text id="443:131" name="April" x="0" y="0" width="32" height="16" />
+    TEXT [depth 9]: <text id="443:134" name="May" x="0" y="0" width="27" height="16" />
+    TEXT [depth 11]: <text id="443:145" name="Research" x="0" y="0" width="67" height="23" />
+    TEXT [depth 11]: <text id="443:149" name="Problem Framing" x="0" y="0" width="122" height="23" />
+    TEXT [depth 11]: <text id="443:153" name="Information Architecture" x="0" y="0" width="175" height="23" />
+    TEXT [depth 11]: <text id="443:157" name="Wireframing" x="0" y="0" width="88" height="23" />
+    TEXT [depth 11]: <text id="443:161" name="High-Fidelity Design" x="0" y="0" width="146" height="23" />
+    TEXT [depth 11]: <text id="443:165" name="Prototype &amp; Evaluation" x="0" y="0" width="163" height="23" />
+
+### Frame 90 (443:166) at y=2160, h=566
+    SHAPE [depth 4]: <rounded-rectangle id="466:5312" name="Influcrush (10) 1" x="156" y="6.5" width="966" height="604" />
+
+### Frame 91 (443:171) at y=2726, h=444
+    TEXT [depth 4]: <text id="443:173" name="Problem Space" x="0" y="0" width="205" height="48" />
+    TEXT [depth 3]: <text id="443:174" name="Social platforms let creators build huge audiences but give them little control over who reaches them or how their time is valued. Social DMs are asynchronous and noisy. Clubhouse-style rooms are group-based and unmonetized for individuals. Cameo is pre-recorded, with no real-time interaction. There is no dedicated space for controlled, intentional, fee-based one-on-one voice conversations with verification and proximity-based discovery." x="81" y="141" width="588" height="225" />
+
+### Frame 92 (443:175) at y=3170, h=389
+    TEXT [depth 5]: <text id="443:178" name="Key Challenges" x="0" y="0" width="209" height="48" />
+    TEXT [depth 4]: <text id="443:179" name="For Users Comment sections feel impersonal; users want real, direct access to creators they follow, with transparent pricing and no hidden subscriptions. For Creators Hundreds of daily messages and unpaid advice requests make it hard to find genuine requests, protect privacy, and monetize their time beyond brand deals. For Existing Platforms Products solve either broadcast reach or recorded personalization, but none offer verified, real-time, creator-controlled conversations." x="0" y="72" width="653" height="275" />
+
+### Frame 94 (443:180) at y=3559, h=805.375
+    SHAPE [depth 3]: <rounded-rectangle id="443:181" name="Influcrush (8) 1" x="61" y="32" width="1318" height="741.375" />
+
+### Frame 95 (443:182) at y=4364.375, h=226
+    TEXT [depth 4]: <text id="443:184" name="Opportunity" x="0" y="0" width="164" height="48" />
+    TEXT [depth 3]: <text id="443:185" name="Creators increasingly monetize expertise and attention, yet no product treats a live conversation as a premium, protected experience. Cirqell explores that gap." x="81" y="119.5" width="629" height="50" />
+
+### Frame 96 (443:186) at y=4590.375, h=257
+    TEXT [depth 4]: <text id="443:188" name="Creator Monetization" x="61.5" y="56" width="188" height="48" />
+    TEXT [depth 4]: <text id="443:189" name="Creators earn fairly for every minute of their time." x="35" y="114" width="241" height="50" />
+    TEXT [depth 4]: <text id="443:191" name="Real-Time Intimacy" x="44" y="43.5" width="223" height="48" />
+    TEXT [depth 4]: <text id="443:192" name="Voice feels more authentic than text and more personal than pre-recorded video." x="32" y="101.5" width="247" height="75" />
+    TEXT [depth 4]: <text id="443:194" name="Creator Control" x="50.5" y="56" width="210" height="48" />
+    TEXT [depth 4]: <text id="443:195" name="Creators set pricing, availability, and who can reach them." x="35" y="114" width="241" height="50" />
+    TEXT [depth 4]: <text id="443:197" name="Trust &amp; Safety" x="21.5" y="56" width="268" height="48" />
+    TEXT [depth 4]: <text id="443:198" name="Creators set pricing, availability, and who can reach them." x="35" y="114" width="241" height="50" />
+
+### Frame 97 (443:199) at y=4847.375, h=221
+    TEXT [depth 4]: <text id="443:201" name="How I validated the opportunity" x="0" y="0" width="423" height="48" />
+    TEXT [depth 3]: <text id="443:202" name="I interviewed users who actively follow influencers and have paid for creator content (Patreon, Cameo, etc.) [add number of interviews]. I surveyed age group, occupation and preferred communication style [add number of responses]. I compared Clubhouse and Cameo against the gap Cirqell targets. I developed one creator persona and one audience persona." x="81" y="67" width="548" height="150" />
+
+### Frame 98 (443:203) at y=5068.375, h=221
+    TEXT [depth 4]: <text id="443:205" name="Key Insights" x="0" y="0" width="164" height="48" />
+    TEXT [depth 3]: <text id="443:206" name="Users prefer voice over text when they want authenticity. Verified profiles are essential before anyone pays or talks. Transparent per-minute pricing builds trust; hidden subscriptions erode it. Proximity-based discovery adds spontaneity and feels unique." x="733" y="92" width="602" height="100" />
+
+### Frame 99 (443:207) at y=5289.375, h=382
+    TEXT [depth 5]: <text id="443:210" name="Information Architecture" x="0" y="0" width="328" height="48" />
+    TEXT [depth 4]: <text id="443:211" name="The product is organized around four core experiences:" x="0" y="63" width="588" height="25" />
+    TEXT [depth 5]: <text id="443:214" name="Discover" x="28" y="47" width="65" height="27" />
+    SHAPE [depth 5]: <vector id="443:216" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 5]: <text id="443:218" name="Connect" x="29" y="47" width="63" height="27" />
+    SHAPE [depth 5]: <vector id="443:220" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 5]: <text id="443:222" name="Call" x="46.5" y="47" width="28" height="27" />
+    SHAPE [depth 5]: <vector id="443:224" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 5]: <text id="443:226" name="Manage" x="30.5" y="47" width="60" height="27" />
+    TEXT [depth 3]: <text id="443:227" name="Separate journeys for creators and users keep navigation focused while supporting both goals." x="81" y="313" width="953" height="25" />
+
+### Frame 100 (443:228) at y=5671.375, h=576
+    TEXT [depth 5]: <text id="443:231" name="User Flow" x="0" y="0" width="135" height="48" />
+    TEXT [depth 4]: <text id="443:232" name="A streamlined path from launch to a paid voice call, with verification and transparent pricing at every step." x="0" y="63" width="814" height="25" />
+    TEXT [depth 6]: <text id="445:384" name="Splash" x="8.5" y="49.5" width="104" height="22" />
+    SHAPE [depth 6]: <vector id="445:386" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:388" name="Onboarding" x="8.5" y="49.5" width="104" height="22" />
+    SHAPE [depth 6]: <vector id="445:390" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:392" name="Sign Up/Login" x="8.5" y="49.5" width="104" height="22" />
+    SHAPE [depth 6]: <vector id="445:394" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:396" name="OTP Verification" x="8.5" y="49.5" width="104" height="22" />
+    SHAPE [depth 6]: <vector id="445:398" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:400" name="Profile Setup" x="8.5" y="49.5" width="104" height="22" />
+    TEXT [depth 6]: <text id="445:403" name="Home Feed (map)" x="8.5" y="38.5" width="104" height="44" />
+    SHAPE [depth 6]: <vector id="445:405" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:407" name="Filter" x="8.5" y="49.5" width="104" height="22" />
+    SHAPE [depth 6]: <vector id="445:440" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:411" name="Creator Profile" x="8.5" y="49.5" width="104" height="22" />
+    SHAPE [depth 6]: <vector id="445:443" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:415" name="Select Call Duration" x="8.5" y="38.5" width="104" height="44" />
+    SHAPE [depth 6]: <vector id="445:445" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:419" name="Initiate Call" x="8.5" y="49.5" width="104" height="22" />
+    TEXT [depth 6]: <text id="445:422" name="Payment" x="8.5" y="49.5" width="104" height="22" />
+    SHAPE [depth 6]: <vector id="445:447" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:426" name="Wallet Management" x="8.5" y="38.5" width="104" height="44" />
+    SHAPE [depth 6]: <vector id="445:450" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:430" name="Recharge" x="8.5" y="49.5" width="104" height="22" />
+    SHAPE [depth 6]: <vector id="445:452" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:434" name="Creator Earnings" x="8.5" y="38.5" width="104" height="44" />
+    SHAPE [depth 6]: <vector id="445:454" name="Arrow 3" x="6" y="14" width="50" height="0" />
+    TEXT [depth 6]: <text id="445:438" name="Withdraw" x="8.5" y="49.5" width="104" height="22" />
+
+### Frame 101 (443:256) at y=6247.375, h=648
+    TEXT [depth 4]: <text id="443:258" name="Ideation" x="0" y="0" width="110" height="48" />
+    TEXT [depth 3]: <text id="443:259" name="I started with quick hand sketches to explore navigation, screen hierarchy and call flows, and to explore the Cirqell logo mark, before committing to digital wireframes." x="81" y="85.5" width="1116" height="50" />
+    SHAPE [depth 4]: <rounded-rectangle id="443:261" name="Influcrush (9) 1" x="327" y="0" width="624" height="475" />
+
+### Frame 102 (443:262) at y=6895.375, h=813
+    TEXT [depth 4]: <text id="443:264" name="Low-Fidelity Wireframes" x="0" y="0" width="330" height="48" />
+    TEXT [depth 3]: <text id="443:265" name="Sketches became wireframes to validate navigation, information hierarchy and the call-initiation flow. Working in low fidelity let me iterate fast on the map discovery and profile screens before investing in visuals." x="81" y="78.5" width="1116" height="50" />
+    SHAPE [depth 10]: <vector id="456:3177" name="Placeholder cross" x="0" y="0" width="36.4453125" height="32.80078125" />
+    TEXT [depth 11]: <text id="456:3179" name="Label" x="1.8222655057907104" y="1.8222655057907104" width="11" height="5" />
+    TEXT [depth 9]: <text id="456:3180" name="Copy" x="0" y="35.71660232543945" width="102.046875" height="9" />
+    TEXT [depth 9]: <text id="456:3182" name="Copy" x="0" y="0" width="102.046875" height="10" />
+    TEXT [depth 9]: <text id="456:3183" name="Copy" x="0" y="12.915624618530273" width="102.046875" height="14" />
+    TEXT [depth 9]: <text id="456:3185" name="Copy" x="0" y="0" width="102.046875" height="8" />
+    TEXT [depth 10]: <text id="456:3187" name="Label" x="37.87890625" y="5.611328125" width="19" height="7" />
+    TEXT [depth 10]: <text id="456:3189" name="Label" x="40.87890625" y="5.611328125" width="13" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3190" name="Home indicator" x="44.828125" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+    TEXT [depth 8]: <text id="456:3213" name="Back" x="10.205078125" y="8.7470703125" width="3" height="10" />
+    TEXT [depth 8]: <text id="456:3214" name="Title" x="43.068359375" y="7.526952743530273" width="56" height="9" />
+    TEXT [depth 9]: <text id="456:3217" name="Country" x="0" y="7.204687118530273" width="26" height="6" />
+    TEXT [depth 9]: <text id="456:3218" name="Expand" x="78.63749694824219" y="6.704687118530273" width="3" height="7" />
+    TEXT [depth 9]: <text id="456:3220" name="Copy" x="0" y="5.246874809265137" width="81.63749694824219" height="7" />
+    TEXT [depth 8]: <text id="456:3221" name="Copy" x="10.204689025878906" y="72.890625" width="81.63749694824219" height="12" />
+    TEXT [depth 9]: <text id="456:3223" name="Label" x="26.165233612060547" y="5.611328125" width="14" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3224" name="Home indicator" x="44.828125" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+    TEXT [depth 8]: <text id="456:3247" name="Back" x="10.205078125" y="8.7470703125" width="3" height="10" />
+    TEXT [depth 8]: <text id="456:3248" name="Title" x="43.068359375" y="7.526952743530273" width="56" height="9" />
+    TEXT [depth 9]: <text id="456:3251" name="Copy" x="0" y="0" width="81.63749694824219" height="12" />
+    TEXT [depth 10]: <text id="456:3254" name="Digit" x="9.526952743530273" y="6.526952743530273" width="5" height="11" />
+    TEXT [depth 10]: <text id="456:3256" name="Digit" x="9.026952743530273" y="6.526952743530273" width="6" height="11" />
+    TEXT [depth 8]: <text id="456:3259" name="Resend prompt" x="0" y="57.92109298706055" width="115.8960952758789" height="6" />
+    TEXT [depth 9]: <text id="456:3262" name="Label" x="26.665233612060547" y="5.611328125" width="13" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3263" name="Home indicator" x="44.828125" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+    SHAPE [depth 9]: <vector id="456:3287" name="Placeholder cross" x="0" y="0" width="36.4453125" height="32.80078125" />
+    TEXT [depth 10]: <text id="456:3289" name="Label" x="1.8222655057907104" y="1.8222655057907104" width="11" height="5" />
+    TEXT [depth 8]: <text id="456:3290" name="Copy" x="0" y="35.716407775878906" width="102.046875" height="9" />
+    TEXT [depth 8]: <text id="456:3292" name="Copy" x="0" y="0" width="102.046875" height="10" />
+    TEXT [depth 8]: <text id="456:3293" name="Copy" x="0" y="17.2890625" width="102.046875" height="14" />
+    TEXT [depth 9]: <text id="456:3295" name="Facebook" x="7.43359375" y="1.43359375" width="7" height="19" />
+    TEXT [depth 9]: <text id="456:3297" name="Label" x="25.5234375" y="5.611328125" width="51" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3298" name="Home indicator" x="44.828125" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+    TEXT [depth 8]: <text id="456:3321" name="Back" x="10.203125" y="8.7470703125" width="3" height="10" />
+    TEXT [depth 8]: <text id="456:3322" name="Title" x="41.068359375" y="7.526952743530273" width="60" height="9" />
+    TEXT [depth 8]: <text id="456:3324" name="Copy" x="0" y="0" width="102.046875" height="7" />
+    SHAPE [depth 8]: <vector id="456:3326" name="Scan brackets" x="0" y="0" width="109.3359375" height="127.55859375" />
+    TEXT [depth 9]: <text id="456:3330" name="Label" x="37.0234375" y="5.611328125" width="28" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3331" name="Home indicator" x="44.826171875" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+    TEXT [depth 8]: <text id="456:3354" name="Title" x="41.068359375" y="7.526952743530273" width="60" height="9" />
+    TEXT [depth 8]: <text id="456:3356" name="Copy" x="0" y="0" width="102.046875" height="7" />
+    SHAPE [depth 8]: <vector id="456:3358" name="Scan brackets" x="0" y="0" width="109.3359375" height="127.55859375" />
+    SHAPE [depth 9]: <vector id="456:3360" name="Placeholder cross" x="0" y="0" width="81.63749694824219" height="102.046875" />
+    TEXT [depth 10]: <text id="456:3362" name="Label" x="1.8222655057907104" y="1.8222655057907104" width="24" height="5" />
+    SHAPE [depth 8]: <rounded-rectangle id="456:3363" name="Scan line" x="6.560546875" y="68.5166015625" width="96.21562194824219" height="1.4578125476837158" />
+    SHAPE [depth 8]: <rounded-rectangle id="456:3365" name="Progress" x="0" y="0" width="59.77031326293945" height="6.560156345367432" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3366" name="Home indicator" x="44.828125" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+    TEXT [depth 8]: <text id="456:3389" name="Title" x="60.068359375" y="7.526952743530273" width="22" height="9" />
+    TEXT [depth 10]: <text id="456:3397" name="Copy" x="0" y="0" width="57.94804763793945" height="8" />
+    TEXT [depth 10]: <text id="456:3400" name="Copy" x="0" y="0" width="57.94804763793945" height="8" />
+    TEXT [depth 8]: <text id="456:3402" name="Copy" x="0" y="37.10234451293945" width="121.72734069824219" height="12" />
+    TEXT [depth 9]: <text id="456:3404" name="Copy" x="0" y="0" width="121.72734069824219" height="8" />
+    TEXT [depth 10]: <text id="456:3406" name="Unit" x="110.3539047241211" y="9.5" width="7" height="5" />
+    TEXT [depth 9]: <text id="456:3408" name="Copy" x="0" y="8.01796817779541" width="121.72734069824219" height="18" />
+    TEXT [depth 9]: <text id="456:3409" name="Copy" x="0" y="30.391407012939453" width="121.72734069824219" height="12" />
+    TEXT [depth 9]: <text id="456:3410" name="Copy" x="0" y="46.76484680175781" width="121.72734069824219" height="12" />
+    TEXT [depth 9]: <text id="456:3411" name="Copy" x="0" y="63.138282775878906" width="121.72734069824219" height="12" />
+    TEXT [depth 9]: <text id="456:3414" name="Label" x="7.665233612060547" y="5.611328125" width="51" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3415" name="Home indicator" x="44.828125" y="300.30938720703125" width="52.48125076293945" height="1.4578125476837158" />
+    TEXT [depth 8]: <text id="456:3438" name="Back" x="10.203125" y="8.7470703125" width="3" height="10" />
+    TEXT [depth 8]: <text id="456:3439" name="Title" x="33.068359375" y="7.526952743530273" width="76" height="9" />
+    TEXT [depth 8]: <text id="456:3441" name="Copy" x="0" y="0" width="121.72734069824219" height="7" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3444" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3445" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3447" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3448" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3450" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3451" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="18" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3453" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3454" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3456" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3457" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3459" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3460" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3462" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3463" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 8]: <rounded-rectangle id="456:3465" name="Checkbox" x="0" y="2.35546875" width="7.2890625" height="7.2890625" />
+    TEXT [depth 8]: <text id="456:3466" name="Copy" x="13.120307922363281" y="0" width="108.6070327758789" height="12" />
+    TEXT [depth 9]: <text id="456:3469" name="Label" x="7.165233612060547" y="5.611328125" width="52" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3470" name="Home indicator" x="44.826171875" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+    TEXT [depth 8]: <text id="456:3493" name="Back" x="10.205078125" y="8.7470703125" width="3" height="10" />
+    TEXT [depth 8]: <text id="456:3494" name="Title" x="33.068359375" y="7.526952743530273" width="76" height="9" />
+    TEXT [depth 8]: <text id="456:3496" name="Copy" x="0" y="0" width="121.72734069824219" height="7" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3499" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3500" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3502" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3503" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3505" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3506" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="18" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3508" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3509" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3511" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3512" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3514" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3515" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 10]: <rounded-rectangle id="456:3517" name="Bullet" x="0" y="0" width="1.093359351158142" height="1.093359351158142" />
+    TEXT [depth 10]: <text id="456:3518" name="Copy" x="4.0089802742004395" y="0" width="117.7183609008789" height="12" />
+    SHAPE [depth 8]: <rounded-rectangle id="456:3520" name="Checkbox" x="0" y="2.35546875" width="7.2890625" height="7.2890625" />
+    TEXT [depth 8]: <text id="456:3521" name="Copy" x="13.120307922363281" y="0" width="108.6070327758789" height="12" />
+    TEXT [depth 9]: <text id="456:3524" name="Label" x="7.165233612060547" y="5.611328125" width="52" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3525" name="Home indicator" x="44.828125" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+    TEXT [depth 8]: <text id="456:3548" name="Back" x="10.205078125" y="8.7470703125" width="3" height="10" />
+    TEXT [depth 8]: <text id="456:3549" name="Title" x="45.568359375" y="7.526952743530273" width="51" height="9" />
+    TEXT [depth 10]: <text id="456:3553" name="Copy" x="0" y="0" width="121.72734069824219" height="8" />
+    TEXT [depth 10]: <text id="456:3560" name="Copy" x="0" y="0" width="121.72734069824219" height="8" />
+    TEXT [depth 10]: <text id="456:3567" name="Copy" x="0" y="0" width="121.72734069824219" height="8" />
+    TEXT [depth 10]: <text id="456:3574" name="Copy" x="0" y="0" width="121.72734069824219" height="8" />
+    TEXT [depth 9]: <text id="456:3581" name="Copy" x="0" y="0" width="121.72734069824219" height="5" />
+    TEXT [depth 9]: <text id="456:3582" name="Copy" x="0" y="6.093359470367432" width="121.72734069824219" height="15" />
+    TEXT [depth 9]: <text id="456:3584" name="Copy" x="0" y="0" width="121.72734069824219" height="5" />
+    TEXT [depth 9]: <text id="456:3585" name="Copy" x="0" y="6.093359470367432" width="121.72734069824219" height="15" />
+    TEXT [depth 8]: <text id="456:3589" name="Copy" x="0" y="24.053905487060547" width="91.11328125" height="6" />
+    TEXT [depth 9]: <text id="456:3592" name="Label" x="7.165233612060547" y="5.611328125" width="52" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3593" name="Home indicator" x="44.828125" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+    TEXT [depth 8]: <text id="456:3616" name="Back" x="10.205078125" y="8.7470703125" width="3" height="10" />
+    TEXT [depth 8]: <text id="456:3617" name="Title" x="45.568359375" y="7.526952743530273" width="51" height="9" />
+    TEXT [depth 10]: <text id="456:3621" name="Copy" x="0" y="0" width="121.72734069824219" height="8" />
+    TEXT [depth 10]: <text id="456:3628" name="Copy" x="0" y="0" width="121.72734069824219" height="8" />
+    TEXT [depth 10]: <text id="456:3635" name="Copy" x="0" y="0" width="121.72734069824219" height="8" />
+    TEXT [depth 10]: <text id="456:3642" name="Copy" x="0" y="0" width="121.72734069824219" height="8" />
+    TEXT [depth 9]: <text id="456:3649" name="Copy" x="0" y="0" width="121.72734069824219" height="5" />
+    TEXT [depth 9]: <text id="456:3650" name="Copy" x="0" y="6.093359470367432" width="121.72734069824219" height="15" />
+    TEXT [depth 9]: <text id="456:3652" name="Copy" x="0" y="0" width="121.72734069824219" height="5" />
+    TEXT [depth 9]: <text id="456:3653" name="Copy" x="0" y="6.093359470367432" width="121.72734069824219" height="15" />
+    TEXT [depth 8]: <text id="456:3657" name="Copy" x="0" y="24.053905487060547" width="91.11328125" height="6" />
+    TEXT [depth 8]: <text id="456:3659" name="Copy" x="0" y="0" width="121.72734069824219" height="7" />
+    TEXT [depth 10]: <text id="456:3665" name="Duration" x="8.01796817779541" y="5.5" width="8" height="5" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3667" name="Wave" x="0" y="3.097851514816284" width="0.7289062738418579" height="1.093359351158142" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3668" name="Wave" x="1.822265625" y="2.7333984375" width="0.7289062738418579" height="1.822265625" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3669" name="Wave" x="3.64453125" y="2.0044922828674316" width="0.7289062738418579" height="3.280078172683716" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3670" name="Wave" x="5.466796875" y="1.2755858898162842" width="0.7289062738418579" height="4.737890720367432" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3671" name="Wave" x="7.2890625" y="2.368945360183716" width="0.7289062738418579" height="2.5511717796325684" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3672" name="Wave" x="9.111328125" y="0.5466797351837158" width="0.7289062738418579" height="6.195703029632568" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3673" name="Wave" x="10.93359375" y="1.4578125476837158" width="0.7289062738418579" height="4.373437404632568" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3674" name="Wave" x="12.755859375" y="0.3644530773162842" width="0.7289062738418579" height="6.560156345367432" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3675" name="Wave" x="14.578125" y="1.6400389671325684" width="0.7289062738418579" height="4.008984565734863" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3676" name="Wave" x="16.400390625" y="2.186718702316284" width="0.7289062738418579" height="2.9156250953674316" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3677" name="Wave" x="18.22265625" y="1.0933594703674316" width="0.7289062738418579" height="5.102343559265137" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3678" name="Wave" x="20.044921875" y="0.5466797351837158" width="0.7289062738418579" height="6.195703029632568" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3679" name="Wave" x="21.8671875" y="1.4578125476837158" width="0.7289062738418579" height="4.373437404632568" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3680" name="Wave" x="23.689453125" y="2.5511717796325684" width="0.7289062738418579" height="2.186718702316284" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3681" name="Wave" x="25.51171875" y="2.0044922828674316" width="0.7289062738418579" height="3.280078172683716" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3682" name="Wave" x="27.333984375" y="2.9156250953674316" width="0.7289062738418579" height="1.4578125476837158" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3683" name="Wave" x="29.15625" y="3.097851514816284" width="0.7289062738418579" height="1.093359351158142" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3684" name="Wave" x="30.978515625" y="2.5511717796325684" width="0.7289062738418579" height="2.186718702316284" />
+    SHAPE [depth 11]: <rounded-rectangle id="456:3685" name="Wave" x="32.80078125" y="3.097851514816284" width="0.7289062738418579" height="1.093359351158142" />
+    SHAPE [depth 7]: <rounded-rectangle id="456:3688" name="Home indicator" x="44.828125" y="300.3095703125" width="52.48125076293945" height="1.4578125476837158" />
+
+### Frame 108 (443:268) at y=7708.375, h=396
+    TEXT [depth 4]: <text id="443:270" name="Solution" x="0" y="0" width="111" height="48" />
+    TEXT [depth 3]: <text id="443:271" name="Cirqell is a curated voice ecosystem. Creators control pricing and availability; users discover nearby creators by genre, intent, mood and interest, preview a voice note, choose a call duration, see the price upfront, and call." x="81" y="103" width="791" height="75" />
+    TEXT [depth 4]: <text id="443:273" name="Core Experience" x="0" y="0" width="224" height="48" />
+    TEXT [depth 3]: <text id="443:274" name="Discover nearby verified creators on a map, filtered by genre, intent, mood and interest. Preview a creator&#39;s voice note before deciding to connect. Choose call duration with clear per-minute pricing shown upfront. Call privately, with wallet-based payment and creator earnings and withdrawals." x="81" y="256" width="791" height="100" />
+
+### Frame 103 (443:275) at y=8104.375, h=859
+    TEXT [depth 4]: <text id="443:277" name="High-Fidelity Design" x="0" y="0" width="274" height="48" />
+    TEXT [depth 3]: <text id="443:278" name="A dark navy and cyan interface with glass-style cards creates a premium, exclusive feel while keeping focus on profiles, voice and pricing." x="81" y="82.95925903320312" width="1116" height="25" />
+    SHAPE [depth 7]: <rounded-rectangle id="445:3117" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+    SHAPE [depth 8]: <rounded-rectangle id="445:3121" name="WhatsApp_Image_2026-02-24_at_5_21_57_PM-Picsart-AiImageEnhancer-removebg-preview 1" x="26.012203216552734" y="0.00017887720605358481" width="50.22259521484375" height="48.932289123535156" />
+    TEXT [depth 9]: <text id="445:3123" name="Join The Network" x="0" y="0" width="102.24657440185547" height="10.22465705871582" />
+    TEXT [depth 9]: <text id="445:3124" name="Private voice first connections based on proximity and intent." x="0" y="12.780820846557617" width="102.24657440185547" height="20.44931411743164" />
+    TEXT [depth 9]: <text id="445:3126" name="Which gender best describes you ?" x="0" y="0" width="102.24657440185547" height="20.44931411743164" />
+    TEXT [depth 11]: <text id="445:3129" name="Female" x="17.162817001342773" y="6.72465705871582" width="60.617610931396484" height="7" />
+    TEXT [depth 11]: <text id="445:3131" name="Male" x="40.471622467041016" y="6.72465705871582" width="14" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="445:3143" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+    SHAPE [depth 9]: <vector id="445:3147" name="Rectangle 2" x="3.8342463970184326" y="2.556164264678955" width="2.556164264678955" height="5.11232852935791" />
+    TEXT [depth 8]: <text id="445:3148" name="OTP Verification" x="20.084148406982422" y="0" width="81.79725646972656" height="10.22465705871582" />
+    TEXT [depth 8]: <text id="445:3153" name="(+91) India" x="10.22465991973877" y="20.814376831054688" width="61.34794616699219" height="9.859491348266602" />
+    TEXT [depth 8]: <text id="445:3154" name="Enter Your Mobile Number" x="10.22465991973877" y="50.758018493652344" width="81.79725646972656" height="10.22465705871582" />
+    TEXT [depth 8]: <text id="445:3155" name="We will send you one time password (OTP)" x="10.224609375" y="81.796875" width="81.79725646972656" height="10.22465705871582" />
+    SHAPE [depth 9]: <vector id="445:3157" name="Rectangle 2" x="4.016829490661621" y="2.921330451965332" width="4.381996154785156" height="2.190998077392578" />
+    TEXT [depth 9]: <text id="445:3159" name="Send" x="26.54755401611328" y="4.016829490661621" width="13" height="6" />
+    SHAPE [depth 7]: <rounded-rectangle id="445:3198" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+    SHAPE [depth 8]: <rounded-rectangle id="445:3202" name="WhatsApp_Image_2026-02-24_at_5_21_57_PM-Picsart-AiImageEnhancer-removebg-preview 1" x="26.01198959350586" y="0" width="50.22259521484375" height="48.932289123535156" />
+    TEXT [depth 9]: <text id="445:3205" name="Link your Facebook" x="0" y="0" width="102.24657440185547" height="10.22465705871582" />
+    TEXT [depth 9]: <text id="445:3206" name="Connect your Facebook to verify your account" x="0" y="15.702152252197266" width="102.24657440185547" height="20.44931411743164" />
+    TEXT [depth 10]: <text id="445:3210" name="Link your Facebook" x="20.814481735229492" y="7.22465705871582" width="60.617610931396484" height="6" />
+    SHAPE [depth 7]: <rounded-rectangle id="445:3226" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+    SHAPE [depth 9]: <vector id="445:3231" name="Rectangle 2" x="3.8342463970184326" y="2.556164264678955" width="2.556164264678955" height="5.11232852935791" />
+    TEXT [depth 8]: <text id="445:3232" name="Face Recognition" x="20.084148406982422" y="0" width="81.79725646972656" height="10.22465705871582" />
+    TEXT [depth 7]: <text id="445:3233" name="Scan your face to verify your identity" x="20.0849609375" y="51.1240234375" width="102.24657440185547" height="10.22465705871582" />
+    SHAPE [depth 8]: <vector id="445:3235" name="Vector" x="103.98730087280273" y="71.5732421875" width="23.456438064575195" height="21.6981258392334" />
+    SHAPE [depth 8]: <vector id="445:3236" name="Vector" x="38.4287109375" y="71.5732421875" width="23.456438064575195" height="21.6981258392334" />
+    SHAPE [depth 8]: <vector id="445:3237" name="Vector" x="103.98730087280273" y="202.302734375" width="23.456438064575195" height="21.6981258392334" />
+    SHAPE [depth 8]: <vector id="445:3238" name="Vector" x="38.4287109375" y="202.302734375" width="23.456438064575195" height="21.6981258392334" />
+    TEXT [depth 8]: <text id="445:3241" name="Start Scan" x="20.814481735229492" y="7.22465705871582" width="60.617610931396484" height="6" />
+    SHAPE [depth 7]: <rounded-rectangle id="445:3263" name="Rectangle 1" x="0" y="0" width="142.4148712158203" height="308.20037841796875" />
+    TEXT [depth 8]: <text id="445:3267" name="Face Recognition" x="0" y="0" width="81.79725646972656" height="10.22465705871582" />
+    TEXT [depth 7]: <text id="445:3268" name="Scan your face to verify your identity" x="20.083984375" y="51.1240234375" width="102.24657440185547" height="10.22465705871582" />
+    SHAPE [depth 8]: <vector id="445:3270" name="Vector" x="103.98730087280273" y="71.9384765625" width="23.456439971923828" height="21.6981258392334" />
+    SHAPE [depth 8]: <vector id="445:3271" name="Vector" x="38.4287109375" y="71.9384765625" width="23.456439971923828" height="21.6981258392334" />
+    SHAPE [depth 8]: <vector id="445:3272" name="Vector" x="103.98730087280273" y="202.66796875" width="23.456439971923828" height="21.6981258392334" />
+    SHAPE [depth 8]: <vector id="445:3273" name="Vector" x="38.4287109375" y="202.66796875" width="23.456439971923828" height="21.6981258392334" />
+    SHAPE [depth 8]: <rounded-rectangle id="445:3274" name="Rectangle 20" x="29.9443359375" y="85.814453125" width="82.16242980957031" height="103.34207153320312" />
+    SHAPE [depth 8]: <rounded-rectangle id="445:3275" name="Avatar Image" x="29.9443359375" y="85.814453125" width="82.52759552001953" height="103.34207153320312" />
+    SHAPE [depth 8]: <rounded-rectangle id="445:3278" name="Rectangle 21" x="0.7303326725959778" y="0.7303326725959778" width="59.52211380004883" height="5.477495193481445" />
+
+### Frame 104 (443:294) at y=8963.375, h=1292
+    TEXT [depth 4]: <text id="443:296" name="Design System" x="0" y="0" width="204" height="48" />
+    TEXT [depth 3]: <text id="443:297" name="A reusable system of colour tokens, type scale and components for consistency and clean developer handoff." x="81" y="95" width="1116" height="25" />
+    TEXT [depth 6]: <text id="455:3712" name="Cirqell / Design system" x="0" y="0" width="85" height="9" />
+    TEXT [depth 6]: <text id="455:3713" name="Consolidated white overview" x="1139.3143310546875" y="0" width="90" height="8" />
+    SHAPE [depth 5]: <rounded-rectangle id="455:3714" name="Divider" x="0" y="15.108240127563477" width="1229.3143310546875" height="0.5109041333198547" />
+    TEXT [depth 5]: <text id="455:3715" name="Foundations, controls, dropdowns and app patterns on one white surface" x="0" y="21.727384567260742" width="1229.3143310546875" height="22" />
+    TEXT [depth 5]: <text id="455:3716" name="Source product components remain dark; documentation containers and guidance are adapted for a compact white presentation. Reusable definitions, variants and variable bindings are preserved." x="0" y="49.83562469482422" width="1229.3143310546875" height="10" />
+    TEXT [depth 6]: <text id="455:3719" name="Cirqell / Reusable component library" x="0" y="0" width="286" height="19" />
+    TEXT [depth 6]: <text id="455:3720" name="18 families, 44 variants, 16 component sets plus wallet and bottom-navigation standalone components." x="0" y="22.054119110107422" width="1204.971435546875" height="10" />
+    TEXT [depth 6]: <text id="455:3722" name="Button" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3731" name="Text field" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3739" name="Filter chip" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3750" name="Toggle" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3757" name="Checkbox" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3767" name="Dropdown / Primary Genre" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3774" name="Dropdown / Conversation Intent" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3781" name="Dropdown / Interest" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3788" name="Dropdown / Gender" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3797" name="Dropdown / Current Mood" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3804" name="Dropdown / About you" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3811" name="Dropdown / Purpose" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3818" name="Settings range" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3835" name="Wallet badge" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3841" name="Bottom navigation" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3849" name="Notification row" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3856" name="Voice player" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3867" name="Icon" x="0" y="0" width="190.6857147216797" height="11" />
+    TEXT [depth 6]: <text id="455:3879" name="Foundations" x="0" y="0" width="60" height="15" />
+    TEXT [depth 6]: <text id="455:3880" name="Color, surface, type and spacing rules adapted for a white documentation surface." x="0" y="18.054119110107422" width="1204.88134765625" height="10" />
+    SHAPE [depth 7]: <rounded-rectangle id="455:3883" name="Rectangle" x="0" y="0" width="145.2654571533203" height="34.74148178100586" />
+    TEXT [depth 7]: <text id="455:3884" name="Deep navy" x="0" y="38.81364059448242" width="33" height="8" />
+    TEXT [depth 7]: <text id="455:3885" name="Screen base" x="0" y="50.88580322265625" width="33" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="455:3887" name="Rectangle" x="0" y="0" width="145.2654571533203" height="34.74148178100586" />
+    TEXT [depth 7]: <text id="455:3888" name="Menu navy" x="0" y="38.81364059448242" width="34" height="8" />
+    TEXT [depth 7]: <text id="455:3889" name="Expanded lists" x="0" y="50.88580322265625" width="39" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="455:3891" name="Rectangle" x="0" y="0" width="145.2654571533203" height="34.74148178100586" />
+    TEXT [depth 7]: <text id="455:3892" name="Action blue" x="0" y="38.81364059448242" width="36" height="8" />
+    TEXT [depth 7]: <text id="455:3893" name="Primary outline" x="0" y="50.88580322265625" width="40" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="455:3895" name="Rectangle" x="0" y="0" width="145.26547241210938" height="34.74148178100586" />
+    TEXT [depth 7]: <text id="455:3896" name="Teal" x="0" y="38.81364059448242" width="13" height="8" />
+    TEXT [depth 7]: <text id="455:3897" name="Links / playback" x="0" y="50.88580322265625" width="43" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="455:3899" name="Rectangle" x="0" y="0" width="145.26547241210938" height="34.74148178100586" />
+    TEXT [depth 7]: <text id="455:3900" name="White" x="0" y="38.81364059448242" width="19" height="8" />
+    TEXT [depth 7]: <text id="455:3901" name="Foreground" x="0" y="50.88580322265625" width="30" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="455:3903" name="Rectangle" x="0" y="0" width="145.26547241210938" height="34.74148178100586" />
+    TEXT [depth 7]: <text id="455:3904" name="Muted gray" x="0" y="38.81364059448242" width="36" height="8" />
+    TEXT [depth 7]: <text id="455:3905" name="Secondary detail" x="0" y="50.88580322265625" width="44" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="455:3907" name="Rectangle" x="0" y="0" width="145.26547241210938" height="34.74148178100586" />
+    TEXT [depth 7]: <text id="455:3908" name="Subdued" x="0" y="38.81364059448242" width="28" height="8" />
+    TEXT [depth 7]: <text id="455:3909" name="Source disclaimers" x="0" y="50.88580322265625" width="145.26547241210938" height="7" />
+    SHAPE [depth 7]: <rounded-rectangle id="455:3911" name="Rectangle" x="0" y="0" width="145.26547241210938" height="34.74148178100586" />
+    TEXT [depth 7]: <text id="455:3912" name="Destructive" x="0" y="38.81364059448242" width="37" height="8" />
+    TEXT [depth 7]: <text id="455:3913" name="Delete action" x="0" y="50.88580322265625" width="35" height="7" />
+    TEXT [depth 7]: <text id="455:3916" name="Atmosphere" x="6.108240127563477" y="6.108240127563477" width="44" height="9" />
+    SHAPE [depth 8]: <rounded-rectangle id="455:3918" name="Original atmosphere artwork" x="93.822265625" y="-153.271484375" width="197.7857208251953" height="431.2030944824219" />
+    TEXT [depth 7]: <text id="455:3919" name="Navy wave artwork: image fill 70% over solid black. Source image crop retained; preview shows an artwork detail. 70% applies to the artwork—not the black base." x="6.108240127563477" y="104.99722290039062" width="385.3385009765625" height="26" />
+    TEXT [depth 7]: <text id="455:3921" name="Frosted glass" x="6.108240127563477" y="6.108240127563477" width="48" height="9" />
+    SHAPE [depth 8]: <rounded-rectangle id="455:3923" name="Original atmosphere artwork" x="93.8212890625" y="-153.271484375" width="197.7857208251953" height="431.2030944824219" />
+    TEXT [depth 7]: <text id="455:3925" name="Radial: #D9D9D9 / 40% → #737373 / 0%. White edge: 1 px / 10.2% opacity. Background blur: 42 px · Corner radius: 10 px." x="6.108240127563477" y="104.99722290039062" width="385.3385314941406" height="26" />
+    TEXT [depth 7]: <text id="455:3927" name="Action glass" x="6.108240127563477" y="6.108240127563477" width="44" height="9" />
+    SHAPE [depth 8]: <rounded-rectangle id="455:3929" name="Original atmosphere artwork" x="93.82117462158203" y="-153.27162170410156" width="197.7857208251953" height="431.2030944824219" />
+    TEXT [depth 7]: <text id="455:3931" name="Radial: #003694 / 69.8% → #00194F / 0%. Outline: #002F82 / 100% · 1 px. Background blur: 42 px · Corner radius: 10 px." x="6.108240127563477" y="104.99722290039062" width="385.3385314941406" height="26" />
+    TEXT [depth 6]: <text id="455:3933" name="Type hierarchy" x="0" y="0" width="69" height="15" />
+    TEXT [depth 8]: <text id="455:3936" name="Welcome" x="6.108240127563477" y="6.108240127563477" width="54" height="14" />
+    TEXT [depth 8]: <text id="455:3937" name="24 / Medium" x="6.108240127563477" y="22.144319534301758" width="34" height="7" />
+    TEXT [depth 8]: <text id="455:3939" name="Screen title" x="6.108240127563477" y="6.108240127563477" width="56" height="12" />
+    TEXT [depth 8]: <text id="455:3940" name="20 / Regular" x="6.108240127563477" y="20.14432144165039" width="32" height="7" />
+    TEXT [depth 8]: <text id="455:3942" name="Label / action" x="6.108240127563477" y="6.108240127563477" width="50" height="9" />
+    TEXT [depth 8]: <text id="455:3943" name="15 / Regular" x="6.108240127563477" y="17.14432144165039" width="31" height="7" />
+    TEXT [depth 8]: <text id="455:3945" name="Card emphasis" x="6.108240127563477" y="6.108240127563477" width="48" height="8" />
+    TEXT [depth 8]: <text id="455:3946" name="13 / SemiBold" x="6.108240127563477" y="16.14432144165039" width="37" height="7" />
+    TEXT [depth 8]: <text id="455:3948" name="Menu / small" x="6.108240127563477" y="6.108240127563477" width="36" height="7" />
+    TEXT [depth 8]: <text id="455:3949" name="11 / Medium" x="6.108240127563477" y="15.144320487976074" width="32" height="7" />
+    TEXT [depth 7]: <text id="455:3952" name="Spacing" x="6.108240127563477" y="6.108240127563477" width="28" height="9" />
+    TEXT [depth 7]: <text id="455:3953" name="4, 8, 13, 20, 28, 40. 390 px canvas, ~28 px side inset, 336 × 46 controls." x="6.108240127563477" y="19.180400848388672" width="587.1700439453125" height="8" />
+    TEXT [depth 7]: <text id="455:3955" name="Corners" x="6.108240127563477" y="6.108240127563477" width="28" height="9" />
+    TEXT [depth 7]: <text id="455:3956" name="10, 20, 100. Wallet badge 8.24 px, chips 10.32 px, preserve source exceptions." x="6.108240127563477" y="19.180400848388672" width="587.1700439453125" height="8" />
+
+### Frame 105 (443:300) at y=10255.375, h=221
+    TEXT [depth 4]: <text id="443:302" name="Accessibility" x="0" y="0" width="170" height="48" />
+    TEXT [depth 3]: <text id="443:303" name="Accessibility considerations included sufficient colour contrast on dark surfaces, readable type scale, clear interaction states, and touch-friendly controls." x="81" y="104.5" width="588" height="75" />
+
+### Frame 106 (443:304) at y=10476.375, h=198
+    TEXT [depth 4]: <text id="443:306" name="Business Impact" x="0" y="0" width="222" height="48" />
+    TEXT [depth 3]: <text id="443:307" name="Expected Outcomes • Sustainable per-minute revenue model for creators and the platform • Higher-quality, intentional interactions • Stronger creator control and privacy • Increased user trust through verification" x="733" y="68" width="602" height="125" />
+
+### Frame 107 (443:308) at y=10674.375, h=352
+    TEXT [depth 4]: <text id="443:310" name="Reflection" x="0" y="0" width="136" height="48" />
+    TEXT [depth 3]: <text id="443:311" name="Cirqell taught me to design trust into a product, not just an interface. Balancing creator control, user safety and a monetization model pushed me to make decisions I could justify with research. Next, I would test [add next step, e.g. call-quality edge cases, creator onboarding] to validate the model at scale." x="81" y="120" width="588" height="175" />
+
+### Frame 86 (443:312) at y=0, h=120
+    TEXT [depth 5]: <text id="599:1103" name="Work" x="0" y="0.4982084631919861" width="42.780522300412485" height="19.000002012999175" />
+    TEXT [depth 5]: <text id="599:1104" name="Resume" x="54.14176940917969" y="0" width="57.378577426075935" height="19.996418952941895" />
+    TEXT [depth 5]: <text id="599:1105" name="About" x="122.88159942626953" y="0" width="43.37857575714588" height="19.996418952941895" />
+    TEXT [depth 5]: <text id="599:1106" name="Contact" x="177.62142944335938" y="0" width="57.378577426075935" height="19.996418952941895" />
+    SHAPE [depth 5]: <rounded-rectangle id="599:1108" name="Rectangle 51" x="0" y="0" width="129" height="20" />
+    SHAPE [depth 5]: <rounded-rectangle id="599:1109" name="Rectangle 53" x="94.5" y="15" width="1" height="34" />
+    SHAPE [depth 5]: <rounded-rectangle id="599:1110" name="Rectangle 52" x="34.5" y="13" width="1" height="34" />
+    SHAPE [depth 5]: <rounded-rectangle id="599:1114" name="image 18" x="14.5" y="47" width="40" height="40" />
+    SHAPE [depth 6]: <rounded-rectangle id="599:1116" name="image 19" x="0" y="0" width="40" height="40" />
+
+### Frame 87 (443:358) at y=120, h=636
+    TEXT [depth 4]: <text id="443:360" name="Cirqell Mobile Application" x="0" y="0" width="953" height="25" />
+    TEXT [depth 4]: <text id="443:361" name="A voice-first platform for intentional, paid conversations between creators and their audience." x="0" y="61" width="953" height="80" />
+    TEXT [depth 4]: <text id="443:362" name="Cirqell moves creator-audience interaction beyond passive comments and unread DMs. It lets creators set their own call rates and availability, and lets users discover nearby, verified creators and talk to them in real time through private, consent-based voice calls." x="0" y="177" width="953" height="75" />
+    TEXT [depth 7]: <text id="443:366" name="Product Strategy" x="14" y="0" width="129" height="35" />
+    TEXT [depth 7]: <text id="443:368" name="UX Research" x="14" y="0" width="97" height="35" />
+    TEXT [depth 7]: <text id="443:370" name="Information Architecture" x="14" y="0" width="184" height="35" />
+    TEXT [depth 7]: <text id="443:372" name="Interaction Design" x="14" y="0" width="138" height="35" />
+    TEXT [depth 7]: <text id="443:375" name="UI Design" x="14" y="0" width="73" height="35" />
+    TEXT [depth 7]: <text id="443:377" name="Prototyping" x="14" y="0" width="89" height="35" />
+    TEXT [depth 7]: <text id="443:379" name="Design System" x="14" y="0" width="113" height="35" />
+    TEXT [depth 4]: <text id="443:380" name="Product Designer | 4 Months | Mobile App (iOS &amp; Android) | Solo Project" x="0" y="403" width="953" height="25" />
