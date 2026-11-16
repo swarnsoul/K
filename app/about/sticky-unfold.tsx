@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useLayoutEffect, useRef } from "react";
-import { onSplashDone } from "@/lib/splashSignal";
+import { onSplashDone, isSplashPending } from "@/lib/splashSignal";
 
 interface StickyUnfoldProps {
   children: React.ReactNode;
@@ -125,13 +125,12 @@ export default function StickyUnfold({
       return;
     }
 
-    // 1. Check prefers-reduced-motion or small screen (< 1024px mobile): reveal immediately with zero rAF overhead
-    const isSmallScreen = typeof window !== "undefined" && window.innerWidth < 1024;
+    // Check prefers-reduced-motion: respect accessibility and reveal immediately
     const prefersReducedMotion =
       typeof window !== "undefined" &&
       window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    if (prefersReducedMotion || isSmallScreen) {
+    if (prefersReducedMotion) {
       forceComplete();
       hasTriggeredRef.current = true;
       return;
@@ -139,33 +138,42 @@ export default function StickyUnfold({
 
     let safetyTimer: NodeJS.Timeout | null = null;
 
-    // Helper to start the animation
+    // Helper to start the animation (fast 0.65s timeline)
     const startAnimation = async () => {
-      await onSplashDone();
       if (hasTriggeredRef.current) return;
       hasTriggeredRef.current = true;
 
-      // Arm typewriter characters: now that animation actually runs, hide them so they type out
+      // If on home page with splash active, wait for it; otherwise resolve immediately
+      if (isSplashPending()) {
+        await onSplashDone();
+      }
+
+      // Check if user already scrolled past the card (e.g. fast scrolling down)
+      const currentRect = container.getBoundingClientRect();
+      if (currentRect.bottom < 0) {
+        forceComplete();
+        return;
+      }
+
+      // Arm typewriter characters: now that animation actively runs, hide them so they type out
       charSpans.forEach((s) => {
         s.style.color = "transparent";
       });
 
-      // Safety fallback: if rAF or animation stalls, force all text visible after 2.5s
+      // Safety fallback: force all text visible after 1.2s to guarantee no permanent blank state
       safetyTimer = setTimeout(() => {
         forceComplete();
-      }, 2500);
+      }, 1200);
 
-      // Check if small screen (< 1024px) for 20% faster timeline
-      const speedScale = isSmallScreen ? 0.8 : 1.0;
-
-      const DURATION_SPARK = 250 * speedScale;
-      const START_FOLD = 150 * speedScale;
-      const START_UNFOLD = 450 * speedScale;
-      const END_UNFOLD = 950 * speedScale;
-      const START_WRITE = 900 * speedScale;
-      const END_WRITE = 1250 * speedScale;
-      const START_TAPE = 1100 * speedScale;
-      const TOTAL_DURATION = 1300 * speedScale;
+      // Fast, snappy timeline (~0.65s total, 2x faster than old 1.3s timeline)
+      const DURATION_SPARK = 140;
+      const START_FOLD = 0;
+      const START_UNFOLD = 70;
+      const END_UNFOLD = 400;
+      const START_WRITE = 300;
+      const END_WRITE = 540;
+      const START_TAPE = 440;
+      const TOTAL_DURATION = 650;
 
       const swooshPath = sparkEl?.querySelector(".unfold-swoosh") as SVGPathElement | null;
       const dropletsGroup = sparkEl?.querySelector(".unfold-droplets") as SVGGElement | null;
@@ -174,7 +182,7 @@ export default function StickyUnfold({
       const foldOrigin = isRight ? "85% 50%" : "15% 50%";
       const initialFoldTilt = isRight ? (-35 + tiltVariation) : (35 - tiltVariation);
 
-      // Initially reveal wrapper and hide paper, tape, photo
+      // Initially reveal wrapper and prepare paper, tape, photo
       if (wrapperEl) {
         wrapperEl.style.opacity = "1";
       }
@@ -202,12 +210,12 @@ export default function StickyUnfold({
       }
 
       let lastRevealedIndex = -1;
-      const startTime = performance.now() + delay;
+      const startTime = performance.now();
 
       const tick = (now: number) => {
         const elapsed = Math.max(0, now - startTime);
 
-        // 1. SPARK PHASE (0 to 250ms, fades by 900ms)
+        // 1. SPARK PHASE (0 to 140ms, fades by 300ms)
         if (sparkEl) {
           if (elapsed < DURATION_SPARK) {
             const p = Math.min(1, elapsed / DURATION_SPARK);
@@ -237,32 +245,27 @@ export default function StickyUnfold({
           }
         }
 
-        // 2. FOLDED PLANE & UNFOLD (150ms to 950ms)
+        // 2. FOLDED PLANE & UNFOLD (0ms to 400ms)
         if (paperEl) {
-          if (elapsed < START_FOLD) {
-            paperEl.style.opacity = "0";
-          } else if (elapsed < START_UNFOLD) {
-            // Hold folded diamond shape
-            const appearP = Math.min(1, (elapsed - START_FOLD) / (100 * speedScale));
+          if (elapsed < START_UNFOLD) {
+            // Folded diamond appears immediately and rotates into place
+            const appearP = Math.min(1, elapsed / 50);
             paperEl.style.opacity = String(appearP);
             paperEl.style.transform = `scale(0.45) rotate(${initialFoldTilt}deg)`;
 
-            if (!isSmallScreen) {
-              const diamondPoly = isRight
-                ? "polygon(50% 8%, 92% 50%, 50% 92%, 8% 50%)"
-                : "polygon(50% 8%, 8% 50%, 50% 92%, 92% 50%)";
-              paperEl.style.clipPath = diamondPoly;
-            }
+            const diamondPoly = isRight
+              ? "polygon(50% 8%, 92% 50%, 50% 92%, 8% 50%)"
+              : "polygon(50% 8%, 8% 50%, 50% 92%, 92% 50%)";
+            paperEl.style.clipPath = diamondPoly;
 
             if (flapsEl) {
               flapsEl.style.opacity = String(appearP);
               flapsEl.style.transform = `scale(0.45) rotate(${initialFoldTilt}deg)`;
             }
           } else if (elapsed < END_UNFOLD) {
-            // Unfold phase: 450 to 950ms
+            // Dynamic unfold with spring overshoot (70ms to 400ms)
             const unfoldP = (elapsed - START_UNFOLD) / (END_UNFOLD - START_UNFOLD);
 
-            // Subtle overshoot easing
             const c1 = 1.25;
             const c3 = c1 + 1;
             const easeP = 1 + c3 * Math.pow(unfoldP - 1, 3) + c1 * Math.pow(unfoldP - 1, 2);
@@ -273,30 +276,28 @@ export default function StickyUnfold({
             paperEl.style.opacity = "1";
             paperEl.style.transform = `scale(${currentScale}) rotate(${currentRot}deg)`;
 
-            // Interpolate polygon to full rectangle on desktop
-            if (!isSmallScreen) {
-              const r1x = 50 * (1 - unfoldP);
-              const r1y = 8 * (1 - unfoldP);
-              const r2x = 92 + (100 - 92) * unfoldP;
-              const r2y = 50 * (1 - unfoldP);
-              const r3x = 50 + (100 - 50) * unfoldP;
-              const r3y = 92 + (100 - 92) * unfoldP;
-              const r4x = 8 * (1 - unfoldP);
-              const r4y = 50 + (100 - 50) * unfoldP;
+            // Polygon morphs smoothly to full rectangle
+            const r1x = 50 * (1 - unfoldP);
+            const r1y = 8 * (1 - unfoldP);
+            const r2x = 92 + (100 - 92) * unfoldP;
+            const r2y = 50 * (1 - unfoldP);
+            const r3x = 50 + (100 - 50) * unfoldP;
+            const r3y = 92 + (100 - 92) * unfoldP;
+            const r4x = 8 * (1 - unfoldP);
+            const r4y = 50 + (100 - 50) * unfoldP;
 
-              const p1x = isRight ? r1x : 100 - r1x;
-              const p1y = r1y;
-              const p2x = isRight ? r2x : 100 - r2x;
-              const p2y = r2y;
-              const p3x = isRight ? r3x : 100 - r3x;
-              const p3y = r3y;
-              const p4x = isRight ? r4x : 100 - r4x;
-              const p4y = r4y;
+            const p1x = isRight ? r1x : 100 - r1x;
+            const p1y = r1y;
+            const p2x = isRight ? r2x : 100 - r2x;
+            const p2y = r2y;
+            const p3x = isRight ? r3x : 100 - r3x;
+            const p3y = r3y;
+            const p4x = isRight ? r4x : 100 - r4x;
+            const p4y = r4y;
 
-              paperEl.style.clipPath = `polygon(${p1x}% ${p1y}%, ${p2x}% ${p2y}%, ${p3x}% ${p3y}%, ${p4x}% ${p4y}%)`;
-            }
+            paperEl.style.clipPath = `polygon(${p1x}% ${p1y}%, ${p2x}% ${p2y}%, ${p3x}% ${p3y}%, ${p4x}% ${p4y}%)`;
 
-            // Flaps fade and follow the unfold
+            // Flaps fade smoothly as paper unfolds
             if (flapsEl) {
               const flapFadeP = Math.min(1, unfoldP * 1.5);
               flapsEl.style.opacity = String(Math.max(0, 1 - flapFadeP));
@@ -311,7 +312,7 @@ export default function StickyUnfold({
           }
         }
 
-        // 3. WRITE & PHOTO PHASE (900ms to 1250ms)
+        // 3. WRITE & PHOTO PHASE (300ms to 540ms)
         if (elapsed >= START_WRITE && charSpans.length > 0) {
           const writeP = Math.min(1, (elapsed - START_WRITE) / (END_WRITE - START_WRITE));
           const targetIndex = Math.min(charSpans.length - 1, Math.floor(writeP * charSpans.length));
@@ -328,27 +329,27 @@ export default function StickyUnfold({
             photoEl.style.opacity = "0";
             photoEl.style.transform = "scale(0.9)";
           } else {
-            const photoP = Math.min(1, (elapsed - START_WRITE) / (200 * speedScale));
+            const photoP = Math.min(1, (elapsed - START_WRITE) / (END_WRITE - START_WRITE));
             const easePhoto = 1 - Math.pow(1 - photoP, 2);
             photoEl.style.opacity = String(photoP);
             photoEl.style.transform = `scale(${0.9 + 0.1 * easePhoto})`;
           }
         }
 
-        // 4. TAPE STAMP (1100ms to 1300ms)
+        // 4. TAPE STAMP (440ms to 620ms)
         if (tapeEl) {
           if (elapsed < START_TAPE) {
             tapeEl.style.opacity = "0";
             tapeEl.style.transform = "translateY(-10px)";
           } else {
-            const tapeP = Math.min(1, (elapsed - START_TAPE) / (200 * speedScale));
+            const tapeP = Math.min(1, (elapsed - START_TAPE) / (TOTAL_DURATION - START_TAPE));
             const easeTape = 1 - Math.pow(1 - tapeP, 3);
             tapeEl.style.opacity = "1";
             tapeEl.style.transform = `translateY(${-10 * (1 - easeTape)}px)`;
           }
         }
 
-        // Continue or finish
+        // Continue animation or complete
         if (elapsed < TOTAL_DURATION) {
           animFrameRef.current = requestAnimationFrame(tick);
         } else {
@@ -362,11 +363,13 @@ export default function StickyUnfold({
 
     let observer: IntersectionObserver | null = null;
 
-    // Check viewport on next frame so layout and scroll settle (e.g. after Next.js client-side route changes)
+    // Check viewport on next frame
+    // Trigger early: 200px before the card enters the viewport so animation is ready or finished on screen
     const initFrame = requestAnimationFrame(() => {
       const rect = container.getBoundingClientRect();
       const windowH = window.innerHeight || document.documentElement.clientHeight;
-      const inView = rect.top < windowH * 0.75 && rect.bottom > 0;
+      const triggerThreshold = windowH + 200; // 200px before bottom edge of viewport
+      const inView = rect.top < triggerThreshold && rect.bottom > -200;
 
       if (inView) {
         startAnimation();
@@ -382,7 +385,7 @@ export default function StickyUnfold({
             }
           },
           {
-            rootMargin: "0px 0px -10% 0px",
+            rootMargin: "200px 0px 200px 0px", // Trigger 200px before entering viewport
           }
         );
 
@@ -398,7 +401,6 @@ export default function StickyUnfold({
       }
       if (safetyTimer) clearTimeout(safetyTimer);
       if (observer) observer.disconnect();
-      // On unmount (e.g. Strict Mode or route transition), restore text visibility and reset trigger
       forceComplete();
       hasTriggeredRef.current = false;
     };
