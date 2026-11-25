@@ -32,9 +32,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["'Almarena Neue'", "'Almarena Neue Display'", "sans-serif"],
+        sans: ["'Inter'", "'Almarena Neue'", "sans-serif"],
         architects: ["'Architects Daughter'", "cursive"],
-        inter: ["'Almarena Neue'", "'Almarena Neue Display'", "sans-serif"],
+        inter: ["'Inter'", "sans-serif"],
         almarena: ["'Almarena Neue'", "'Almarena Neue Display'", "sans-serif"],
       },
     },

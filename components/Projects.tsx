@@ -8,31 +8,42 @@ export const HOLD_RATIO = 0.10;     // Hold distance after each frame landing (f
 export const HOLD_END_RATIO = 0.10; // Hold distance after the last frame lands (fraction of stageHeight)
 export const STACK_PEEK = 0;        // Offset in px for earlier frames to peek out at top (0 = fully covered)
 
-// ─── Project Items Data ───────────────────────────────────────────────────────
-// Figma Desktop-8 folder cards: light banner, purple project name, description,
-// 3D angled phone mockup, and 3-layer wave animation at the bottom.
+// ─── Project Wave Layer Definition ───────────────────────────────────────────
+export interface WaveLayerData {
+  d: string;
+  fill: string;
+}
+
 export interface ProjectItem {
   id: string;
   href?: string;
   name: string;
   nameSize: string;
-  nameTracking: string;
+  nameLeading: string;
+  nameWeight: string;
   nameColor: string;
   title: string;
   tag: string;
+  tagColor: string;
+  tagBorderColor: string;
+  tagSproutSvg: string;
   description: string;
   descriptionColor: string;
   folderSvg: string;
   folderInverted?: boolean;
-  /** Light banner background color (e.g. #EDE7FF) */
   bannerBg: string;
-  /** 3 wave layer fill colors, [top/lightest, mid, bottom/darkest] */
-  waveColors: [string, string, string];
+  waveViewBox: string;
+  waveWidth: number;
+  waveHeight: number;
+  waveLeft: string;
+  waveTop: string;
+  waveLayers: [WaveLayerData, WaveLayerData, WaveLayerData];
   phoneImage?: string;
+  phoneLeft?: string;
   phoneRight?: string;
   phoneTop?: string;
-  phoneWidth?: string;
-  phoneHeight?: string;
+  phoneBottom?: string;
+  descriptionWidth?: string;
 }
 
 export const PROJECTS_DATA: ProjectItem[] = [
@@ -40,185 +51,249 @@ export const PROJECTS_DATA: ProjectItem[] = [
     id: "cirqell",
     href: "/work/cirqell",
     name: "CIQELL",
-    nameSize: "text-[48px] sm:text-[68px] lg:text-[88px]",
-    nameTracking: "tracking-[-0.02em]",
-    nameColor: "text-[#8257FE]",
+    nameSize: "text-[clamp(48px,11vw,128px)] xl:text-[128px]",
+    nameLeading: "leading-[50px]",
+    nameWeight: "font-extrabold",
+    nameColor: "text-[#8364fc]",
     title: "Cirqell | Social Connection Platform",
     tag: "0→1 Design",
+    tagColor: "text-black",
+    tagBorderColor: "border-black",
+    tagSproutSvg: "/assets/projects/project-sprout-cirqell.svg",
     description: "Designing a meaningful social networking experience for creators, builders, and thinkers on Cirqell.",
-    descriptionColor: "text-[#222222]",
-    folderSvg: "/assets/projects/project-folder-cirqell.svg",
+    descriptionColor: "text-black",
+    descriptionWidth: "max-w-[391px]",
+    folderSvg: "/assets/projects/project-folder-cirqell-figma.svg",
     folderInverted: true,
-    bannerBg: "#EDE7FF",
-    waveColors: ["#C0B2FD", "#A284FD", "#8364FD"],
-    phoneImage: "/assets/projects/project-cirqell-phone.png",
-    phoneRight: "3.5%",
-    phoneTop: "4%",
-    phoneWidth: "31%",
-    phoneHeight: "92%",
+    bannerBg: "#ece7ff",
+    waveViewBox: "0 0 854 290",
+    waveWidth: 854,
+    waveHeight: 290,
+    waveLeft: "-4px",
+    waveTop: "175px",
+    waveLayers: [
+      {
+        d: "M289.331 122.907C204.625 148.308 0 290 0 290H854V90.6535C854 90.6535 790.304 14.88 730.073 1.50747C669.841 -11.865 600.703 67.5035 515.198 90.6535C429.694 113.803 374.036 97.507 289.331 122.907Z",
+        fill: "#B09DFB",
+      },
+      {
+        d: "M289.331 188.592C204.625 204.007 0 290 0 290H854V169.017C854 169.017 790.304 123.031 730.073 114.915C669.841 106.799 600.703 154.968 515.198 169.017C429.694 183.067 374.036 173.177 289.331 188.592Z",
+        fill: "#9378FB",
+      },
+      {
+        d: "M289.331 225.468C204.625 235.277 0 290 0 290H854V213.011C854 213.011 790.304 183.747 730.073 178.582C669.841 173.418 600.703 204.07 515.198 213.011C429.694 221.952 374.036 215.658 289.331 225.468Z",
+        fill: "#8364FC",
+      },
+    ],
+    phoneImage: "/assets/projects/project-cirqell-phone-figma.png",
+    phoneLeft: "65.37%",
+    phoneRight: "4.95%",
+    phoneTop: "9.76%",
+    phoneBottom: "6.72%",
   },
   {
     id: "influcrush",
     href: "/work/influcrush",
     name: "INFLUCRUSH",
-    nameSize: "text-[32px] sm:text-[46px] lg:text-[60px]",
-    nameTracking: "tracking-[-0.02em]",
-    nameColor: "text-[#E83D7A]",
+    nameSize: "text-[clamp(34px,8.5vw,90px)] xl:text-[90px]",
+    nameLeading: "leading-[50px]",
+    nameWeight: "font-extrabold",
+    nameColor: "text-[#ee3f64]",
     title: "INFLUCRUSH",
     tag: "0→1 Design",
+    tagColor: "text-[#ee3f64]",
+    tagBorderColor: "border-[#ee3f64]",
+    tagSproutSvg: "/assets/projects/project-sprout-influcrush.svg",
     description: "Designing an engaging social experience for influencers and content creators on InfluCrush.",
-    descriptionColor: "text-[#222222]",
-    folderSvg: "/assets/projects/project-folder-influcrush.svg",
+    descriptionColor: "text-[#ee3f64]",
+    descriptionWidth: "max-w-[391px]",
+    folderSvg: "/assets/projects/project-folder-influcrush-figma.svg",
     folderInverted: false,
-    bannerBg: "#FDE8EF",
-    waveColors: ["#F6A8C5", "#F07AA6", "#E83D7A"],
-    phoneImage: "/assets/projects/project-influcrush-phone.png",
-    phoneRight: "2.5%",
-    phoneTop: "4%",
-    phoneWidth: "31%",
-    phoneHeight: "92%",
+    bannerBg: "#fddffe",
+    waveViewBox: "0 0 859 401",
+    waveWidth: 859,
+    waveHeight: 401,
+    waveLeft: "-8px",
+    waveTop: "69px",
+    waveLayers: [
+      {
+        d: "M212.376 280.831C148.663 257.833 0 155.872 0 155.872V401H859V0C859 0 803.666 18.4737 771.551 35.7025C739.436 52.9313 653.72 165.814 612.144 188.962C570.567 212.11 539.121 211.992 497.211 234.679C455.3 257.365 439.717 306.019 383.277 319.581C326.836 333.143 276.089 303.828 212.376 280.831Z",
+        fill: "#FFB8C7",
+      },
+      {
+        d: "M212.376 301.783C148.663 282.796 0 198.612 0 198.612V401H859V69.9179C859 69.9179 803.666 85.1706 771.551 99.3954C739.436 113.62 653.72 206.821 612.144 225.933C570.567 245.045 539.121 244.947 497.211 263.678C455.3 282.409 439.717 322.58 383.277 333.777C326.836 344.974 276.089 320.771 212.376 301.783Z",
+        fill: "#FF97AD",
+      },
+      {
+        d: "M212.376 335.985C148.663 323.543 0 268.379 0 268.379V401H859V184.049C859 184.049 803.666 194.043 771.551 203.365C739.436 212.686 653.72 273.758 612.144 286.282C570.567 298.806 539.121 298.742 497.211 311.016C455.3 323.29 439.717 349.613 383.277 356.95C326.836 364.287 276.089 348.427 212.376 335.985Z",
+        fill: "#EE3F64",
+      },
+    ],
+    phoneImage: "/assets/projects/project-influcrush-phone-figma.png",
+    phoneLeft: "67.52%",
+    phoneRight: "5.36%",
+    phoneTop: "22.89%",
+    phoneBottom: "7.5%",
   },
   {
     id: "ecommerce",
-    name: "E-COMMERCE",
-    nameSize: "text-[34px] sm:text-[50px] lg:text-[66px]",
-    nameTracking: "tracking-[-0.02em]",
-    nameColor: "text-[#D49500]",
-    title: "E-Commerce",
+    name: "Comming soon",
+    nameSize: "text-[clamp(30px,7.5vw,75px)] xl:text-[75px]",
+    nameLeading: "leading-[50px]",
+    nameWeight: "font-black uppercase",
+    nameColor: "text-[#d4845a]",
+    title: "Comming soon",
     tag: "0→1 Design",
-    description: "Designing a seamless e-commerce experience with intentional interactions and fluid user flows.",
-    descriptionColor: "text-[#222222]",
-    folderSvg: "/assets/projects/project-folder-card3.svg",
+    tagColor: "text-[#d4845a]",
+    tagBorderColor: "border-[#d4845a]",
+    tagSproutSvg: "/assets/projects/project-sprout-card3.svg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    descriptionColor: "text-[#d4845a]",
+    descriptionWidth: "max-w-[519px]",
+    folderSvg: "/assets/projects/project-folder-card3-figma.svg",
     folderInverted: true,
-    bannerBg: "#FFF8DE",
-    waveColors: ["#F7D978", "#F0C440", "#E6A800"],
-    phoneImage: "/assets/projects/project-cirqell-phone.png",
-    phoneRight: "3.5%",
-    phoneTop: "4%",
-    phoneWidth: "31%",
-    phoneHeight: "92%",
+    bannerBg: "#fdf8e7",
+    waveViewBox: "0 0 757.5 479",
+    waveWidth: 757.5,
+    waveHeight: 479,
+    waveLeft: "94.5px",
+    waveTop: "-7px",
+    waveLayers: [
+      {
+        d: "M562.5 204.5C593.388 145.072 605.5 0.000615438 675 0.000193278C744.5 -0.000228882 757.5 0.000193278 757.5 0.000193278V477H0C0 477 61.7538 436.558 103 413.5C144.246 390.442 186.141 361.61 245.5 344C304.859 326.391 383.787 358.334 443.5 328C503.213 297.666 531.612 263.929 562.5 204.5Z",
+        fill: "#FFEDB3",
+      },
+      {
+        d: "M592.748 254.488C618.844 205.525 618 141 668.5 106.5C719 71.9998 757.5 86.0002 757.5 86.0002V479H117.5C117.5 479 169.675 445.68 204.523 426.682C239.371 407.685 274.768 383.93 324.919 369.422C375.07 354.913 441.756 381.231 492.206 356.239C542.657 331.247 566.651 303.45 592.748 254.488Z",
+        fill: "#FFE183",
+      },
+      {
+        d: "M592.748 317.328C618.844 282.07 631 235.843 681.5 211C732 186.157 757.5 196 757.5 196V479H117.5C117.5 479 169.675 455.006 204.523 441.326C239.371 427.646 274.768 410.54 324.919 400.092C375.07 389.645 441.756 408.597 492.206 390.6C542.657 372.603 566.651 352.587 592.748 317.328Z",
+        fill: "#FFD54F",
+      },
+    ],
   },
 ];
 
-// ─── Wave Animation Component ─────────────────────────────────────────────────
-// 3 layers of smooth SVG waves that flow gently and continuously:
-// each layer slowly drifts sideways and undulates vertically at different speeds
-// (8.5s, 11s, 14s loop) and phases, GPU-only transforms, zero loop jumps.
-// Pauses when off-screen via IntersectionObserver; static with prefers-reduced-motion.
-function CardWaves({
-  colors,
+// ─── Exact Figma Wave Component with Gentle Liquid Animation ─────────────────
+// Uses the EXACT SVG paths extracted from Figma for each card.
+// Gentle continuous drifting (8s, 10.5s, 13s) using GPU transforms.
+// Pauses when off-screen; disabled with prefers-reduced-motion.
+function FigmaCardWaves({
+  project,
   isVisible,
 }: {
-  colors: [string, string, string];
+  project: ProjectItem;
   isVisible: boolean;
 }) {
+  const [layer1, layer2, layer3] = project.waveLayers;
+
   return (
     <div
-      className="absolute inset-0 w-full h-full pointer-events-none select-none overflow-hidden"
-      style={{ zIndex: 0 }}
+      className="absolute overflow-hidden pointer-events-none select-none"
+      style={{
+        left: project.waveLeft,
+        top: project.waveTop,
+        width: `${project.waveWidth}px`,
+        height: `${project.waveHeight}px`,
+        maxWidth: "100%",
+        maxHeight: "100%",
+        zIndex: 1,
+      }}
       aria-hidden="true"
     >
-      {/* Wave layer 1 (top / lightest) - fanning from bottom-left corner across to right */}
+      {/* Wave Layer 1 (Top / Lightest) */}
       <div
-        className="absolute -left-[8%] -bottom-[2%] w-[116%] h-[85%] will-change-transform"
+        className="absolute inset-0 size-full will-change-transform"
         style={{
+          animation: "wave-drift-layer-1 13s ease-in-out infinite",
           animationPlayState: isVisible ? "running" : "paused",
-          animation: "wave-float-1 14s ease-in-out infinite",
         }}
       >
         <svg
-          viewBox="0 0 1200 400"
+          viewBox={project.waveViewBox}
           preserveAspectRatio="none"
-          className="w-full h-full block"
+          className="block size-full"
         >
-          <path
-            d="M 0 350 C 180 320, 290 200, 490 180 C 690 160, 790 220, 960 190 C 1080 165, 1160 170, 1200 170 L 1200 400 L 0 400 Z"
-            fill={colors[0]}
-          />
+          <path d={layer1.d} fill={layer1.fill} />
         </svg>
       </div>
 
-      {/* Wave layer 2 (mid) */}
+      {/* Wave Layer 2 (Mid) */}
       <div
-        className="absolute -left-[8%] -bottom-[2%] w-[116%] h-[85%] will-change-transform"
+        className="absolute inset-0 size-full will-change-transform"
         style={{
+          animation: "wave-drift-layer-2 10.5s ease-in-out infinite",
           animationPlayState: isVisible ? "running" : "paused",
-          animation: "wave-float-2 11s ease-in-out infinite",
         }}
       >
         <svg
-          viewBox="0 0 1200 400"
+          viewBox={project.waveViewBox}
           preserveAspectRatio="none"
-          className="w-full h-full block"
+          className="block size-full"
         >
-          <path
-            d="M 0 380 C 230 360, 370 260, 570 250 C 770 240, 890 290, 1050 260 C 1140 240, 1180 250, 1200 250 L 1200 400 L 0 400 Z"
-            fill={colors[1]}
-          />
+          <path d={layer2.d} fill={layer2.fill} />
         </svg>
       </div>
 
-      {/* Wave layer 3 (bottom / deepest) */}
+      {/* Wave Layer 3 (Bottom / Darkest) */}
       <div
-        className="absolute -left-[8%] -bottom-[2%] w-[116%] h-[85%] will-change-transform"
+        className="absolute inset-0 size-full will-change-transform"
         style={{
+          animation: "wave-drift-layer-3 8s ease-in-out infinite",
           animationPlayState: isVisible ? "running" : "paused",
-          animation: "wave-float-3 8.5s ease-in-out infinite",
         }}
       >
         <svg
-          viewBox="0 0 1200 400"
+          viewBox={project.waveViewBox}
           preserveAspectRatio="none"
-          className="w-full h-full block"
+          className="block size-full"
         >
-          <path
-            d="M 0 395 C 270 390, 450 330, 650 320 C 830 310, 970 350, 1110 330 C 1160 320, 1190 325, 1200 325 L 1200 400 L 0 400 Z"
-            fill={colors[2]}
-          />
+          <path d={layer3.d} fill={layer3.fill} />
         </svg>
       </div>
 
       <style jsx>{`
-        @keyframes wave-float-1 {
+        @keyframes wave-drift-layer-1 {
           0% {
-            transform: translate3d(0%, 0px, 0) scaleY(1);
-          }
-          30% {
-            transform: translate3d(-2.5%, -5px, 0) scaleY(1.02);
-          }
-          65% {
-            transform: translate3d(1.5%, 3px, 0) scaleY(0.98);
-          }
-          100% {
-            transform: translate3d(0%, 0px, 0) scaleY(1);
-          }
-        }
-        @keyframes wave-float-2 {
-          0% {
-            transform: translate3d(0%, 0px, 0) scaleY(1);
+            transform: translate3d(0px, 0px, 0);
           }
           35% {
-            transform: translate3d(2%, 4px, 0) scaleY(0.97);
+            transform: translate3d(-14px, 5px, 0);
           }
           70% {
-            transform: translate3d(-3%, -3px, 0) scaleY(1.03);
+            transform: translate3d(10px, -4px, 0);
           }
           100% {
-            transform: translate3d(0%, 0px, 0) scaleY(1);
+            transform: translate3d(0px, 0px, 0);
           }
         }
-        @keyframes wave-float-3 {
+        @keyframes wave-drift-layer-2 {
           0% {
-            transform: translate3d(0%, 0px, 0) scaleY(1);
+            transform: translate3d(0px, 0px, 0);
           }
           40% {
-            transform: translate3d(-1.8%, 3px, 0) scaleY(1.02);
+            transform: translate3d(12px, -4px, 0);
           }
           75% {
-            transform: translate3d(2.2%, -4px, 0) scaleY(0.98);
+            transform: translate3d(-10px, 4px, 0);
           }
           100% {
-            transform: translate3d(0%, 0px, 0) scaleY(1);
+            transform: translate3d(0px, 0px, 0);
+          }
+        }
+        @keyframes wave-drift-layer-3 {
+          0% {
+            transform: translate3d(0px, 0px, 0);
+          }
+          45% {
+            transform: translate3d(-8px, 3px, 0);
+          }
+          80% {
+            transform: translate3d(9px, -2px, 0);
+          }
+          100% {
+            transform: translate3d(0px, 0px, 0);
           }
         }
         @media (prefers-reduced-motion: reduce) {
@@ -231,7 +306,7 @@ function CardWaves({
   );
 }
 
-// ─── Project Folder Card Component (Exact Figma light-banner design) ───────────
+// ─── Exact Project Folder Card Component (Figma Frame 192 / Frame 194) ────────
 export function ProjectFolderCard({
   project,
 }: {
@@ -252,77 +327,98 @@ export function ProjectFolderCard({
   }, []);
 
   const cardBody = (
-    <div ref={cardRef} className="relative w-full h-full select-none bg-transparent">
-      {/* 1. Folder Tab Background SVG */}
+    <div
+      ref={cardRef}
+      className="relative size-full select-none bg-transparent"
+      data-node-id="783:965"
+    >
+      {/* 1. Folder Tab Background SVG (896px × 533px) */}
       <div
-        className={`absolute inset-0 w-full h-full pointer-events-none select-none ${
+        className={`absolute inset-0 size-full pointer-events-none select-none ${
           project.folderInverted ? "-scale-x-100" : ""
         }`}
       >
         <img
           src={project.folderSvg}
           alt=""
-          className="w-full h-full object-fill block pointer-events-none select-none"
+          className="block size-full object-fill pointer-events-none select-none"
           draggable={false}
         />
       </div>
 
-      {/* 2. Inner Light Banner Container */}
+      {/* 2. Inner Light Banner Container (Figma Frame 194: 849px × 461px, left: 24px, top: 57px, rounded: 20px) */}
       <div
-        className="absolute inset-[10.7%_2.65%_2.8%_2.65%] rounded-[14px] sm:rounded-[20px] overflow-hidden select-none pointer-events-auto"
+        className="absolute inset-[10.7%_2.65%_2.8%_2.65%] rounded-[20px] overflow-clip select-none pointer-events-auto"
         style={{ backgroundColor: project.bannerBg }}
+        data-node-id="783:967"
       >
-        {/* Continuous 3-layer wave animation at bottom of banner */}
-        <CardWaves colors={project.waveColors} isVisible={isVisible} />
+        {/* Exact Figma Wave Illustration (behind text and phone, z-1) */}
+        <FigmaCardWaves project={project} isVisible={isVisible} />
 
-        {/* Left Column Content — Above waves (z-10) */}
-        <div className="absolute left-[4.5%] sm:left-[3.5%] top-[7%] sm:top-[8%] w-[60%] sm:w-[58%] h-[84%] flex flex-col justify-between z-10 pointer-events-none select-none">
-          <div className="flex flex-col gap-1 sm:gap-2">
-            {/* Tag Badge: capsule with black border, sprout icon, and text */}
-            <div className="border border-black/80 h-[26px] sm:h-[30px] lg:h-[32px] rounded-full w-fit px-3 sm:px-3.5 flex items-center gap-[6px] shrink-0 select-none bg-transparent">
-              <img
-                src="/assets/projects/project-sprout.svg"
-                alt=""
-                className="w-[14px] h-[14px] sm:w-[16px] sm:h-[16px] text-black shrink-0"
-              />
-              <span className="font-['Almarena_Neue',sans-serif] font-normal text-[11px] sm:text-[12px] lg:text-[13px] text-black whitespace-nowrap">
+        {/* 3. Text & Tag Content (Figma Frame 197: left: 27px, top: 38px, z-10) */}
+        <div
+          className="absolute left-[27px] top-[38px] w-[528px] flex flex-col items-start gap-[5px] z-10 pointer-events-none select-none"
+          data-node-id="783:969"
+        >
+          {/* Tag Badge: Figma Frame 195 (140px × 37px, rounded-[200px], border) */}
+          <div
+            className={`border border-solid ${project.tagBorderColor} h-[37px] rounded-[200px] w-[140px] flex items-center justify-center shrink-0 select-none bg-transparent overflow-clip`}
+            data-node-id="783:970"
+          >
+            <div className="flex items-center justify-center gap-[4px] shrink-0" data-node-id="783:971">
+              <div className="size-[24px] relative shrink-0" data-node-id="783:972">
+                <img
+                  src={project.tagSproutSvg}
+                  alt=""
+                  className="block size-full object-contain shrink-0"
+                />
+              </div>
+              <span
+                className={`font-['Inter'] font-normal text-[14px] leading-[33.378px] text-center whitespace-nowrap ${project.tagColor} w-[79px]`}
+                data-node-id="783:973"
+              >
                 {project.tag}
               </span>
             </div>
-
-            {/* Big Project Name */}
-            <div
-              className={`flex flex-col font-['Almarena_Neue',sans-serif] font-bold sm:font-extrabold select-none ${project.nameSize} ${project.nameTracking} ${project.nameColor} mt-1 sm:mt-2`}
-            >
-              <p className="leading-none whitespace-nowrap">{project.name}</p>
-            </div>
           </div>
 
-          {/* Description Text */}
+          {/* Big Project Name: Exact Figma (Inter Extra_Bold / Black, size 128px / 90px / 75px) */}
+          <div
+            className={`flex flex-col justify-center font-['Inter'] ${project.nameWeight} ${project.nameSize} ${project.nameLeading} ${project.nameColor} select-none not-italic shrink-0`}
+            data-node-id="783:974"
+          >
+            <p className="leading-[50px] whitespace-nowrap">{project.name}</p>
+          </div>
+
+          {/* Description Text: Exact Figma (Inter Regular, 13px, leading: 20px) */}
           <p
-            className={`font-['Almarena_Neue',sans-serif] font-normal text-[12px] sm:text-[13px] lg:text-[14px] leading-[18px] sm:leading-[20px] lg:leading-[22px] max-w-[391px] select-none line-clamp-3 sm:line-clamp-none ${project.descriptionColor}`}
+            className={`font-['Inter'] font-normal text-[13px] leading-[20px] ${project.descriptionWidth || "max-w-[391px]"} select-none not-italic ${project.descriptionColor}`}
+            data-node-id="783:975"
           >
             {project.description}
           </p>
         </div>
 
-        {/* 3. Phone Mockup — Topmost z-index (z-20), on top of waves */}
+        {/* 4. 3D Phone Mockup: Topmost z-index (z-20), on top of waves */}
         {project.phoneImage && (
           <div
             className="absolute pointer-events-none select-none z-20"
             style={{
-              right: project.phoneRight || "3.5%",
-              top: project.phoneTop || "4%",
-              width: project.phoneWidth || "31%",
-              height: project.phoneHeight || "92%",
+              left: project.phoneLeft,
+              right: project.phoneRight,
+              top: project.phoneTop,
+              bottom: project.phoneBottom,
             }}
+            data-node-id="783:968"
           >
-            <img
-              src={project.phoneImage}
-              alt={project.title}
-              className="w-full h-full object-contain pointer-events-none select-none"
-              draggable={false}
-            />
+            <div className="relative size-full overflow-hidden">
+              <img
+                src={project.phoneImage}
+                alt={project.title}
+                className="block size-full object-contain pointer-events-none select-none"
+                draggable={false}
+              />
+            </div>
           </div>
         )}
       </div>
@@ -333,7 +429,7 @@ export function ProjectFolderCard({
     return (
       <Link
         href={project.href}
-        className="block relative w-full h-full select-none bg-transparent cursor-pointer rounded-[20px] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc]"
+        className="block relative size-full select-none bg-transparent cursor-pointer rounded-[20px] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc]"
         aria-label={`Open ${project.title} case study`}
       >
         {cardBody}
@@ -429,7 +525,7 @@ function ModeAProjects() {
     runwayH: 2256,
     isFluid: false,
     topSpace: 52,
-    framesTop: 215,
+    framesTop: 242,
     isShort: false,
   });
 
@@ -441,10 +537,10 @@ function ModeAProjects() {
       const isFluid = vw < 1280;
       const isShort = vh < 838;
 
-      // Top space: at least 52px so handles are never cut off
+      // Exact Figma Desktop-8 specs: topSpace = 52px, framesTop = 242px, frameH = 533px
       const topSpace = isShort ? Math.max(35, Math.round(vh * 0.05)) : 52;
       const cardH = 103;
-      const cardToFramesGap = isShort ? 45 : 60;
+      const cardToFramesGap = isShort ? 45 : 87;
       const framesTop = topSpace + cardH + cardToFramesGap;
       const minBottomSpace = isShort ? 25 : 35;
 
@@ -487,7 +583,7 @@ function ModeAProjects() {
     return () => window.removeEventListener("resize", updateMetrics);
   }, []);
 
-  // Passive scroll listener: 1:1 scroll progress, zero layout reads on scroll, zero React state updates on scroll
+  // Passive scroll listener: 1:1 scroll progress, zero layout reads on scroll
   useEffect(() => {
     let rafId: number;
     let cachedRunwayTop = 0;
@@ -505,11 +601,9 @@ function ModeAProjects() {
       const { H, hold, step, totalScrollDistance } = metricsRef.current;
       const N = PROJECTS_DATA.length;
 
-      // deltaS: scroll distance inside the pinned runway calculated purely from scrollY without layout reflow
       const currentScroll = window.scrollY;
       const deltaS = Math.max(0, Math.min(totalScrollDistance, currentScroll - cachedRunwayTop));
 
-      // Calculate progress p in frame steps
       let p = 0;
       if (deltaS > 0) {
         const i = Math.floor(deltaS / step);
@@ -527,13 +621,11 @@ function ModeAProjects() {
         }
       }
 
-      // Update translateY for all frames directly on the DOM
       frameRefs.current.forEach((el, idx) => {
         if (!el) return;
         if (idx === 0) {
           el.style.transform = "translate3d(0, 0px, 0)";
         } else {
-          // Frame k (idx >= 1): translateY = max(0, idx - p) * H + STACK_PEEK offset
           const rawY = Math.max(0, idx - p) * H;
           const targetY = rawY === 0 ? idx * STACK_PEEK : rawY;
           el.style.transform = `translate3d(0, ${targetY.toFixed(2)}px, 0)`;
@@ -555,7 +647,6 @@ function ModeAProjects() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
 
-    // Also sync directly with Lenis scroll if present
     const lenis = (window as any).__lenis;
     if (lenis) {
       lenis.on("scroll", handleScroll);
@@ -571,7 +662,7 @@ function ModeAProjects() {
     };
   }, []);
 
-  // Cursor tag arc animation loop (constant 0deg orientation, smooth cosine arc)
+  // Cursor tag arc animation loop
   useEffect(() => {
     if (
       typeof window !== "undefined" &&
@@ -629,7 +720,8 @@ function ModeAProjects() {
       id="work"
       className="relative w-full"
       style={{ height: `${metrics.runwayH}px` }}
-      data-node-id="111:2456"
+      data-node-id="649:1162"
+      data-name="Desktop - 8"
     >
       {/* =====================================================================
           ONE RIGID PINNED STAGE
@@ -640,7 +732,6 @@ function ModeAProjects() {
         className="sticky top-0 w-full h-[100dvh] overflow-clip flex items-center justify-center border-t border-b border-black bg-transparent select-none"
         data-node-id="mode-a-stage"
       >
-        {/* Fixed 1440px canvas (>= 1280px) or Fluid container (1024px - 1279px) */}
         <div
           className={
             metrics.isFluid
@@ -653,7 +744,7 @@ function ModeAProjects() {
         >
           {/* =================================================================
               LEFT COLUMN: Bio Statement Box + Skills List
-              Stays completely stationary inside the stage.
+              Figma: left: 53px, divider line at x: 438px
               ================================================================= */}
           <div
             className={
@@ -667,7 +758,7 @@ function ModeAProjects() {
             }}
             data-node-id="stage-left-column"
           >
-            {/* Bio Statement Box with corner handles */}
+            {/* Bio Statement Box with corner handles (Exact Figma: 365.5px × 228.5px, left: 53px, top: 52px) */}
             <div
               className={
                 metrics.isFluid
@@ -677,76 +768,90 @@ function ModeAProjects() {
               style={{
                 top: metrics.isFluid ? undefined : `${metrics.topSpace}px`,
               }}
-              data-node-id="149:872"
+              data-node-id="649:1181"
             >
-              <div className="absolute left-0 top-0 w-[19.5px] h-[19.5px] bg-[#e3e3e3] border-[1.82px] border-black z-10" />
+              <div className="absolute left-0 top-0 size-[19.5px] bg-[#e3e3e3] border-[1.82px] border-black border-solid z-10" />
               <div className="absolute left-[19.5px] right-[19.5px] top-[8.8px] h-[1.82px] bg-black" />
-              <div className="absolute right-0 top-0 w-[19.5px] h-[19.5px] bg-[#e3e3e3] border-[1.82px] border-black z-10" />
+              <div className="absolute right-0 top-0 size-[19.5px] bg-[#e3e3e3] border-[1.82px] border-black border-solid z-10" />
 
               <div className="absolute left-[8.8px] top-[19.5px] bottom-[19.5px] w-[1.82px] bg-black" />
               <div className="absolute right-[8.8px] top-[19.5px] bottom-[19.5px] w-[1.82px] bg-black" />
 
-              <div className="absolute left-0 bottom-0 w-[19.5px] h-[19.5px] bg-[#e3e3e3] border-[1.82px] border-black z-10" />
+              <div className="absolute left-0 bottom-0 size-[19.5px] bg-[#e3e3e3] border-[1.82px] border-black border-solid z-10" />
               <div className="absolute left-[19.5px] right-[19.5px] bottom-[8.8px] h-[1.82px] bg-black" />
-              <div className="absolute right-0 bottom-0 w-[19.5px] h-[19.5px] bg-[#e3e3e3] border-[1.82px] border-black z-10" />
+              <div className="absolute right-0 bottom-0 size-[19.5px] bg-[#e3e3e3] border-[1.82px] border-black border-solid z-10" />
 
-              <div className="absolute inset-[30px_20px_20px_30px] flex items-center">
+              <div className="absolute left-[34px] top-[44px] w-[283px]">
                 <p
-                  className="font-['Almarena_Neue',sans-serif] font-normal text-[20px] leading-[35px] text-[#656565] w-[283px]"
-                  data-node-id="149:883"
+                  className="font-['Inter'] font-normal text-[20px] leading-[35px] text-[#656565] w-[283px] not-italic tracking-normal"
+                  data-node-id="649:1191"
                 >
-                  I design brands, products, and digital experiences. From the first sketch to the final pixel, everything in between.
+                  I design brands, products,<br />
+                  and digital experiences. From<br />
+                  the first sketch to the final<br />
+                  pixel, everything in between.
                 </p>
               </div>
             </div>
 
-            {/* Disciplines / Skills List */}
+            {/* Disciplines / Skills List (Exact Figma: left: 53px, top: 637px, width: 385px, height: 177px) */}
             <div
               className={
                 metrics.isFluid
                   ? "relative w-full h-[177px] flex flex-col justify-between"
-                  : "absolute left-[53px] w-[385px] h-[177px] flex flex-col justify-between"
+                  : "absolute left-[53px] w-[385px] flex flex-col gap-[3px]"
               }
               style={{
                 top: metrics.isFluid ? undefined : (metrics.isShort ? `${metrics.stageH - 177 - 24}px` : "637px"),
               }}
-              data-node-id="133:656"
+              data-node-id="649:1163"
             >
-              <div>
-                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
-                  Product Design{" "}
-                </p>
-                <img src="/assets/line-8.svg" alt="" className="w-full my-[1px] block" />
+              <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc] w-full" data-node-id="649:1164">
+                Product Design{" "}
+              </p>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="649:1165">
+                <div className="absolute inset-[-0.5px_0_0_0]">
+                  <img src="/assets/line-8.svg" alt="" className="block w-full" />
+                </div>
               </div>
-              <div>
-                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
-                  UX Research{" "}
-                </p>
-                <img src="/assets/line-9.svg" alt="" className="w-full my-[1px] block" />
+              <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc] w-full" data-node-id="649:1166">
+                UX Research{" "}
+              </p>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="649:1167">
+                <div className="absolute inset-[-0.5px_0_0_0]">
+                  <img src="/assets/line-9.svg" alt="" className="block w-full" />
+                </div>
               </div>
-              <div>
-                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
-                  Design Systems{" "}
-                </p>
-                <img src="/assets/line-9.svg" alt="" className="w-full my-[1px] block" />
+              <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc] w-full" data-node-id="649:1168">
+                Design Systems{" "}
+              </p>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="649:1169">
+                <div className="absolute inset-[-0.5px_0_0_0]">
+                  <img src="/assets/line-9.svg" alt="" className="block w-full" />
+                </div>
               </div>
-              <div>
-                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
-                  User Flows{" "}
-                </p>
-                <img src="/assets/line-9.svg" alt="" className="w-full my-[1px] block" />
+              <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc] w-full" data-node-id="649:1170">
+                User Flows{" "}
+              </p>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="649:1171">
+                <div className="absolute inset-[-0.5px_0_0_0]">
+                  <img src="/assets/line-9.svg" alt="" className="block w-full" />
+                </div>
               </div>
-              <div>
-                <p className="font-['Almarena_Neue',sans-serif] font-normal text-[18px] leading-[30px] text-[#8364fc]">
-                  Prototyping
-                </p>
-                <img src="/assets/line-9.svg" alt="" className="w-full my-[1px] block" />
+              <p className="font-['Inter'] font-normal text-[18px] leading-[30px] text-[#8364fc] w-full" data-node-id="649:1172">
+                Prototyping
+              </p>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="649:1173">
+                <div className="absolute inset-[-0.5px_0_0_0]">
+                  <img src="/assets/line-9.svg" alt="" className="block w-full" />
+                </div>
               </div>
             </div>
           </div>
 
           {/* =================================================================
               RIGHT COLUMN: Heading Card + Stacking Project Frames
+              Exact Figma: left: 491px (438px divider + 53px margin)
               ================================================================= */}
           <div
             className={
@@ -759,41 +864,41 @@ function ModeAProjects() {
             }}
             data-node-id="stage-right-column"
           >
-            {/* Purple Heading Card with Subtext */}
+            {/* Purple Heading Card: Exact Figma Frame 50 (638px × 103px, left: 53px, top: 52px) */}
             <div
               className={
                 metrics.isFluid
-                  ? "relative w-full max-w-[638px] h-[103px] bg-[#8364fc] border border-white rounded-[9.08px] shadow-[0px_3.63px_9.08px_rgba(0,0,0,0.25)] px-[22px] py-[17px] flex flex-col justify-center"
-                  : "absolute left-[53px] w-[638px] h-[103px] bg-[#8364fc] border border-white rounded-[9.08px] shadow-[0px_3.63px_9.08px_rgba(0,0,0,0.25)] px-[22px] py-[17px] flex flex-col justify-center"
+                  ? "relative w-full max-w-[638px] h-[103px] bg-[#8364fc] border border-solid border-white rounded-[9.078px] shadow-[0px_3.631px_9.078px_0px_rgba(0,0,0,0.25)] px-[22px] py-[17px] flex flex-col justify-center"
+                  : "absolute left-[53px] w-[638px] h-[103px] bg-[#8364fc] border border-solid border-white rounded-[9.078px] shadow-[0px_3.631px_9.078px_0px_rgba(0,0,0,0.25)] px-[22px] py-[17px] flex flex-col justify-center"
               }
               style={{
                 top: metrics.isFluid ? undefined : `${metrics.topSpace}px`,
               }}
-              data-node-id="149:897"
+              data-node-id="649:1176"
               data-cursor-key="projects-heading"
             >
               <h2
-                className="font-['Architects_Daughter'] text-[30px] leading-[35px] text-white select-none"
-                data-node-id="149:898"
+                className="font-['Architects_Daughter'] text-[30px] leading-[35px] text-white select-none not-italic"
+                data-node-id="649:1179"
               >
                 Projects that shaped my thinking
               </h2>
               <p
-                className="font-['Almarena_Neue',sans-serif] font-normal text-[15px] leading-[30px] text-white mt-[1px] select-none"
-                data-node-id="149:900"
+                className="font-['Inter'] font-normal text-[15px] leading-[30px] text-white select-none not-italic w-[580px] mt-[1px]"
+                data-node-id="649:1180"
               >
                 Each project challenged me to learn, iterate, and design with greater intention.
               </p>
 
-              {/* Drop-Shaped Collaborator Cursor Tag */}
+              {/* Exact Figma Drop-Shaped Collaborator Cursor Tag */}
               <div
                 ref={tagUnitRef}
-                className="absolute left-[638px] top-[98px] w-[35px] h-[35px] pointer-events-none z-20 will-change-transform"
-                data-node-id="149:890"
+                className="absolute left-[638px] top-[98px] size-[35px] pointer-events-none z-20 will-change-transform"
+                data-node-id="649:1175"
               >
-                <div className="relative w-[35px] h-[35px] -scale-x-100 origin-center pointer-events-none">
+                <div className="relative size-[35px] -scale-x-100 origin-center pointer-events-none">
                   <img
-                    src="/assets/vector-2.svg"
+                    src="/assets/projects/project-tag-drop-figma.svg"
                     alt="Card cursor tag"
                     className="absolute -left-[4px] top-0 w-[43px] h-[43px] max-w-none block pointer-events-none"
                   />
@@ -801,7 +906,7 @@ function ModeAProjects() {
               </div>
             </div>
 
-            {/* Stacking Frames Container (All frames share this exact same box) */}
+            {/* Stacking Frames Container: Exact Figma Frame 198 (896px × 533px, left: 53px, top: 242px) */}
             <div
               className={
                 metrics.isFluid
@@ -813,7 +918,7 @@ function ModeAProjects() {
                 marginTop: metrics.isFluid ? (metrics.isShort ? "40px" : "55px") : undefined,
                 height: `${metrics.frameH}px`,
               }}
-              data-node-id="frames-stacking-area"
+              data-node-id="783:964"
             >
               {PROJECTS_DATA.map((project, idx) => {
                 const initialTranslateY = idx === 0 ? 0 : idx * (metrics.frameH + 10);
@@ -922,23 +1027,23 @@ function ModeBProjects() {
     >
       <div className="max-w-[800px] mx-auto flex flex-col gap-6 sm:gap-8">
         {/* 1. Heading Card */}
-        <div className="relative w-full bg-[#8364fc] border border-white rounded-[12px] sm:rounded-[16px] shadow-[0px_3.63px_9.08px_rgba(0,0,0,0.25)] p-5 sm:p-7">
-          <h2 className="font-['Architects_Daughter'] text-[clamp(22px,4.5vw,30px)] leading-tight text-white select-none">
+        <div className="relative w-full bg-[#8364fc] border border-solid border-white rounded-[12px] sm:rounded-[16px] shadow-[0px_3.631px_9.078px_0px_rgba(0,0,0,0.25)] p-5 sm:p-7">
+          <h2 className="font-['Architects_Daughter'] text-[clamp(22px,4.5vw,30px)] leading-tight text-white select-none not-italic">
             Projects that shaped my thinking
           </h2>
-          <p className="font-['Almarena_Neue',sans-serif] font-normal text-[clamp(13px,3vw,15px)] leading-relaxed text-white/90 mt-2 select-none">
+          <p className="font-['Inter'] font-normal text-[clamp(13px,3vw,15px)] leading-relaxed text-white mt-2 select-none not-italic">
             Each project challenged me to learn, iterate, and design with greater intention.
           </p>
 
           {/* Cursor Tag */}
           <div
             ref={tagUnitRef}
-            className="absolute -right-1 -bottom-2.5 w-[28px] h-[28px] pointer-events-none z-20 will-change-transform"
+            className="absolute -right-1 -bottom-2.5 size-[28px] pointer-events-none z-20 will-change-transform"
             data-node-id="mobile-tag"
           >
-            <div className="relative w-[28px] h-[28px] -scale-x-100 origin-center pointer-events-none">
+            <div className="relative size-[28px] -scale-x-100 origin-center pointer-events-none">
               <img
-                src="/assets/vector-2.svg"
+                src="/assets/projects/project-tag-drop-figma.svg"
                 alt="Card cursor tag"
                 className="absolute -left-[3px] top-0 w-[34px] h-[34px] max-w-none block pointer-events-none"
               />
@@ -948,18 +1053,18 @@ function ModeBProjects() {
 
         {/* 2. Bio Box with framing corners */}
         <div className="w-full max-w-[400px] mx-auto relative px-6 py-6">
-          <div className="absolute left-0 top-0 w-[18px] h-[18px] bg-[#e3e3e3] border-[1.8px] border-black z-10" />
-          <div className="absolute right-0 top-0 w-[18px] h-[18px] bg-[#e3e3e3] border-[1.8px] border-black z-10" />
+          <div className="absolute left-0 top-0 size-[18px] bg-[#e3e3e3] border-[1.8px] border-black border-solid z-10" />
+          <div className="absolute right-0 top-0 size-[18px] bg-[#e3e3e3] border-[1.8px] border-black border-solid z-10" />
           <div className="absolute left-[18px] right-[18px] top-[8px] h-[1.8px] bg-black" />
 
           <div className="absolute left-[8px] top-[18px] bottom-[18px] w-[1.8px] bg-black" />
           <div className="absolute right-[8px] top-[18px] bottom-[18px] w-[1.8px] bg-black" />
 
-          <div className="absolute left-0 bottom-0 w-[18px] h-[18px] bg-[#e3e3e3] border-[1.8px] border-black z-10" />
-          <div className="absolute right-0 bottom-0 w-[18px] h-[18px] bg-[#e3e3e3] border-[1.8px] border-black z-10" />
+          <div className="absolute left-0 bottom-0 size-[18px] bg-[#e3e3e3] border-[1.8px] border-black border-solid z-10" />
+          <div className="absolute right-0 bottom-0 size-[18px] bg-[#e3e3e3] border-[1.8px] border-black border-solid z-10" />
           <div className="absolute left-[18px] right-[18px] bottom-[8px] h-[1.8px] bg-black" />
 
-          <p className="font-['Almarena_Neue',sans-serif] font-normal text-[clamp(15px,3.8vw,19px)] leading-[32px] text-[#656565]">
+          <p className="font-['Inter'] font-normal text-[clamp(15px,3.8vw,19px)] leading-[32px] text-[#656565] not-italic">
             I design brands, products, and digital experiences. From the first sketch to the final pixel, everything in between.
           </p>
         </div>
@@ -968,7 +1073,7 @@ function ModeBProjects() {
         <div className="w-full max-w-[400px] mx-auto flex flex-col mb-4">
           {disciplines.map((item, idx) => (
             <div key={idx} className="flex flex-col min-h-[44px] justify-center">
-              <span className="font-['Almarena_Neue',sans-serif] font-normal text-[16px] sm:text-[18px] text-[#8364fc] py-1.5">
+              <span className="font-['Inter'] font-normal text-[16px] sm:text-[18px] text-[#8364fc] py-1.5">
                 {item}{" "}
               </span>
               <div className="w-full h-px bg-[#8364fc] opacity-40 mb-1" />
@@ -989,7 +1094,7 @@ function ModeBProjects() {
                 key={project.id}
                 className="sticky w-full aspect-[896/533] bg-transparent"
                 style={{
-                  top: "84px", // 12px + 72px nav pill
+                  top: "84px",
                   marginBottom: isLast ? 0 : "8dvh",
                   zIndex: 10 + idx,
                 }}
@@ -1008,30 +1113,23 @@ function ModeBProjects() {
 }
 
 // ─── Unified Responsive Component ─────────────────────────────────────────────
-// Switches live between Mode A and Mode B using matchMedia:
-// Mode A: (min-width: 1024px) and (min-height: 560px)
-// Mode B: everything else
-export default function Projects() {
-  const [isModeA, setIsModeA] = useState(false);
-
-  useLayoutEffect(() => {
-    const mql = window.matchMedia("(min-width: 1024px) and (min-height: 560px)");
-    const updateMode = () => {
-      setIsModeA(mql.matches);
-    };
-
-    updateMode();
-    mql.addEventListener("change", updateMode);
-    return () => mql.removeEventListener("change", updateMode);
-  }, []);
-
-  return isModeA ? <ModeAProjects /> : <ModeBProjects />;
-}
-
 export function DesktopProjects() {
-  return <Projects />;
+  return <ModeAProjects />;
 }
 
 export function MobileProjects() {
-  return <Projects />;
+  return <ModeBProjects />;
+}
+
+export default function Projects() {
+  return (
+    <>
+      <div className="hidden xl:block">
+        <ModeAProjects />
+      </div>
+      <div className="xl:hidden">
+        <ModeBProjects />
+      </div>
+    </>
+  );
 }
