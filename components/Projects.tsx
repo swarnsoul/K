@@ -9,21 +9,25 @@ export const HOLD_END_RATIO = 0.10; // Hold distance after the last frame lands 
 export const STACK_PEEK = 0;        // Offset in px for earlier frames to peek out at top (0 = fully covered)
 
 // ─── Project Items Data ───────────────────────────────────────────────────────
-// Exact Figma Desktop-8 (node 649:1162 / 701:1054) folder cards with dark banners,
-// "0→1 Design" badge, large ghost project name, description and 3D angled phone mockups.
+// Figma Desktop-8 folder cards: light banner, purple project name, description,
+// 3D angled phone mockup, and 3-layer wave animation at the bottom.
 export interface ProjectItem {
   id: string;
   href?: string;
   name: string;
   nameSize: string;
   nameTracking: string;
-  nameOpacity: string;
+  nameColor: string;
   title: string;
   tag: string;
   description: string;
+  descriptionColor: string;
   folderSvg: string;
   folderInverted?: boolean;
-  bannerGradient: string;
+  /** Light banner background color (e.g. #EDE7FF) */
+  bannerBg: string;
+  /** 3 wave layer fill colors, [top/lightest, mid, bottom/darkest] */
+  waveColors: [string, string, string];
   phoneImage?: string;
   phoneRight?: string;
   phoneTop?: string;
@@ -36,68 +40,219 @@ export const PROJECTS_DATA: ProjectItem[] = [
     id: "cirqell",
     href: "/work/cirqell",
     name: "CIQELL",
-    nameSize: "text-[52px] sm:text-[76px] lg:text-[128px]",
-    nameTracking: "tracking-[0.1em]",
-    nameOpacity: "text-white/15",
+    nameSize: "text-[48px] sm:text-[68px] lg:text-[88px]",
+    nameTracking: "tracking-[-0.02em]",
+    nameColor: "text-[#8257FE]",
     title: "Cirqell | Social Connection Platform",
     tag: "0→1 Design",
     description: "Designing a meaningful social networking experience for creators, builders, and thinkers on Cirqell.",
+    descriptionColor: "text-[#222222]",
     folderSvg: "/assets/projects/project-folder-cirqell.svg",
     folderInverted: true,
-    bannerGradient: "from-[#002f82] to-[#111111]",
+    bannerBg: "#EDE7FF",
+    waveColors: ["#C0B2FD", "#A284FD", "#8364FD"],
     phoneImage: "/assets/projects/project-cirqell-phone.png",
-    phoneRight: "4.95%",
-    phoneTop: "9.76%",
-    phoneWidth: "29.7%",
-    phoneHeight: "83.5%",
+    phoneRight: "3.5%",
+    phoneTop: "4%",
+    phoneWidth: "31%",
+    phoneHeight: "92%",
   },
   {
     id: "influcrush",
     href: "/work/influcrush",
     name: "INFLUCRUSH",
-    nameSize: "text-[32px] sm:text-[46px] lg:text-[64px]",
-    nameTracking: "tracking-[0.1em]",
-    nameOpacity: "text-white/30",
+    nameSize: "text-[32px] sm:text-[46px] lg:text-[60px]",
+    nameTracking: "tracking-[-0.02em]",
+    nameColor: "text-[#E83D7A]",
     title: "INFLUCRUSH",
     tag: "0→1 Design",
     description: "Designing an engaging social experience for influencers and content creators on InfluCrush.",
+    descriptionColor: "text-[#222222]",
     folderSvg: "/assets/projects/project-folder-influcrush.svg",
     folderInverted: false,
-    bannerGradient: "from-[#76018c] to-[#020103]",
+    bannerBg: "#FDE8EF",
+    waveColors: ["#F6A8C5", "#F07AA6", "#E83D7A"],
     phoneImage: "/assets/projects/project-influcrush-phone.png",
-    phoneRight: "2%",
-    phoneTop: "8.5%",
-    phoneWidth: "31.4%",
-    phoneHeight: "88.5%",
+    phoneRight: "2.5%",
+    phoneTop: "4%",
+    phoneWidth: "31%",
+    phoneHeight: "92%",
   },
   {
     id: "ecommerce",
     name: "E-COMMERCE",
-    nameSize: "text-[34px] sm:text-[50px] lg:text-[72px]",
-    nameTracking: "tracking-[0.1em]",
-    nameOpacity: "text-white/20",
+    nameSize: "text-[34px] sm:text-[50px] lg:text-[66px]",
+    nameTracking: "tracking-[-0.02em]",
+    nameColor: "text-[#D49500]",
     title: "E-Commerce",
     tag: "0→1 Design",
     description: "Designing a seamless e-commerce experience with intentional interactions and fluid user flows.",
+    descriptionColor: "text-[#222222]",
     folderSvg: "/assets/projects/project-folder-card3.svg",
     folderInverted: true,
-    bannerGradient: "from-[#e6cc75] to-[#111111]",
+    bannerBg: "#FFF8DE",
+    waveColors: ["#F7D978", "#F0C440", "#E6A800"],
     phoneImage: "/assets/projects/project-cirqell-phone.png",
-    phoneRight: "4.95%",
-    phoneTop: "9.76%",
-    phoneWidth: "29.7%",
-    phoneHeight: "83.5%",
+    phoneRight: "3.5%",
+    phoneTop: "4%",
+    phoneWidth: "31%",
+    phoneHeight: "92%",
   },
 ];
 
-// ─── Project Folder Card Component (Exact Figma Frame 194) ────────────────────
+// ─── Wave Animation Component ─────────────────────────────────────────────────
+// 3 layers of smooth SVG waves that flow gently and continuously:
+// each layer slowly drifts sideways and undulates vertically at different speeds
+// (8.5s, 11s, 14s loop) and phases, GPU-only transforms, zero loop jumps.
+// Pauses when off-screen via IntersectionObserver; static with prefers-reduced-motion.
+function CardWaves({
+  colors,
+  isVisible,
+}: {
+  colors: [string, string, string];
+  isVisible: boolean;
+}) {
+  return (
+    <div
+      className="absolute inset-0 w-full h-full pointer-events-none select-none overflow-hidden"
+      style={{ zIndex: 0 }}
+      aria-hidden="true"
+    >
+      {/* Wave layer 1 (top / lightest) - fanning from bottom-left corner across to right */}
+      <div
+        className="absolute -left-[8%] -bottom-[2%] w-[116%] h-[85%] will-change-transform"
+        style={{
+          animationPlayState: isVisible ? "running" : "paused",
+          animation: "wave-float-1 14s ease-in-out infinite",
+        }}
+      >
+        <svg
+          viewBox="0 0 1200 400"
+          preserveAspectRatio="none"
+          className="w-full h-full block"
+        >
+          <path
+            d="M 0 350 C 180 320, 290 200, 490 180 C 690 160, 790 220, 960 190 C 1080 165, 1160 170, 1200 170 L 1200 400 L 0 400 Z"
+            fill={colors[0]}
+          />
+        </svg>
+      </div>
+
+      {/* Wave layer 2 (mid) */}
+      <div
+        className="absolute -left-[8%] -bottom-[2%] w-[116%] h-[85%] will-change-transform"
+        style={{
+          animationPlayState: isVisible ? "running" : "paused",
+          animation: "wave-float-2 11s ease-in-out infinite",
+        }}
+      >
+        <svg
+          viewBox="0 0 1200 400"
+          preserveAspectRatio="none"
+          className="w-full h-full block"
+        >
+          <path
+            d="M 0 380 C 230 360, 370 260, 570 250 C 770 240, 890 290, 1050 260 C 1140 240, 1180 250, 1200 250 L 1200 400 L 0 400 Z"
+            fill={colors[1]}
+          />
+        </svg>
+      </div>
+
+      {/* Wave layer 3 (bottom / deepest) */}
+      <div
+        className="absolute -left-[8%] -bottom-[2%] w-[116%] h-[85%] will-change-transform"
+        style={{
+          animationPlayState: isVisible ? "running" : "paused",
+          animation: "wave-float-3 8.5s ease-in-out infinite",
+        }}
+      >
+        <svg
+          viewBox="0 0 1200 400"
+          preserveAspectRatio="none"
+          className="w-full h-full block"
+        >
+          <path
+            d="M 0 395 C 270 390, 450 330, 650 320 C 830 310, 970 350, 1110 330 C 1160 320, 1190 325, 1200 325 L 1200 400 L 0 400 Z"
+            fill={colors[2]}
+          />
+        </svg>
+      </div>
+
+      <style jsx>{`
+        @keyframes wave-float-1 {
+          0% {
+            transform: translate3d(0%, 0px, 0) scaleY(1);
+          }
+          30% {
+            transform: translate3d(-2.5%, -5px, 0) scaleY(1.02);
+          }
+          65% {
+            transform: translate3d(1.5%, 3px, 0) scaleY(0.98);
+          }
+          100% {
+            transform: translate3d(0%, 0px, 0) scaleY(1);
+          }
+        }
+        @keyframes wave-float-2 {
+          0% {
+            transform: translate3d(0%, 0px, 0) scaleY(1);
+          }
+          35% {
+            transform: translate3d(2%, 4px, 0) scaleY(0.97);
+          }
+          70% {
+            transform: translate3d(-3%, -3px, 0) scaleY(1.03);
+          }
+          100% {
+            transform: translate3d(0%, 0px, 0) scaleY(1);
+          }
+        }
+        @keyframes wave-float-3 {
+          0% {
+            transform: translate3d(0%, 0px, 0) scaleY(1);
+          }
+          40% {
+            transform: translate3d(-1.8%, 3px, 0) scaleY(1.02);
+          }
+          75% {
+            transform: translate3d(2.2%, -4px, 0) scaleY(0.98);
+          }
+          100% {
+            transform: translate3d(0%, 0px, 0) scaleY(1);
+          }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .will-change-transform {
+            animation: none !important;
+          }
+        }
+      `}</style>
+    </div>
+  );
+}
+
+// ─── Project Folder Card Component (Exact Figma light-banner design) ───────────
 export function ProjectFolderCard({
   project,
 }: {
   project: ProjectItem;
 }) {
+  const cardRef = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const el = cardRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => setIsVisible(entry.isIntersecting),
+      { rootMargin: "100px 0px" }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
+
   const cardBody = (
-    <div className="relative w-full h-full select-none bg-transparent">
+    <div ref={cardRef} className="relative w-full h-full select-none bg-transparent">
       {/* 1. Folder Tab Background SVG */}
       <div
         className={`absolute inset-0 w-full h-full pointer-events-none select-none ${
@@ -112,48 +267,54 @@ export function ProjectFolderCard({
         />
       </div>
 
-      {/* 2. Inner Dark Banner Container (Matches Figma Frame 194) */}
+      {/* 2. Inner Light Banner Container */}
       <div
-        className={`absolute inset-[10.7%_2.65%_2.8%_2.65%] bg-gradient-to-b ${project.bannerGradient} rounded-[14px] sm:rounded-[20px] overflow-hidden select-none pointer-events-auto`}
+        className="absolute inset-[10.7%_2.65%_2.8%_2.65%] rounded-[14px] sm:rounded-[20px] overflow-hidden select-none pointer-events-auto"
+        style={{ backgroundColor: project.bannerBg }}
       >
-        {/* Left Column Content */}
-        <div className="absolute left-[4.5%] sm:left-[3.2%] top-[7%] sm:top-[8.2%] w-[60%] sm:w-[58%] h-[85%] flex flex-col justify-between z-10 pointer-events-none select-none">
+        {/* Continuous 3-layer wave animation at bottom of banner */}
+        <CardWaves colors={project.waveColors} isVisible={isVisible} />
+
+        {/* Left Column Content — Above waves (z-10) */}
+        <div className="absolute left-[4.5%] sm:left-[3.5%] top-[7%] sm:top-[8%] w-[60%] sm:w-[58%] h-[84%] flex flex-col justify-between z-10 pointer-events-none select-none">
           <div className="flex flex-col gap-1 sm:gap-2">
-            {/* Tag Badge */}
-            <div className="border border-solid border-white h-[28px] sm:h-[34px] lg:h-[37px] rounded-[200px] w-fit px-3 sm:px-4 flex items-center gap-[6px] shrink-0 select-none">
+            {/* Tag Badge: capsule with black border, sprout icon, and text */}
+            <div className="border border-black/80 h-[26px] sm:h-[30px] lg:h-[32px] rounded-full w-fit px-3 sm:px-3.5 flex items-center gap-[6px] shrink-0 select-none bg-transparent">
               <img
                 src="/assets/projects/project-sprout.svg"
                 alt=""
-                className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] lg:w-[24px] lg:h-[24px] shrink-0"
+                className="w-[14px] h-[14px] sm:w-[16px] sm:h-[16px] text-black shrink-0"
               />
-              <span className="font-['Almarena_Neue',sans-serif] font-normal text-[11px] sm:text-[13px] lg:text-[14px] text-white whitespace-nowrap">
+              <span className="font-['Almarena_Neue',sans-serif] font-normal text-[11px] sm:text-[12px] lg:text-[13px] text-black whitespace-nowrap">
                 {project.tag}
               </span>
             </div>
 
-            {/* Big Ghost Project Name */}
+            {/* Big Project Name */}
             <div
-              className={`flex flex-col font-['Almarena_Neue',sans-serif] font-extrabold select-none ${project.nameSize} ${project.nameTracking} ${project.nameOpacity} mt-1 sm:mt-2`}
+              className={`flex flex-col font-['Almarena_Neue',sans-serif] font-bold sm:font-extrabold select-none ${project.nameSize} ${project.nameTracking} ${project.nameColor} mt-1 sm:mt-2`}
             >
               <p className="leading-none whitespace-nowrap">{project.name}</p>
             </div>
           </div>
 
           {/* Description Text */}
-          <p className="font-['Almarena_Neue',sans-serif] font-normal text-[11px] sm:text-[12.5px] lg:text-[13px] leading-[17px] sm:leading-[19px] lg:leading-[20px] text-white max-w-[391px] select-none line-clamp-3 sm:line-clamp-none">
+          <p
+            className={`font-['Almarena_Neue',sans-serif] font-normal text-[12px] sm:text-[13px] lg:text-[14px] leading-[18px] sm:leading-[20px] lg:leading-[22px] max-w-[391px] select-none line-clamp-3 sm:line-clamp-none ${project.descriptionColor}`}
+          >
             {project.description}
           </p>
         </div>
 
-        {/* 3. Phone Mockup */}
+        {/* 3. Phone Mockup — Topmost z-index (z-20), on top of waves */}
         {project.phoneImage && (
           <div
-            className="absolute pointer-events-none select-none"
+            className="absolute pointer-events-none select-none z-20"
             style={{
-              right: project.phoneRight || "4.95%",
-              top: project.phoneTop || "9.76%",
-              width: project.phoneWidth || "29.7%",
-              height: project.phoneHeight || "83.5%",
+              right: project.phoneRight || "3.5%",
+              top: project.phoneTop || "4%",
+              width: project.phoneWidth || "31%",
+              height: project.phoneHeight || "92%",
             }}
           >
             <img
