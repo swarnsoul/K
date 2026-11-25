@@ -93,8 +93,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
       },
     ],
     phoneImage: "/assets/projects/project-cirqell-phone-figma.png",
-    phoneLeft: "579px",
-    phoneTop: "102px",
+    phoneLeft: "555px",
+    phoneTop: "45px",
     phoneWidth: "252px",
     phoneHeight: "385px",
   },
@@ -140,8 +140,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
       },
     ],
     phoneImage: "/assets/projects/project-influcrush-phone-figma.png",
-    phoneLeft: "605px",
-    phoneTop: "122px",
+    phoneLeft: "581px",
+    phoneTop: "65px",
     phoneWidth: "243px",
     phoneHeight: "371px",
   },
@@ -337,19 +337,19 @@ export function ProjectFolderCard({
   const cardBody = (
     <div
       ref={cardRef}
-      className="relative size-full select-none bg-transparent"
+      className="relative w-[896px] h-[533px] select-none bg-transparent shrink-0"
       data-node-id="783:965"
     >
       {/* 1. Folder Tab Background SVG (896px × 533px) */}
       <div
-        className={`absolute inset-0 size-full pointer-events-none select-none ${
+        className={`absolute inset-0 w-[896px] h-[533px] pointer-events-none select-none ${
           project.folderInverted ? "-scale-x-100" : ""
         }`}
       >
         <img
           src={project.folderSvg}
           alt=""
-          className="block size-full object-fill pointer-events-none select-none"
+          className="block w-full h-full object-fill pointer-events-none select-none"
           draggable={false}
         />
       </div>
@@ -406,30 +406,30 @@ export function ProjectFolderCard({
             {project.description}
           </p>
         </div>
-      </div>
 
-      {/* 4. 3D Phone Mockup: Topmost z-index (z-20), on top of waves and folder */}
-      {project.phoneImage && (
-        <div
-          className="absolute pointer-events-none select-none z-20"
-          style={{
-            left: project.phoneLeft,
-            top: project.phoneTop,
-            width: project.phoneWidth,
-            height: project.phoneHeight,
-          }}
-          data-node-id="783:968"
-        >
-          <div className="relative size-full overflow-hidden">
-            <img
-              src={project.phoneImage}
-              alt={project.title}
-              className="block size-full object-contain pointer-events-none select-none"
-              draggable={false}
-            />
+        {/* 4. 3D Phone Mockup: Topmost z-index (z-20), on top of waves, strictly inside inner panel */}
+        {project.phoneImage && (
+          <div
+            className="absolute pointer-events-none select-none z-20"
+            style={{
+              left: project.phoneLeft,
+              top: project.phoneTop,
+              width: project.phoneWidth,
+              height: project.phoneHeight,
+            }}
+            data-node-id="783:968"
+          >
+            <div className="relative size-full overflow-hidden">
+              <img
+                src={project.phoneImage}
+                alt={project.title}
+                className="block size-full object-contain pointer-events-none select-none"
+                draggable={false}
+              />
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 
@@ -437,7 +437,7 @@ export function ProjectFolderCard({
     return (
       <Link
         href={project.href}
-        className="block relative size-full select-none bg-transparent cursor-pointer rounded-[20px] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc]"
+        className="block relative w-[896px] h-[533px] select-none bg-transparent cursor-pointer rounded-[20px] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc]"
         aria-label={`Open ${project.title} case study`}
       >
         {cardBody}
@@ -520,6 +520,7 @@ function ModeAProjects() {
   const metricsRef = useRef({
     stageH: 900,
     frameH: 533,
+    cardScale: 1,
     frameGap: 10,
     H: 543,
     hold: 90,
@@ -531,6 +532,7 @@ function ModeAProjects() {
   const [metrics, setMetrics] = useState({
     stageH: 900,
     frameH: 533,
+    cardScale: 1,
     runwayH: 2256,
     isFluid: false,
     topSpace: 52,
@@ -554,7 +556,9 @@ function ModeAProjects() {
       const minBottomSpace = isShort ? 25 : 35;
 
       const availableForFrame = vh - framesTop - minBottomSpace;
-      const frameH = Math.max(260, Math.min(533, availableForFrame));
+      // Fixed aspect ratio scaling: card is 896 × 533
+      const cardScale = Math.min(1, Math.max(0.5, availableForFrame / 533));
+      const frameH = Math.round(533 * cardScale);
 
       const frameGap = 10;
       const H = frameH + frameGap;
@@ -568,6 +572,7 @@ function ModeAProjects() {
       metricsRef.current = {
         stageH: vh,
         frameH,
+        cardScale,
         frameGap,
         H,
         hold,
@@ -579,6 +584,7 @@ function ModeAProjects() {
       setMetrics({
         stageH: vh,
         frameH,
+        cardScale,
         runwayH,
         isFluid,
         topSpace,
@@ -623,12 +629,13 @@ function ModeAProjects() {
 
       frameRefs.current.forEach((el, idx) => {
         if (!el) return;
+        const scale = metricsRef.current.cardScale;
         if (idx === 0) {
-          el.style.transform = "translate3d(0, 0px, 0)";
+          el.style.transform = `translate3d(0, 0px, 0) scale(${scale})`;
         } else {
           const rawY = Math.max(0, idx - p) * H;
           const targetY = rawY === 0 ? idx * STACK_PEEK : rawY;
-          el.style.transform = `translate3d(0, ${targetY.toFixed(2)}px, 0)`;
+          el.style.transform = `translate3d(0, ${targetY.toFixed(2)}px, 0) scale(${scale})`;
         }
       });
     };
@@ -932,11 +939,10 @@ function ModeAProjects() {
                     ref={(el) => {
                       frameRefs.current[idx] = el;
                     }}
-                    className="absolute left-0 top-0 w-full bg-transparent will-change-transform"
+                    className="absolute left-0 top-0 w-[896px] h-[533px] origin-top-left bg-transparent will-change-transform"
                     style={{
-                      height: `${metrics.frameH}px`,
                       zIndex: 10 + idx,
-                      transform: `translate3d(0, ${initialTranslateY}px, 0)`,
+                      transform: `translate3d(0, ${initialTranslateY}px, 0) scale(${metrics.cardScale})`,
                     }}
                     data-node-id={`project-frame-${project.id}`}
                     data-cursor-key={`project-${project.id}`}
