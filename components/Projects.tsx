@@ -43,6 +43,8 @@ export interface ProjectItem {
   waveLeft: string;
   waveTop: string;
   waveLayers: [WaveLayerData, WaveLayerData, WaveLayerData];
+  waveTransform?: string;
+  waveOrigin?: string;
   phoneImage?: string;
   phoneLeft?: string;
   phoneTop?: string;
@@ -92,6 +94,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
         fill: "#8364FC",
       },
     ],
+    waveTransform: "scale(1.08, 1.06)",
+    waveOrigin: "center center",
     phoneImage: "/assets/projects/project-cirqell-phone-figma.png",
     phoneLeft: "555px",
     phoneTop: "45px",
@@ -139,6 +143,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
         fill: "#EE3F64",
       },
     ],
+    waveTransform: "scale(1.08, 1.06)",
+    waveOrigin: "center center",
     phoneImage: "/assets/projects/project-influcrush-phone-figma.png",
     phoneLeft: "581px",
     phoneTop: "65px",
@@ -185,6 +191,8 @@ export const PROJECTS_DATA: ProjectItem[] = [
         fill: "#FFD54F",
       },
     ],
+    waveTransform: "scale(1.10, 1.06)",
+    waveOrigin: "center center",
   },
 ];
 
@@ -209,6 +217,8 @@ function FigmaCardWaves({
         top: project.waveTop,
         width: `${project.waveWidth}px`,
         height: `${project.waveHeight}px`,
+        transform: project.waveTransform || "scale(1.08, 1.06)",
+        transformOrigin: project.waveOrigin || "center center",
         zIndex: 1,
       }}
       aria-hidden="true"
@@ -357,7 +367,7 @@ export function ProjectFolderCard({
       {/* 2. Inner Light Banner Container (Figma Frame 194: 849px × 461px, left: 24px, top: 57px, rounded: 20px) */}
       <div
         className="absolute left-[24px] top-[57px] w-[849px] h-[461px] rounded-[20px] overflow-hidden select-none pointer-events-auto"
-        style={{ backgroundColor: project.bannerBg }}
+        style={{ backgroundColor: project.bannerBg, isolation: "isolate" }}
         data-node-id="783:967"
       >
         {/* Exact Figma Wave Illustration (behind text and phone, z-1) */}
