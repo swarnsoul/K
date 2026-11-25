@@ -2,6 +2,7 @@
 
 import React, { useRef, useEffect, useState, useLayoutEffect } from "react";
 import Link from "next/link";
+import { useLenis } from "@/components/SmoothScrollProvider";
 
 // ─── Tunable Stacking & Hold Parameters ───────────────────────────────────────
 export const HOLD_RATIO = 0.10;     // Hold distance after each frame landing (fraction of stageHeight, ~10vh)
@@ -19,9 +20,9 @@ export interface ProjectItem {
   href?: string;
   name: string;
   nameSize: string;
-  nameLeading: string;
   nameWeight: string;
   nameColor: string;
+  nameBoxHeight: string;
   title: string;
   tag: string;
   tagColor: string;
@@ -29,6 +30,10 @@ export interface ProjectItem {
   tagSproutSvg: string;
   description: string;
   descriptionColor: string;
+  descriptionWidth: string;
+  contentTop: string;
+  contentGap: string;
+  contentWidth: string;
   folderSvg: string;
   folderInverted?: boolean;
   bannerBg: string;
@@ -40,10 +45,9 @@ export interface ProjectItem {
   waveLayers: [WaveLayerData, WaveLayerData, WaveLayerData];
   phoneImage?: string;
   phoneLeft?: string;
-  phoneRight?: string;
   phoneTop?: string;
-  phoneBottom?: string;
-  descriptionWidth?: string;
+  phoneWidth?: string;
+  phoneHeight?: string;
 }
 
 export const PROJECTS_DATA: ProjectItem[] = [
@@ -52,9 +56,12 @@ export const PROJECTS_DATA: ProjectItem[] = [
     href: "/work/cirqell",
     name: "CIQELL",
     nameSize: "text-[clamp(48px,11vw,128px)] xl:text-[128px]",
-    nameLeading: "leading-[50px]",
     nameWeight: "font-extrabold",
     nameColor: "text-[#8364fc]",
+    nameBoxHeight: "h-[154px]",
+    contentTop: "top-[38px]",
+    contentGap: "gap-[5px]",
+    contentWidth: "w-[528px]",
     title: "Cirqell | Social Connection Platform",
     tag: "0→1 Design",
     tagColor: "text-black",
@@ -62,7 +69,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     tagSproutSvg: "/assets/projects/project-sprout-cirqell.svg",
     description: "Designing a meaningful social networking experience for creators, builders, and thinkers on Cirqell.",
     descriptionColor: "text-black",
-    descriptionWidth: "max-w-[391px]",
+    descriptionWidth: "w-[391px]",
     folderSvg: "/assets/projects/project-folder-cirqell-figma.svg",
     folderInverted: true,
     bannerBg: "#ece7ff",
@@ -86,19 +93,22 @@ export const PROJECTS_DATA: ProjectItem[] = [
       },
     ],
     phoneImage: "/assets/projects/project-cirqell-phone-figma.png",
-    phoneLeft: "65.37%",
-    phoneRight: "4.95%",
-    phoneTop: "9.76%",
-    phoneBottom: "6.72%",
+    phoneLeft: "579px",
+    phoneTop: "102px",
+    phoneWidth: "252px",
+    phoneHeight: "385px",
   },
   {
     id: "influcrush",
     href: "/work/influcrush",
     name: "INFLUCRUSH",
     nameSize: "text-[clamp(34px,8.5vw,90px)] xl:text-[90px]",
-    nameLeading: "leading-[50px]",
     nameWeight: "font-extrabold",
     nameColor: "text-[#ee3f64]",
+    nameBoxHeight: "h-[90px]",
+    contentTop: "top-[38px]",
+    contentGap: "gap-[20px]",
+    contentWidth: "w-[581px]",
     title: "INFLUCRUSH",
     tag: "0→1 Design",
     tagColor: "text-[#ee3f64]",
@@ -106,7 +116,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     tagSproutSvg: "/assets/projects/project-sprout-influcrush.svg",
     description: "Designing an engaging social experience for influencers and content creators on InfluCrush.",
     descriptionColor: "text-[#ee3f64]",
-    descriptionWidth: "max-w-[391px]",
+    descriptionWidth: "w-[391px]",
     folderSvg: "/assets/projects/project-folder-influcrush-figma.svg",
     folderInverted: false,
     bannerBg: "#fddffe",
@@ -130,18 +140,21 @@ export const PROJECTS_DATA: ProjectItem[] = [
       },
     ],
     phoneImage: "/assets/projects/project-influcrush-phone-figma.png",
-    phoneLeft: "67.52%",
-    phoneRight: "5.36%",
-    phoneTop: "22.89%",
-    phoneBottom: "7.5%",
+    phoneLeft: "605px",
+    phoneTop: "122px",
+    phoneWidth: "243px",
+    phoneHeight: "371px",
   },
   {
     id: "ecommerce",
-    name: "Comming soon",
+    name: "COMMING SOON",
     nameSize: "text-[clamp(30px,7.5vw,75px)] xl:text-[75px]",
-    nameLeading: "leading-[50px]",
     nameWeight: "font-black uppercase",
     nameColor: "text-[#d4845a]",
+    nameBoxHeight: "h-[90px]",
+    contentTop: "top-[57px]",
+    contentGap: "gap-[5px]",
+    contentWidth: "w-[551px]",
     title: "Comming soon",
     tag: "0→1 Design",
     tagColor: "text-[#d4845a]",
@@ -149,7 +162,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     tagSproutSvg: "/assets/projects/project-sprout-card3.svg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     descriptionColor: "text-[#d4845a]",
-    descriptionWidth: "max-w-[519px]",
+    descriptionWidth: "w-[519px]",
     folderSvg: "/assets/projects/project-folder-card3-figma.svg",
     folderInverted: true,
     bannerBg: "#fdf8e7",
@@ -190,14 +203,12 @@ function FigmaCardWaves({
 
   return (
     <div
-      className="absolute overflow-hidden pointer-events-none select-none"
+      className="absolute pointer-events-none select-none"
       style={{
         left: project.waveLeft,
         top: project.waveTop,
         width: `${project.waveWidth}px`,
         height: `${project.waveHeight}px`,
-        maxWidth: "100%",
-        maxHeight: "100%",
         zIndex: 1,
       }}
       aria-hidden="true"
@@ -212,7 +223,6 @@ function FigmaCardWaves({
       >
         <svg
           viewBox={project.waveViewBox}
-          preserveAspectRatio="none"
           className="block size-full"
         >
           <path d={layer1.d} fill={layer1.fill} />
@@ -229,7 +239,6 @@ function FigmaCardWaves({
       >
         <svg
           viewBox={project.waveViewBox}
-          preserveAspectRatio="none"
           className="block size-full"
         >
           <path d={layer2.d} fill={layer2.fill} />
@@ -246,7 +255,6 @@ function FigmaCardWaves({
       >
         <svg
           viewBox={project.waveViewBox}
-          preserveAspectRatio="none"
           className="block size-full"
         >
           <path d={layer3.d} fill={layer3.fill} />
@@ -259,10 +267,10 @@ function FigmaCardWaves({
             transform: translate3d(0px, 0px, 0);
           }
           35% {
-            transform: translate3d(-14px, 5px, 0);
+            transform: translate3d(-6px, 2px, 0);
           }
           70% {
-            transform: translate3d(10px, -4px, 0);
+            transform: translate3d(5px, -2px, 0);
           }
           100% {
             transform: translate3d(0px, 0px, 0);
@@ -273,10 +281,10 @@ function FigmaCardWaves({
             transform: translate3d(0px, 0px, 0);
           }
           40% {
-            transform: translate3d(12px, -4px, 0);
+            transform: translate3d(6px, -2px, 0);
           }
           75% {
-            transform: translate3d(-10px, 4px, 0);
+            transform: translate3d(-5px, 2px, 0);
           }
           100% {
             transform: translate3d(0px, 0px, 0);
@@ -287,10 +295,10 @@ function FigmaCardWaves({
             transform: translate3d(0px, 0px, 0);
           }
           45% {
-            transform: translate3d(-8px, 3px, 0);
+            transform: translate3d(-4px, 1.5px, 0);
           }
           80% {
-            transform: translate3d(9px, -2px, 0);
+            transform: translate3d(5px, -1px, 0);
           }
           100% {
             transform: translate3d(0px, 0px, 0);
@@ -348,21 +356,21 @@ export function ProjectFolderCard({
 
       {/* 2. Inner Light Banner Container (Figma Frame 194: 849px × 461px, left: 24px, top: 57px, rounded: 20px) */}
       <div
-        className="absolute inset-[10.7%_2.65%_2.8%_2.65%] rounded-[20px] overflow-clip select-none pointer-events-auto"
+        className="absolute left-[24px] top-[57px] w-[849px] h-[461px] rounded-[20px] overflow-hidden select-none pointer-events-auto"
         style={{ backgroundColor: project.bannerBg }}
         data-node-id="783:967"
       >
         {/* Exact Figma Wave Illustration (behind text and phone, z-1) */}
         <FigmaCardWaves project={project} isVisible={isVisible} />
 
-        {/* 3. Text & Tag Content (Figma Frame 197: left: 27px, top: 38px, z-10) */}
+        {/* 3. Text & Tag Content (Figma Frame 197) */}
         <div
-          className="absolute left-[27px] top-[38px] w-[528px] flex flex-col items-start gap-[5px] z-10 pointer-events-none select-none"
+          className={`absolute left-[27px] ${project.contentTop} ${project.contentWidth} flex flex-col items-start ${project.contentGap} z-10 pointer-events-none select-none`}
           data-node-id="783:969"
         >
           {/* Tag Badge: Figma Frame 195 (140px × 37px, rounded-[200px], border) */}
           <div
-            className={`border border-solid ${project.tagBorderColor} h-[37px] rounded-[200px] w-[140px] flex items-center justify-center shrink-0 select-none bg-transparent overflow-clip`}
+            className={`border border-solid ${project.tagBorderColor} h-[37px] rounded-[200px] w-[140px] flex items-center justify-center shrink-0 select-none bg-transparent overflow-hidden`}
             data-node-id="783:970"
           >
             <div className="flex items-center justify-center gap-[4px] shrink-0" data-node-id="783:971">
@@ -384,44 +392,44 @@ export function ProjectFolderCard({
 
           {/* Big Project Name: Exact Figma (Inter Extra_Bold / Black, size 128px / 90px / 75px) */}
           <div
-            className={`flex flex-col justify-center font-['Inter'] ${project.nameWeight} ${project.nameSize} ${project.nameLeading} ${project.nameColor} select-none not-italic shrink-0`}
+            className={`flex items-center font-['Inter'] ${project.nameWeight} ${project.nameSize} leading-none ${project.nameBoxHeight} ${project.nameColor} select-none not-italic shrink-0`}
             data-node-id="783:974"
           >
-            <p className="leading-[50px] whitespace-nowrap">{project.name}</p>
+            <p className="leading-none whitespace-nowrap">{project.name}</p>
           </div>
 
           {/* Description Text: Exact Figma (Inter Regular, 13px, leading: 20px) */}
           <p
-            className={`font-['Inter'] font-normal text-[13px] leading-[20px] ${project.descriptionWidth || "max-w-[391px]"} select-none not-italic ${project.descriptionColor}`}
+            className={`font-['Inter'] font-normal text-[13px] leading-[20px] ${project.descriptionWidth} select-none not-italic ${project.descriptionColor}`}
             data-node-id="783:975"
           >
             {project.description}
           </p>
         </div>
-
-        {/* 4. 3D Phone Mockup: Topmost z-index (z-20), on top of waves */}
-        {project.phoneImage && (
-          <div
-            className="absolute pointer-events-none select-none z-20"
-            style={{
-              left: project.phoneLeft,
-              right: project.phoneRight,
-              top: project.phoneTop,
-              bottom: project.phoneBottom,
-            }}
-            data-node-id="783:968"
-          >
-            <div className="relative size-full overflow-hidden">
-              <img
-                src={project.phoneImage}
-                alt={project.title}
-                className="block size-full object-contain pointer-events-none select-none"
-                draggable={false}
-              />
-            </div>
-          </div>
-        )}
       </div>
+
+      {/* 4. 3D Phone Mockup: Topmost z-index (z-20), on top of waves and folder */}
+      {project.phoneImage && (
+        <div
+          className="absolute pointer-events-none select-none z-20"
+          style={{
+            left: project.phoneLeft,
+            top: project.phoneTop,
+            width: project.phoneWidth,
+            height: project.phoneHeight,
+          }}
+          data-node-id="783:968"
+        >
+          <div className="relative size-full overflow-hidden">
+            <img
+              src={project.phoneImage}
+              alt={project.title}
+              className="block size-full object-contain pointer-events-none select-none"
+              draggable={false}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 
@@ -506,6 +514,7 @@ function ModeAProjects() {
   const stageRef = useRef<HTMLDivElement>(null);
   const tagUnitRef = useRef<HTMLDivElement>(null);
   const frameRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const lenis = useLenis();
 
   // Cached layout metrics to ensure 60fps passive scrolling
   const metricsRef = useRef({
@@ -586,23 +595,14 @@ function ModeAProjects() {
   // Passive scroll listener: 1:1 scroll progress, zero layout reads on scroll
   useEffect(() => {
     let rafId: number;
-    let cachedRunwayTop = 0;
 
-    const updateRunwayTop = () => {
-      if (runwayRef.current) {
-        const rect = runwayRef.current.getBoundingClientRect();
-        cachedRunwayTop = rect.top + window.scrollY;
-      }
-    };
-    updateRunwayTop();
-    window.addEventListener("resize", updateRunwayTop, { passive: true });
-
-    const onScroll = () => {
+    const onScroll = (currentScroll = window.scrollY) => {
+      if (!runwayRef.current) return;
+      const runwayTop = runwayRef.current.offsetTop;
       const { H, hold, step, totalScrollDistance } = metricsRef.current;
       const N = PROJECTS_DATA.length;
 
-      const currentScroll = window.scrollY;
-      const deltaS = Math.max(0, Math.min(totalScrollDistance, currentScroll - cachedRunwayTop));
+      const deltaS = Math.max(0, Math.min(totalScrollDistance, currentScroll - runwayTop));
 
       let p = 0;
       if (deltaS > 0) {
@@ -639,7 +639,7 @@ function ModeAProjects() {
         scheduled = true;
         rafId = requestAnimationFrame(() => {
           scheduled = false;
-          onScroll();
+          onScroll(window.scrollY);
         });
       }
     };
@@ -647,20 +647,23 @@ function ModeAProjects() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
 
-    const lenis = (window as any).__lenis;
     if (lenis) {
-      lenis.on("scroll", handleScroll);
+      const handleLenisScroll = (e: any) => {
+        onScroll(e.scroll ?? window.scrollY);
+      };
+      lenis.on("scroll", handleLenisScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+        lenis.off("scroll", handleLenisScroll);
+        cancelAnimationFrame(rafId);
+      };
     }
 
     return () => {
-      window.removeEventListener("resize", updateRunwayTop);
       window.removeEventListener("scroll", handleScroll);
-      if (lenis) {
-        lenis.off("scroll", handleScroll);
-      }
       cancelAnimationFrame(rafId);
     };
-  }, []);
+  }, [lenis]);
 
   // Cursor tag arc animation loop
   useEffect(() => {
@@ -951,6 +954,36 @@ function ModeAProjects() {
   );
 }
 
+function MobileProjectCardWrapper({ project }: { project: ProjectItem }) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState(1);
+
+  useLayoutEffect(() => {
+    const updateScale = () => {
+      if (containerRef.current) {
+        const w = containerRef.current.clientWidth;
+        if (w > 0) {
+          setScale(w / 896);
+        }
+      }
+    };
+    updateScale();
+    window.addEventListener("resize", updateScale);
+    return () => window.removeEventListener("resize", updateScale);
+  }, []);
+
+  return (
+    <div ref={containerRef} className="relative w-full aspect-[896/533] overflow-hidden select-none">
+      <div
+        className="absolute left-0 top-0 w-[896px] h-[533px] origin-top-left pointer-events-auto"
+        style={{ transform: `scale(${scale})` }}
+      >
+        <ProjectFolderCard project={project} />
+      </div>
+    </div>
+  );
+}
+
 // ─── Mode B: Normal Flow + Single Sticky Frames Container ──────────────────────
 function ModeBProjects() {
   const disciplines = [
@@ -1102,7 +1135,7 @@ function ModeBProjects() {
                 data-cursor-key={`project-${project.id}`}
                 data-cursor-theme="pink"
               >
-                <ProjectFolderCard project={project} />
+                <MobileProjectCardWrapper project={project} />
               </div>
             );
           })}
