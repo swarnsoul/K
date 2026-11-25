@@ -961,7 +961,7 @@ export function MobileProcess() {
                 className="w-3.5 h-3.5 rounded-full shrink-0 mt-1"
                 style={{
                   backgroundColor:
-                    idx === 0 ? "#468CC6" : idx === 1 ? "#F9C746" : idx === 2 ? "#CF1A64" : "#8830A0",
+                    idx === 0 ? "#468CC6" : idx === 1 ? "#D97706" : idx === 2 ? "#CF1A64" : "#8830A0",
                 }}
               />
               <div className="flex flex-col gap-1">
