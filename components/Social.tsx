@@ -18,7 +18,7 @@ const socialLinks: SocialLinkConfig[] = [
   {
     name: "LinkedIn",
     icon: "/assets/image-18.png",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/kanakprajapati/",
     cursorKey: "social-linkedin",
     hasLine: true,
     hoverTextClass: "group-hover:text-[#0077B5]",
@@ -31,7 +31,7 @@ const socialLinks: SocialLinkConfig[] = [
   {
     name: "Behance",
     icon: "/assets/image-19.png",
-    href: "https://behance.net",
+    href: "https://www.behance.net/swarnsoul",
     cursorKey: "social-behance",
     hasLine: true,
     hoverTextClass: "group-hover:text-[#0057FF]",
@@ -44,7 +44,7 @@ const socialLinks: SocialLinkConfig[] = [
   {
     name: "Instagram",
     icon: "/assets/image-20.png",
-    href: "https://instagram.com",
+    href: "https://www.instagram.com/swarnsoul?jplx=MTc0cGcwM2VlOXhieA==",
     cursorKey: "social-instagram",
     hasLine: true,
     hoverTextClass: "group-hover:text-[#E1306C]",
@@ -58,7 +58,7 @@ const socialLinks: SocialLinkConfig[] = [
   {
     name: "X (Twitter)",
     icon: "/assets/image-21.png",
-    href: "https://x.com",
+    href: "https://x.com/swarnsoul",
     cursorKey: "social-x",
     hasLine: true,
     hoverTextClass: "group-hover:text-[#8364FC]",

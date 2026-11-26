@@ -153,7 +153,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
   },
   {
     id: "ecommerce",
-    name: "COMMING SOON",
+    name: "COMING SOON",
     nameSize: "text-[clamp(30px,7.5vw,75px)] xl:text-[75px]",
     nameWeight: "font-black uppercase",
     nameColor: "text-[#d4845a]",
@@ -161,7 +161,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     contentTop: "top-[57px]",
     contentGap: "gap-[5px]",
     contentWidth: "w-[551px]",
-    title: "Comming soon",
+    title: "Coming soon",
     tag: "0→1 Design",
     tagColor: "text-[#d4845a]",
     tagBorderColor: "border-[#d4845a]",

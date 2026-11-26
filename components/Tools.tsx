@@ -7,7 +7,7 @@ import { onSplashDone, isSplashPending } from "@/lib/splashSignal";
 const MatterLib = (Matter as any).default || Matter;
 const MatterModule = MatterLib;
 
-// ─── 8 Design Companion Tools Data ───────────────────────────────────────────
+// ─── 10 Design Companion Tools Data ──────────────────────────────────────────
 export const toolsData = [
   {
     name: "Figma",
@@ -28,6 +28,16 @@ export const toolsData = [
     name: "Gemini",
     role: "Image Generation",
     image: "/assets/image-11.png",
+  },
+  {
+    name: "Photoshop",
+    role: "Visual Design",
+    image: "/assets/image-16.png",
+  },
+  {
+    name: "Illustrator",
+    role: "Vector Art",
+    image: "/assets/image-17.png",
   },
   {
     name: "Framer",
@@ -262,11 +272,11 @@ export function CompanionsPhysicsContainer({
 
       const { Bodies, Composite } = MatterModule;
 
-      // Divide horizontal space into 8 slots and shuffle them
-      const slots = [0, 1, 2, 3, 4, 5, 6, 7].sort(() => Math.random() - 0.5);
+      // Divide horizontal space into dynamic slots and shuffle them
+      const slots = toolsData.map((_, i) => i).sort(() => Math.random() - 0.5);
       const margin = WALL_PADDING + currentIconSize / 2 + 10;
       const availableSpan = Math.max(100, width - margin * 2);
-      const slotWidth = availableSpan / 8;
+      const slotWidth = availableSpan / toolsData.length;
 
       toolsData.forEach((_, index) => {
         const timer = setTimeout(() => {
@@ -593,10 +603,10 @@ export function CompanionsPhysicsContainer({
             key={idx}
             className={
               isDesktop
-                ? `absolute left-[${idx * 160}px] top-[2px] w-[100px] h-[141px] flex flex-col items-center`
+                ? "absolute top-[2px] w-[100px] h-[141px] flex flex-col items-center"
                 : "w-[64px] h-[64px] sm:w-[72px] sm:h-[72px] md:w-[82px] md:h-[82px] rounded-[15px] overflow-hidden shadow-sm"
             }
-            style={isDesktop ? { left: `${idx * 160}px` } : undefined}
+            style={isDesktop ? { left: `${idx * (1130 / Math.max(1, toolsData.length - 1))}px` } : undefined}
           >
             <div className="w-[82.2px] h-[82.2px] relative rounded-[15px] overflow-hidden">
               <img

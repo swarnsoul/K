@@ -47,7 +47,9 @@ export function DesktopContactFooter() {
           <div className="w-[365px] h-[48px] shrink-0" data-node-id="708:1012">
             <a
               id="resume"
-              href="#resume"
+              href="/Kanak-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-[365px] h-[48px] bg-white hover:bg-black border-[0.365px] border-black hover:border-white rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[18.269px] leading-[32.885px] text-black hover:text-white transition-all duration-200 cursor-pointer no-squiggle select-none"
               data-node-id="708_1009"
               data-cursor-key="contact-resume-btn"
@@ -91,14 +93,18 @@ export function DesktopContactFooter() {
 
             {/* Form Fields (Frame 39, node 649:1255) */}
             <form
+              id="desktop-contact-form"
+              action="https://formspree.io/f/mzerwzko"
+              method="POST"
               className="absolute left-[111px] top-[204.01px] w-[385px] h-[230px] flex flex-col justify-between z-10"
               data-node-id="649:1255"
-              onSubmit={(e) => e.preventDefault()}
             >
               {/* Name (node 649:1256 / 649:1257) */}
               <div className="w-full">
                 <input
                   type="text"
+                  name="name"
+                  required
                   placeholder="Name"
                   className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
                 />
@@ -109,6 +115,8 @@ export function DesktopContactFooter() {
               <div className="w-full">
                 <input
                   type="email"
+                  name="email"
+                  required
                   placeholder="Email"
                   className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
                 />
@@ -119,6 +127,7 @@ export function DesktopContactFooter() {
               <div className="w-full">
                 <input
                   type="text"
+                  name="subject"
                   placeholder="Subject"
                   className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
                 />
@@ -129,6 +138,8 @@ export function DesktopContactFooter() {
               <div className="w-full">
                 <input
                   type="text"
+                  name="message"
+                  required
                   placeholder="Message"
                   className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
                 />
@@ -138,7 +149,8 @@ export function DesktopContactFooter() {
 
             {/* Send Button (Component 32, node 708:1024 / 708:1026) */}
             <button
-              type="button"
+              type="submit"
+              form="desktop-contact-form"
               className="absolute left-1/2 -translate-x-1/2 top-[455.01px] w-[228px] h-[48.231px] bg-[#c2f2d2] hover:bg-[#1fad4e] border-[0.365px] border-[#1fad4e] hover:border-[#c2f2d2] rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[18.269px] leading-[32.885px] text-[#1fad4e] hover:text-[#c2f2d2] transition-all duration-200 cursor-pointer z-10 select-none"
               data-node-id="708_1023"
               data-cursor-key="contact-send-btn"
@@ -198,12 +210,15 @@ export function MobileContactFooter() {
 
             {/* Form Fields */}
             <form
+              action="https://formspree.io/f/mzerwzko"
+              method="POST"
               className="w-full flex flex-col justify-between gap-3 sm:gap-4 my-2"
-              onSubmit={(e) => e.preventDefault()}
             >
               <div className="w-full">
                 <input
                   type="text"
+                  name="name"
+                  required
                   placeholder="Name"
                   className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
                 />
@@ -213,6 +228,8 @@ export function MobileContactFooter() {
               <div className="w-full">
                 <input
                   type="email"
+                  name="email"
+                  required
                   placeholder="Email"
                   className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
                 />
@@ -222,6 +239,7 @@ export function MobileContactFooter() {
               <div className="w-full">
                 <input
                   type="text"
+                  name="subject"
                   placeholder="Subject"
                   className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
                 />
@@ -231,23 +249,25 @@ export function MobileContactFooter() {
               <div className="w-full">
                 <input
                   type="text"
+                  name="message"
+                  required
                   placeholder="Message"
                   className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
                 />
                 <div className="w-full h-px bg-black opacity-20 mt-3" />
               </div>
-            </form>
 
-            {/* Send Button (Component 32 hover variant on mobile) */}
-            <div className="flex justify-center">
-              <button
-                type="button"
-                className="w-[200px] sm:w-[228px] h-[46px] sm:h-[48.231px] bg-[#c2f2d2] hover:bg-[#1fad4e] border-[0.365px] border-[#1fad4e] hover:border-[#c2f2d2] rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[17px] sm:text-[18.269px] leading-[32.885px] text-[#1fad4e] hover:text-[#c2f2d2] transition-all duration-200 cursor-pointer select-none"
-                data-cursor-key="contact-send-btn"
-              >
-                Send
-              </button>
-            </div>
+              {/* Send Button (Component 32 hover variant on mobile) */}
+              <div className="flex justify-center mt-1">
+                <button
+                  type="submit"
+                  className="w-[200px] sm:w-[228px] h-[46px] sm:h-[48.231px] bg-[#c2f2d2] hover:bg-[#1fad4e] border-[0.365px] border-[#1fad4e] hover:border-[#c2f2d2] rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[17px] sm:text-[18.269px] leading-[32.885px] text-[#1fad4e] hover:text-[#c2f2d2] transition-all duration-200 cursor-pointer select-none"
+                  data-cursor-key="contact-send-btn"
+                >
+                  Send
+                </button>
+              </div>
+            </form>
           </div>
 
           {/* Decorative Pen Tool */}
@@ -282,7 +302,9 @@ export function MobileContactFooter() {
         {/* Download resume button (Component 31 hover variant on mobile) */}
         <a
           id="resume"
-          href="#resume"
+          href="/Kanak-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-full max-w-[340px] h-[48px] bg-white hover:bg-black border-[0.365px] border-black hover:border-white rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[17px] sm:text-[18.269px] leading-[32.885px] text-black hover:text-white transition-all duration-200 cursor-pointer no-squiggle select-none"
           data-cursor-key="contact-resume-btn"
         >

@@ -380,7 +380,7 @@ export function NavHangingUnit({ className = "" }: { className?: string }) {
         {/* LinkedIn Icon (image 18) */}
         <a
           ref={iconLinkedInRef}
-          href="https://www.linkedin.com/in/kanak-prajapati-96696b28a/"
+          href="https://www.linkedin.com/in/kanakprajapati/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Kanak's LinkedIn profile"
@@ -416,7 +416,7 @@ export function NavHangingUnit({ className = "" }: { className?: string }) {
         {/* Behance Icon (Frame 184 / image 19) */}
         <a
           ref={iconBehanceRef}
-          href="https://www.behance.net/kanakprajapati"
+          href="https://www.behance.net/swarnsoul"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Kanak's Behance portfolio"
@@ -473,9 +473,10 @@ export function DesktopNavbarContent({ className = "" }: { className?: string })
         >
           Work
         </Link>
-        {/* TODO: Connect Resume file when provided */}
         <a
-          href="#resume"
+          href="/Kanak-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-[57.38px] h-[20px] flex items-center justify-center font-['Almarena_Neue',sans-serif] text-[15px] leading-[20px] text-black text-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded link-squiggle"
           data-node-id="314:145"
           data-cursor-key="nav-resume"
@@ -593,9 +594,10 @@ export function MobileHeader() {
           >
             Work
           </Link>
-          {/* TODO: Connect Resume file when provided */}
           <a
-            href="#resume"
+            href="/Kanak-Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-['Almarena_Neue',sans-serif] text-[15px] text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded px-1 link-squiggle"
             data-cursor-key="nav-resume"
           >
@@ -659,7 +661,9 @@ export function MobileHeader() {
               Work
             </Link>
             <a
-              href="#resume"
+              href="/Kanak-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
               className="min-h-[44px] flex items-center px-4 font-['Almarena_Neue',sans-serif] text-[16px] text-black border-b border-gray-50 link-squiggle"
             >
@@ -681,7 +685,7 @@ export function MobileHeader() {
             </Link>
             <div className="pt-2 pb-1 px-4 flex items-center gap-4">
               <a
-                href="https://www.linkedin.com/in/kanak-prajapati-96696b28a/"
+                href="https://www.linkedin.com/in/kanakprajapati/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-gray-700 hover:text-black font-['Almarena_Neue',sans-serif] no-squiggle"
@@ -690,7 +694,7 @@ export function MobileHeader() {
                 LinkedIn
               </a>
               <a
-                href="https://www.behance.net/kanakprajapati"
+                href="https://www.behance.net/swarnsoul"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-gray-700 hover:text-black font-['Almarena_Neue',sans-serif] no-squiggle"
