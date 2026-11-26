@@ -737,7 +737,7 @@ export function DesktopHero() {
           />
         </div>
 
-        {/* Hey, I'm Kanak ! */}
+        {/* Hey, I'm Kanak! */}
         <div
           ref={headingRef}
           className="absolute left-[640px] top-[62.69px] w-[265.57px]"
@@ -745,7 +745,7 @@ export function DesktopHero() {
         >
           <div className="font-['Architects_Daughter'] text-[44.96px] leading-[59.53px] text-black capitalize">
             <p className="mb-0">Hey,</p>
-            <p>I’m Kanak !</p>
+            <p>I’m Kanak!</p>
           </div>
         </div>
 
@@ -1115,7 +1115,7 @@ export function MobileHero() {
           className="text-center font-['Architects_Daughter'] text-[32px] sm:text-[40px] md:text-[45px] leading-tight text-black capitalize"
         >
           <p className="mb-0">Hey,</p>
-          <p>I’m Kanak !</p>
+          <p>I’m Kanak!</p>
         </div>
 
         {/* Badges Row with Typewriter Text & Collaborator Arrows */}
