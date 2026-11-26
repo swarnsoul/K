@@ -1043,10 +1043,8 @@ export function MobileHero() {
         const arcPink = getArcOffsetPink(pinkS);
 
         const w1 = (2 * Math.PI) / 4.2;
-        const dx = (69.0 + 31.0 * Math.sin(w1 * dt) + 2.0 * Math.cos(2 * w1 * dt)) * scale * easeIn;
-        const dyBase = -1.0 + 38.0 * Math.pow(pinkS, 0.7);
-        const dyWander = 6.0 * Math.cos(w1 * dt * 0.9) + 2.0 * Math.sin(2 * w1 * dt);
-        const dy = (dyBase + dyWander) * scale * easeIn;
+        const dx = (12.0 * Math.sin(w1 * dt) + 2.0 * Math.cos(2 * w1 * dt)) * scale * easeIn;
+        const dy = (6.0 * Math.cos(w1 * dt * 0.9) + 2.0 * Math.sin(2 * w1 * dt)) * scale * easeIn;
 
         const wOrbit1 = (2 * Math.PI) / 3.8;
         const ox = (arcPink.dx * scale + 0.5 * Math.cos(wOrbit1 * dt)) * easeIn;
@@ -1073,8 +1071,8 @@ export function MobileHero() {
         const arcPurple = getArcOffsetPurple(purpleS);
 
         const w2 = (2 * Math.PI) / 4.8;
-        const dx = (-58.0 - 30.0 * Math.sin(w2 * dt) + 2.0 * Math.cos(2 * w2 * dt)) * scale * easeIn;
-        const dy = (5.0 + 20.0 * Math.cos(w2 * dt * 0.85) + 3.0 * Math.sin(2 * w2 * dt)) * scale * easeIn;
+        const dx = (-12.0 * Math.sin(w2 * dt) + 2.0 * Math.cos(2 * w2 * dt)) * scale * easeIn;
+        const dy = (6.0 * Math.cos(w2 * dt * 0.85) + 2.0 * Math.sin(2 * w2 * dt)) * scale * easeIn;
 
         const wOrbit2 = (2 * Math.PI) / 3.5;
         const ox = (arcPurple.dx * scale - 0.5 * Math.cos(wOrbit2 * dt)) * easeIn;
@@ -1119,7 +1117,7 @@ export function MobileHero() {
         </div>
 
         {/* Badges Row with Typewriter Text & Collaborator Arrows */}
-        <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-7 my-2">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 my-2">
           {/* Pink Unit: Arrow + Product Designer Badge (Bottom-Left Outside) */}
           <div
             ref={pinkUnitRef}
@@ -1232,7 +1230,7 @@ export function MobileHero() {
               alt="Stamp frame"
               className="absolute inset-0 w-full h-full block"
             />
-            <div className="absolute top-[14px] left-[14px] right-[14px] flex justify-between font-['Architects_Daughter'] text-[12px] sm:text-[14px] text-black">
+            <div className="absolute top-[14px] left-[14px] right-[14px] flex justify-between font-['Architects_Daughter'] text-[13px] sm:text-[14px] text-black">
               <span>India</span>
               <span id="mobile-live-time-display" suppressHydrationWarning className="min-w-[48px] text-right">
                 {liveTime}
@@ -1245,7 +1243,7 @@ export function MobileHero() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="absolute bottom-[10px] sm:bottom-[12px] left-0 right-0 text-center font-['Architects_Daughter'] text-[12px] sm:text-[14px] text-black">
+            <div className="absolute bottom-[10px] sm:bottom-[12px] left-0 right-0 text-center font-['Architects_Daughter'] text-[13px] sm:text-[14px] text-black">
               Jaipur, Rajasthan
             </div>
           </div>

@@ -970,34 +970,166 @@ function ModeAProjects() {
   );
 }
 
-function MobileProjectCardWrapper({ project }: { project: ProjectItem }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [scale, setScale] = useState(1);
+function MobileProjectFolderCard({ project }: { project: ProjectItem }) {
+  const cardRef = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
 
-  useLayoutEffect(() => {
-    const updateScale = () => {
-      if (containerRef.current) {
-        const w = containerRef.current.clientWidth;
-        if (w > 0) {
-          setScale(w / 896);
-        }
-      }
-    };
-    updateScale();
-    window.addEventListener("resize", updateScale);
-    return () => window.removeEventListener("resize", updateScale);
+  useEffect(() => {
+    const el = cardRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => setIsVisible(entry.isIntersecting),
+      { rootMargin: "100px 0px" }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
   }, []);
 
-  return (
-    <div ref={containerRef} className="relative w-full aspect-[896/533] overflow-hidden select-none">
+  const content = (
+    <div
+      ref={cardRef}
+      className="relative w-full max-w-[420px] sm:max-w-[480px] mx-auto h-[460px] sm:h-[490px] select-none bg-transparent shrink-0"
+      data-node-id={`mobile-card-${project.id}`}
+    >
+      {/* 1. Folder Tab Background SVG */}
       <div
-        className="absolute left-0 top-0 w-[896px] h-[533px] origin-top-left pointer-events-auto"
-        style={{ transform: `scale(${scale})` }}
+        className={`absolute inset-0 w-full h-full pointer-events-none select-none ${
+          project.folderInverted ? "-scale-x-100" : ""
+        }`}
       >
-        <ProjectFolderCard project={project} />
+        <img
+          src={project.folderSvg}
+          alt=""
+          className="block w-full h-full object-fill pointer-events-none select-none"
+          draggable={false}
+        />
+      </div>
+
+      {/* 2. Inner Light Banner Container - Clipped with overflow-hidden */}
+      <div
+        className="absolute left-[12px] right-[12px] top-[34px] bottom-[12px] sm:left-[16px] sm:right-[16px] sm:top-[40px] sm:bottom-[16px] rounded-[18px] sm:rounded-[20px] overflow-hidden select-none pointer-events-auto"
+        style={{ backgroundColor: project.bannerBg, isolation: "isolate" }}
+      >
+        {/* Animated wave layers covering bottom edge-to-edge */}
+        <div
+          className="absolute pointer-events-none select-none z-[1]"
+          style={{
+            left: "-5%",
+            bottom: "-10px",
+            width: "110%",
+            height: "210px",
+          }}
+          aria-hidden="true"
+        >
+          <div
+            className="absolute inset-0 will-change-transform"
+            style={{
+              animation: "wave-drift-layer-1 13s ease-in-out infinite",
+              animationPlayState: isVisible ? "running" : "paused",
+            }}
+          >
+            <svg
+              viewBox={project.waveViewBox}
+              preserveAspectRatio="none"
+              className="block w-full h-full"
+            >
+              <path d={project.waveLayers[0].d} fill={project.waveLayers[0].fill} />
+            </svg>
+          </div>
+          <div
+            className="absolute inset-0 will-change-transform"
+            style={{
+              animation: "wave-drift-layer-2 10.5s ease-in-out infinite",
+              animationPlayState: isVisible ? "running" : "paused",
+            }}
+          >
+            <svg
+              viewBox={project.waveViewBox}
+              preserveAspectRatio="none"
+              className="block w-full h-full"
+            >
+              <path d={project.waveLayers[1].d} fill={project.waveLayers[1].fill} />
+            </svg>
+          </div>
+          <div
+            className="absolute inset-0 will-change-transform"
+            style={{
+              animation: "wave-drift-layer-3 8s ease-in-out infinite",
+              animationPlayState: isVisible ? "running" : "paused",
+            }}
+          >
+            <svg
+              viewBox={project.waveViewBox}
+              preserveAspectRatio="none"
+              className="block w-full h-full"
+            >
+              <path d={project.waveLayers[2].d} fill={project.waveLayers[2].fill} />
+            </svg>
+          </div>
+        </div>
+
+        {/* 3. Text & Tag Content */}
+        <div className="absolute left-[18px] sm:left-[22px] right-[18px] top-[18px] sm:top-[22px] flex flex-col items-start gap-2 sm:gap-2.5 z-10 pointer-events-none select-none">
+          {/* Tag badge */}
+          <div
+            className={`border border-solid ${project.tagBorderColor} h-[30px] rounded-[200px] px-3 flex items-center justify-center gap-1.5 shrink-0 select-none bg-transparent overflow-hidden`}
+          >
+            <div className="w-4 h-4 relative shrink-0">
+              <img
+                src={project.tagSproutSvg}
+                alt=""
+                className="block w-full h-full object-contain shrink-0"
+              />
+            </div>
+            <span
+              className={`font-['Inter'] font-medium text-[12px] sm:text-[13px] whitespace-nowrap ${project.tagColor}`}
+            >
+              {project.tag}
+            </span>
+          </div>
+
+          {/* Project Name: Big, readable, bold */}
+          <div
+            className={`font-['Inter'] ${project.nameWeight} text-[34px] sm:text-[40px] leading-tight ${project.nameColor} select-none not-italic shrink-0 tracking-tight`}
+          >
+            <p className="leading-tight whitespace-nowrap">{project.name}</p>
+          </div>
+
+          {/* Description Text: Readable at least 14px */}
+          <p
+            className={`font-['Inter'] font-normal text-[14px] sm:text-[15px] leading-[22px] max-w-[260px] sm:max-w-[320px] select-none not-italic ${project.descriptionColor}`}
+          >
+            {project.description}
+          </p>
+        </div>
+
+        {/* 4. Phone Mockup: Topmost z-index, clipped by inner panel overflow-hidden */}
+        {project.phoneImage && (
+          <div
+            className="absolute -right-[12px] -bottom-[15px] w-[185px] sm:w-[215px] h-[275px] sm:h-[315px] pointer-events-none select-none z-20"
+            aria-hidden="true"
+          >
+            <img
+              src={project.phoneImage}
+              alt={project.title}
+              className="block w-full h-full object-contain pointer-events-none select-none"
+              draggable={false}
+            />
+          </div>
+        )}
       </div>
     </div>
   );
+
+  if (project.href) {
+    return (
+      <Link href={project.href} className="block w-full no-squiggle">
+        {content}
+      </Link>
+    );
+  }
+
+  return content;
 }
 
 // ─── Mode B: Normal Flow + Single Sticky Frames Container ──────────────────────
@@ -1080,7 +1212,7 @@ function ModeBProjects() {
           <h2 className="font-['Architects_Daughter'] text-[clamp(22px,4.5vw,30px)] leading-tight text-white select-none not-italic">
             Projects that shaped my thinking
           </h2>
-          <p className="font-['Inter'] font-normal text-[clamp(13px,3vw,15px)] leading-relaxed text-white mt-2 select-none not-italic">
+          <p className="font-['Inter'] font-normal text-[clamp(14px,3vw,15px)] leading-relaxed text-white mt-2 select-none not-italic">
             Each project challenged me to learn, iterate, and design with greater intention.
           </p>
 
@@ -1133,7 +1265,7 @@ function ModeBProjects() {
         {/* 4. Stacking Frames Container (All frames inside this one sticky container) */}
         <div
           className="w-full flex flex-col gap-0 relative"
-          style={{ paddingBottom: "8dvh" }}
+          style={{ paddingBottom: "24px" }}
           data-node-id="mode-b-frames-container"
         >
           {PROJECTS_DATA.map((project, idx) => {
@@ -1141,17 +1273,17 @@ function ModeBProjects() {
             return (
               <div
                 key={project.id}
-                className="sticky w-full aspect-[896/533] bg-transparent"
+                className="sticky w-full bg-transparent"
                 style={{
-                  top: "84px",
-                  marginBottom: isLast ? 0 : "8dvh",
+                  top: "76px",
+                  marginBottom: isLast ? 0 : "28px",
                   zIndex: 10 + idx,
                 }}
                 data-node-id={`mobile-project-frame-${project.id}`}
                 data-cursor-key={`project-${project.id}`}
                 data-cursor-theme="pink"
               >
-                <MobileProjectCardWrapper project={project} />
+                <MobileProjectFolderCard project={project} />
               </div>
             );
           })}

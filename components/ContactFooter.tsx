@@ -326,12 +326,12 @@ export function MobileContactFooter() {
   return (
     <footer
       id="contact"
-      className="relative w-full bg-transparent border-b border-black flex flex-col items-center pt-8 sm:pt-12"
+      className="relative w-full bg-transparent border-b border-black flex flex-col items-center pt-14 sm:pt-16"
     >
       {/* ─── 1. CONTACT FORM SCALLOPED CARD ─── */}
-      <div className="w-full px-4 sm:px-6 flex justify-center mb-12 sm:mb-16">
+      <div className="w-full px-4 sm:px-6 flex justify-center mb-10 sm:mb-14 overflow-visible">
         <div
-          className="w-full max-w-[480px] sm:max-w-[560px] h-[520px] sm:h-[580px] relative shrink-0"
+          className="w-full max-w-[360px] sm:max-w-[420px] h-[480px] sm:h-[510px] relative shrink-0 overflow-visible"
           data-cursor-key="contact-card"
         >
           {/* Green scalloped SVG card background */}
@@ -343,7 +343,7 @@ export function MobileContactFooter() {
           />
 
           {/* Card Content Overlay */}
-          <div className="absolute inset-0 px-8 sm:px-14 pt-12 sm:pt-16 pb-8 flex flex-col justify-between z-10">
+          <div className="absolute inset-0 px-6 sm:px-10 pt-12 sm:pt-14 pb-6 flex flex-col justify-start z-10">
             {isSubmitted ? (
               <div className="w-full h-full flex flex-col items-center justify-center text-center my-auto">
                 <div className="w-[52px] h-[52px] rounded-full bg-[#1fad4e]/15 border border-[#1fad4e]/30 flex items-center justify-center mb-3">
@@ -378,8 +378,8 @@ export function MobileContactFooter() {
             ) : (
               <>
                 {/* Card Headline */}
-                <div className="text-center select-none">
-                  <h3 className="font-['Architects_Daughter'] text-[24px] sm:text-[30px] leading-snug text-black">
+                <div className="text-center select-none mb-3 sm:mb-4 px-2">
+                  <h3 className="font-['Architects_Daughter'] text-[20px] sm:text-[24px] leading-snug text-black">
                     Let&apos;s create something remarkable together.
                   </h3>
                 </div>
@@ -393,7 +393,7 @@ export function MobileContactFooter() {
                     e.preventDefault();
                     handleSend();
                   }}
-                  className="w-full flex flex-col justify-between gap-3 sm:gap-4 my-2"
+                  className="w-full flex flex-col gap-2 sm:gap-3 my-1"
                 >
                   <div className="w-full">
                     <input
@@ -401,7 +401,7 @@ export function MobileContactFooter() {
                       name="name"
                       required
                       placeholder="Name"
-                      className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
+                      className="w-full min-h-[36px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
                     />
                     <div className="w-full h-px bg-black opacity-20 mt-1" />
                   </div>
@@ -412,7 +412,7 @@ export function MobileContactFooter() {
                       name="email"
                       required
                       placeholder="Email"
-                      className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
+                      className="w-full min-h-[36px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
                     />
                     <div className="w-full h-px bg-black opacity-20 mt-1" />
                   </div>
@@ -422,7 +422,7 @@ export function MobileContactFooter() {
                       type="text"
                       name="subject"
                       placeholder="Subject"
-                      className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
+                      className="w-full min-h-[36px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
                     />
                     <div className="w-full h-px bg-black opacity-20 mt-1" />
                   </div>
@@ -433,19 +433,19 @@ export function MobileContactFooter() {
                       name="message"
                       required
                       placeholder="Message"
-                      className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
+                      className="w-full min-h-[36px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
                     />
-                    <div className="w-full h-px bg-black opacity-20 mt-3" />
+                    <div className="w-full h-px bg-black opacity-20 mt-2" />
                   </div>
 
                   {errorMessage && (
-                    <p className="text-center text-xs text-red-600 font-['Almarena_Neue']">
+                    <p className="text-center text-[14px] text-red-600 font-['Almarena_Neue']">
                       {errorMessage}
                     </p>
                   )}
 
                   {/* Send Button (Component 32 hover variant on mobile) */}
-                  <div className="flex justify-center mt-1">
+                  <div className="flex justify-center mt-2">
                     <button
                       type="button"
                       onClick={handleSend}
@@ -461,8 +461,8 @@ export function MobileContactFooter() {
             )}
           </div>
 
-          {/* Decorative Pen Tool */}
-          <div className="absolute -right-3 sm:-right-4 -top-3 sm:-top-4 w-[85px] sm:w-[120px] h-[85px] sm:h-[120px] rotate-[-100deg] pointer-events-none select-none">
+          {/* Decorative Pen Tool - Positioned safely inside container bounds */}
+          <div className="absolute right-1 sm:right-2 -top-4 sm:-top-5 w-[65px] sm:w-[75px] h-[65px] sm:h-[75px] rotate-[-100deg] pointer-events-none select-none z-20">
             <img
               src="/assets/pen-tool.png"
               alt="Pen tool illustration"

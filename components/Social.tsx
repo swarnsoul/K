@@ -237,11 +237,11 @@ export function MobileSocial() {
   return (
     <section
       id="about"
-      className="relative w-full bg-transparent border-b border-black py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 flex flex-col items-center"
+      className="relative w-full bg-transparent border-b border-black py-10 sm:py-14 md:py-16 px-4 sm:px-6 md:px-8 flex flex-col items-center overflow-visible"
     >
-      <div className="w-full max-w-[890px] flex flex-col lg:flex-row items-center justify-between gap-10 sm:gap-12">
+      <div className="w-full max-w-[890px] flex flex-col lg:flex-row items-center justify-between gap-8 sm:gap-10">
         {/* Left Side: Green Scalloped Sticker & Pen */}
-        <div className="w-[300px] sm:w-[350px] md:w-[380px] h-[310px] sm:h-[350px] relative shrink-0">
+        <div className="w-full max-w-[360px] sm:max-w-[420px] h-[340px] sm:h-[390px] relative shrink-0 overflow-visible">
           {/* Scalloped Green BG */}
           <img
             src="/assets/union-1.svg"
@@ -250,21 +250,21 @@ export function MobileSocial() {
           />
 
           {/* Top Text */}
-          <div className="absolute left-[30px] right-[30px] top-[40px] sm:top-[50px] flex items-center justify-center text-center">
-            <p className="font-['Architects_Daughter'] text-[28px] sm:text-[34px] md:text-[38px] leading-tight text-black">
+          <div className="absolute left-[24px] right-[24px] top-[40px] sm:top-[50px] flex items-center justify-center text-center">
+            <p className="font-['Architects_Daughter'] text-[26px] sm:text-[32px] md:text-[36px] leading-tight text-black">
               You scrolled this far for a reason.
             </p>
           </div>
 
           {/* Bottom Text */}
-          <div className="absolute left-[30px] right-[30px] bottom-[35px] sm:bottom-[45px] flex items-center justify-center text-center">
-            <p className="font-['Almarena_Neue',sans-serif] font-normal text-[16px] sm:text-[20px] leading-snug text-[#225432]">
+          <div className="absolute left-[24px] right-[24px] bottom-[35px] sm:bottom-[45px] flex items-center justify-center text-center">
+            <p className="font-['Almarena_Neue',sans-serif] font-normal text-[16px] sm:text-[18px] leading-snug text-[#225432]">
               Let&apos;s turn that curiosity into a conversation.
             </p>
           </div>
 
-          {/* Pen Tool Illustration */}
-          <div className="absolute -right-3 sm:-right-4 -top-2 w-[75px] sm:w-[85px] h-[75px] sm:h-[85px] rotate-[-100deg]">
+          {/* Pen Tool Illustration - Fully visible inside container bounds */}
+          <div className="absolute right-1 sm:right-2 -top-4 sm:-top-5 w-[65px] sm:w-[75px] h-[65px] sm:h-[75px] rotate-[-100deg] pointer-events-none select-none z-20">
             <img
               src="/assets/pen-tool.png"
               alt="Pen tool illustration"

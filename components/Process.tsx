@@ -842,7 +842,7 @@ export function MobileProcess() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative w-full bg-white py-12 sm:py-16 px-4 sm:px-6 md:px-8 flex flex-col items-center overflow-hidden">
+    <section ref={sectionRef} className="relative w-full bg-white py-8 sm:py-10 px-4 sm:px-6 md:px-8 flex flex-col items-center overflow-hidden">
       {/* Dotted background */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -854,7 +854,7 @@ export function MobileProcess() {
         }}
       />
 
-      <div className="relative z-10 w-full max-w-[700px] flex flex-col gap-8 sm:gap-10">
+      <div className="relative z-10 w-full max-w-[700px] flex flex-col gap-5 sm:gap-7">
         {/* Heading */}
         <TypewriterHeading
           className="font-['Architects_Daughter'] text-[24px] sm:text-[30px] md:text-[36px] leading-tight text-black"
@@ -888,12 +888,12 @@ export function MobileProcess() {
         </div>
 
         {/* Interactive Step Switcher for Mobile */}
-        <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-none">
+        <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
           {PROCESS_STEPS.map((step, idx) => (
             <button
               key={step.id}
               onClick={() => setActiveStep(idx)}
-              className="px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all whitespace-nowrap"
+              className="px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all whitespace-nowrap cursor-pointer"
               style={{
                 backgroundColor: activeStep === idx ? BRAND_PURPLE : "#f3f0ff",
                 color: activeStep === idx ? "white" : "#4a3f7a",
@@ -905,38 +905,35 @@ export function MobileProcess() {
           ))}
         </div>
 
-        {/* Active Step Card */}
-        <div className="relative w-full flex flex-col items-center">
-          <div
-            className="w-full relative flex items-center justify-center py-6"
-            style={{ minHeight: "340px" }}
-          >
+        {/* Active Step Card - Level, upright, centered, fitting screen width */}
+        <div className="relative w-full flex flex-col items-center my-2">
+          <div className="w-full relative flex items-center justify-center py-2 overflow-visible">
             {/* The Folder SVG + Text */}
             <div
-              className="relative"
+              className="relative overflow-visible"
               style={{
-                width: "min(340px, 90vw)",
-                height: "calc(min(340px, 90vw) * (328.7 / 383.98))",
+                width: "min(320px, 86vw)",
+                height: "calc(min(320px, 86vw) * (328.7 / 383.98))",
               }}
             >
-              {/* Folder SVG */}
+              {/* Folder SVG rotated -12deg so the folder sits level and upright */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={PROCESS_STEPS[activeStep].svg}
                 alt=""
                 className="w-full h-full object-contain"
+                style={{ transform: "rotate(-12deg)" }}
               />
 
-              {/* Text inside the folder */}
+              {/* Text inside the folder - Level and horizontal */}
               <div
-                className="absolute inset-0 flex items-center justify-center p-6 text-white text-center"
-                style={{ transform: "rotate(11.58deg)" }}
+                className="absolute inset-0 flex items-center justify-center p-4 text-white text-center pointer-events-none"
               >
-                <div className="flex flex-col gap-2.5 max-w-[250px]">
+                <div className="flex flex-col gap-2 max-w-[240px] pt-1">
                   <h4 className="font-['Almarena_Neue',sans-serif] font-extrabold text-[16px] sm:text-[17px] leading-snug">
                     {PROCESS_STEPS[activeStep].title}
                   </h4>
-                  <p className="font-['Almarena_Neue'] text-[13px] sm:text-[14px] leading-relaxed opacity-95">
+                  <p className="font-['Almarena_Neue'] text-[14px] leading-relaxed opacity-95">
                     {PROCESS_STEPS[activeStep].body}
                   </p>
                 </div>
@@ -946,7 +943,7 @@ export function MobileProcess() {
         </div>
 
         {/* All Steps Summary List below */}
-        <div className="flex flex-col gap-4 mt-2">
+        <div className="flex flex-col gap-3 mt-1">
           {PROCESS_STEPS.map((step, idx) => (
             <div
               key={step.id}
@@ -965,10 +962,10 @@ export function MobileProcess() {
                 }}
               />
               <div className="flex flex-col gap-1">
-                <h4 className="font-['Almarena_Neue',sans-serif] font-bold text-sm text-black">
+                <h4 className="font-['Almarena_Neue',sans-serif] font-bold text-[15px] sm:text-[16px] text-black">
                   {step.title}
                 </h4>
-                <p className="font-['Almarena_Neue'] text-xs text-[#4a3f7a] leading-relaxed">
+                <p className="font-['Almarena_Neue'] text-[14px] text-[#4a3f7a] leading-relaxed">
                   {step.body}
                 </p>
               </div>
