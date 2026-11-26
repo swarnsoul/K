@@ -205,12 +205,22 @@ function CustomCursorInner() {
           } else {
             updateLabel(null);
           }
+        } else if (m.attributeName === "data-modal-open") {
+          const isModalOpen = document.documentElement.hasAttribute("data-modal-open");
+          if (isModalOpen) {
+            setTrackedElement(null);
+            updateLabel(null);
+          } else if (activeLabelElement) {
+            updateLabel(resolveCursorLabel(activeLabelElement));
+          } else {
+            updateLabel(null);
+          }
         }
       }
     });
     docObserver.observe(document.documentElement, {
       attributes: true,
-      attributeFilter: ["data-physics-dragging", "data-nav-holding"],
+      attributeFilter: ["data-physics-dragging", "data-nav-holding", "data-modal-open"],
     });
 
     // ─── Tick Loop ─────────────────────────────────────────────────────────────
@@ -385,7 +395,10 @@ function CustomCursorInner() {
       }
 
       // 3. Label resolution by event delegation (data-cursor-key or data-cursor)
-      if (document.documentElement.hasAttribute("data-physics-dragging")) {
+      if (document.documentElement.hasAttribute("data-modal-open")) {
+        setTrackedElement(null);
+        updateLabel(null);
+      } else if (document.documentElement.hasAttribute("data-physics-dragging")) {
         updateLabel("Got you!");
       } else if (document.documentElement.hasAttribute("data-nav-holding")) {
         updateLabel("Wheee!");

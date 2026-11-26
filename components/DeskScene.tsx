@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
 
 interface DeskSceneProps {
   className?: string;
@@ -17,9 +18,18 @@ export default function DeskScene({
   // Diary state (hover on desktop, tap on mobile, keyboard accessible)
   const [isDiarySwapped, setIsDiarySwapped] = useState(false);
 
+  // Diary popup modal state
+  const [mounted, setMounted] = useState(false);
+  const [isDiaryModalOpen, setIsDiaryModalOpen] = useState(false);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const smallDiaryRef = useRef<HTMLDivElement>(null);
+  const backdropRef = useRef<HTMLDivElement>(null);
+
   // Check prefers-reduced-motion
   const [reducedMotion, setReducedMotion] = useState(false);
   useEffect(() => {
+    setMounted(true);
     if (typeof window !== "undefined") {
       const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
       setReducedMotion(mq.matches);
@@ -40,10 +50,75 @@ export default function DeskScene({
     }
   };
 
+  const openDiaryModal = () => {
+    setIsDiaryModalOpen(true);
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        setIsModalVisible(true);
+      });
+    });
+  };
+
+  const closeDiaryModal = () => {
+    setIsModalVisible(false);
+    setTimeout(() => {
+      setIsDiaryModalOpen(false);
+      smallDiaryRef.current?.focus();
+    }, reducedMotion ? 50 : 280);
+  };
+
   const handleDiaryKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
-      setIsDiarySwapped((prev) => !prev);
+      openDiaryModal();
+    }
+  };
+
+  // Scroll lock, Escape listener, and auto-focus
+  useEffect(() => {
+    if (!isDiaryModalOpen) return;
+    const originalOverflow = document.body.style.overflow;
+    const originalPaddingRight = document.body.style.paddingRight;
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+
+    document.body.style.overflow = "hidden";
+    document.documentElement.setAttribute("data-modal-open", "true");
+    if (scrollbarWidth > 0) {
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
+    }
+
+    const handleGlobalKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        closeDiaryModal();
+      }
+    };
+
+    window.addEventListener("keydown", handleGlobalKeyDown);
+
+    const focusTimer = setTimeout(() => {
+      closeButtonRef.current?.focus();
+    }, 50);
+
+    return () => {
+      document.body.style.overflow = originalOverflow;
+      document.body.style.paddingRight = originalPaddingRight;
+      document.documentElement.removeAttribute("data-modal-open");
+      window.removeEventListener("keydown", handleGlobalKeyDown);
+      clearTimeout(focusTimer);
+    };
+  }, [isDiaryModalOpen, reducedMotion]);
+
+  const handleModalKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === "Tab") {
+      e.preventDefault();
+      closeButtonRef.current?.focus();
+    }
+  };
+
+  const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === backdropRef.current) {
+      closeDiaryModal();
     }
   };
 
@@ -476,14 +551,15 @@ export default function DeskScene({
             data-cursor-key="desk-diary"
           >
             <div
+              ref={smallDiaryRef}
               role="button"
               tabIndex={0}
-              onClick={() => setIsDiarySwapped((prev) => !prev)}
+              onClick={openDiaryModal}
               onKeyDown={handleDiaryKeyDown}
               onMouseEnter={() => setIsDiarySwapped(true)}
               onMouseLeave={() => setIsDiarySwapped(false)}
               className="relative w-full h-full flex items-center justify-center cursor-pointer group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] rounded-[12px]"
-              aria-label="Today checklist diary and pen (hover or click to flip)"
+              aria-label="Today checklist diary and pen (hover to flip, click to open full view)"
             >
               <div
                 className={`w-full h-full flex items-center justify-center ${
@@ -523,6 +599,71 @@ export default function DeskScene({
           </div>
         </div>
       </div>
+
+      {/* ===================================================================
+          POP-UP MODAL: BIG OPEN DIARY (node 783:1036, "Currently focused on")
+          Smooth scale & fade in, blurred backdrop, keyboard focus trap,
+          Escape to close, outside click to close, body scroll locked.
+          =================================================================== */}
+      {mounted && isDiaryModalOpen && createPortal(
+        <div
+          ref={backdropRef}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Currently focused on diary modal"
+          onClick={handleBackdropClick}
+          onKeyDown={handleModalKeyDown}
+          className={`fixed inset-0 z-[99999] flex items-center justify-center p-4 sm:p-6 md:p-8 transition-all ${
+            reducedMotion ? "duration-75" : "duration-300"
+          } ease-out ${
+            isModalVisible
+              ? "bg-black/50 backdrop-blur-md opacity-100"
+              : "bg-black/0 backdrop-blur-none opacity-0 pointer-events-none"
+          }`}
+        >
+          <div
+            className={`relative flex items-center justify-center select-none transition-all ${
+              reducedMotion ? "duration-75" : "duration-300"
+            } ease-out transform ${
+              isModalVisible
+                ? "opacity-100 scale-100 translate-y-0"
+                : "opacity-0 scale-90 translate-y-3"
+            }`}
+            style={{
+              width: "min(501px, 92vw, calc(88vh * 501 / 750))",
+              aspectRatio: "501 / 750",
+              maxHeight: "88vh",
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <img
+              src="/assets/desk/diary_open_focused.png"
+              alt="Currently focused on: Designing AI-first user experiences, Simplifying complex workflows, Shipping production-ready features, Building scalable design systems"
+              className="w-full h-full object-contain pointer-events-none drop-shadow-[0_25px_60px_rgba(0,0,0,0.45)]"
+              draggable={false}
+            />
+
+            {/* Accessible Close Button */}
+            <button
+              ref={closeButtonRef}
+              onClick={closeDiaryModal}
+              className="absolute -top-3 -right-3 sm:-top-3.5 sm:-right-3.5 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#2d2a26] hover:bg-[#151413] text-[#faf6ec] flex items-center justify-center shadow-lg transition-transform hover:scale-110 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8364fc] cursor-pointer border border-[#faf6ec]/30"
+              aria-label="Close diary"
+            >
+              <svg
+                className="w-4 h-4 sm:w-4.5 sm:h-4.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2.5}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>,
+        document.body
+      )}
     </footer>
   );
 }
