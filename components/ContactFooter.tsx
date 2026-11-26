@@ -1,8 +1,53 @@
 "use client";
 
-import React from "react";
+import React, { useState, useRef } from "react";
 
 export function DesktopContactFooter() {
+  const formRef = useRef<HTMLFormElement>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  const handleSend = async () => {
+    const form = formRef.current;
+    if (!form) return;
+
+    if (form.reportValidity && !form.reportValidity()) {
+      return;
+    }
+
+    setIsSubmitting(true);
+    setErrorMessage(null);
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mzerwzko", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        form.reset();
+      } else {
+        const data = await response.json().catch(() => ({}));
+        if (data && data.errors && data.errors.length > 0) {
+          setErrorMessage(data.errors.map((err: any) => err.message).join(", "));
+        } else {
+          setErrorMessage("Oops! There was an issue submitting your message. Please try again.");
+        }
+      }
+    } catch {
+      setErrorMessage("Network error. Please try again or email prajapatikanak315@gmail.com directly.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <footer
       id="contact"
@@ -81,82 +126,135 @@ export function DesktopContactFooter() {
               draggable={false}
             />
 
-            {/* Card Headline (node 649:1268) */}
-            <div
-              className="absolute left-[62.7px] top-[83.46px] w-[482.09px] text-center pointer-events-none select-none"
-              data-node-id="649:1268"
-            >
-              <h3 className="font-['Architects_Daughter'] text-[33.732px] leading-[49.193px] text-black">
-                Let&apos;s create something remarkable together.
-              </h3>
-            </div>
+            {isSubmitted ? (
+              <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-10 z-10">
+                {/* Green checkmark circle */}
+                <div className="w-[60px] h-[60px] rounded-full bg-[#1fad4e]/15 border border-[#1fad4e]/30 flex items-center justify-center mb-4">
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#1fad4e"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
 
-            {/* Form Fields (Frame 39, node 649:1255) */}
-            <form
-              id="desktop-contact-form"
-              action="https://formspree.io/f/mzerwzko"
-              method="POST"
-              className="absolute left-[111px] top-[204.01px] w-[385px] h-[230px] flex flex-col justify-between z-10"
-              data-node-id="649:1255"
-            >
-              {/* Name (node 649:1256 / 649:1257) */}
-              <div className="w-full">
-                <input
-                  type="text"
-                  name="name"
-                  required
-                  placeholder="Name"
-                  className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
-                />
-                <img src="/assets/line-8.svg" alt="" className="w-full mt-[4px] block pointer-events-none" />
+                <h3 className="font-['Architects_Daughter'] text-[38px] leading-[48px] text-black mb-2">
+                  Thanks!
+                </h3>
+
+                <p className="font-['Almarena_Neue'] text-[18px] leading-[28px] text-black/75 max-w-[360px] mb-6">
+                  The form was submitted successfully.
+                </p>
+
+                <button
+                  type="button"
+                  onClick={() => setIsSubmitted(false)}
+                  className="px-6 h-[44px] bg-[#c2f2d2] hover:bg-[#1fad4e] border-[0.365px] border-[#1fad4e] hover:border-[#c2f2d2] rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[16px] text-[#1fad4e] hover:text-[#c2f2d2] transition-all duration-200 cursor-pointer select-none"
+                  data-cursor-key="contact-send-btn"
+                >
+                  Send another message
+                </button>
               </div>
+            ) : (
+              <>
+                {/* Card Headline (node 649:1268) */}
+                <div
+                  className="absolute left-[62.7px] top-[83.46px] w-[482.09px] text-center pointer-events-none select-none"
+                  data-node-id="649:1268"
+                >
+                  <h3 className="font-['Architects_Daughter'] text-[33.732px] leading-[49.193px] text-black">
+                    Let&apos;s create something remarkable together.
+                  </h3>
+                </div>
 
-              {/* Email (node 649:1258 / 649:1259) */}
-              <div className="w-full">
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  placeholder="Email"
-                  className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
-                />
-                <img src="/assets/line-9.svg" alt="" className="w-full mt-[4px] block pointer-events-none" />
-              </div>
+                {/* Form Fields & Submit Button */}
+                <form
+                  ref={formRef}
+                  id="desktop-contact-form"
+                  action="https://formspree.io/f/mzerwzko"
+                  method="POST"
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    handleSend();
+                  }}
+                  className="absolute left-0 top-[204.01px] w-full h-[310px] z-10 pointer-events-auto"
+                  data-node-id="649:1255"
+                >
+                  <div className="absolute left-[111px] top-0 w-[385px] h-[230px] flex flex-col justify-between">
+                    {/* Name (node 649:1256 / 649:1257) */}
+                    <div className="w-full">
+                      <input
+                        type="text"
+                        name="name"
+                        required
+                        placeholder="Name"
+                        className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
+                      />
+                      <img src="/assets/line-8.svg" alt="" className="w-full mt-[4px] block pointer-events-none" />
+                    </div>
 
-              {/* Subject (node 649:1260 / 649:1261) */}
-              <div className="w-full">
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Subject"
-                  className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
-                />
-                <img src="/assets/line-9.svg" alt="" className="w-full mt-[4px] block pointer-events-none" />
-              </div>
+                    {/* Email (node 649:1258 / 649:1259) */}
+                    <div className="w-full">
+                      <input
+                        type="email"
+                        name="email"
+                        required
+                        placeholder="Email"
+                        className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
+                      />
+                      <img src="/assets/line-9.svg" alt="" className="w-full mt-[4px] block pointer-events-none" />
+                    </div>
 
-              {/* Message (Frame 67, node 649:1262) */}
-              <div className="w-full">
-                <input
-                  type="text"
-                  name="message"
-                  required
-                  placeholder="Message"
-                  className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
-                />
-                <img src="/assets/line-9.svg" alt="" className="w-full mt-[60px] block pointer-events-none" />
-              </div>
-            </form>
+                    {/* Subject (node 649:1260 / 649:1261) */}
+                    <div className="w-full">
+                      <input
+                        type="text"
+                        name="subject"
+                        placeholder="Subject"
+                        className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
+                      />
+                      <img src="/assets/line-9.svg" alt="" className="w-full mt-[4px] block pointer-events-none" />
+                    </div>
 
-            {/* Send Button (Component 32, node 708:1024 / 708:1026) */}
-            <button
-              type="submit"
-              form="desktop-contact-form"
-              className="absolute left-1/2 -translate-x-1/2 top-[455.01px] w-[228px] h-[48.231px] bg-[#c2f2d2] hover:bg-[#1fad4e] border-[0.365px] border-[#1fad4e] hover:border-[#c2f2d2] rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[18.269px] leading-[32.885px] text-[#1fad4e] hover:text-[#c2f2d2] transition-all duration-200 cursor-pointer z-10 select-none"
-              data-node-id="708_1023"
-              data-cursor-key="contact-send-btn"
-            >
-              Send
-            </button>
+                    {/* Message (Frame 67, node 649:1262) */}
+                    <div className="w-full">
+                      <input
+                        type="text"
+                        name="message"
+                        required
+                        placeholder="Message"
+                        className="w-full bg-transparent border-none outline-none font-['Almarena_Neue'] text-[18px] leading-[30px] text-black placeholder-[#909090] p-0"
+                      />
+                      <img src="/assets/line-9.svg" alt="" className="w-full mt-[60px] block pointer-events-none" />
+                    </div>
+                  </div>
+
+                  {errorMessage && (
+                    <p className="absolute left-[111px] top-[232px] w-[385px] text-center text-xs text-red-600 font-['Almarena_Neue']">
+                      {errorMessage}
+                    </p>
+                  )}
+
+                  {/* Send Button (Component 32, node 708:1024 / 708:1026) */}
+                  <button
+                    type="button"
+                    onClick={handleSend}
+                    disabled={isSubmitting}
+                    className="absolute left-1/2 -translate-x-1/2 top-[251px] w-[228px] h-[48.231px] bg-[#c2f2d2] hover:bg-[#1fad4e] disabled:opacity-60 border-[0.365px] border-[#1fad4e] hover:border-[#c2f2d2] rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[18.269px] leading-[32.885px] text-[#1fad4e] hover:text-[#c2f2d2] transition-all duration-200 cursor-pointer z-10 select-none"
+                    data-node-id="708_1023"
+                    data-cursor-key="contact-send-btn"
+                  >
+                    {isSubmitting ? "Sending..." : "Send"}
+                  </button>
+                </form>
+              </>
+            )}
           </div>
 
           {/* Decorative Pen Tool on top right of form (node 649:1269) */}
@@ -180,6 +278,51 @@ export function DesktopContactFooter() {
 }
 
 export function MobileContactFooter() {
+  const formRef = useRef<HTMLFormElement>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  const handleSend = async () => {
+    const form = formRef.current;
+    if (!form) return;
+
+    if (form.reportValidity && !form.reportValidity()) {
+      return;
+    }
+
+    setIsSubmitting(true);
+    setErrorMessage(null);
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mzerwzko", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        form.reset();
+      } else {
+        const data = await response.json().catch(() => ({}));
+        if (data && data.errors && data.errors.length > 0) {
+          setErrorMessage(data.errors.map((err: any) => err.message).join(", "));
+        } else {
+          setErrorMessage("Oops! There was an issue submitting your message. Please try again.");
+        }
+      }
+    } catch {
+      setErrorMessage("Network error. Please try again or email prajapatikanak315@gmail.com directly.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <footer
       id="contact"
@@ -201,73 +344,121 @@ export function MobileContactFooter() {
 
           {/* Card Content Overlay */}
           <div className="absolute inset-0 px-8 sm:px-14 pt-12 sm:pt-16 pb-8 flex flex-col justify-between z-10">
-            {/* Card Headline */}
-            <div className="text-center select-none">
-              <h3 className="font-['Architects_Daughter'] text-[24px] sm:text-[30px] leading-snug text-black">
-                Let&apos;s create something remarkable together.
-              </h3>
-            </div>
-
-            {/* Form Fields */}
-            <form
-              action="https://formspree.io/f/mzerwzko"
-              method="POST"
-              className="w-full flex flex-col justify-between gap-3 sm:gap-4 my-2"
-            >
-              <div className="w-full">
-                <input
-                  type="text"
-                  name="name"
-                  required
-                  placeholder="Name"
-                  className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
-                />
-                <div className="w-full h-px bg-black opacity-20 mt-1" />
-              </div>
-
-              <div className="w-full">
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  placeholder="Email"
-                  className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
-                />
-                <div className="w-full h-px bg-black opacity-20 mt-1" />
-              </div>
-
-              <div className="w-full">
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Subject"
-                  className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
-                />
-                <div className="w-full h-px bg-black opacity-20 mt-1" />
-              </div>
-
-              <div className="w-full">
-                <input
-                  type="text"
-                  name="message"
-                  required
-                  placeholder="Message"
-                  className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
-                />
-                <div className="w-full h-px bg-black opacity-20 mt-3" />
-              </div>
-
-              {/* Send Button (Component 32 hover variant on mobile) */}
-              <div className="flex justify-center mt-1">
+            {isSubmitted ? (
+              <div className="w-full h-full flex flex-col items-center justify-center text-center my-auto">
+                <div className="w-[52px] h-[52px] rounded-full bg-[#1fad4e]/15 border border-[#1fad4e]/30 flex items-center justify-center mb-3">
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#1fad4e"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <h3 className="font-['Architects_Daughter'] text-[30px] leading-snug text-black mb-2">
+                  Thanks!
+                </h3>
+                <p className="font-['Almarena_Neue'] text-[16px] leading-[24px] text-black/75 max-w-[300px] mb-6">
+                  The form was submitted successfully.
+                </p>
                 <button
-                  type="submit"
-                  className="w-[200px] sm:w-[228px] h-[46px] sm:h-[48.231px] bg-[#c2f2d2] hover:bg-[#1fad4e] border-[0.365px] border-[#1fad4e] hover:border-[#c2f2d2] rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[17px] sm:text-[18.269px] leading-[32.885px] text-[#1fad4e] hover:text-[#c2f2d2] transition-all duration-200 cursor-pointer select-none"
+                  type="button"
+                  onClick={() => setIsSubmitted(false)}
+                  className="px-5 h-[42px] bg-[#c2f2d2] hover:bg-[#1fad4e] border-[0.365px] border-[#1fad4e] hover:border-[#c2f2d2] rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.2)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[15px] text-[#1fad4e] hover:text-[#c2f2d2] transition-all duration-200 cursor-pointer select-none"
                   data-cursor-key="contact-send-btn"
                 >
-                  Send
+                  Send another message
                 </button>
               </div>
-            </form>
+            ) : (
+              <>
+                {/* Card Headline */}
+                <div className="text-center select-none">
+                  <h3 className="font-['Architects_Daughter'] text-[24px] sm:text-[30px] leading-snug text-black">
+                    Let&apos;s create something remarkable together.
+                  </h3>
+                </div>
+
+                {/* Form Fields */}
+                <form
+                  ref={formRef}
+                  action="https://formspree.io/f/mzerwzko"
+                  method="POST"
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    handleSend();
+                  }}
+                  className="w-full flex flex-col justify-between gap-3 sm:gap-4 my-2"
+                >
+                  <div className="w-full">
+                    <input
+                      type="text"
+                      name="name"
+                      required
+                      placeholder="Name"
+                      className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
+                    />
+                    <div className="w-full h-px bg-black opacity-20 mt-1" />
+                  </div>
+
+                  <div className="w-full">
+                    <input
+                      type="email"
+                      name="email"
+                      required
+                      placeholder="Email"
+                      className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
+                    />
+                    <div className="w-full h-px bg-black opacity-20 mt-1" />
+                  </div>
+
+                  <div className="w-full">
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="Subject"
+                      className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
+                    />
+                    <div className="w-full h-px bg-black opacity-20 mt-1" />
+                  </div>
+
+                  <div className="w-full">
+                    <input
+                      type="text"
+                      name="message"
+                      required
+                      placeholder="Message"
+                      className="w-full min-h-[38px] bg-transparent border-none outline-none font-['Almarena_Neue'] text-[16px] sm:text-[17px] text-black placeholder-[#909090] p-0"
+                    />
+                    <div className="w-full h-px bg-black opacity-20 mt-3" />
+                  </div>
+
+                  {errorMessage && (
+                    <p className="text-center text-xs text-red-600 font-['Almarena_Neue']">
+                      {errorMessage}
+                    </p>
+                  )}
+
+                  {/* Send Button (Component 32 hover variant on mobile) */}
+                  <div className="flex justify-center mt-1">
+                    <button
+                      type="button"
+                      onClick={handleSend}
+                      disabled={isSubmitting}
+                      className="w-[200px] sm:w-[228px] h-[46px] sm:h-[48.231px] bg-[#c2f2d2] hover:bg-[#1fad4e] disabled:opacity-60 border-[0.365px] border-[#1fad4e] hover:border-[#c2f2d2] rounded-[21.923px] shadow-[0px_2.923px_7.308px_0px_rgba(0,0,0,0.3)] flex items-center justify-center font-['Almarena_Neue'] font-semibold text-[17px] sm:text-[18.269px] leading-[32.885px] text-[#1fad4e] hover:text-[#c2f2d2] transition-all duration-200 cursor-pointer select-none"
+                      data-cursor-key="contact-send-btn"
+                    >
+                      {isSubmitting ? "Sending..." : "Send"}
+                    </button>
+                  </div>
+                </form>
+              </>
+            )}
           </div>
 
           {/* Decorative Pen Tool */}
